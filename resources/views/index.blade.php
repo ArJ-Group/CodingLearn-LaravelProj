@@ -1,411 +1,576 @@
-<!--Template Name: vacayhome
-File Name: home.html
-Author Name: ThemeVault
-Author URI: http://www.themevault.net/
-License URI: http://www.themevault.net/license/-->
+<!DOCTYPE html>
+<html lang="en">
 
-@extends('layouts.app')
-@section('content')
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Askbootstrap">
+   <meta name="author" content="Askbootstrap">
+   <title>Coding Learn Application</title>
+   <!-- Favicon Icon -->
+   <link rel="icon" type="image/png" href="a/img/icon.png">
+   <!-- Bootstrap core CSS-->
+   <link href="a/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom fonts for this template-->
+   <link href="a/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <!-- Custom styles for this template-->
+   <link href="a/css/osahan.css" rel="stylesheet">
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="a/vendor/owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="a/vendor/owl-carousel/owl.theme.css">
+</head>
 
-            <!--end-->
-            <div id="myCarousel1" class="carousel slide" data-ride="carousel"> 
-                <!-- Indicators -->
-
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel1" data-slide-to="1"></li>
-                    <li data-target="#myCarousel1" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active"> <img src="a/images/banner.jpg" style="width:100%; height: 500px" alt="First slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="a/images/banner2.jpg" style="width:100%; height: 500px" alt="Second slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="a/images/banner3.jpg" style="width:100%; height: 500px" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h1>vacayhome<br> spa & Resort</h1>
-                        </div>
-                    </div>
-
-                </div>
-                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="a/images/icons/left-arrow.png" onmouseover="this.src = 'a/images/icons/left-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/left-arrow.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="a/images/icons/right-arrow.png" onmouseover="this.src = 'a/images/icons/right-arrow-hover.png'" onmouseout="this.src = 'a/images/icons/right-arrow.png'" alt="left"></a>
-
+<body id="page-top">
+   <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
+      &nbsp;&nbsp;
+      <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
+         <i class="fas fa-bars"></i>
+      </button> &nbsp;&nbsp;
+      <a class="navbar-brand mr-1" href="index.html">
+         <div class="logo">
+            <img src="a/img/logo.png" style="height: 100px;width: 100px;margin-left: 30px">
+         </div>
+      </a>
+      <!-- Navbar Search -->
+      <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-5 my-2 my-md-0 osahan-navbar-search">
+         <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <div class="input-group-append">
+               <button class="btn btn-light" type="button">
+                  <i class="fas fa-search"></i>
+               </button>
             </div>
-            <div class="clearfix"></div>
-
-            <!--service block--->
-            <section class="service-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="a/img-responsive" src="a/images/icons/wifi.png">
-                                </div>
-                                <h4><a>free wifi</a></h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 width-50">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/key.png">
-                                </div>
-                                <h4><a>room service</a></h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/car.png">
-                                </div>
-                                <h4><a>free parking</a></h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
-                            <div class="service-details text-center">
-                                <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="a/images/icons/user.png">
-                                </div>
-                                <h4><a>customer support</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--gallery block--->
-            <section class="gallery-block gallery-front">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room1.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room1.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>delux room</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room2.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room2.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>super room</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room3.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room3.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>single room</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="gallery-image">
-                                <img class="img-responsive" src="a/images/room4.png">
-                                <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="a/images/room4.png" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <p><a>double room</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--offer block-->
-            <section class="vacation-offer-block">
-                <div class="vacation-offer-bgbanner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-6 col-xs-12">
-                                <div class="vacation-offer-details">
-                                    <h1>Your vacation Awaits</h1>
-                                    <h4>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</h4>
-                                    <button type="button" class="btn btn-default">Choose a package</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--End-->
-
-            <!----resort-overview--->
-            <section class="resort-overview-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-                            <div class="side-A">
-                                <div class="product-thumb">
-                                    <div class="image">
-                                        <a><img src="a/images/category1.png" class="img-responsive" alt="image"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="side-B">
-                                <div class="product-desc-side">
-                                    <h3><a>luxury spa</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-                            <div class="side-A">
-                                <div class="product-thumb">
-                                    <div class="image">
-                                        <a><img alt="image" class="img-responsive" src="a/images/category2.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="side-B">
-                                <div class="product-desc-side">
-                                    <h3><a>Beatusish ingl</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-                            <div class="side-A">
-                                <div class="product-desc-side">
-                                    <h3><a>luxury room</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-
-                            <div class="side-B">
-                                <div class="product-thumb">
-                                    <div class="image txt-rgt">
-                                        <a class="arrow-left"><img src="a/images/category3.png" class="img-responsive" alt="imaga"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-                            <div class="side-A">
-                                <div class="product-desc-side">
-                                    <h3><a>heaven seanery</a></h3>
-                                    <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="single-blog.html">Read more</a></div>
-                                </div>
-                            </div>
-
-                            <div class="side-B">
-                                <div class="product-thumb txt-rgt">
-                                    <div class="image">
-                                        <a class="arrow-left"><img src="a/images/category4.png" class="img-responsive" alt="imaga"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-----blog slider----->
-            <!--blog trainer block-->
-            <section class="blog-block-slider">
-                <div class="blog-block-slider-fix-image">
-                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-                        <div class="container">
-                            <!-- Wrapper for slides -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel2" data-slide-to="1"></li>
-                                <li data-target="#myCarousel2" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client1.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Walter Hucko</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client2.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Jules Boutin</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="blog-box">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only</p>
-                                    </div>
-                                    <div class="blog-view-box">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <img src="a/images/client3.png" class="media-object">
-                                            </div>
-                                            <div class="media-body">
-                                                <h3 class="media-heading blog-title">Attilio Marzi</h3>
-                                                <h5 class="blog-rev">Satisfied Customer</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </section>
-
-            <!---blog block--->
-            <section class="blog-block">
-                <div class="container">
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="a/images/blog1.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-blog.html">Lorem ipsum dolor sit amet</a></h4>
-                                    <h5>Post By Admin <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row offspace-45">
-                        <div class="view-set-block">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="a/images/blog2.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
-                                <div class="event-blog-details">
-                                    <h4><a href="single-blog.html">Lorem ipsum dolor sit amet</a></h4>
-                                    <h5>Post By Admin <a><i aria-hidden="true" class="fa fa-heart-o fa-lg"></i>Likes</a><a><i aria-hidden="true" class="fa fa-comment-o fa-lg"></i>comments</a></h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornare turpis neque, eu commodo sapien porta sed. Nam ut ante turpis. Nam arcu odio, scelerisque a vehicula vitae, auctor sit amet lectus. </p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem nulla, ornare eu felis quis, efficitur posuere nulla. Aliquam ac luctus turpis, non faucibus sem. Fusce ornard hendrerit tortor vulputate id. Vestibulum mauris nibh, luctus non maximus vitae, porttitor eget neque. Donec tristique nunc facilisis, dapibus libero ac</p>
-                                    <a class="btn btn-default" href="single-blog.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!---footer--->
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-set-50">
-                            <div class="footer-details">
-                                <h4>Get in touch</h4>
-                                <ul class="list-unstyled footer-contact-list">
-                                    <li>
-                                        <i class="fa fa-map-marker fa-lg"></i>
-                                        <p>701 Old York Drive Richmond USA.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-phone fa-lg"></i>
-                                        <p><a href="tel:+1-202-555-0100"> +1-202-555-0100</a></p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope-o fa-lg"></i>
-                                        <p><a href="mailto:demo@info.com"> demo@info.com</a></p>
-                                    </li>
-                                </ul>
-                                <div class="footer-social-icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>                           
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                </div>
-                                <div class="input-group" id="subscribe">
-                                    <input type="text" class="form-control subscribe-box" value="" name="subscribe" placeholder="EMAIL ID">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn subscribe-button"><i class="fa fa-paper-plane fa-lg"></i></button>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 width-50 width-set-50">
-                            <div class="footer-details">
-                                <h4>explore</h4>
-                                <ul class="list-unstyled footer-links">
-                                    <li class="active"><a>Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="#">Dinning</a></li>
-                                    <li> <a href="news.html">News</a></li>
-                                    <li> <a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="footer-details">
-                                <h4>Now On Instagram</h4>
-                                <div class="row">
-                                    <div class="instagram-images">
-                                        <div id="instafeed"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="copyright">
-                        &copy; 2017 All right reserved. Designed by <a href="http://www.themevault.net/" target="_blank">ThemeVault.</a>
-                    </div>
-        
-                </div>
-            </footer>
-
-            <!--back to top--->
-            <a style="display: none;" href="javascript:void(0);" class="scrollTop back-to-top" id="back-to-top">
-                <span><i aria-hidden="true" class="fa fa-angle-up fa-lg"></i></span>
-                <span>Top</span>
+         </div>
+      </form>
+      <!-- Navbar -->
+      <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar">
+         <!--<li class="nav-item mx-1">
+            <a class="nav-link" href="upload.html">
+               <i class="fas fa-plus-circle fa-fw"></i>
+               Upload Video
             </a>
+         </li> -->
+         <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell fa-fw"></i>
+            <span class="badge badge-danger">9+</span>
+         </a>
+         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown no-arrow mx-1">
+         <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
+         aria-haspopup="true" aria-expanded="false">
+         <i class="fas fa-envelope fa-fw"></i>
+         <span class="badge badge-success">7</span>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
+         <a class="dropdown-item" href="#"><i class="fas fa-fw fa-edit "></i> &nbsp; Action</a>
+         <a class="dropdown-item" href="#"><i class="fas fa-fw fa-headphones-alt "></i> &nbsp; Another action</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star "></i> &nbsp; Something else here</a>
+      </div>
+   </li>
+   <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
+      <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button"
+      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img alt="Avatar" src="a/img/icon2.png">
+      Admin
+   </a>
+   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+      <a class="dropdown-item" href="../DLL/account.html"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
+      Account</a>
+      <a class="dropdown-item" href="#"><i class="fas fa-fw fa-video"></i> &nbsp;
+      Subscriptions</a>
+      <a class="dropdown-item" href="#"><i class="fas fa-fw fa-cog"></i> &nbsp; Settings</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="../RegLog/sessionLogout.php" data-toggle="modal" data-target="#logoutModal"><i
+         class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
+      </div>
+   </li>
+</ul>
+</nav>
+<div id="wrapper">
+   <!-- Sidebar -->
+   <ul class="sidebar navbar-nav">
+      <li class="nav-item active">
+         <a class="nav-link" href="Home.html">
+            <i class="fas fa-fw fa-home"></i>
+            <span>HOME</span>
+         </a>
+      </li>
 
-        </div>
-    </body>
-    @endsection
+
+      <li class="nav-item">
+         <a class="nav-link" href="../film-page/video-page.html">
+            <i class="fas fa-fw fa-video"></i>
+            <span>VIDIO</span>
+         </a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-cloud-upload-alt"></i>
+            <span>TUTORIAL</span>
+         </a>
+      </li>
+      <li class="nav-item ">
+         <a class="nav-link " href="#" 
+         aria-expanded="false">
+         <i class="fas fa-fw fa-folder"></i>
+         <span>HELP US</span>
+      </a>
+     
+   </li>
+   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="about.html" role="button" data-toggle="dropdown" aria-haspopup="true">
+         <i class="fas fa-fw fa-history"></i>
+         <span> MORE</span>
+      </a>
+      <div class="dropdown-menu">
+         <h6 class="dropdown-header">Login Screens:</h6>
+         <a class="dropdown-item" href="../RegLog/login.html">Login</a>
+         <a class="dropdown-item" href="../RegLog/register.html">Register</a>
+         <a class="dropdown-item" href="#">Forgot Password</a>
+         <div class="dropdown-divider"></div>
+         <h6 class="dropdown-header">Other Pages:</h6>
+         <a class="dropdown-item" href="../jadwal/jadwal.php">Cooming Soon Movie</a>
+         <a class="dropdown-item" href="../DLL/404.html">404 Page</a>
+         <a class="dropdown-item" href="../DLL/blank.html">Blank Page</a>
+
+      </div>
+   </li>
+
+
+</ul>
+<div id="content-wrapper">
+   <div class="container-fluid pb-0">
+      <div class="top-mobile-search">
+         <div class="row">
+            <div class="col-md-12">
+               <form class="mobile-search">
+                  <div class="input-group">
+                     <input type="text" placeholder="Search for..." class="form-control">
+                     <div class="input-group-append">
+                        <button type="button" class="btn btn-dark"><i class="fas fa-search"></i></button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="top-category section-padding mb-4">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="main-title">
+                  <div class="btn-group float-right right-action">
+                     <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true"
+                     aria-expanded="false">
+                     <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                     <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
+                     <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Rekomendasi</a>
+                     <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
+                     Close</a>
+                  </div>
+               </div>
+               <h6>Genre List</h6>
+            </div>
+         </div>
+         <div class="col-md-12">
+            <div class="owl-carousel owl-carousel-category" href="a/vendor/owl-carousel/owl.carousel.css">
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/1.png" alt="">
+                        <h6>Music</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/2.png" alt="">
+                        <h6>Sports</h6>
+                        
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/3.png" alt="">
+                        <h6>Detective</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/4.jpg" alt="">
+                        <h6>Mystery </h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/5.png" alt="">
+                        <h6>Drama</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/6.png" alt="">
+                        <h6>Fantasy</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/7.png" alt="">
+                        <h6>Thriller</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/8.png" alt="">
+                        <h6>Horror</h6>
+                        
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/9.png" alt="">
+                        <h6>Romance</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/10.png" alt="">
+                        <h6>Comedy</h6>
+
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/11.png" alt="">
+                        <h6>Sci-Fi</h6>
+                        
+                     </a>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="category-item">
+                     <a href="#">
+                        <img class="img-fluid" src="a/img/12.png" alt="">
+                        <h6>Action</h6>
+
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <hr>
+   <div class="video-block section-padding">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="main-title">
+               <div class="btn-group float-right right-action">
+                  <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
+               </a>
+               <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Viewed</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
+                  Close</a>
+               </div>
+            </div>
+            <h6>Featured Videos</h6>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3 ">
+         <div class="video-card">
+            <div class=" video-card-image">
+               <a class="play-icon" href="a/film-page/Film1.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film1.html"><img class="img-fluid" src="a/img/a.png" alt=""></a>
+               
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="a/film-page/Film1.html">HTML COURSE </a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/Film2.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film2.html"><img class="img-fluid" src="a/img/b.png" alt=""></a>
+               
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film2.html">JAVA COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  111.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/Film3.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film3.html"><img class="img-fluid" src="a/img/c.png" alt=""></a>
+               
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film3.html">CSS COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                  <div class="video-view">
+                     1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/Film4.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film4.html"><img class="img-fluid" src="a/img/d.png" alt=""></a>
+              
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film4.html">C COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image ">
+               <a class="play-icon" href="../film-page/video-page.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/video-page.html"><img class="img-fluid" src="a/img/e.png" alt=""></a>
+           
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="video-page.html">JAVASCRIPT COURSE</a>
+               </div>
+               <div class="video-page text-danger">
+                  Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  0 views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/film6.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/film6.html"><img class="img-fluid" src="a/img/f.png" alt=""></a>
+           
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film6.html">PHP COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/Film7.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film7.html"><img class="img-fluid" src="a/img/g.png" alt=""></a>
+             
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film7.html">PHYTHON COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2019
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3">
+         <div class="video-card">
+            <div class="video-card-image">
+               <a class="play-icon" href="../film-page/Film8.html"><i class="fas fa-play-circle"></i></a>
+               <a href="../film-page/Film8.html"><img class="img-fluid" src="a/img/h.png" alt=""></a>
+             
+            </div>
+            <div class="video-card-body">
+               <div class="video-title">
+                  <a href="../film-page/Film8.html">SQL COURSE</a>
+               </div>
+               <div class="video-page text-success">
+                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+               </div>
+               <div class="video-view">
+                  1.8M views &nbsp;<i class="fas fa-calendar-alt"></i> 2020
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<hr class="mt-0">
+<div class="video-block section-padding">
+   <div class="row">
+      <div class="col-md-12">
+         <div class="main-title">
+            <div class="btn-group float-right right-action">
+               <a href="#" class="right-action-link text-gray" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
+               Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+               <a class="dropdown-item" href="#"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
+               <a class="dropdown-item" href="#"><i class="fas fa-fw fa-signal"></i> &nbsp; Viewed</a>
+               <a class="dropdown-item" href="#"><i class="fas fa-fw fa-times-circle"></i> &nbsp;
+               Close</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- /.container-fluid -->
+<!-- Sticky Footer -->
+<footer class="sticky-footer" >
+   <div class="container" >
+      <div class="row no-gutters" >
+         <div class="col-lg-6 col-sm-6" >
+            <p class="mt-1 mb-0"><strong class="text-dark">Copyright By Coding Learn Application</strong>.
+               <br>
+               <small class="mt-0 mb-0"><a class="text-primary" target="_blank"
+                  href="https://www.polinema.ac.id/">By Politeknik Negeri Malang</a>
+               </small>
+            </p>
+         </div>
+         <div class="col-lg-6 col-sm-6 text-right">
+            <div class="app">
+               <a href="#"><img alt="" src="a/img/googleplay.png"></a>
+               <a href="#"><img alt="" src="a/img/apps.png"></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+</div>
+<!-- /.content-wrapper -->
+</div>
+<!-- /#wrapper -->
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+   <i class="fas fa-angle-up"></i>
+</a>
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
+aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+   <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+         </button>
+      </div>
+      <div class="modal-body">Select "Logout" below if you are ready to end your current session.
+      </div>
+      <div class="modal-footer">
+         <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+         <a class="btn btn-primary" href="../RegLog/sessionLogout.php">Logout</a>
+      </div>
+   </div>
+</div>
+</div>
+<!-- Bootstrap core JavaScript-->
+<script src="a/jquery/jquery.min.js"></script>
+<script src="a/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="a/jquery-easing/jquery.easing.min.js"></script>
+<!-- Owl Carousel -->
+<script src="a/owl-carousel/owl.carousel.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="a/js/custom.js"></script>
+</body>
+
+</html>
