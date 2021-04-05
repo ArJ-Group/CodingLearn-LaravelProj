@@ -1,49 +1,115 @@
 /*
- Template Name: vacayhome
- File Name: custom.js
- Author Name: ThemeVault
- Author URI: http://www.themevault.net/
- License URI: http://www.themevault.net/license/
- */
+  file name : custom.js
+*/
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('#back-to-top').fadeIn();
-        } else {
-            $('#back-to-top').fadeOut();
-        }
+(function($) {
+	"use strict";
+	
+	/*==================================================
+        wow
+	  ===================================================*/
+		new WOW().init();
+	/*==================================================
+        Slider
+	 ===================================================*/
+	 $('.slider').slick({
+		//dots: true,
+		infinite: true,
+		centerMode: true,
+		centerPadding: '12%',
+		slidesToShow: 4,
+		prevArrow: false,
+    	nextArrow: false,
+		autoplay: true,
+  		autoplaySpeed: 2000,
+		speed: 500,
+		responsive: [
+		     {
+			  	breakpoint: 1200,
+			    settings: {
+				slidesToShow: 3
+			  }
+			},
+				{
+			  	breakpoint: 992,
+			    settings: {
+				slidesToShow: 2
+			  }
+			},
+			{
+			  breakpoint: 768,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 2
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			  }
+			}
+		]
+	});
+	
+	/*==================================================
+        Sidebar
+	 ===================================================*/
+	 $("#menu-close").click(function(e) {
+		e.preventDefault();
+		$("#sidebar").toggleClass("active");
+	  });
+	  $("#top-menu").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass('collapsed');
+		$("#sidebar").toggleClass("active");
+	  });
+	  
+	
+	/*==================================================
+        Toggle
+	 ===================================================*/
+	 
+	 $(".navbar-toggle").on("click", function() {
+        $(this).toggleClass("active");
+        $("#header").toggleClass("head-add");
     });
-    $('#back-to-top').click(function () {
-        $("html, body").animate({scrollTop: 0}, 600);
-        return false;
-    });
+	
+	/*==================================================
+        fixed menu
+	  ===================================================*/
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop() > 50) {
+				$('.top-head').addClass('fixed-menu');
+			} else {
+				$('.top-head').removeClass('fixed-menu');
+			}
+		});
+		
+	/*==================================================
+		Select2
+	===================================================*/
+	
+		$(".select2").select2();
+	
+	
+	
+	/*==================================================
+        selectpicker 
+	 ===================================================*/
+		$('.selectpicker').selectpicker();
+	
+	
+	
+	
+	
+	
+	
+})(jQuery);
 
-});
-
-$(document).ready(function () {
-    var myButton = $('#mybutton');
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: '4828631159',
-        accessToken: '4828631159.1677ed0.3e66d0fb39cc4a8383ddd034121c65dc',
-        limit: '6',
-        sortBy: 'most-recent',
-        after: function () {
-            var images = $("#instafeed").find('a');
-            $.each(images, function (index, image) {
-                var delay = (index * 75) + 'ms';
-                $(image).css('-webkit-animation-delay', delay);
-                $(image).css('-moz-animation-delay', delay);
-                $(image).css('-ms-animation-delay', delay);
-                $(image).css('-o-animation-delay', delay);
-                $(image).css('animation-delay', delay);
-                $(image).addClass('animated flipInX');
-            });
-
-        },
-        template: ' <div class="col-md-4 col-sm-4 col-xs-4"><div class="insta-image"><a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="likes">&hearts; {{likes}}</div></a></div></div>'
-    });
-    userFeed.run();
-});
 
