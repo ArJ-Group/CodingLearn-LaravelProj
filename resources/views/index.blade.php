@@ -187,9 +187,9 @@
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
-                        <div class="box-img">
+                        <div class="box-img" >
                            <h4>Product</h4>
-                           <img src="a/images/h.png" alt="" />
+                           <img src="a/images/z.png" alt="" />
                         </div>
                      </a>
                   </div>
