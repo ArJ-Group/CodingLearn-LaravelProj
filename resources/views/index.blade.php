@@ -104,7 +104,7 @@
             <div class="container">
                <div class="row clearfix">
                   <div class="find-box">
-                     <h1>Find your next product or<br>business partner here.</h1>
+                     <h1>Find your Code Programming<br>Get Easy For Learn Programming</h1>
                      <h4>It has never been easier.</h4>
                      <div class="product-sh">
                         <div class="col-sm-6">
@@ -130,9 +130,9 @@
                </div>
                <div class="row clearfix">
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('category')}}">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>HTML</h4>
                            <img src="a/images/a.png" alt="" />
                         </div>
                      </a>
@@ -140,7 +140,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>JAVA</h4>
                            <img src="a/images/b.png" alt="" />
                         </div>
                      </a>
@@ -148,7 +148,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>CSS</h4>
                            <img src="a/images/c.png" alt="" />
                         </div>
                      </a>
@@ -156,7 +156,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>C</h4>
                            <img src="a/images/d.png" alt="" />
                         </div>
                      </a>
@@ -164,7 +164,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>JS</h4>
                            <img src="a/images/e.png" alt="" />
                         </div>
                      </a>
@@ -172,7 +172,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>PHP</h4>
                            <img src="a/images/f.png" alt="" />
                         </div>
                      </a>
@@ -180,7 +180,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img">
-                           <h4>Product</h4>
+                           <h4>PYTHON</h4>
                            <img src="a/images/g.png" alt="" />
                         </div>
                      </a>
@@ -188,7 +188,7 @@
                   <div class="col-lg-3 col-sm-6 col-md-3">
                      <a href="productpage.html">
                         <div class="box-img" >
-                           <h4>Product</h4>
+                           <h4>C++</h4>
                            <img src="a/images/z.png" alt="" />
                         </div>
                      </a>
@@ -585,7 +585,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Web Name © 2021</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">

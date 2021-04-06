@@ -2,23 +2,23 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>Chamb - Responsive E-commerce HTML5 Template</title>
+      <title>CODING LEARN APPLICATION</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--fontawesome css-->
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="a/css/font-awesome.min.css">
       <!--bootstrap css-->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="a/css/bootstrap.min.css">
       <!--animate css-->
-      <link rel="stylesheet" href="css/animate-wow.css">
+      <link rel="stylesheet" href="a/css/animate-wow.css">
       <!--main css-->
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
-      <link rel="stylesheet" href="css/jquery-ui.css">
+      <link rel="stylesheet" href="a/css/style.css">
+      <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="a/css/slick.min.css">
+      <link rel="stylesheet" href="a/css/jquery-ui.css">
       <!--responsive css-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="a/css/responsive.css">
    </head>
    <body>
       <header id="header" class="top-head">
@@ -34,7 +34,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="index.html" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -55,8 +55,8 @@
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="images/flag.png" alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="a/images/flag.png" alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Help </a> </li>
                               </ul>
                            </div>
                         </div>
@@ -86,8 +86,8 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
-                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                     <li><a href="#"><img src="a/images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="a/images/flag-up-2.png" alt="" /> France </a></li>
                   </ul>
                </div>
             </div>
@@ -266,12 +266,12 @@
                      <div class="furniture-middle">
                         <div class="big-box">
                            <div class="big-img-box">
-                              <img src="images/lag-60.png" alt="#" />
+                              <img src="a/images/lag-60.png" alt="#" />
                            </div>
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
                                  <div class="left-big">
-                                    <h3>Etiam sit amet urna semper, auctor arcu id</h3>
+                                    <h3>Our Code Of CLA,Coding Learn Application</h3>
                                     <p>By <span>Kale Celik Esya</span> under <span>Chairs</span></p>
                                     <div class="prod-btn">
                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -289,22 +289,22 @@
                                     <div class="like-list">
                                        <ul>
                                           <li>
-                                             <div class="im-b"><img class="" src="images/list-img-01.png" alt="" /></div>
+                                             <div class="im-b"><img class="" src="a/images/list-img-01.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-02.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-02.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-03.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-03.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-04.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-04.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-05.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-05.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-06.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-06.png" alt="" /></div>
                                           </li>
                                           <li>
                                              <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
@@ -319,7 +319,7 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr1.png" alt="#" />
+                                    <img src="a/images/tr1.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
@@ -338,7 +338,7 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr2.png" alt="#" />
+                                    <img src="a/images/tr2.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
@@ -357,7 +357,7 @@
                         </div>
                         <div class="big-box">
                            <div class="big-img-box">
-                              <img src="images/lag-61.png" alt="" />
+                              <img src="a/images/lag-61.png" alt="" />
                            </div>
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
@@ -380,22 +380,22 @@
                                     <div class="like-list">
                                        <ul>
                                           <li>
-                                             <div class="im-b"><img class="" src="images/list-img-01.png" alt="" /></div>
+                                             <div class="im-b"><img class="" src="a/images/list-img-01.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-02.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-02.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-03.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-03.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-04.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-04.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-05.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-05.png" alt="" /></div>
                                           </li>
                                           <li>
-                                             <div class="im-b"><img src="images/list-img-06.png" alt="" /></div>
+                                             <div class="im-b"><img src="a/images/list-img-06.png" alt="" /></div>
                                           </li>
                                           <li>
                                              <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
@@ -410,7 +410,7 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr3.png" alt="#" />
+                                    <img src="a/images/tr3.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
@@ -429,7 +429,7 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="images/tr4.png" alt="#" />
+                                    <img src="a/images/tr4.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
@@ -454,17 +454,17 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="#"><img width="32" src="images/product/1.png" alt="#" /> Chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/2.png" alt="#" /> Office chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/1.png" alt="" /> Special chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/4.png" alt="" /> Living room</a></li>
-                              <li><a href="#"><img width="32" src="images/product/5.png" alt="" /> Room furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/2.png" alt="" /> Tv Furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/11.png" alt="" /> Office Chairs</a></li>
-                              <li><a href="#"><img width="32" src="images/product/10.png" alt="" /> Special lights</a></li>
-                              <li><a href="#"><img width="32" src="images/product/4.png" alt="" /> Home office</a></li>
-                              <li><a href="#"><img width="32" src="images/product/10.png" alt="" /> Kids furniture</a></li>
-                              <li><a href="#"><img width="32" src="images/product/11.png" alt="" /> Accessories</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="#" /> Learn HTML</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="#" /> Learn Bootstrap</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Colors</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Icons</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Graphics</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Exercise</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Home office</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Kids furniture</a></li>
+                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Accessories</a></li>
                            </ul>
                         </div>
                      </div>
@@ -574,7 +574,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
@@ -600,7 +600,7 @@
                         </li>
                      </ul>
                      <ul class="right-flag">
-                        <li><a href="#"><img src="images/flag.png" alt="" /> <span>Change</span></a></li>
+                        <li><a href="#"><img src="a/images/flag.png" alt="" /> <span>Change</span></a></li>
                      </ul>
                   </div>
                </div>
@@ -608,15 +608,15 @@
          </div>
       </footer>
       <!--main js--> 
-      <script src="js/jquery-1.12.4.min.js"></script> 
+      <script src="a/js/jquery-1.12.4.min.js"></script> 
       <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/jquery-ui.js"></script> 
-      <script src="js/wow.min.js"></script>
+      <script src="a/js/bootstrap.min.js"></script> 
+      <script src="a/js/bootstrap-select.min.js"></script>
+      <script src="a/js/slick.min.js"></script> 
+      <script src="a/js/jquery-ui.js"></script> 
+      <script src="a/js/wow.min.js"></script>
       <!--custom js--> 
-      <script src="js/custom.js"></script>
+      <script src="a/js/custom.js"></script>
       <script>
          $( function() {
          	$( "#slider-range" ).slider({
@@ -632,7 +632,7 @@
          		" - $" + $( "#slider-range" ).slider( "values", 1 ) );
          } );
       </script>
-      <script src="js/jquery.nicescroll.min.js"></script> 
+      <script src="a/js/jquery.nicescroll.min.js"></script> 
       <script>
          $(document).ready(function() {
            $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#ededed",boxzoom:true}); // First scrollable DIV

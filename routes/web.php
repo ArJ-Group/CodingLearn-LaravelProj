@@ -26,12 +26,12 @@ Route::resource('mahasiswa', MahasiswaController::class);
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
 //Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
 
-//Route::get('/contact', function () {
-  //  return view('contact');
-//});
-//Route::get('/gallery', function () {
-  //  return view('gallery');
-//});
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+Route::get('/category', function () {
+    return view('category');
+});
 //Route::get('/dinning', function () {
  //   return view('dinning');
 //});
