@@ -37,7 +37,7 @@
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
-                           <input type="text" class="form-control" placeholder="Search for products or companies">
+                           <input type="text" class="form-control" placeholder="Search for Code">
                         </div>
                      </form>
                   </div>
@@ -54,16 +54,16 @@
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Profile</span> <img  alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img  alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
                               </ul>
                            </div>
                         </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="productpage.html">Product for Business</a></li>
+                                 <li><a href="howitworks.html">Tutorial</a></li>
+                                 <li><a href="productpage.html">References</a></li>
                               </ul>
                            </div>
                         </div>
@@ -81,12 +81,12 @@
             <div class="modal-content">
                <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Change</h4>
+                  <h4 class="modal-title">Choose</h4>
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="about-us.html"><img src="a/images/help-icon.png" alt="" /> About US</a></li>
-                     <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Category </a></li>
+                     <li><a href="about-us.html"><img src="a/images/help-icon.png" alt="" /> Book</a></li>
+                     <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
                   </ul>
                </div>
             </div>
@@ -105,26 +105,10 @@
                <div class="row clearfix">
                   <div class="find-box">
                      <h1>Find your Code Programming<br>Get Easy For Learn Programming</h1>
-                     <h4>It has never been easier.</h4>
+                     <h4>It has been easier.</h4>
                      <div class="product-sh">
                         <div class="col-sm-6">
-                           <div class="form-sh">
-                              <input type="text" placeholder="Search something you love" >
-                           </div>
                         </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh">
-                              <select class="selectpicker">
-                                 <option>Textiles</option>
-                                 <option>Furniture</option>
-                                 <option>Leather</option>
-                              </select>
-                           </div>
-                        </div>
-                        <div class="col-sm-3">
-                           <div class="form-sh"> <a class="btn" href="#">Search</a> </div>
-                        </div>
-                        <p>Or simply<a href="#"> click here </a> and get inspired!</p>
                      </div>
                   </div>
                </div>
@@ -189,7 +173,7 @@
                      <a href="productpage.html">
                         <div class="box-img" >
                            <h4>C++</h4>
-                           <img src="a/images/z.png" alt="" />
+                           <img src="a/images/h.png" alt="" />
                         </div>
                      </a>
                   </div>

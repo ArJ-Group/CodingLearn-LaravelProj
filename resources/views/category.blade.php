@@ -105,8 +105,8 @@
             <div class="container">
                <div class="row">
                   <ol class="breadcrumb">
-                     <li><a href="#">Forntpage </a></li>
-                     <li class="active">Furniture</li>
+                     <li><a href="#">CLA</a></li>
+                     <li class="active">Coding Learn Application</li>
                   </ol>
                </div>
             </div>
@@ -116,12 +116,12 @@
          <div class="container">
             <div class="row">
                <div class="furniture-main">
-                  <h2>Furniture</h2>
+                  <h2>Coding Learn Application</h2>
                   <div class="col-md-3 col-sm-4">
                      <div class="furniture-left">
-                        <h3>Filter Products</h3>
+                        <h3>CLA</h3>
                         <div class="by-box">
-                           <h5>By price</h5>
+                           <h5>By Code</h5>
                            <div id="slider-range"></div>
                            <p>
                               <input type="text" id="amount" readonly style="">
@@ -194,7 +194,7 @@
                                  <div class="form-check">
                                     <input id="checkbox11" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox11">
-                                    Kale Celik Esya
+                                   Group 2
                                     </label>
                                  </div>
                                  <div class="form-check">
@@ -266,13 +266,13 @@
                      <div class="furniture-middle">
                         <div class="big-box">
                            <div class="big-img-box">
-                              <img src="a/images/lag-60.png" alt="#" />
+                              <img src="a/images/a.png" alt="#" />
                            </div>
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
                                  <div class="left-big">
                                     <h3>Our Code Of CLA,Coding Learn Application</h3>
-                                    <p>By <span>Kale Celik Esya</span> under <span>Chairs</span></p>
+                                    <p>By <span>Group 2</span> TI <span>2H</span></p>
                                     <div class="prod-btn">
                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
@@ -284,7 +284,7 @@
                                  <div class="right-big-b">
                                     <div class="tight-btn-b clearfix">
                                        <a class="view-btn" href="#">View</a>
-                                       <a href="#">$320</a>
+                                     
                                     </div>
                                     <div class="like-list">
                                        <ul>
@@ -323,10 +323,10 @@
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Aenean luctus lacus</h4>
+                                       <h4>Exercise</h4>
                                        <p>By <span>Beko</span> under <span>Lights</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="#" tabindex="0">Exercise</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -342,10 +342,10 @@
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Sed vestibulum</h4>
+                                       <h4>Tutorial</h4>
                                        <p>By <span>Beko</span> under <span>Chairs</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="#" tabindex="0">Tutorial</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
@@ -414,7 +414,7 @@
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Sed vestibulum</h4>
+                                       <h4>Tutorial</h4>
                                        <p>By <span>Beko</span> under <span>Lights</span></p>
                                     </div>
                                     <a href="#" tabindex="0">$1220</a>
