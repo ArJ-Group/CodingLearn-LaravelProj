@@ -46,8 +46,8 @@
                         <div class="login-sr">
                            <div class="login-signup">
                               <ul>
-                                 <li><a href="login.html">Login</a></li>
-                                 <li><a class="custom-b" href="register.html">Register</a></li>
+                                 <li><a href="{{ route('login') }}">Login</a></li>
+                                 <li><a class="custom-b" href="{{ route('register') }}">Register</a></li>
                               </ul>
                            </div>
                         </div>
