@@ -191,8 +191,8 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/xpann-icon.jpg" class="icon-small" alt="">
-                        <h4>“Chamb” Your Business</h4>
-                        <p>Grow easily with chamb. Create free account.
+                        <h4>Read Code</h4>
+                        <p>Grow easily with CLA. Create free account.
                            We help expanding your business easily.
                         </p>
                      </div>
@@ -202,8 +202,8 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/create-icon.jpg" class="icon-small" alt="">
-                        <h4>Create and add</h4>
-                        <p>Grow easily with chamb. Create free account.
+                        <h4>Learn Code</h4>
+                        <p>Grow easily with CLA. Create free account.
                            We help expanding your business easily.
                         </p>
                      </div>
@@ -213,8 +213,8 @@
                   <div class="panel panel-default">
                      <div class="panel-body">
                         <img src="a/images/get-icon.jpg" class="icon-small" alt="">
-                        <h4>Get inspired</h4>
-                        <p>Grow easily with chamb. Create free account.
+                        <h4>Apply Code</h4>
+                        <p>Grow easily with CLA. Create free account.
                            We help expanding your business easily.
                         </p>
                      </div>
@@ -229,7 +229,7 @@
                <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                   <div class="exciting_box f_pd">
                      <img src="a/images/exciting_img-01.jpg" class="icon-small" alt="" />
-                     <h4>Explore <strong>exciting</strong> and exotic products
+                     <h4>Explore <strong>exciting</strong> and exotic code
                         tailored to you.
                      </h4>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -241,7 +241,7 @@
                <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                   <div class="exciting_box l_pd">
                      <img src="a/images/exciting_img-02.jpg" class="icon-small" alt="" />
-                     <h4><strong>List your products on</strong> chamb and grow connections.</h4>
+                     <h4><strong>Apply your own on</strong> CLA and grow your mind.</h4>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris..
@@ -333,21 +333,21 @@
       </div>
       <div class="products">
          <div class="main-products">
-            <h2>TRENDING PRODUCTS ON CHAMB</h2>
+            <h2>OUR CODE ON CODING LEARN APPLICATION</h2>
             <div class="product-slidr">
                <div class="slider">
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr1.png" alt="#" />
+                           <img src="a/images/d.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Table with Lights</h4>
+                                 <h4>C PROFRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -359,15 +359,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr2.png" alt="#" />
+                           <img src="a/images/e.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
+                                 <h4>JS PROGRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -379,15 +379,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr3.png" alt="#" />
+                           <img src="a/images/f.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Wood Sofaplatform</h4>
+                                 <h4>PHP PROGRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -399,15 +399,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr4.png" alt="#" />
+                           <img src="a/images/g.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Wall Sticker</h4>
+                                 <h4>PYTHON PROGRAM</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -419,15 +419,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr1.png" alt="#" />
+                           <img src="a/images/a.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
+                                 <h4>HTML PROGRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -439,15 +439,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr2.png" alt="#" />
+                           <img src="a/images/b.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
+                                 <h4>JAVA PROGRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
@@ -459,15 +459,15 @@
                   <div>
                      <div class="prod-box">
                         <div class="prod-i">
-                           <img src="a/images/tr3.png" alt="#" />
+                           <img src="a/images/c.png" alt="#" />
                         </div>
                         <div class="prod-dit clearfix">
                            <div class="dit-t clearfix">
                               <div class="left-ti">
-                                 <h4>Treehouse Bed</h4>
+                                 <h4>CSS PROGRAMMING</h4>
                                  <p>By <span>Beko</span> under <span>Lights</span></p>
                               </div>
-                              <a href="#">$1220</a>
+                              <a href="#">VIEW</a>
                            </div>
                            <div class="dit-btn clearfix">
                               <a class="wis" href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist </a>
