@@ -47,7 +47,7 @@
                            <div class="login-signup">
                               <ul>
                                  <li><a href="{{ route('login') }}">Login</a></li>
-                                 <li><a class="custom-b" href="{{ route('register') }}">Register</a></li>
+                                 <li><a class="custom-b" href="#">Register</a></li>
                               </ul>
                            </div>
                         </div>
@@ -232,9 +232,7 @@
                      <h4>Explore <strong>exciting</strong> and exotic code
                         tailored to you.
                      </h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
+                     <p>L
                      </p>
                   </div>
                </div>
@@ -242,9 +240,7 @@
                   <div class="exciting_box l_pd">
                      <img src="a/images/exciting_img-02.jpg" class="icon-small" alt="" />
                      <h4><strong>Apply your own on</strong> CLA and grow your mind.</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris..
+                     <p>L
                      </p>
                   </div>
                </div>

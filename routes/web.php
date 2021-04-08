@@ -20,18 +20,18 @@ Route::get('/', function () {
 Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 Route::resource('mahasiswa', MahasiswaController::class);
 
-//Route::get('/about', function () {
-  //  return view('about');
-//});
-//Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
-//Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
-
-Route::get('/about-us', function () {
-    return view('about-us');
-});
 Route::get('/category', function () {
     return view('category');
 });
+//Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
+//Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
+
+//Route::get('/about-us', function () {
+  //  return view('about-us');
+//});
+//Route::get('/category', function () {
+  //  return view('category');
+//});
 //Route::get('/dinning', function () {
  //   return view('dinning');
 //});

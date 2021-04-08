@@ -38,7 +38,7 @@
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
-                           <input type="text" class="form-control" placeholder="Search for products or companies">
+                           <input type="text" class="form-control" placeholder="Search for Code">
                         </div>
                      </form>
                   </div>
@@ -47,24 +47,24 @@
                         <div class="login-sr">
                            <div class="login-signup">
                               <ul>
-                                 <li><a href="#">Login</a></li>
-                                 <li><a class="custom-b" href="#">Sign up</a></li>
+                                 <li><a href="{{ route('login') }}">Login</a></li>
+                                 <li><a class="custom-b" href="#">Register</a></li>
                               </ul>
                            </div>
                         </div>
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Change</span> <img src="a/images/flag.png" alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img  alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
                               </ul>
                            </div>
                         </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="about-us.html">Chamb for Business</a></li>
+                                 <li><a href="howitworks.html">Tutorial</a></li>
+                                 <li><a href="productpage.html">References</a></li>
                               </ul>
                            </div>
                         </div>
@@ -121,92 +121,92 @@
                      <div class="furniture-left">
                         <h3>CLA</h3>
                         <div class="by-box">
-                           <h5>By Code</h5>
-                           <div id="slider-range"></div>
+                           <h5>By Percentage</h5>
                            <p>
-                              <input type="text" id="amount" readonly style="">
+                              <input id="example2" type="range" min="0" max="100" step="10" onchange="textbox2.value = example2.value" />  
+    <input id="textbox2" type="text" />
                            </p>
                         </div>
                         <div class="by-com">
-                           <h5>By company</h5>
+                           <h5>By Code</h5>
                            <div class="list-b">
                               <div id="boxscroll">
                                  <div class="form-check">
                                     <input id="checkbox1" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox1">
-                                    Adana Cimento
+                                    A
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox2" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox2">
-                                    Akbank
+                                    B
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox3" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox3">
-                                    Alvimedica
+                                    C
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox4" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox4">
-                                    Arcelik
+                                    D
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox5" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox5">
-                                    Askam
+                                    E
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox6" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox6">
-                                    Salcano
+                                    F
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox7" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox7">
-                                    Sedona
+                                    G
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox8" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox8">
-                                    Sisecam
+                                    H
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox9" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox9">
-                                    Su Marine Yachts
+                                    I
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox10" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox10">
-                                    Beko
+                                 J
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox11" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox11">
-                                   Group 2
+                                   K
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox12" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox12">
-                                    Default
+                                    L
                                     </label>
                                  </div>
                                  <div class="form-check">
                                     <input id="checkbox13" class="filled-in chk-col-blue" type="checkbox">
                                     <label for="checkbox13">
-                                    Default
+                                    M
                                     </label>
                                  </div>
                               </div>
@@ -271,12 +271,12 @@
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
                                  <div class="left-big">
-                                    <h3>Our Code Of CLA,Coding Learn Application</h3>
+                                    <h3>Code Of CLA,Coding Learn Application</h3>
                                     <p>By <span>Group 2</span> TI <span>2H</span></p>
                                     <div class="prod-btn">
                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                       <p>23 likes</p>
+                                    
                                     </div>
                                  </div>
                               </div>
@@ -286,31 +286,7 @@
                                        <a class="view-btn" href="#">View</a>
                                      
                                     </div>
-                                    <div class="like-list">
-                                       <ul>
-                                          <li>
-                                             <div class="im-b"><img class="" src="a/images/list-img-01.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-02.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-03.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-04.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-05.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-06.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
-                                          </li>
-                                       </ul>
-                                    </div>
+                                    
                                  </div>
                               </div>
                            </div>
@@ -319,55 +295,55 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="a/images/tr1.png" alt="#" />
+                                    <img src="a/images/cooming-pc.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Exercise</h4>
-                                       <p>By <span>Beko</span> under <span>Lights</span></p>
+                                       <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
                                     <a href="#" tabindex="0">Exercise</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                     <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                    <p>23 likes</p>
+                                   
                                  </div>
                               </div>
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="a/images/tr2.png" alt="#" />
+                                    <img src="a/images/cooming-pc.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Tutorial</h4>
-                                       <p>By <span>Beko</span> under <span>Chairs</span></p>
+                                       <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
                                     <a href="#" tabindex="0">Tutorial</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                     <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                    <p>23 likes</p>
+                                   
                                  </div>
                               </div>
                            </div>
                         </div>
                         <div class="big-box">
                            <div class="big-img-box">
-                              <img src="a/images/lag-61.png" alt="" />
+                              <img src="a/images/mac-about.png" alt="" />
                            </div>
                            <div class="big-dit-b clearfix">
                               <div class="col-md-6">
                                  <div class="left-big">
-                                    <h3>Aenean luctus lacus</h3>
-                                    <p>By <span>Kale Celik Esya</span> under <span>Chairs</span></p>
+                                    <h3>Tutorial Vidio</h3>
+                                    <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     <div class="prod-btn">
                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                        <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                       <p>23 likes</p>
+                                       
                                     </div>
                                  </div>
                               </div>
@@ -375,32 +351,7 @@
                                  <div class="right-big-b">
                                     <div class="tight-btn-b clearfix">
                                        <a class="view-btn" href="#">View</a>
-                                       <a href="#">$320</a>
-                                    </div>
-                                    <div class="like-list">
-                                       <ul>
-                                          <li>
-                                             <div class="im-b"><img class="" src="a/images/list-img-01.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-02.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-03.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-04.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-05.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><img src="a/images/list-img-06.png" alt="" /></div>
-                                          </li>
-                                          <li>
-                                             <div class="im-b"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
-                                          </li>
-                                       </ul>
+                                       
                                     </div>
                                  </div>
                               </div>
@@ -410,39 +361,38 @@
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="a/images/tr3.png" alt="#" />
+                                    <img src="a/images/about-icon-1.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
                                        <h4>Tutorial</h4>
-                                       <p>By <span>Beko</span> under <span>Lights</span></p>
+                                       <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="#" tabindex="0">GO</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                     <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                    <p>23 likes</p>
+                                    
                                  </div>
                               </div>
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
                                  <div class="small-img-b">
-                                    <img src="a/images/tr4.png" alt="#" />
+                                    <img src="a/images/about-icon-2.png" alt="#" />
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Aenean luctus lacus</h4>
-                                       <p>By <span>Beko</span> under <span>Chairs</span></p>
+                                       <h4>Tutorial Vidio</h4>
+                                       <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
-                                    <a href="#" tabindex="0">$1220</a>
+                                    <a href="#" tabindex="0">GO</a>
                                  </div>
                                  <div class="prod-btn">
                                     <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
                                     <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                    <p>23 likes</p>
-                                    <p>23 likes</p>
+                                   
                                  </div>
                               </div>
                            </div>
@@ -462,9 +412,6 @@
                               <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
                               <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
                               <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Exercise</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Home office</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Kids furniture</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Accessories</a></li>
                            </ul>
                         </div>
                      </div>
@@ -478,7 +425,7 @@
                            <div class="sk-rect sk-rect4"></div>
                            <div class="sk-rect sk-rect5"></div>
                         </div>
-                        <span>Loding more awesome products...</span>
+                        <span>Loding ...</span>
                      </a>
                   </div>
                </div>
