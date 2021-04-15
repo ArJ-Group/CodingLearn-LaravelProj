@@ -122,7 +122,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="#">
+                     <a href="{{url('java')}}">
                         <div class="box-img">
                            <h4>JAVA</h4>
                            <img src="a/images/b.png" alt="" />
@@ -130,7 +130,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('css')}}">
                         <div class="box-img">
                            <h4>CSS</h4>
                            <img src="a/images/c.png" alt="" />
@@ -138,7 +138,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('c')}}">
                         <div class="box-img">
                            <h4>C</h4>
                            <img src="a/images/d.png" alt="" />
@@ -146,7 +146,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('j')}}">
                         <div class="box-img">
                            <h4>JS</h4>
                            <img src="a/images/e.png" alt="" />
@@ -154,7 +154,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('php')}}">
                         <div class="box-img">
                            <h4>PHP</h4>
                            <img src="a/images/f.png" alt="" />
@@ -162,7 +162,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('ph')}}">
                         <div class="box-img">
                            <h4>PYTHON</h4>
                            <img src="a/images/g.png" alt="" />
@@ -170,7 +170,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="{{url('cplus')}}">
                         <div class="box-img" >
                            <h4>C++</h4>
                            <img src="a/images/h.png" alt="" />

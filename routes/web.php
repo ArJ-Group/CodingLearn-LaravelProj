@@ -26,6 +26,27 @@ Route::get('/index', function () {
 Route::get('/htm', function () {
     return view('htm');
 });
+Route::get('/c', function () {
+  return view('c');
+});
+Route::get('/cplus', function () {
+  return view('cplus');
+});
+Route::get('/css', function () {
+  return view('css');
+});
+Route::get('/java', function () {
+  return view('java');
+});
+Route::get('/j', function () {
+  return view('j');
+});
+Route::get('/ph', function () {
+  return view('ph');
+});
+Route::get('/php', function () {
+  return view('php');
+});
 Route::get('html.welcomehtml/', function () {
   return view('html.welcomehtml');
 });
