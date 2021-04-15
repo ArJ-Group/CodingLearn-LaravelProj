@@ -105,7 +105,7 @@
             <div class="container">
                <div class="row">
                   <ol class="breadcrumb">
-                     <li><a href="#">CLA</a></li>
+                     <li><a href="{{url('index')}}">Back</a></li>
                      <li class="active">Coding Learn Application</li>
                   </ol>
                </div>
@@ -365,7 +365,7 @@
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Tutorial</h4>
+                                       <h4>Material</h4>
                                        <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
                                     <a href="#" tabindex="0">GO</a>
@@ -384,7 +384,7 @@
                                  </div>
                                  <div class="dit-t clearfix">
                                     <div class="left-ti">
-                                       <h4>Tutorial Vidio</h4>
+                                       <h4> Forum Discussion</h4>
                                        <p>By <span>Group</span> 2 <span>TI 2H</span></p>
                                     </div>
                                     <a href="#" tabindex="0">GO</a>
@@ -404,14 +404,14 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="#" /> Learn HTML</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="#" /> Learn Bootstrap</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Colors</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Icons</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Graphics</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
-                              <li><a href="#"><img width="32" src="a/images/a.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/a.png" alt="" /> Learn HTML</a></li>
+                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/a.png" alt="#" /> Learn Bootstrap</a></li>
+                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Colors</a></li>
+                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Icons</a></li>
+                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Graphics</a></li>
+                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
+                              <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
+                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/a.png" alt="" /> Exercise</a></li>
                            </ul>
                         </div>
                      </div>

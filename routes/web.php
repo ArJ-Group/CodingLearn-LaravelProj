@@ -17,11 +17,43 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
   return view('index');
 });
-Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
-Route::resource('mahasiswa', MahasiswaController::class);
+Route::get('/index', function () {
+  return view('index');
+});
+//Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
+//Route::resource('mahasiswa', MahasiswaController::class);
 
-Route::get('/category', function () {
-    return view('category');
+Route::get('/htm', function () {
+    return view('htm');
+});
+Route::get('html.welcomehtml/', function () {
+  return view('html.welcomehtml');
+});
+Route::get('html.htmlapi/', function () {
+  return view('html.htmlapi');
+});
+Route::get('html.htmlexamp/', function () {
+  return view('html.htmlexamp');
+});
+Route::get('html.htmlform/', function () {
+  return view('html.htmlform');
+});
+Route::get('html.htmlgrapic/', function () {
+  return view('html.htmlgrapic');
+});
+Route::get('html.htmltutor/', function () {
+  return view('html.htmltutor');
+});
+Route::get('html.htmlreferences/', function () {
+  return view('html.htmlreferences');
+});
+Route::get('html.htmlmedia/', function () {
+  return view('html.htmlmedia');
+});
+
+
+Route::get('/users', function ($id) {
+    return view('users');
 });
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
 //Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');

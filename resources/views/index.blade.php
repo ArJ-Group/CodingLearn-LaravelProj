@@ -114,7 +114,7 @@
                </div>
                <div class="row clearfix">
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="{{url('category')}}">
+                     <a href="{{url('htm')}}">
                         <div class="box-img">
                            <h4>HTML</h4>
                            <img src="a/images/a.png" alt="" />
@@ -122,7 +122,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="productpage.html">
+                     <a href="#">
                         <div class="box-img">
                            <h4>JAVA</h4>
                            <img src="a/images/b.png" alt="" />
