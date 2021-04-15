@@ -609,8 +609,8 @@
             
             <h3>HTML Scripts</h3>
             <div class="w3-bar-block">
-            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script">Insert a script</a>
-            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_noscript">Use of the &lt;noscript&gt; tag</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script">Insert a script</a><br> <br>  
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_noscript">Use of the &lt;noscript&gt; tag</a><br> <br>  
             </div>
             <p><a href="https://www.w3schools.com/html/html_scripts.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
