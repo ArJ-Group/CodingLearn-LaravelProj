@@ -488,7 +488,7 @@
             <hr>
             <h3>HTML Images</h3>
             <div class="w3-bar-block">
-            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images">An image</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images">An image</a><br><br>
             <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_attributes">An image height and width using attributes</a>
             <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_size">An image height and width using CSS</a>
             <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_style">An image height and width using both</a>
@@ -506,267 +506,267 @@
             <h3>HTML Tables</h3>
             <div class="w3-bar-block">
             <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_basic">Basic HTML tables</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_border">A table with borders</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_collapse">A table with collapsed borders</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellpadding">A table with cell padding</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings">A table with headings</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings_left">A table with left-aligned headings</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headers">Horizontal/Vertical table headings</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_tables2">A table with a caption</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_colspan">Table cells that span more than one column</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_rowspan">Table cells that span more than one row</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellspacing">A table with cell spacing</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_elements">A table with HTML tags inside</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id1">Tables with different style using id I</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id2">Tables with different style using id II</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class1">Tables with different style using class I</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class2">Tables with different style using class II</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_border">A table with borders</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_collapse">A table with collapsed borders</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellpadding">A table with cell padding</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings">A table with headings</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings_left">A table with left-aligned headings</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headers">Horizontal/Vertical table headings</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_tables2">A table with a caption</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_colspan">Table cells that span more than one column</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_rowspan">Table cells that span more than one row</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellspacing">A table with cell spacing</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_elements">A table with HTML tags inside</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id1">Tables with different style using id I</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id2">Tables with different style using id II</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class1">Tables with different style using class I</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class2">Tables with different style using class II</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_tables.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Lists</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered">An unordered list (default)</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_disc">An unordered list with disc bullets</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_circle">An unordered list with circle bullets</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_square">An unordered list with square bullets</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none">An unordered list without bullets</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered">An ordered list (default)</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_numbers">An ordered list with numbers</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_ucase">An ordered list with letters</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_lcase">An ordered list with lowercase letters</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_ucase">An ordered list with roman numbers</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_lcase">An ordered list with lowercase roman numbers</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description">A description list</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested">A nested list I</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested2">A nested list II</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal">A horizontal list</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu">A horizontal list menu</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered">An unordered list (default)</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_disc">An unordered list with disc bullets</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_circle">An unordered list with circle bullets</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_square">An unordered list with square bullets</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none">An unordered list without bullets</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered">An ordered list (default)</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_numbers">An ordered list with numbers</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_ucase">An ordered list with letters</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_lcase">An ordered list with lowercase letters</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_ucase">An ordered list with roman numbers</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_lcase">An ordered list with lowercase roman numbers</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description">A description list</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested">A nested list I</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested2">A nested list II</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal">A horizontal list</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu">A horizontal list menu</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_lists.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Block and inline elements</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_block_div">The &lt;div&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_inline_span">The &lt;span&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div">Styling a &lt;div&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_span">Styling a &lt;span&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_block_div">The &lt;div&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_inline_span">The &lt;span&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div">Styling a &lt;div&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_span">Styling a &lt;span&gt; element</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_blocks.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Classes</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_london">Style all elements with a specified class name</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals">Access elements with a specified class name, with JavaScript</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_span">Multiple classes</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_tags">Same class, different tag</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_london">Style all elements with a specified class name</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals">Access elements with a specified class name, with JavaScript</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_span">Multiple classes</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_tags">Same class, different tag</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_classes.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Id</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_css">Style an element with a specific id</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_class">Difference between class and id</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_js">Access an element with a specific id, with JavaScript</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_css">Style an element with a specific id</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_class">Difference between class and id</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_js">Access an element with a specific id, with JavaScript</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_id.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Layout</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float">Layout using float</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox">Layout using flexbox</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox2">Layout using flexbox 2</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox3">Layout using flexbox 3</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float">Layout using float</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox">Layout using flexbox</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox2">Layout using flexbox 2</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox3">Layout using flexbox 3</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_layout.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML IFrame</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe">Inline frame (a frame inside an HTML page)</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe">Inline frame (a frame inside an HTML page)</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_iframe.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML head Elements</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_none">A valid HTML document with no &lt;html&gt; &lt;body, and &lt;head&gt;</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_no_head">A valid HTML document with no &lt;head&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_title">The &lt;title&gt; element defines the document title</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_style">The &lt;style&gt; element contains style information</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_link">The &lt;link&gt; element defines a relationship to an external resource</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_meta">The &lt;meta&gt; element defines special meta information</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_script">The &lt;script&gt; element defines client-side JavaScripts</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_base">The &lt;base&gt; element defines the base URL for all URLs</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_none">A valid HTML document with no &lt;html&gt; &lt;body, and &lt;head&gt;</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_no_head">A valid HTML document with no &lt;head&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_title">The &lt;title&gt; element defines the document title</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_style">The &lt;style&gt; element contains style information</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_link">The &lt;link&gt; element defines a relationship to an external resource</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_meta">The &lt;meta&gt; element defines special meta information</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_script">The &lt;script&gt; element defines client-side JavaScripts</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_base">The &lt;base&gt; element defines the base URL for all URLs</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_head.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Scripts</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script">Insert a script</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_noscript">Use of the &lt;noscript&gt; tag</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script">Insert a script</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_noscript">Use of the &lt;noscript&gt; tag</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_scripts.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Computercode Elements</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_kbd">Keyboard input formatting using the &lt;kbd&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_samp">Computer output formatting using the &lt;samp&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_code">Programming code formatting using the &lt;code&gt; element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_codepre">Programming code formatting preserving whitespace and line-breaks</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_var">Variable formatting using the &lt;var&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_kbd">Keyboard input formatting using the &lt;kbd&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_samp">Computer output formatting using the &lt;samp&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_code">Programming code formatting using the &lt;code&gt; element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_codepre">Programming code formatting preserving whitespace and line-breaks</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_var">Variable formatting using the &lt;var&gt; element</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_computercode_elements.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Forms</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_text">Form with text input</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio">Form with radio button input</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Form with text fields and a submit button</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit_id">Form with a text fields without a name attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_legend">Grouping Form Data</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_text">Form with text input</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio">Form with radio button input</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Form with text fields and a submit button</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit_id">Form with a text fields without a name attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_legend">Grouping Form Data</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_forms.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Form Elements</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select">A simple drop-down list</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select_pre">A drop-down list with a pre-selected value</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_textarea">A textarea (a multi-line text input field)</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_button">An input button</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist">Using the &lt;datalist&gt; Element</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output">Using the &lt;output&gt; Element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select">A simple drop-down list</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select_pre">A drop-down list with a pre-selected value</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_textarea">A textarea (a multi-line text input field)</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_button">An input button</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist">Using the &lt;datalist&gt; Element</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output">Using the &lt;output&gt; Element</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_form_elements.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Input Types</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_text">Input type text</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_password">Input type password</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_radio">Input type radio</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_checkbox">Input type checkbox</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button">Input type button</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number">Input type number - with restrictions</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number_step">Input type number - with steps</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date">Input type date - with date picker</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date_max_min">Input type date - with restrictions</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_color">Input type color - with color picker</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_range">Input type range</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_month">Input type month</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_week">Input type week</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_time">Input type time</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime">Input type datetime</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime-local">Input type datetime-local</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_email">Input type email</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_search">Input type search</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_tel">Input type tel</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_url">Input type url</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_text">Input type text</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_password">Input type password</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_radio">Input type radio</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_checkbox">Input type checkbox</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button">Input type button</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number">Input type number - with restrictions</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number_step">Input type number - with steps</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date">Input type date - with date picker</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date_max_min">Input type date - with restrictions</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_color">Input type color - with color picker</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_range">Input type range</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_month">Input type month</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_week">Input type week</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_time">Input type time</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime">Input type datetime</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime-local">Input type datetime-local</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_email">Input type email</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_search">Input type search</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_tel">Input type tel</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_url">Input type url</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_form_input_types.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Input Attributes</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autocomplete">The autocomplete attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_form_novalidate">The novalidate attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autofocus">The autofocus_attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_form">The form attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formaction">The formaction attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formenctype">The formenctype attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formmethod">The formmethod attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formnovalidate">The formnovalidate attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formtarget">The formtarget attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_height_width">The height and width attributes</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_list">The list attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_max_min">The min and max attributes</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_multiple">The multiple attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_pattern">The pattern attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_placeholder">The placeholder attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_required">The required attribute</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_step">The step attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autocomplete">The autocomplete attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_form_novalidate">The novalidate attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autofocus">The autofocus_attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_form">The form attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formaction">The formaction attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formenctype">The formenctype attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formmethod">The formmethod attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formnovalidate">The formnovalidate attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formtarget">The formtarget attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_height_width">The height and width attributes</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_list">The list attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_max_min">The min and max attributes</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_multiple">The multiple attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_pattern">The pattern attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_placeholder">The placeholder attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_required">The required attribute</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_step">The step attribute</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_form_attributes.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Canvas Graphics</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_first">Draw on the canvas with JavaScript</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path">Draw a line with lineTo()</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2">Draw a circle with arc()</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text">Draw a text with fillText()</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text2">Draw a text with strokeText()</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad">Draw a linear gradient</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad2">Draw a circular gradient</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_img">Draw an image with drawImage()</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_first">Draw on the canvas with JavaScript</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path">Draw a line with lineTo()</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2">Draw a circle with arc()</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text">Draw a text with fillText()</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text2">Draw a text with strokeText()</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad">Draw a linear gradient</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad2">Draw a circular gradient</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_img">Draw an image with drawImage()</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html5_canvas.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML SVG Graphics</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_circle">SVG Circle</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect">SVG Rectangle</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect_round">SVG Rounded Rectangle</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_star">SVG Star</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_logo">SVG Logo</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_circle">SVG Circle</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect">SVG Rectangle</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect_round">SVG Rounded Rectangle</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_star">SVG Star</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_logo">SVG Logo</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html5_svg.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Media</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play Bunny</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all">Play bear video with controls</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_autoplay">Play bear video with autoplay</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play Horse sound with controls</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play Bunny</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all">Play bear video with controls</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_autoplay">Play bear video with autoplay</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play Horse sound with controls</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_media.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Geolocation</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation">Get geolocation coordinates</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_error">Handle geolocation errors</a>
-            <!--<a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map">Get geolocation with a map</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map_script">Get geolocation with Google map script</a>-->
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_watchposition">Get geolocation and watch the position</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation">Get geolocation coordinates</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_error">Handle geolocation errors</a>
+            <!--<a class="btn btn-neutral" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map">Get geolocation with a map</a>
+            <a class="btn btn-neutral" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map_script">Get geolocation with Google map script</a>-->
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_watchposition">Get geolocation and watch the position</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html5_geolocation.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Local Storage</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local">Store a name permanently</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local_clickcount">Store a counter permanently</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_session">Store a counter for one session</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local">Store a name permanently</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local_clickcount">Store a counter permanently</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_session">Store a counter for one session</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html5_webstorage.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>HTML Media</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play a video file</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play an audio file in HTML</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe">Play a YouTube video in HTML</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play a video file</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play an audio file in HTML</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe">Play a YouTube video in HTML</a>
             </div>
             <p><a href="https://www.w3schools.com/html/html_media.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
             <hr>
             
             <h3>More HTML Examples</h3>
             <div class="w3-bar-block">
-            <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop">HTML drag and drop</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webworker">HTML web workers</a>
-            <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_sse">HTML server sent events</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop">HTML drag and drop</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webworker">HTML web workers</a>
+            <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_sse">HTML server sent events</a>
             </div>
             <br>
 
