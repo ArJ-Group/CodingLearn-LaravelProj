@@ -347,43 +347,315 @@
           <div role="main" class="document">
             
   <div class="section" id="tutorial">
-<h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
-<p>This tutorial is intended to introduce you to the CodeIgniter framework
-and the basic principles of MVC architecture. It will show you how a
-basic CodeIgniter application is constructed in step-by-step fashion.</p>
-<p>In this tutorial, you will be creating a <strong>basic news application</strong>. You
-will begin by writing the code that can load static pages. Next, you
-will create a news section that reads news items from a database.
-Finally, you’ll add a form to create news items in the database.</p>
-<p>This tutorial will primarily focus on:</p>
-<ul class="simple">
-<li>Model-View-Controller basics</li>
-<li>Routing basics</li>
-<li>Form validation</li>
-<li>Performing basic database queries using “Query Builder”</li>
-</ul>
-<p>The entire tutorial is split up over several pages, each explaining a
-small part of the functionality of the CodeIgniter framework. You’ll go
-through the following pages:</p>
-<ul class="simple">
-<li>Introduction, this page, which gives you an overview of what to
-expect.</li>
-<li><a class="reference internal" href="static_pages.html"><span class="doc">Static pages</span></a>, which will teach you the basics
-of controllers, views and routing.</li>
-<li><a class="reference internal" href="news_section.html"><span class="doc">News section</span></a>, where you’ll start using models
-and will be doing some basic database operations.</li>
-<li><a class="reference internal" href="create_news_items.html"><span class="doc">Create news items</span></a>, which will introduce
-more advanced database operations and form validation.</li>
-<li><a class="reference internal" href="conclusion.html"><span class="doc">Conclusion</span></a>, which will give you some pointers on
-further reading and other resources.</li>
-</ul>
-<p>Enjoy your exploration of the CodeIgniter framework.</p>
-<div class="toctree-wrapper compound">
+<h1>HTML CANVAS<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
+<div>
+  <table>
+  <tbody> <tr>
+    <td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/gra.png"></td>
+    <td>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics on a web page.<br>
+    <br> The graphic to the left is created with <code class="w3-codespan">&lt;canvas&gt;</code>. It shows four 
+    elements: a red rectangle, a gradient rectangle,
+    a multicolor rectangle, and a multicolor text</td>
+    </tr></tbody></table><br>
+
+    <h2>What is HTML Canvas?</h2>
+<p>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via JavaScript.</p>
+<p>The <code class="w3-codespan">&lt;canvas&gt;</code> element is only a container for graphics. You must use  
+JavaScript to actually draw the graphics.</p>
+<p>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
+<hr>
+
+<h2>What is HTML Canvas?</h2>
+<p>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via JavaScript.</p>
+<p>The <code class="w3-codespan">&lt;canvas&gt;</code> element is only a container for graphics. You must use  
+JavaScript to actually draw the graphics.</p>
+<p>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
+<hr>
+
+<h2>Browser Support</h2>
+<p>The numbers in the table specify the first browser version that fully supports the 
+<code class="w3-codespan">&lt;canvas&gt;</code> element.</p>
+<table class="browserref notranslate">
+  <tbody><tr>
+    <th style="width:20%;font-size:16px;text-align:left;">Element</th>
+    <th style="width:16%;" class="bsChrome" title="Chrome"></th>
+    <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
+    <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
+    <th style="width:16%;" class="bsSafari" title="Safari"></th>
+    <th style="width:16%;" class="bsOpera" title="Opera"></th>                
+  </tr>
+  <tr>
+    <td style="text-align:left;">&lt;canvas&gt;</td>
+    <td>4.0</td>
+    <td>9.0</td>
+    <td>2.0</td>
+    <td>3.1</td>
+    <td>9.0</td>
+  </tr>
+</tbody></table>
+<hr>
+
+<h2>Canvas Examples</h2>
+<p>A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.</p>
+<p>The markup looks like this:</p>
+
+
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"></span><span class="nx"></span><span class="o"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>canvas<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="myCanvas"</span> width<span class="attributevaluecolor" style="color:mediumblue">="200"</span> height<span class="attributevaluecolor" style="color:mediumblue">="100"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/canvas<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+    
+  </div>
+  
+  </pre></div>
+
+  <div class="admonition note">
+    <p class="first admonition-title">Note </p>
+    <p class="last"><p>Always specify an <code class="w3-codespan">id</code> attribute (to be referred to in a script), 
+      and a <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> 
+      attribute to define the size of the canvas. To add a border, use the <code class="w3-codespan">style</code> attribute.</p> 
+    </div>
+
+<h4>Here is an example of a basic, empty canvas:</h4>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+Your browser does not support the canvas element.
+</canvas>
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"></span><span class="nx"></span><span class="o"></span> <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>canvas<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="myCanvas"</span> width<span class="attributevaluecolor" style="color:mediumblue">="200"</span> height<span class="attributevaluecolor" style="color:mediumblue">="100"</span>style<span class="attributevaluecolor" style="color:mediumblue">="border:1px solid #000000;"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/canvas<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
 </div>
+
+</pre></div>
+
+<a target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_empty" class="btn btn-primary btn-lg btn-block border-none">Try it Yourself »</a>
+</div>
+
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0" data-google-query-id="CJnenKqBj_ACFfyLZgId3EcGWg" style="display: none;"><div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__" style="border: 0pt none; width: 728px; height: 90px;"></div></div>
+
+</div>
+<hr>
+
+<h2>Add a JavaScript</h2>
+<p>After creating the rectangular canvas area, you must add a JavaScript to do 
+the drawing.</p>
+<p>Here are some examples:</p>
+<h3>Draw a Line</h3>
+<canvas id="myCanvas2" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas2");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+ var ctx=c.getContext("2d");
+ ctx.moveTo(0,0);
+ ctx.lineTo(200,100);
+ ctx.stroke();
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>&lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">moveTo</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">0</span>);<br>ctx.<span class="jspropertycolor" style="color:black">lineTo</span>(<span class="jsnumbercolor" style="color:red">200</span>, <span class="jsnumbercolor" style="color:red">100</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">stroke</span>();<br>&lt;/script&gt; </span></div>
+</div>
+</div>
+<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path" target="_blank">Try it Yourself »</a>
+<br><br>
+<h3>Draw a Circle</h3>
+<canvas id="myCanvas3" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas3");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+ var ctx=c.getContext("2d");
+ ctx.beginPath();
+ ctx.arc(95,50,40,0,2*Math.PI);
+ ctx.stroke();
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><div class="highlight"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">beginPath</span>();<br>ctx.<span class="jspropertycolor" style="color:black">arc</span>(<span class="jsnumbercolor" style="color:red">95</span>, <span class="jsnumbercolor" style="color:red">50</span>, <span class="jsnumbercolor" style="color:red">40</span>, <span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">2</span> * Math.<span class="jspropertycolor" style="color:black">PI</span>);<br>ctx.<span class="jspropertycolor" style="color:black">stroke</span>();<br><span class="jsnumbercolor" style="color:red">
+</span>  &lt;/script&gt; </span></div>
+</div>
+
+</div>
+<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2" target="_blank">Try it Yourself »</a>
+<br><br>
+
+<h3>Draw a Text</h3>
+<canvas id="myCanvas4" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas4");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+    var ctx=c.getContext("2d");
+    ctx.font="30px Arial";
+    ctx.fillText("Hello World",10,50);
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">font</span> = <span class="jsstringcolor" style="color:brown">"30px Arial"</span>;<br>ctx.<span class="jspropertycolor" style="color:black">fillText</span>(<span class="jsstringcolor" style="color:brown">"Hello World"</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">50</span>);<br><span class="jsnumbercolor" style="color:red">
+</span>   &lt;/script&gt; </span></div>
+</div>
+</div>
+<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text" target="_blank">Try it Yourself »</a>
+<br><br>
+
+
+<h3>Stroke Text</h3>
+<canvas id="myCanvas5" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas5");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+    var ctx=c.getContext("2d");
+    ctx.font="30px Arial";
+    ctx.strokeText("Hello World",10,50);
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">font</span> = <span class="jsstringcolor" style="color:brown">"30px Arial"</span>;<br>ctx.<span class="jspropertycolor" style="color:black">strokeText</span>(<span class="jsstringcolor" style="color:brown">"Hello World"</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">50</span>);<br><span class="jsnumbercolor" style="color:red">
+</span>  &lt;/script&gt; </span></div>
 </div>
 
 
-          </div>
+
+<h3>Draw Linear Gradient</h3>
+<canvas id="myCanvas6" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas6");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+    var ctx=c.getContext("2d");
+    // Create gradient
+    var grd = ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10,10,150,80);
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <br><span class="jsnumbercolor" style="color:red">
+</span> <span class="commentcolor" style="color:green">// Create gradient<br></span><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> grd = ctx.<span class="jspropertycolor" style="color:black">createLinearGradient</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">200</span>, <span class="jsnumbercolor" style="color:red">0</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsstringcolor" style="color:brown">"red"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">1</span>, <span class="jsstringcolor" style="color:brown">"white"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <br><span class="jsnumbercolor" style="color:red">
+</span> <span class="commentcolor" style="color:green">// Fill with gradient<br></span><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">fillStyle</span> = grd;<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">fillRect</span>(<span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">150</span>, <span class="jsnumbercolor" style="color:red">80</span>);<br>&lt;/script&gt; </span></div>
+
+ <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</div>
+</div><br>
+
+<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad" target="_blank">Try it Yourself »</a>
+<br><br><h3>Draw Circular Gradient</h3>
+<canvas id="myCanvas7" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the canvas element
+</canvas>
+<script>
+var c=document.getElementById("myCanvas7");
+var canvOK=1;
+try {c.getContext("2d");}
+catch (er) {canvOK=0;}
+if (canvOK==1)
+ {
+    var ctx=c.getContext("2d");
+    // Create gradient
+    var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10,10,150,80);
+ }
+</script> 
+<div class="w3-example">
+<h3>Example</h3>
+
+<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <br><span class="jsnumbercolor" style="color:red">
+</span> <span class="commentcolor" style="color:green">// Create gradient<br></span><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> grd = ctx.<span class="jspropertycolor" style="color:black">createRadialGradient</span>(<span class="jsnumbercolor" style="color:red">75</span>, <span class="jsnumbercolor" style="color:red">50</span>, <span class="jsnumbercolor" style="color:red">5</span>, <span class="jsnumbercolor" style="color:red">90</span>, <span class="jsnumbercolor" style="color:red">60</span>, <span class="jsnumbercolor" style="color:red">100</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsstringcolor" style="color:brown">"red"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">1</span>, <span class="jsstringcolor" style="color:brown">"white"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <br><span class="jsnumbercolor" style="color:red">
+</span> <span class="commentcolor" style="color:green">// Fill with gradient<br></span><span class="jsnumbercolor" style="color:red">
+</span>  ctx.<span class="jspropertycolor" style="color:black">fillStyle</span> = grd;<br>ctx.<span class="jspropertycolor" style="color:black">fillRect</span>(<span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">150</span>, <span class="jsnumbercolor" style="color:red">80</span>);<br>&lt;/script&gt; </span></div>
+</div>
+
+
+<div class="w3-example">
+<h3>Draw Image</h3>
+
+<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> img = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"scream"</span>);<br><span class="jsnumbercolor" style="color:red">
+</span> ctx.<span class="jspropertycolor" style="color:black">drawImage</span>(img, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>);<br>&lt;/script&gt; </span></div>
+</div>
+<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_img" target="_blank">Try it Yourself »</a>
+<br><br>
+<h2>HTML Canvas Tutorial</h2>
+<p>To learn more about <code class="w3-codespan">&lt;canvas&gt;</code>, please 
+read our <a href="https://www.w3schools.com/graphics/canvas_intro.asp">HTML Canvas Tutorial</a>.</p>
+
+  </div>
+</div>
+
+
+          </div><br><br><br>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">

@@ -7,8 +7,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Contributing to CodeIgniter &mdash; CodeIgniter 3.1.11 documentation</title>
+  <title>HTML MEDIA</title>
   
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
 
   
   
@@ -370,7 +387,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Contributing to CodeIgniter</li>
+    <li>HTML MEDIA</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -383,128 +400,211 @@
           <div role="main" class="document">
             
   <div class="section" id="contributing-to-codeigniter">
-<h1>Contributing to CodeIgniter<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+<h1>HTML MEDIA<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../documentation/index.html">Writing CodeIgniter Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../DCO.html">Developer’s Certificate of Origin 1.1</a></li>
-</ul>
-</div>
-<p>CodeIgniter is a community driven project and accepts contributions of code
-and documentation from the community. These contributions are made in the form
-of Issues or <a class="reference external" href="https://help.github.com/articles/using-pull-requests/">Pull Requests</a>
-on the <a class="reference external" href="https://github.com/bcit-ci/CodeIgniter">CodeIgniter repository</a> on GitHub.</p>
-<p>Issues are a quick way to point out a bug. If you find a bug or documentation
-error in CodeIgniter then please check a few things first:</p>
-<ul class="simple">
-<li>There is not already an open Issue</li>
-<li>The issue has already been fixed (check the develop branch, or look for
-closed Issues)</li>
-<li>Is it something really obvious that you fix it yourself?</li>
-</ul>
-<p>Reporting issues is helpful but an even better approach is to send a Pull
-Request, which is done by “Forking” the main repository and committing to your
-own copy. This will require you to use the version control system called Git.</p>
+
+  <div class="section" id="support">
+    <h2>What is Multimedia?<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
+    <p>Multimedia comes in many different formats. It can be almost anything you can hear or see,
+       like images, music, sound, videos, records, films, animations, and more.</p>
+    <p>Web pages often contain multimedia elements of different types and formats.</p>
+    </div><br>
+
 <div class="section" id="support">
-<h2>Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-<p>Please note that GitHub is not for general support questions! If you are
-having trouble using a feature of CodeIgniter, ask for help on our
-<a class="reference external" href="http://forum.codeigniter.com/">forums</a> instead.</p>
-<p>If you are not sure whether you are using something correctly or if you
-have found a bug, again - please ask on the forums first.</p>
+<h2>Browser Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
+<p>The first web browsers had support for text only, limited to a single font in a single color.</p>
+<p>Later came browsers with support for colors, fonts, images, and multimedia!</p><br>
 </div>
+
 <div class="section" id="security">
-<h2>Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
-<p>Did you find a security issue in CodeIgniter?</p>
-<p>Please <em>don’t</em> disclose it publicly, but e-mail us at <a class="reference external" href="mailto:security&#37;&#52;&#48;codeigniter&#46;com">security<span>&#64;</span>codeigniter<span>&#46;</span>com</a>,
-or report it via our page on <a class="reference external" href="https://hackerone.com/codeigniter">HackerOne</a>.</p>
-<p>If you’ve found a critical vulnerability, we’d be happy to credit you in our
-<cite>ChangeLog &lt;../changelog&gt;</cite>.</p>
-</div>
+<h2>Multimedia Formats<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
+<p>Multimedia elements (like audio or video) are stored in media files.</p>
+<p>The most common way to discover the type of a file, is to look at the file extension.</p>
+<p>Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.</p>
+</div><br>
+
 <div class="section" id="tips-for-a-good-issue-report">
-<h2>Tips for a Good Issue Report<a class="headerlink" href="#tips-for-a-good-issue-report" title="Permalink to this headline">¶</a></h2>
-<p>Use a descriptive subject line (eg parser library chokes on commas) rather than a vague one (eg. your code broke).</p>
-<p>Address a single issue in a report.</p>
-<p>Identify the CodeIgniter version (eg 3.0-develop) and the component if you know it (eg. parser library)</p>
-<p>Explain what you expected to happen, and what did happen.
-Include error messages and stacktrace, if any.</p>
-<p>Include short code segments if they help to explain.
-Use a pastebin or dropbox facility to include longer segments of code or screenshots - do not include them in the issue report itself.
-This means setting a reasonable expiry for those, until the issue is resolved or closed.</p>
-<p>If you know how to fix the issue, you can do so in your own fork &amp; branch, and submit a pull request.
-The issue report information above should be part of that.</p>
-<p>If your issue report can describe the steps to reproduce the problem, that is great.
-If you can include a unit test that reproduces the problem, that is even better, as it gives whoever is fixing
-it a clearer target!</p>
-</div>
-<div class="section" id="guidelines">
-<h2>Guidelines<a class="headerlink" href="#guidelines" title="Permalink to this headline">¶</a></h2>
-<p>Before we look into how, here are the guidelines. If your Pull Requests fail
-to pass these guidelines it will be declined and you will need to re-submit
-when you’ve made the changes. This might sound a bit tough, but it is required
-for us to maintain quality of the code-base.</p>
-<div class="section" id="php-style">
-<h3>PHP Style<a class="headerlink" href="#php-style" title="Permalink to this headline">¶</a></h3>
-<p>All code must meet the <a class="reference external" href="https://codeigniter.com/userguide3/general/styleguide.html">Style Guide</a>, which is
-essentially the <a class="reference external" href="https://en.wikipedia.org/wiki/Indent_style#Allman_style">Allman indent style</a>, underscores and
-readable operators. This makes certain that all code is the same format as the
-existing code and means it will be as readable as possible.</p>
-</div>
-<div class="section" id="documentation">
-<h3>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h3>
-<p>If you change anything that requires a change to documentation then you will
-need to add it. New classes, methods, parameters, changing default values, etc
-are all things that will require a change to documentation. The change-log
-must also be updated for every change. Also PHPDoc blocks must be maintained.</p>
-</div>
-<div class="section" id="compatibility">
-<h3>Compatibility<a class="headerlink" href="#compatibility" title="Permalink to this headline">¶</a></h3>
-<p>CodeIgniter recommends PHP 5.6 or newer to be used, but it should be
-compatible with PHP 5.3.7 so all code supplied must stick to this
-requirement. If PHP 5.4 (and above) functions or features are used then
-there must be a fallback for PHP 5.3.7.</p>
-</div>
-<div class="section" id="branching">
-<h3>Branching<a class="headerlink" href="#branching" title="Permalink to this headline">¶</a></h3>
-<p>CodeIgniter uses the <a class="reference external" href="http://nvie.com/posts/a-successful-git-branching-model/">Git-Flow</a> branching model
-which requires all pull requests to be sent to the “develop” branch. This is
-where the next planned version will be developed. The “master” branch will
-always contain the latest stable version and is kept clean so a “hotfix” (e.g:
-an emergency security patch) can be applied to master to create a new version,
-without worrying about other features holding it up. For this reason all
-commits need to be made to “develop” and any sent to “master” will be closed
-automatically. If you have multiple changes to submit, please place all
-changes into their own branch on your fork.</p>
-<p>One thing at a time: A pull request should only contain one change. That does
-not mean only one commit, but one change - however many commits it took. The
-reason for this is that if you change X and Y but send a pull request for both
-at the same time, we might really want X but disagree with Y, meaning we
-cannot merge the request. Using the Git-Flow branching model you can create
-new branches for both of these features and send two requests.</p>
-</div>
-<div class="section" id="signing">
-<h3>Signing<a class="headerlink" href="#signing" title="Permalink to this headline">¶</a></h3>
-<p>You must sign your work, certifying that you either wrote the work or
-otherwise have the right to pass it on to an open source project. git makes
-this trivial as you merely have to use <cite>–signoff</cite> on your commits to your
-CodeIgniter fork.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>git commit --signoff
-</pre></div>
-</div>
-<p>or simply</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>git commit -s
-</pre></div>
-</div>
-<p>This will sign your commits with the information setup in your git config, e.g.</p>
-<blockquote>
-<div>Signed-off-by: John Q Public &lt;<a class="reference external" href="mailto:john&#46;public&#37;&#52;&#48;example&#46;com">john<span>&#46;</span>public<span>&#64;</span>example<span>&#46;</span>com</a>&gt;</div></blockquote>
-<p>If you are using Tower there is a “Sign-Off” checkbox in the commit window. You
-could even alias git commit to use the -s flag so you don’t have to think about
-it.</p>
-<p>By signing your work in this manner, you certify to a “Developer’s Certificate
-of Origin”. The current version of this certificate is in the <a class="reference internal" href="../DCO.html"><span class="doc">Developer’s Certificate of Origin 1.1</span></a> file
-in the root of this documentation.</p>
-</div>
+<h2>Common Video Formats</h2>
+<table>
+<tbody><tr>
+<td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/pic.jpg"></td>
+<td style="vertical-align:top">There are many video formats out there.<br>
+<br>The MP4, WebM, and Ogg formats are supported by HTML.<br><br>The MP4 format 
+is recommended by YouTube.</td>
+</tr>
+</tbody></table>
+</div><br>
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+  <th>Format</th>
+  <th style="width:50px">File</th>
+  <th>Description</th>
+  </tr>
+  
+  <tr>
+  <td>MPEG</td>
+  <td>.mpg<br>.mpeg</td>
+  <td>
+  MPEG. 
+  Developed by 
+  the Moving Pictures Expert Group. The first popular video format on 
+  the web. Not supported anymore in HTML. </td>
+  </tr>
+  
+  
+  
+  <tr>
+  <td>AVI</td>
+  <td>.avi</td>
+  <td>
+  AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV 
+  hardware. Plays well on Windows computers, but not in web browsers.</td>
+  </tr>
+  <tr>
+  <td>WMV</td>
+  <td>.wmv</td>
+  <td>
+  WMV (Windows Media Video). Developed by Microsoft. Commonly used in 
+  video cameras and TV hardware. Plays well on Windows computers, but not in  
+  web browsers.</td>
+  </tr>
+  <tr>
+  <td>QuickTime</td>
+  <td>.mov</td>
+  <td>
+  QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware. 
+  Plays well on Apple computers, but not in web browsers.</td>
+  </tr>
+  <tr>
+  <td>RealVideo</td>
+  <td>.rm<br>.ram</td>
+  <td>
+  RealVideo. Developed by Real Media to allow video streaming with low 
+  bandwidths. Does not play 
+  in web browsers.</td>
+  </tr>
+  <tr>
+  <td>Flash</td>
+  <td>.swf<br>.flv</td>
+  <td>
+  Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in 
+  web browsers.</td>
+  </tr>
+  <tr>
+  <td>Ogg</td>
+  <td>.ogg</td>
+  <td>
+  Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.</td>
+  </tr>
+  <tr>
+  <td>WebM</td>
+  <td>.webm</td>
+  <td>
+  WebM. 
+  Developed by Mozilla, Opera, Adobe, and Google. Supported by 
+  HTML.</td>
+  </tr>
+  <tr>
+  <td>MPEG-4<br>or MP4</td>
+  <td>.mp4</td>
+  <td>
+  MP4. 
+  Developed by 
+  the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware. 
+  Supported by all browsers and&nbsp; recommended by YouTube.&nbsp; 
+  </td>
+  </tr>
+  </tbody></table><br>
+
+  <div class="admonition note">
+    <p class="first admonition-title">Note</p>
+    <p class="last"><p>Only MP4, WebM, and Ogg video are supported by the HTML standard.</p>
+    </div>
+
+    <div class="section" id="support">
+      <h2>Common Audio Formats</h2>
+      <p>MP3 is the best format for compressed recorded music. The 
+        term MP3 has become synonymous with digital music.</p>
+        <p>If your website is about recorded music, MP3 is the choice.</p>
+        <table class="w3-table-all notranslate">
+        <tbody><tr>
+        <th>Format</th>
+        <th style="width:50px">File</th>
+        <th>Description</th>
+        </tr>
+        <tr>
+        <td>MIDI</td>
+        <td>.mid<br>.midi</td>
+        <td>
+        MIDI (Musical Instrument Digital Interface). 
+        Main format for all electronic 
+        music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. 
+        Plays well on all computers and music hardware, but not in web browsers.</td>
+        </tr>
+        <tr>
+        <td>RealAudio</td>
+        <td>.rm<br>.ram</td>
+        <td>
+        RealAudio. 
+        Developed by Real Media 
+        to allow streaming of audio with low 
+        bandwidths. Does not play in web browsers.</td>
+        </tr>
+        <tr>
+        <td>WMA</td>
+        <td>.wma</td>
+        <td>
+        WMA (Windows Media Audio). Developed by Microsoft. Plays well on Windows computers, but not in 
+        web browsers.</td>
+        </tr>
+        <tr>
+        <td>AAC</td>
+        <td>.aac</td>
+        <td>
+        AAC (Advanced Audio Coding). 
+        Developed by Apple as the default format for 
+        iTunes. Plays well on Apple computers, but not in web browsers.</td>
+        </tr>
+        <tr>
+        <td>WAV</td>
+        <td>.wav</td>
+        <td>
+        WAV. 
+        Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems. 
+        Supported by 
+        HTML.</td>
+        </tr>
+        <tr>
+        <td>Ogg</td>
+        <td>.ogg</td>
+        <td>
+        Ogg. 
+        Developed by the Xiph.Org Foundation. Supported by HTML.</td>
+        </tr>
+        <tr>
+        <td>MP3</td>
+        <td>.mp3</td>
+        <td>
+        MP3 files are actually the sound part of MPEG files. 
+        MP3 is the most popular format for music players. Combines good 
+        compression (small files) with high quality. Supported by all browsers.</td>
+        </tr>
+        <tr>
+        <td>MP4</td>
+        <td>.mp4</td>
+        <td>
+        MP4 
+        is a video format, but can also be used for audio. Supported by all browsers.</td>
+        </tr>
+        </tbody></table><br>
+      </div>
+
+      <div class="admonition note">
+        <p class="first admonition-title">Note</p>
+        <p class="last"><p>Only MP3, WAV, and Ogg audio are supported by the HTML standard.</p>
+        </div>
+
 </div>
 </div>
 
