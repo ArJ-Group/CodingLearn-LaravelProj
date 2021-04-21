@@ -43,7 +43,7 @@
 <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to HTML</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">HTML Tutorial</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Tutorial</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Home</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
@@ -187,10 +187,10 @@
           
           
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to HTML</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">HTML TUTORIAL</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML TUTORIAL</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Home</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
@@ -230,7 +230,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../overview/index.html">HTML FORMS</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlform')}}">HTML FORMS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="getting_started.html">HTML Forms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">HTML Forms Attribute</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html">HTML Forms Elements</a></li>
@@ -241,14 +241,14 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../tutorial/index.html">HTML GRAPHICS</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlgrapic')}}">HTML GRAPHICS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="static_pages.html">HTMl Canva</a></li>
 <li class="toctree-l2"><a class="reference internal" href="news_section.html">HTMl SVG</a></li>
 </ul>
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">HTML MEDIA</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlmedia')}}">HTML MEDIA</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Media</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Video</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Audio</a></li>
@@ -268,7 +268,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">HTML EXAMPLES</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlexamp')}}">HTML EXAMPLES</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="benchmark.html">HTML Examples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="caching.html">HTML Quiz</a></li>
 <li class="toctree-l2"><a class="reference internal" href="calendar.html">HTML Exercise</a></li>
@@ -279,7 +279,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../database/index.html">HTML REFERENCES</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlreferences')}}">HTML REFERENCES</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="examples.html">HTML Tag List</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuration.html">HTML Attributes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="connecting.html">HTML Global Attributes</a></li>
