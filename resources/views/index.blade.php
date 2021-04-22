@@ -63,7 +63,7 @@
                            <div class="nav-box">
                               <ul>
                                  <li><a href="howitworks.html">Tutorial</a></li>
-                                 <li><a href="productpage.html">References</a></li>
+                                 <li><a href="{{ url('forum2') }}">Forum Discussion</a></li>
                               </ul>
                            </div>
                         </div>
@@ -130,7 +130,7 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="{{url('css')}}">
+                     <a href="{{url('cs')}}">
                         <div class="box-img">
                            <h4>CSS</h4>
                            <img src="a/images/c.png" alt="" />

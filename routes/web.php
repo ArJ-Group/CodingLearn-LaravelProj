@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/index', function () {
   return view('index');
 });
+Route::get('forum2/', function () {
+  return view('forum2');
+});
 //Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 //Route::resource('mahasiswa', MahasiswaController::class);
 
@@ -32,8 +35,8 @@ Route::get('/c', function () {
 Route::get('/cplus', function () {
   return view('cplus');
 });
-Route::get('/css', function () {
-  return view('css');
+Route::get('/cs', function () {
+  return view('cs');
 });
 Route::get('/java', function () {
   return view('java');
@@ -70,6 +73,31 @@ Route::get('html.htmlreferences/', function () {
 });
 Route::get('html.htmlmedia/', function () {
   return view('html.htmlmedia');
+});
+//
+Route::get('css.cssadvanced/', function () {
+  return view('css.cssadvanced');
+});
+Route::get('css.cssexm/', function () {
+  return view('css.cssexm');
+});
+Route::get('css.cssgrid/', function () {
+  return view('css.cssgrid');
+});
+Route::get('css.cssreferences/', function () {
+  return view('css.cssreferences');
+});
+Route::get('css.cssreferences/', function () {
+  return view('css.cssreferences');
+});
+Route::get('css.csstutor/', function () {
+  return view('css.csstutor');
+});
+Route::get('css.welcomecss/', function () {
+  return view('css.welcomecss');
+});
+Route::get('css.cssresponsive/', function () {
+  return view('css.cssresponsive');
 });
 
 

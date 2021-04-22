@@ -404,14 +404,12 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/c.png" alt="" /> Learn HTML</a></li>
-                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/c.png" alt="#" /> Learn Bootstrap</a></li>
-                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/c.png" alt="" /> Learn Colors</a></li>
-                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/c.png" alt="" /> Learn Icons</a></li>
-                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/c.png" alt="" /> Learn Graphics</a></li>
-                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/c.png" alt="" /> Learn How To</a></li>
-                              <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/c.png" alt="" /> Learn Sass</a></li>
-                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/c.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('css.csstutor')}}"><img width="32" src="a/images/c.png" alt="" /> CSS TUTORIAL</a></li>
+                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/c.png" alt="#" /> CSS ADVANCED</a></li>
+                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/c.png" alt="" /> CSS RESPONSIVE</a></li>
+                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/c.png" alt="" /> CSS GRID</a></li>
+                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/c.png" alt="" /> CSS EXAMPLES</a></li>
+                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/c.png" alt="" /> CSS REFERENCES</a></li>
                            </ul>
                         </div>
                      </div>
