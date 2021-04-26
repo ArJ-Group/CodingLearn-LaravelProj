@@ -388,7 +388,7 @@
 
 
   <div class="w3-rest">
-  <a class="btn btn-outline-success" href="https://www.w3schools.com/css/css_intro.asp">Start learning CSS now »</a>
+  <a class="btn btn-outline-success" href="{{url('css.welcomecss')}}">Start learning CSS now »</a>
   </div>
   </div>
   </div>
@@ -414,12 +414,11 @@
         &nbsp;
       font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor" style="color:black">;</span></span>
       &nbsp;&nbsp;font-size<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span>
-      </span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+      </span><span class="cssdelimitercolor" style="color:black">}</span> </span></div><br>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="btn btn-outline-success">Try it Yourself »</a></div>
   </pre></div>
   </div>
 
-
-  <a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="btn btn-outline-success">Try it Yourself »</a></div><br>
   
   <div class="admonition note">
   
@@ -452,7 +451,7 @@
 
     <table class="w3-table-all notranslate">
     <tbody><tr>
-    <th style="width:25%">Example</th>
+    <th style="width:25%">Klik Button Here</th>
     <th><h2>CSS References</h2></th>
     </tr>
     <tr>

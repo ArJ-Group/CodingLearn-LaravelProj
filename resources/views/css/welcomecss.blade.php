@@ -329,7 +329,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">HTML</a>
+        <a href="../index.html">CSS</a>
       </nav>
 
 
@@ -340,7 +340,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Welcome to HTML</li>
+    <li>Welcome to CSS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -353,63 +353,86 @@
           <div role="main" class="document">
             
   <div class="section" id="welcome-to-codeigniter">
-<h1>Welcome to HTML<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+<h1>Welcome to CSS<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
-
+<p class="intro">CSS is the language we use to style a Web page.</p>
+<hr>
 <div class="admonition note">
-<p class="first admonition-title">Apa Itu HTML ? </p>
-<p class="last"><p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web atau sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.
-<p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
+ <h2>What is CSS? </h2>
 
-<p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
-
-<p>Kalau kita ibaratkan nih..</p>
-
-<p>HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat disusun, hingga menjadi fondasi dasar.</p></p>
-</div>
-
-
+<ul>
+  <li>CSS stands for Cascading Style Sheets</li>
+  <li>CSS describes how HTML elements are to be displayed on screen,  
+  paper, or in other media</li>
+  <li>CSS saves a lot of work. It can control the layout of 
+  multiple web pages all at once</li>
+  <li>External stylesheets are stored in CSS files</li>
+</ul>
+<hr></div>
 <div class="admonition note">
-<p class="first admonition-title">Bagaimana Cara Kerja HTML ? </p>
-<p class="last"><p>Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun 
-(seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya..</p>
-
-<p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.</p>
-
-<p>Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. 
-Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
-
-<p>Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax  < tag >< /tag > 	.</p></p>
+<h2>CSS Demo - One HTML Page - Multiple Styles!</h2>
+<p>Here we will show one HTML page displayed with four different stylesheets. 
+Click on the "Stylesheet 1", "Stylesheet 2", "Stylesheet 3", "Stylesheet 4" 
+links below to see the different styles:</p>
+<div class="w3-example" style="text-align:center;padding:30px 10px;">
+<iframe style="width:95%;height:800px;background:#ffffff;border:none" src="./CSS Introduction_files/demo_default.html">Klik</iframe>
 </div>
-	
+<hr>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+  <div id="snhb-mid_content-0" data-google-query-id="CIHP8uT3m_ACFeuHZgIdpH8Kyg"><div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0" title="3rd party ad content" name="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" allow="conversion-measurement &#39;src&#39;" style="border: 0px; vertical-align: bottom;" data-google-container-id="6" data-load-complete="true" src="./CSS Introduction_files/saved_resource(1).html"></iframe></div></div>
 
+</div></div>
+<hr>
 <div class="admonition note">
-<p class="first admonition-title">Contoh HTML </p>
-<p class="last"><p>Berikut contoh kode dari susunan atau struktur HTML :</p>
-
-
+<h2>Why Use CSS?</h2>
+<p>CSS is used to define styles for your web pages, including the design, layout 
+and variations in display for different devices and screen sizes.</p>
 </div>
-
-
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"><</span><span class="nx">div</span><span class="o">></span>
-<span class="o"><</span><span class="nx">h1</span><span class="o">></span> The Main Heading <span class="o"><</span><span class="o">/</span><span class="nx">h1</span><span class="o">>
-<span class="o"><</span><span class="nx">p</span><span class="o">></span> Paragraph One <span class="o"><</span><span class="o">/</span><span class="nx">p</span><span class="o">>
-
-</div>
-
+<div class="w3-example">
+<h3>CSS Example</h3>
+<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nx">!DOCTYPE html</span><span class="o">&gt;</span>
+<div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">
+body
+<span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">&nbsp;&nbsp;background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor" style="color:black">;</span></span></span><span class="cssdelimitercolor" style="color:black">}</span>
+h1
+<span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">
+&nbsp;&nbsp;color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor" style="color:black">;</span></span>
+&nbsp;&nbsp;text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor" style="color:black">;</span></span>
+</span><span class="cssdelimitercolor" style="color:black">}</span>
+p
+<span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">
+  &nbsp;
+font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor" style="color:black">;</span></span>
+&nbsp;&nbsp;font-size<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span>
+</span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+<a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="btn btn-outline-secondary">Try it Yourself »</a></div>
 </pre></div>
 </div>
 
-</div>```` 
-
+<hr>
 <div class="admonition note">
-<p class="first admonition-title">Pengertian Tag HTML dan Fungsinya </p>
-<ul class="simple">
-<p class="last"><p>Tag HTML memiliki dua tipe utama: block-level dan inline tags.</p>
-<li>Elemen block-level memakai semua space yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
-<li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
-</ul>
+<h2>CSS Solved a Big Problem</h2>
+<p>HTML was NEVER intended to contain tags for formatting a web page!</p>
+<p>HTML was 
+created to describe the content of a web page, like:</p>
+<p>&lt;h1&gt;This is a heading&lt;/h1&gt;</p>
+<p>&lt;p&gt;This is a paragraph.&lt;/p&gt;</p>
+<p>When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 
+specification, it started a nightmare for web developers. Development of large 
+websites, where fonts and color information were added to every single  
+page, became a long and expensive process.</p>
+<p>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
+<p>CSS removed the style formatting from the HTML page!</p>
+<div class="w3-note w3-panel">
+<p>If you don't know what HTML is, we suggest that you read our <a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a>.</p>
 </div>
+<hr>
+</div>
+<div class="admonition note">
+<h2>CSS Saves a Lot of Work!</h2>
+<p>The style definitions are normally saved in external .css files.</p>
+<p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+<br></div>
 
 </div>
 

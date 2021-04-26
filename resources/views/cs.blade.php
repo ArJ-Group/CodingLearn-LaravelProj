@@ -409,7 +409,7 @@
                               <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/c.png" alt="" /> CSS RESPONSIVE</a></li>
                               <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/c.png" alt="" /> CSS GRID</a></li>
                               <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/c.png" alt="" /> CSS EXAMPLES</a></li>
-                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/c.png" alt="" /> CSS REFERENCES</a></li>
+                              <li><a href="{{url('css.cssreferences')}}"><img width="32" src="a/images/c.png" alt="" /> CSS REFERENCES</a></li>
                            </ul>
                         </div>
                      </div>
