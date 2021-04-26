@@ -26,7 +26,24 @@
         <link rel="next" title="Installation Instructions" href="../installation/index.html"/>
         <link rel="prev" title="CodeIgniter User Guide" href="../index.html"/> 
 
-  
+        <style>
+          table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+          </style>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
 </head>
@@ -329,7 +346,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">HTML</a>
+        <a href="../index.html">CSS</a>
       </nav>
 
 
@@ -340,7 +357,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Welcome to HTML</li>
+    <li>Welcome to CSS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -353,66 +370,123 @@
           <div role="main" class="document">
             
   <div class="section" id="welcome-to-codeigniter">
-<h1>Welcome to HTML<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+<h1>Welcome to CSS<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1><br>
 
-
-<div class="admonition note">
-<p class="first admonition-title">Apa Itu HTML ? </p>
-<p class="last"><p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web atau sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.
-<p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
-
-<p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
-
-<p>Kalau kita ibaratkan nih..</p>
-
-<p>HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat disusun, hingga menjadi fondasi dasar.</p></p>
-</div>
 
 
 <div class="admonition note">
-<p class="first admonition-title">Bagaimana Cara Kerja HTML ? </p>
-<p class="last"><p>Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun 
-(seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya..</p>
+  <p class="first admonition-title">CSS </p>
+  <table>
+    <tbody> <tr>
+      <td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/c.png"></td>
+      <td><br><br>CSS describes how HTML elements should be displayed..<br>
+      <br> This tutorial will teach you CSS from basic to advanced.<br>
+      <br> This tutorial will teach you CSS from basic to advanced.</td>
+      </tr></tbody></table><br>
+  </div>
 
-<p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.</p>
 
-<p>Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. 
-Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
 
-<p>Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax  < tag >< /tag > 	.</p></p>
+  <div class="w3-rest">
+  <a class="btn btn-outline-success" href="https://www.w3schools.com/css/css_intro.asp">Start learning CSS now »</a>
+  </div>
+  </div>
+  </div>
+  <hr>
+  <div class="admonition note">
+    <p class="first admonition-title">Examples in Each Chapter </p>
+  <p>This CSS tutorial contains hundreds of CSS examples.</p>
+  <p>With our online editor, you can edit the CSS, and click on a button to view the result.</p>
 </div>
-	
+  <div class="w3-example">
+  <h3>CSS Example</h3>
 
+  <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nx">!DOCTYPE html</span><span class="o">&gt;</span>
+    <div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">
+      body
+      <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">&nbsp;&nbsp;background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor" style="color:black">;</span></span></span><span class="cssdelimitercolor" style="color:black">}</span>
+      h1
+      <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">
+      &nbsp;&nbsp;color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor" style="color:black">;</span></span>
+      &nbsp;&nbsp;text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor" style="color:black">;</span></span>
+      </span><span class="cssdelimitercolor" style="color:black">}</span>
+      <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red">
+        &nbsp;
+      font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor" style="color:black">;</span></span>
+      &nbsp;&nbsp;font-size<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span>
+      </span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  </pre></div>
+  </div>
+
+
+  <a target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default" class="btn btn-outline-success">Try it Yourself »</a></div><br>
+  
+  <div class="admonition note">
+  
+  <h2>CSS Examples</h2>
+  <p>Learn from over 300 examples! With our editor, you can edit the CSS, and click on a
+  button to view the result.</p>
+  <p><a class="btn btn-outline-success" href="https://www.w3schools.com/css/css_examples.asp">Go to CSS Examples!</a></p>
+</div>
+  <hr>
+  <div class="admonition note">
+  <h2>Use the Menu</h2>
+  <p>We recommend reading this tutorial, in the sequence listed in the menu.</p>
+  <p>If you have a large screen, the menu will always be present on the left.</p>
+  <p>If you have a small screen, open the menu by clicking the top menu sign <span class="w3-xlarge">☰</span>.</p>
+</div>
 <div class="admonition note">
-<p class="first admonition-title">Contoh HTML </p>
-<p class="last"><p>Berikut contoh kode dari susunan atau struktur HTML :</p>
-
-
+  <h2>CSS Templates</h2>
+  <p>We have created some responsive W3.CSS templates for you to use.</p>
+  <p>You are free to modify, save, share, and use them in all your projects.
 </div>
+  <div class="admonition note">
+  <h2>CSS Exercises and Quiz Test</h2>
+  <p>Test your CSS skills at W3Schools!</p>
+  <p><a href="https://www.w3schools.com/css/css_exercises.asp" class="btn btn-outline-success" style="width:200px">Start CSS Exercises!</a></p>
+  <p><a href="https://www.w3schools.com/css/css_quiz.asp" class="btn btn-outline-success" style="width:200px">Start CSS Quiz!</a></p>
+  </div>
+  <hr>
 
+  <div id="htmltags">
 
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"><</span><span class="nx">div</span><span class="o">></span>
-<span class="o"><</span><span class="nx">h1</span><span class="o">></span> The Main Heading <span class="o"><</span><span class="o">/</span><span class="nx">h1</span><span class="o">>
-<span class="o"><</span><span class="nx">p</span><span class="o">></span> Paragraph One <span class="o"><</span><span class="o">/</span><span class="nx">p</span><span class="o">>
-
-</div>
-
-</pre></div>
-</div>
-
-</div>```` 
-
-<div class="admonition note">
-<p class="first admonition-title">Pengertian Tag HTML dan Fungsinya </p>
-<ul class="simple">
-<p class="last"><p>Tag HTML memiliki dua tipe utama: block-level dan inline tags.</p>
-<li>Elemen block-level memakai semua space yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
-<li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
-</ul>
-</div>
-
-</div>
-
+    <table class="w3-table-all notranslate">
+    <tbody><tr>
+    <th style="width:25%">Example</th>
+    <th><h2>CSS References</h2></th>
+    </tr>
+    <tr>
+      <td><a  type="button" class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/default.asp">Klik Here</a></td>
+      <td>CSS Properties Reference</td>
+    </tr>
+    <tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_selectors.asp">Klik Here</a></td>
+      <td>CSS Selectors Reference</td>
+    </tr>
+    <tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_functions.asp">Klik Here</a></td>
+      <td>CSS Functions Reference</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css3_browsersupport.asp">Klik Here</a></td>
+      <td>CSS Browser Support</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_animatable.asp">Klik Here</a></td>
+      <td>CSS Animatable Reference</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_ref_aural.asp">Klik Here</a></td>
+      <td>CSS Aural Reference</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_units.asp">Klik Here</a></td>
+      <td>CSS Units</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_colors.asp">Klik Here</a></td>
+      <td>CSS Color Reference</td>
+    </tr><tr>
+      <td><a class="btn btn-outline-secondary" href="https://www.w3schools.com/cssref/css_default_values.asp">Klik Here</a></td>
+      <td>CSS Default Values</td>
+    </tr>
+    </tbody></table><br>
+    </tr>
 
           </div>
           <footer>
