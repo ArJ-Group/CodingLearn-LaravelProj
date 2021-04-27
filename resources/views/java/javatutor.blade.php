@@ -77,29 +77,29 @@
           </li>
         </ul>
         <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Java FORMS</a>
+          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="getting_started.html">Java Forms</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">Java Forms Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="features.html">Java Forms Elements</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="appflow.html">Java Input Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="mvc.html">Java Input Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="goals.html">Java Input Forms Attributes</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Java Graphics</a>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="static_pages.html">Java Canva</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
               <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Java Media</a>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Media</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
@@ -107,8 +107,8 @@
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="#">Java APIs</a>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.references')}}">Java References</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
               <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
@@ -119,36 +119,14 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="benchmark.html">Java Examples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
               <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
               <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
               <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
               <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
               <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../database/index.html">Java Reference</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="examples.html">Java Tag List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="configuration.html">Java Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="connecting.html">Java Global Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="queries.html">Java Browser Support</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="results.html">Java Events</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="helpers.html">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="query_builder.html">Java Canvas</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="transactions.html">Java Audio/Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="metadata.html">Java Doctypes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="call_function.html">Java Character Sets</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java URL Encode</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="forge.html">Java Lang Codes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="utilities.html">Java Messages</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Keyboard Short Cut</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">PX to EM Converter</a></li>
             </ul>
           </li>
         </ul>
@@ -171,7 +149,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 
-        <a href="../index.html" class="fa fa-home"> HTML</a>
+        <a href="../index.html" class="fa fa-home"> Java</a>
 
 
         <div role="search">
@@ -214,30 +192,30 @@
             </ul>
           </li>
         </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javamethod')}}">Java Method</a>
+        <ul class="current">
+          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="getting_started.html">Java Forms</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">Java Forms Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="features.html">Java Forms Elements</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="appflow.html">Java Input Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="mvc.html">Java Input Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="goals.html">Java Input Forms Attributes</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Graphics</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="static_pages.html">Java Canva</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
               <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Media</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
@@ -246,7 +224,7 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../general/index.html">Java APIs</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.references')}}">Java References</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
               <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
@@ -257,36 +235,14 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="benchmark.html">Java Examples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
               <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
               <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
               <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
               <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
               <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlreferences')}}">Java Reference</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="examples.html">Java Tag List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="configuration.html">Java Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="connecting.html">Java Global Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="queries.html">Java Browser Support</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="results.html">Java Events</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="helpers.html">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="query_builder.html">Java Canvas</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="transactions.html">Java Audio/Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="metadata.html">Java Doctypes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="call_function.html">Java Character Sets</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java URL Encode</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="forge.html">Java Lang Codes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="utilities.html">Java Messages</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Keyboard Short Cut</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">PX to EM Converter</a></li>
             </ul>
           </li>
         </ul>
