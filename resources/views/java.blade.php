@@ -403,7 +403,7 @@
                      <div class="furniture-right">
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
-                           <ul>
+                           <ul> 
                               <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/b.png" alt="" /> Learn HTML</a></li>
                               <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/b.png" alt="#" /> Learn Bootstrap</a></li>
                               <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/b.png" alt="" /> Learn Colors</a></li>
