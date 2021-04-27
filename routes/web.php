@@ -50,6 +50,8 @@ Route::get('/ph', function () {
 Route::get('/php', function () {
   return view('php');
 });
+
+//HTML
 Route::get('html.welcomehtml/', function () {
   return view('html.welcomehtml');
 });
@@ -74,7 +76,8 @@ Route::get('html.htmlreferences/', function () {
 Route::get('html.htmlmedia/', function () {
   return view('html.htmlmedia');
 });
-//
+
+//CSS
 Route::get('css.cssadvanced/', function () {
   return view('css.cssadvanced');
 });
@@ -100,6 +103,16 @@ Route::get('css.cssresponsive/', function () {
   return view('css.cssresponsive');
 });
 
+//JAVA
+Route::get('java.welcomejava/', function () {
+  return view('java.welcomejava');
+});
+Route::get('java.javatutor/', function () {
+  return view('java.javatutor');
+});
+Route::get('java.javaform/', function () {
+  return view('java.javaform');
+});
 
 Route::get('/users', function ($id) {
     return view('users');
