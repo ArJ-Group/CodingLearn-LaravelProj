@@ -40,7 +40,7 @@
 
       <div id="pulldown-menu" class="ciNav">
         <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="welcomejava.html">Welcome to Java</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="#">Welcome to Java</a></li>
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>

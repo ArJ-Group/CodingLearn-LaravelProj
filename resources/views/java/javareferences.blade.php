@@ -206,42 +206,27 @@
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">Java Tutorial</a>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmltutor')}}">Java Home</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Introduction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Editors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Basic</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Headings</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Paragraph</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Styles</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Formatting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Quotations</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java CSS</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java links</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Images</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Tables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Block and Inline</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Id</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iframes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Javascript</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java File Paths</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Head</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Layout</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Responsive</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Computer Code</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Semantics</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Style Guide</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Entities</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Symbols</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Emojis</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Charset</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java URL Encode</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
+              
             </ul>
           </li>
         </ul>

@@ -55,42 +55,27 @@
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="../installation/index.html">HTML Tutorial</a>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">HTML Home</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Basic</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Headings</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Paragraph</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Styles</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Formatting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Quotations</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML CSS</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML links</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Images</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Tables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Block and Inline</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Id</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Iframes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Javascript</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML File Paths</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Head</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Layout</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Responsive</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Computer Code</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Semantics</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Style Guide</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Entities</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Symbols</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Emojis</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Charset</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML URL Encode</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
+              
             </ul>
           </li>
         </ul>
@@ -186,42 +171,27 @@
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Tutorial</a>
+          <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Home</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Basic</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Headings</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Paragraph</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Styles</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Formatting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Quotations</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML CSS</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML links</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Images</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Tables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Block and Inline</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Id</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Iframes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Javascript</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML File Paths</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Head</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Layout</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Responsive</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Computer Code</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Semantics</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Style Guide</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Entities</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Symbols</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Emojis</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML Charset</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">HTML URL Encode</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
+              
             </ul>
           </li>
         </ul>
