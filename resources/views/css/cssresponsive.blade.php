@@ -329,7 +329,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">HTML</a>
+        <a href="../index.html">CSS</a>
       </nav>
 
 
@@ -340,7 +340,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Welcome to HTML</li>
+    <li>Welcome to CSS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -353,67 +353,54 @@
           <div role="main" class="document">
             
   <div class="section" id="welcome-to-codeigniter">
-<h1>Welcome to HTML<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
 
+
+
+<h1>Responsive Web Design - <span class="color_h1">Introduction</span></h1>
+<hr>
 <div class="admonition note">
-<p class="first admonition-title">Apa Itu HTML ? </p>
-<p class="last"><p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web atau sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.
-<p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
-
-<p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
-
-<p>Kalau kita ibaratkan nih..</p>
-
-<p>HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat disusun, hingga menjadi fondasi dasar.</p></p>
+<h2>What is Responsive Web Design?</h2>
+<p>Responsive web design makes your web page look good on all devices.</p>
+<p>Responsive web design uses only HTML and CSS.</p>
+<p>Responsive web design is not a program or a JavaScript.</p>
+<hr>
 </div>
-
-
 <div class="admonition note">
-<p class="first admonition-title">Bagaimana Cara Kerja HTML ? </p>
-<p class="last"><p>Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun 
-(seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya..</p>
+<h2>Designing For The Best Experience For All Users</h2>
+<p>Web pages can be viewed using many different devices: desktops, tablets, and phones.
+Your web page should look good, and be easy to use, regardless of the device.
+</p>
 
-<p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.</p>
+<p>Web pages should not leave out information to fit smaller devices, but rather adapt its content to fit any device:</p>
+<table>
+  <tbody> <tr>
+    <td>
+      <img src="a/images/des.png" style="border:2px solid #dddddd;">
+      Desktop
+      <img src="a/images/des2.png" style="border:2px solid #dddddd;">
+      Tablet    
+      <img src="a/images/des3.png" style="border:2px solid #dddddd;">
+      Phone
+    </td>
+    </tr></tbody></table><br>
 
-<p>Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. 
-Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
+<div class="w3-row-padding" style="text-align:center;font-weight:bold;font-size:90%;margin:-8px -16px 24px -16px">
 
-<p>Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax  < tag >< /tag > 	.</p></p>
+ 
+ 
+</div></div>
+<div class="admonition note"> 
+  <p class="first admonition-title">Note </p>
+<p>It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen.</p>
 </div>
-	
-
 <div class="admonition note">
-<p class="first admonition-title">Contoh HTML </p>
-<p class="last"><p>Berikut contoh kode dari susunan atau struktur HTML :</p>
-
-
-</div>
-
-
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"><</span><span class="nx">div</span><span class="o">></span>
-<span class="o"><</span><span class="nx">h1</span><span class="o">></span> The Main Heading <span class="o"><</span><span class="o">/</span><span class="nx">h1</span><span class="o">>
-<span class="o"><</span><span class="nx">p</span><span class="o">></span> Paragraph One <span class="o"><</span><span class="o">/</span><span class="nx">p</span><span class="o">>
-
-</div>
-
-</pre></div>
-</div>
-
-</div>```` 
-
-<div class="admonition note">
-<p class="first admonition-title">Pengertian Tag HTML dan Fungsinya </p>
-<ul class="simple">
-<p class="last"><p>Tag HTML memiliki dua tipe utama: block-level dan inline tags.</p>
-<li>Elemen block-level memakai semua space yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
-<li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
-</ul>
-</div>
-
-</div>
-
-
+<p>Don't worry if you don't understand the example below, we will break down the code, step-by-step, in the next chapters:</p>
+<iframe src="./Responsive Web Design Introduction_files/tryresponsive_col-s.html" style="border:6px solid #eee;width:100%;height:585px;margin-bottom:-6px"></iframe>
+<div class="w3-light-grey w3-padding" style="padding-top:10px;padding-bottom:12px!important">
+<a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s">Try it Yourself »</a>
+</div></div>
+<hr>
           </div>
           <footer>
   

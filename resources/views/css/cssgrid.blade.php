@@ -25,7 +25,23 @@
     <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html"/>
         <link rel="next" title="Installation Instructions" href="../installation/index.html"/>
         <link rel="prev" title="CodeIgniter User Guide" href="../index.html"/> 
-
+        <style>
+          table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+          </style>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -329,7 +345,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">HTML</a>
+        <a href="../index.html">CSS</a>
       </nav>
 
 
@@ -340,7 +356,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Welcome to HTML</li>
+    <li>Welcome to CSS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -351,70 +367,380 @@
   <hr/>
 </div>
           <div role="main" class="document">
-            
-  <div class="section" id="welcome-to-codeigniter">
-<h1>Welcome to HTML<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
-
+            <h1>CSS <span class="color_h1">Grid Layout Module</span></h1>
 <div class="admonition note">
-<p class="first admonition-title">Apa Itu HTML ? </p>
-<p class="last"><p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web atau sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.
-<p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
 
-<p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 
-<p>Kalau kita ibaratkan nih..</p>
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
 
-<p>HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat disusun, hingga menjadi fondasi dasar.</p></p>
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>EXAMPLE :</p>
+
+<div class="grid-container">
+  <div class="item1">Header</div>
+  <div class="item2">Menu</div>
+  <div class="item3">Main</div>  
+  <div class="item4">Right</div>
+  <div class="item5">Footer</div>
 </div>
 
-
-<div class="admonition note">
-<p class="first admonition-title">Bagaimana Cara Kerja HTML ? </p>
-<p class="last"><p>Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun 
-(seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya..</p>
-
-<p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.</p>
-
-<p>Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. 
-Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
-
-<p>Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax  < tag >< /tag > 	.</p></p>
+</body>
+</html> 
+  </div>
+  <p>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named">Try it Yourself »</a>
+  </p>
+  
+  <!--
+  <div class="grid-container">
+    <div class="grid-item item1"><h1>1</h1></div>
+    <div class="grid-item item2"><h1>2</h1></div>
+    <div class="grid-item item3"><h1>3</h1></div>  
+    <div class="grid-item item4"><h1>4</h1></div>
+    <div class="grid-item item5"><h1>5</h1></div>
+    <div class="grid-item item6"><h1>6</h1></div>  
+    <div class="grid-item item7"><h1>7</h1></div>
+  </div>
+  <p>
+  <a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_grid_layout">Try it Yourself &raquo;</a>
+  </p>
+  -->
+  
+  <hr>
+  <div class="admonition note">
+  <h2>Grid Layout</h2>
+  <p>The CSS Grid Layout Module offers a grid-based layout system, with rows and 
+  columns, making it easier to design web pages without having to use floats and 
+  positioning.</p>
+  </div>
+  <hr>
+  <h2>Browser Support</h2>
+  <p>The grid properties are supported in all modern browsers.</p>
+  <div class="w3-responsive">
+  <table class="browserref notranslate">
+    <tbody><tr>
+      <th style="width:20%;height:50px;" class="bsChrome" title="Chrome"></th>
+      <th style="width:20%;" class="bsEdge" title="Internet Explorer / Edge"></th>
+      <th style="width:20%;" class="bsFirefox" title="Firefox"></th>
+      <th style="width:20%;" class="bsSafari" title="Safari"></th>
+      <th style="width:20%;" class="bsOpera" title="Opera"></th>                
+    </tr>
+    <tr>
+      <td>57.0</td>
+      <td>16.0</td>
+      <td>52.0</td>
+      <td>10</td>
+      <td>44</td>
+    </tr>
+    </tbody></table>
+  </div>  
+  <hr>
+  <div class="admonition note">
+  <h2>Grid Elements</h2>
+  <p>A grid layout consists of a parent element, with one or more child elements.</p></div>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-code notranslate htmlHigh">
+  <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"></span><span class="nx"></span><span class="o"></span>
+  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-container"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>1<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>2<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>3<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>4<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red">class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>5<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>6<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>7<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>8<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>&nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>div<span class="attributecolor" style="color:red"> class<span class="attributevaluecolor" style="color:mediumblue">="grid-item"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>9<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/div<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+   </div>
+  </pre></div>
 </div>
-	
-
-<div class="admonition note">
-<p class="first admonition-title">Contoh HTML </p>
-<p class="last"><p>Berikut contoh kode dari susunan atau struktur HTML :</p>
-
-
+    <html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head><hr>
+<body>
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div><hr><hr><hr>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>  <hr><hr><hr> 
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div><hr><hr><hr>  
 </div>
+</body>
+</html>
+  </div>
+  </div>
+ 
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid">Try it Yourself »</a>
+  <hr>
+  <div class="admonition note">
+  <h2>Display Property</h2>
+  <p>An HTML element becomes a grid container when its <code class="w3-codespan">display</code> property 
+  is set to
+  <code class="w3-codespan">grid</code> or <code class="w3-codespan">inline-grid</code>.</p>
+  </div>
+  <div class="admonition note">
+  <div class="w3-example">
+    <h3>Example</h3>
+    <div class="w3-code notranslate htmlHigh">
+    <div class="highlight-ci"><div class="highlight"><pre><span>
+<a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> grid<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+ </div></div>
+  </pre></div>
+<a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_grid">Try it Yourself »</a>
+  </p>
+  </div>
+  <div class="admonition note">
+  <div class="w3-example">
+    <h3>Example</h3>
+    <div class="w3-code notranslate htmlHigh">
+    <div class="highlight-ci"><div class="highlight"><pre><span>
+<div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> inline-grid<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+</div></div>
+  </pre></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_inline-grid">Try it Yourself »</a>
+  </p></div>
+  </div>
+  <p>All direct children of the grid container automatically become <em>grid items</em>.</p>
+  <hr>
+  <h2>Grid Columns</h2>
+  <p>The vertical lines of grid items are called <em>columns</em>.</p>
+  
+  <img src="a/images/gr.png" style="max-width:100%">
+  <hr>
+  <h2>Grid Rows</h2>
+  <p>The horizontal lines of grid items are called <em>rows</em>.</p>
+  
+  <img src="a/images/gr2.png" style="max-width:100%">
+  <hr>
+  
+  <h2>Grid Gaps</h2>
+  <p>The spaces between each column/row are called <em>gaps</em>.</p>
+  
+  <img src="a/images/gr3.png" style="max-width:100%">
+  <div class="admonition note">
+  <p>You can adjust the gap size by using one of the following properties:</p>
+  <ul>
+    <li><code class="w3-codespan">grid-column-gap</code></li>
+    <li><code class="w3-codespan">grid-row-gap</code></li>
+    <li><code class="w3-codespan">grid-gap</code> </li>
+  </ul></div>
 
+  <div class="admonition note">
+  <div class="w3-example">
 
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"><</span><span class="nx">div</span><span class="o">></span>
-<span class="o"><</span><span class="nx">h1</span><span class="o">></span> The Main Heading <span class="o"><</span><span class="o">/</span><span class="nx">h1</span><span class="o">>
-<span class="o"><</span><span class="nx">p</span><span class="o">></span> Paragraph One <span class="o"><</span><span class="o">/</span><span class="nx">p</span><span class="o">>
+  <h3>Example</h3>
+  <p>The <code class="w3-codespan">grid-column-gap</code> property sets the gap between the columns:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp; display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> grid<span class="cssdelimitercolor" style="color:black">;</span></span><br><strong>&nbsp; grid-column-gap<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50px<span class="cssdelimitercolor" style="color:black">;</span></span></strong><br></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  <p></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-column-gap">Try it Yourself »</a>
+  </p></div>
+  </div>
 
-</div>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p>The <code class="w3-codespan">grid-row-gap</code> property sets the gap between the rows:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;   display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> grid<span class="cssdelimitercolor" style="color:black">;</span></span><br><strong>&nbsp; grid-row-gap<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50px<span class="cssdelimitercolor" style="color:black">;</span></span><br></strong></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  <p></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-row-gap">Try it Yourself »</a>
+  </p>
+  </div></div>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p>The <code class="w3-codespan">grid-gap</code> property is a shorthand property for the 
+  <code class="w3-codespan">grid-row-gap</code> and the 
+  <code class="w3-codespan">grid-column-gap</code> properties:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;    display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> grid<span class="cssdelimitercolor" style="color:black">;</span></span><br><strong>&nbsp; grid-gap<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50px 100px<span class="cssdelimitercolor" style="color:black">;</span></span><br></strong></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  <p></div></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-gap2">Try it Yourself »</a>
+  </p>
+  </div></div>
 
-</pre></div>
-</div>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p>The <code class="w3-codespan">grid-gap</code> property can also be used to set both the row gap and the 
+  column gap in one value:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.grid-container <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;     display<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> grid<span class="cssdelimitercolor" style="color:black">;</span></span><br><strong>&nbsp; grid-gap<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50px<span class="cssdelimitercolor" style="color:black">;</span></span><br></strong></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+ </div></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-gap">Try it Yourself »</a>
+  </p></div>
+  </div>
+  
+  <hr>
+  <div class="admonition note">
+  <h2>Grid Lines</h2>
+  <p>The lines between columns are called <em>column lines</em>.</p>
+  <p>The lines between rows are called <em>row lines</em>.</p>
+  <img src="a/images/gr4.png" style="max-width:100%">
+  </div>
+  <div class="admonition note">
+  <p>Refer to line numbers when placing a grid item in a grid container:</p>
+  </div>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p>Place a grid item at column line 1, and let it end on column line 3:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.item1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br><strong> &nbsp; </strong>grid-column-start<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 1<span class="cssdelimitercolor" style="color:black">;</span></span><br> &nbsp; grid-column-end<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 3<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  <p></div></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_lines">Try it Yourself »</a>
+  </p></div>
+ 
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <p>Place a grid item at row line 1, and let it end on row line 3:</p>
+  <div class="highlight-ci"><div class="highlight"><pre><span>
+  <a class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">.item1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br><strong> &nbsp; </strong>grid-row-start<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 1<span class="cssdelimitercolor" style="color:black">;</span></span><br> &nbsp; grid-row-end<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 3<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span> </span></div>
+  </div></div>
+  <a class="btn btn-outline-success" target="_blank" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_lines2">Try it Yourself »</a>
+  </div></div>
+  <hr>
+  
+  <h2>All CSS Grid Properties</h2>
+  <div class="w3-example">
+  <table class="w3-table-all notranslate">
+    <tbody><tr>
+      <th style="width:30%">Property</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_column-gap.asp">column-gap</a></td>
+      <td>Specifies the gap between the columns</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_gap.asp">gap</a></td>
+      <td>A shorthand property for the <em>row-gap</em> and the <em>column-gap</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid.asp">grid</a></td>
+      <td>A shorthand property for the <em>grid-template-rows, 
+      grid-template-columns, grid-template-areas, grid-auto-rows, 
+      grid-auto-columns</em>, and the <em>grid-auto-flow</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-area.asp">grid-area</a></td>
+      <td>Either specifies a name for the grid item, or this property is a shorthand property for the <em>grid-row-start</em>, <em>grid-column-start</em>, <em>grid-row-end</em>, and <em>grid-column-end</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-auto-columns.asp">grid-auto-columns</a></td>
+      <td>Specifies a default column size</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-auto-flow.asp">grid-auto-flow</a></td>
+      <td>Specifies how auto-placed items are inserted in the grid</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-auto-rows.asp">grid-auto-rows</a></td>
+      <td>Specifies a default row size</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-column.asp">grid-column</a></td>
+      <td>A shorthand property for the <em>grid-column-start</em> and the <em>grid-column-end</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-column-end.asp">grid-column-end</a></td>
+      <td>Specifies where to end the grid item</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-column-gap.asp">grid-column-gap</a></td>
+      <td>Specifies the size of the gap between columns</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-column-start.asp">grid-column-start</a></td>
+      <td>Specifies where to start the grid item</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-gap.asp">grid-gap</a></td>
+      <td>A shorthand property for the <em>grid-row-gap</em> and <em>grid-column-gap</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-row.asp">grid-row</a></td>
+      <td>A shorthand property for the <em>grid-row-start</em> and the <em>grid-row-end</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-row-end.asp">grid-row-end</a></td>
+      <td>Specifies where to end the grid item</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-row-gap.asp">grid-row-gap</a></td>
+      <td>Specifies the size of the gap between rows</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-row-start.asp">grid-row-start</a></td>
+      <td>Specifies where to start the grid item</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-template.asp">grid-template</a></td>
+      <td>A shorthand property for the <em>grid-template-rows</em>, <em>grid-template-columns</em> 
+      and <em>grid-areas</em> properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-template-areas.asp">grid-template-areas</a></td>
+      <td>Specifies how to display columns and rows, using named grid items</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-template-columns.asp">grid-template-columns</a></td>
+      <td>Specifies the size of the columns, and how many columns in a grid layout</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_grid-template-rows.asp">grid-template-rows</a></td>
+      <td>Specifies the size of the rows in a grid layout</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_row-gap.asp">row-gap</a></td>
+      <td>Specifies the gap between the grid rows</td>
+    </tr>
+  </tbody></table>
 
-</div>```` 
-
-<div class="admonition note">
-<p class="first admonition-title">Pengertian Tag HTML dan Fungsinya </p>
-<ul class="simple">
-<p class="last"><p>Tag HTML memiliki dua tipe utama: block-level dan inline tags.</p>
-<li>Elemen block-level memakai semua space yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
-<li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
-</ul>
-</div>
-
-</div>
-
-
-          </div>
+  </div>  </div><hr>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">

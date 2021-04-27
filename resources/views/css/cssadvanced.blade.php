@@ -26,7 +26,80 @@
         <link rel="next" title="Installation Instructions" href="../installation/index.html"/>
         <link rel="prev" title="CodeIgniter User Guide" href="../index.html"/> 
 
-  
+        <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners3 {
+  border-radius: 25px;
+  background: url(a/images/tr1.png);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#rcorners4 {
+  border-radius: 15px 50px 30px 5px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners5 {
+  border-radius: 15px 50px 30px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners6 {
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+#rcorners7 {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+          </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
 </head>
@@ -329,7 +402,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">HTML</a>
+        <a href="../index.html">CSS</a>
       </nav>
 
 
@@ -340,7 +413,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Welcome to HTML</li>
+    <li>Welcome to CSS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -351,70 +424,142 @@
   <hr/>
 </div>
           <div role="main" class="document">
-            
-  <div class="section" id="welcome-to-codeigniter">
-<h1>Welcome to HTML<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
 
-<div class="admonition note">
-<p class="first admonition-title">Apa Itu HTML ? </p>
-<p class="last"><p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web atau sebuah bahasa yang menggunakan markup atau penanda untuk membuat halaman web.
-<p>Penanda atau markup ini, nanti akan kita sebut dengan Tag.</p>
+  <h1>CSS <span class="color_h1"> Rounded Corners</span></h1>
 
-<p>HTML berperan untuk menentukan struktur konten dan tampilan dari sebuah web.</p>
+  <hr>
+  <div class="admonition note">
+  <div class="w3-theme-border" style="border-width:3px;border-style:solid;margin-top:20px;font-size:15px;padding:25px;border-radius:25px;">
+    <h2>CSS Rounded Corners</h2>
+    <p>With the CSS <code class="w3-codespan">border-radius</code> property, you can give any element "rounded corners".</p>
+  </div>
+  <hr>
+  </div>
+  <h2>CSS border-radius Property</h2>
+  <p>The CSS 
+  <code class="w3-codespan">border-radius</code> property defines the radius of an 
+  element's corners.</p>
+  <p><strong>Tip:</strong> This property allows you to add rounded corners to 
+  elements!</p>
+  <p>Here are three examples:</p>
+  <p>1. Rounded corners for an element with a specified background color:</p>
+  <p id="rcorners1" class="w3-theme">Rounded corners!</p>
+  <p>2. Rounded corners for an element with a border:</p>
+  <p id="rcorners2" class="w3-theme-border">Rounded corners!</p>
+  <p>3. Rounded corners for an element with a background image:</p>
+  <p id="rcorners3">Rounded corners!</p>
+  <h3>Here is the code:</h3>
+  <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o">Example</span><span class="nx"></span><span class="o"></span><br>
+  #rcorners1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 25px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners2 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 25px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;border<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 2px solid #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners3 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 25px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> url(a/images/tr2.png)<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;background-position<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> left top<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; background-repeat<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 
+  repeat<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 
+  200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span>  </span></div>
+  </div>
+  <a target="_blank" class="btn btn-outline-success" href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-radius">Try it Yourself »</a><br>
+  <br><div class="w3-panel w3-note">
+    <div class="admonition note">
+   <p><b>Tip:</b> The <code class="w3-codespan">border-radius</code> property is actually a shorthand property for the 
+  <code class="w3-codespan">border-top-left-radius</code>, <code class="w3-codespan">border-top-right-radius</code>, <code class="w3-codespan">border-bottom-right-radius</code> 
+  and <code class="w3-codespan">border-bottom-left-radius</code> properties.</p></div>
+  </div>
+  <div class="admonition note">
+  <h2>CSS border-radius - Specify Each Corner</h2>
+  <p>The <code class="w3-codespan">border-radius</code> property can have from one 
+  to four values. Here are the rules:</p>
+  <p><strong>Four values - border-radius: 15px 50px 30px 5px;</strong> (first 
+  value applies to top-left corner, second value applies to top-right corner, 
+  third value applies to bottom-right corner, and fourth value applies to 
+  bottom-left corner):&nbsp;</p>
+  <p id="rcorners4" class="w3-theme"></p>
+  
+  <p><strong>Three values - border-radius: 15px 50px 30px;</strong> (first value 
+  applies to top-left corner, second value applies to top-right and bottom-left 
+  corners, and third value applies to bottom-right corner):</p>
+  <p id="rcorners5" class="w3-theme"></p>
+  
+  <p><strong>Two values - border-radius: 15px 50px;</strong> (first value applies 
+  to top-left and bottom-right corners, and the second value applies to top-right 
+  and bottom-left corners):</p>
+  <p id="rcorners6" class="w3-theme"></p>
+  
+  <p><strong>One value - border-radius: 15px;</strong> (the value applies to all 
+  four corners, which are rounded equally:</p>
+  <p id="rcorners7" class="w3-theme"></p>
+  </div>
 
-<p>Kalau kita ibaratkan nih..</p>
+  <h3>Here is the code:</h3>
+  <div class="admonition note">
+  <div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">
+     #rcorners1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp; border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 15px 50px 30px 5px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp; 
+  width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners2 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 15px 50px 30px<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+     &nbsp; background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp; width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners3 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 15px 50px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+     &nbsp; 
+  height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners4 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 15px<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+     &nbsp; background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp; width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span>  </span></div>
+  
+  </div></div>
+  <a target="_blank" class="btn btn-outline-success" href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-radius2">Try it Yourself »</a>
+  <hr><div class="admonition note">
+  <p>You could also create elliptical corners:</p>
+  <div class="w3-example">
+  <h3>Example</h3>
+  <div class="w3-code notranslate cssHigh"><span class="cssselectorcolor" style="color:brown">
+     #rcorners1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp; border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50px / 15px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners2 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;&nbsp;border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 15px / 50px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+     &nbsp; 
+  padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span> <br></span><span class="cssdelimitercolor" style="color:black">}</span><br><br>#rcorners3 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+     &nbsp; 
+  border-radius<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 50%<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; background<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> #73AD21<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp; 
+  padding<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 20px<span class="cssdelimitercolor" style="color:black">;</span></span> <br>&nbsp;&nbsp;width<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 200px<span class="cssdelimitercolor" style="color:black">;</span></span><br>&nbsp;&nbsp;height<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> 150px<span class="cssdelimitercolor" style="color:black">;</span></span><br></span><span class="cssdelimitercolor" style="color:black">}</span>  </span></div>
+  
+  </div></div>
+  <a target="_blank" class="btn btn-outline-success" href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-radius3">Try it Yourself »</a>
+  <hr>
+  
+  <div class="w3-container w3-padding ws-css-exercises">
+    <h2>Test Yourself with Exercises!</h2>
+    <div class="w3-bar w3-margin-bottom">
+      <a class="btn btn-outline-dark" href="https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_borders1" target="_blank">Exercise 1 »</a>
+      <a class="btn btn-outline-dark" href="https://www.w3schools.com/css/exercise.asp?filename=exercise_css3_borders2" target="_blank">Exercise 2 »</a>
+    </div>
+  </div>
+  <hr>
+  
+  <h2>CSS Rounded Corners Properties</h2>
+  <table class="w3-table-all notranslate">
+    <tbody><tr>
+      <th style="width:30%">Property</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp">border-radius</a></td>
+      <td>A shorthand property for setting all the four border-*-*-radius properties</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp">border-top-left-radius</a></td>
+      <td>Defines the shape of the border of the top-left corner</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp">border-top-right-radius</a></td>
+      <td>Defines the shape of the border of the top-right corner</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp">border-bottom-right-radius</a></td>
+      <td>Defines the shape of the border of the bottom-right corner</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp">border-bottom-left-radius</a></td>
+      <td>Defines the shape of the border of the bottom-left corner</td>
+    </tr>
+  </tbody></table>
 
-<p>HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat disusun, hingga menjadi fondasi dasar.</p></p>
-</div>
-
-
-<div class="admonition note">
-<p class="first admonition-title">Bagaimana Cara Kerja HTML ? </p>
-<p class="last"><p>Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun 
-(seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya..</p>
-
-<p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.</p>
-
-<p>Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. 
-Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.</p>
-
-<p>Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax  < tag >< /tag > 	.</p></p>
-</div>
-	
-
-<div class="admonition note">
-<p class="first admonition-title">Contoh HTML </p>
-<p class="last"><p>Berikut contoh kode dari susunan atau struktur HTML :</p>
-
-
-</div>
-
-
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o"><</span><span class="nx">div</span><span class="o">></span>
-<span class="o"><</span><span class="nx">h1</span><span class="o">></span> The Main Heading <span class="o"><</span><span class="o">/</span><span class="nx">h1</span><span class="o">>
-<span class="o"><</span><span class="nx">p</span><span class="o">></span> Paragraph One <span class="o"><</span><span class="o">/</span><span class="nx">p</span><span class="o">>
-
-</div>
-
-</pre></div>
-</div>
-
-</div>```` 
-
-<div class="admonition note">
-<p class="first admonition-title">Pengertian Tag HTML dan Fungsinya </p>
-<ul class="simple">
-<p class="last"><p>Tag HTML memiliki dua tipe utama: block-level dan inline tags.</p>
-<li>Elemen block-level memakai semua space yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
-<li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
-</ul>
-</div>
-
-</div>
-
-
-          </div>
+          </div><hr>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
