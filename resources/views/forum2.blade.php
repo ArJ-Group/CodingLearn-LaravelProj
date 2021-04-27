@@ -505,7 +505,7 @@
             <div class="col-md-6">
                 <label class="control-label" for="discussion-module">Modul</label>
                 <select id="discussion-module" name="tutorial_id" class="js-select">
-                    <option value="">- Pilih modul -</option>
+                    <option class="btn btn-outline-success" value="">- Pilih modul -</option>
                                             <option value="1245" >
                             1 - Persetujuan Hak Cipta
                         </option>
