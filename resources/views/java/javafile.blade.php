@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>HTML MEDIA</title>
+  <title>CLA</title>
 
   <style>
     table {
@@ -93,7 +93,7 @@
               <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
             </ul>
           </li>
-        </ul>
+
         <ul class="current">
           <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
@@ -167,7 +167,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 
-        <a href="../index.html" class="fa fa-home"> HTML</a>
+        <a href="../index.html" class="fa fa-home"> Java</a>
 
 
         <div role="search">
@@ -187,8 +187,7 @@
           <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Tutorial</a>
-          <ul>
+          
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
@@ -211,11 +210,11 @@
               
             </ul>
           </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+        
+        <ul >
+          <li class="toctree-l1"><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
@@ -232,10 +231,10 @@
             </ul>
           </li>
         </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+        <ul class="current">
+          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
+              <li class="current toctree-l2"><a class="current reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
@@ -244,7 +243,7 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.references')}}">Java References</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
               <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>

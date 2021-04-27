@@ -235,8 +235,6 @@
           <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">Java Tutorial</a>
-          <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
@@ -259,7 +257,8 @@
               
             </ul>
           </li>
-        </ul>>
+        
+        
         <ul class="current">
           <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
@@ -292,7 +291,7 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.references')}}">Java References</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
               <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
