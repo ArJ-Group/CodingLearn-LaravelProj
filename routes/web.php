@@ -110,12 +110,22 @@ Route::get('java.welcomejava/', function () {
 Route::get('java.javatutor/', function () {
   return view('java.javatutor');
 });
-Route::get('java.javaform/', function () {
-  return view('java.javaform');
-});
 Route::get('java.javamethod/', function () {
   return view('java.javamethod');
 });
+Route::get('java.javaclasses/', function () {
+  return view('java.javaclasses');
+});
+Route::get('java.javaexample/', function () {
+  return view('java.javaexample');
+});
+Route::get('java.javafile/', function () {
+  return view('java.javafile');
+});
+Route::get('java.javareferences/', function () {
+  return view('java.javareferences');
+});
+
 
 Route::get('/users', function ($id) {
     return view('users');
