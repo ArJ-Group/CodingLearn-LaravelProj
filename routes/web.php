@@ -113,6 +113,9 @@ Route::get('java.javatutor/', function () {
 Route::get('java.javaform/', function () {
   return view('java.javaform');
 });
+Route::get('java.javamethod/', function () {
+  return view('java.javamethod');
+});
 
 Route::get('/users', function ($id) {
     return view('users');
