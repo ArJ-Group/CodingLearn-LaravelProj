@@ -180,10 +180,10 @@
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+        <ul>
+          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
