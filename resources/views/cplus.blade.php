@@ -405,11 +405,11 @@
                         <div class="right-list-f">
                            <ul>
                               <li><a href="{{url('cplus.welcomecp')}}"><img width="32" src="a/images/h.png" alt="" />What is C++ ?</a></li>
-                              <li><a href="{{url('cplus.cplusapi')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++</a></li>
-                              <li><a href="{{url('cplus.cplusexamp')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Function</a></li>
-                              <li><a href="{{url('cplus.cplusform')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Classes</a></li>
-                              <li><a href="{{url('cplus.cplusgrapic')}}"><img width="32" src="a/images/h.png" alt="" /> C++ Example</a></li>
-                              <li><a href="{{url('cplus.cplustutor')}}"><img width="32" src="a/images/h.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('cplus.cplustutor')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++</a></li>
+                              <li><a href="{{url('cplus.cplusfunc')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Function</a></li>
+                              <li><a href="{{url('cplus.cplusclasses')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Classes</a></li>
+                              <li><a href="{{url('cplus.cplusexample')}}"><img width="32" src="a/images/h.png" alt="" /> C++ Example</a></li>
+                              <li><a href="{{url('cplus.cplusexer')}}"><img width="32" src="a/images/h.png" alt="" /> Exercise</a></li>
                            </ul>
                         </div>
                      </div>
