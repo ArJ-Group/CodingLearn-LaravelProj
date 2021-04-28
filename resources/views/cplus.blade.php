@@ -34,7 +34,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
+                        <a href="index.cplus" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -63,8 +63,8 @@
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">Tutorial</a></li>
-                                 <li><a href="productpage.html">References</a></li>
+                                 <li><a href="howitworks.cplus">Tutorial</a></li>
+                                 <li><a href="productpage.cplus">References</a></li>
                               </ul>
                            </div>
                         </div>
@@ -116,7 +116,7 @@
          <div class="container">
             <div class="row">
                <div class="furniture-main">
-                  <h2>Coding Learn Application</h2>
+                  <h2 style="font-weight:bold;">C++ Learning Application</h2>
                   <div class="col-md-3 col-sm-4">
                      <div class="furniture-left">
                         <h3>CLA</h3>
@@ -404,14 +404,12 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/h.png" alt="" /> Learn HTML</a></li>
-                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/h.png" alt="#" /> Learn Bootstrap</a></li>
-                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/h.png" alt="" /> Learn Colors</a></li>
-                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/h.png" alt="" /> Learn Icons</a></li>
-                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/h.png" alt="" /> Learn Graphics</a></li>
-                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/h.png" alt="" /> Learn How To</a></li>
-                              <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/h.png" alt="" /> Learn Sass</a></li>
-                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/h.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('cplus.welcomecp')}}"><img width="32" src="a/images/h.png" alt="" />What is C++ ?</a></li>
+                              <li><a href="{{url('cplus.cplusapi')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++</a></li>
+                              <li><a href="{{url('cplus.cplusexamp')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Function</a></li>
+                              <li><a href="{{url('cplus.cplusform')}}"><img width="32" src="a/images/h.png" alt="" /> Learn C++ Classes</a></li>
+                              <li><a href="{{url('cplus.cplusgrapic')}}"><img width="32" src="a/images/h.png" alt="" /> C++ Example</a></li>
+                              <li><a href="{{url('cplus.cplustutor')}}"><img width="32" src="a/images/h.png" alt="" /> Exercise</a></li>
                            </ul>
                         </div>
                      </div>
@@ -462,8 +460,8 @@
                               <h2>SELL ON chamb</h2>
                               <ul>
                                  <li><a href="#">Create account</a></li>
-                                 <li><a href="howitworks.html">How it works suppliers</a></li>
-                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href="howitworks.cplus">How it works suppliers</a></li>
+                                 <li><a href="pricing.cplus">Pricing</a></li>
                                  <li><a href="#">FAQ for Suppliers</a></li>
                               </ul>
                            </div>
@@ -479,7 +477,7 @@
                            <div class="col-sm-4">
                               <h2>COMPANY</h2>
                               <ul>
-                                 <li><a href="about-us.html">About chamb</a></li>
+                                 <li><a href="about-us.cplus">About chamb</a></li>
                                  <li><a href="#">Contact us</a></li>
                                  <li><a href="#">Press</a></li>
                                  <li><a href="#">Careers</a></li>

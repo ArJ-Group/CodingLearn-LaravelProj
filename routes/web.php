@@ -14,6 +14,10 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/users', function ($id) {
+  return view('users');
+});
+
 Route::get('/', function () {
   return view('index');
 });
@@ -126,10 +130,31 @@ Route::get('java.javareferences/', function () {
   return view('java.javareferences');
 });
 
-
-Route::get('/users', function ($id) {
-    return view('users');
+//C++
+Route::get('cplus.welcomecp/', function () {
+  return view('cplus.welcomecp');
 });
+Route::get('cplus.cplusclasses/', function () {
+  return view('cplus.cplusclasses');
+});
+Route::get('cplus.cplusexample/', function () {
+  return view('cplus.cplusexample');
+});
+Route::get('cplus.cplusexer/', function () {
+  return view('cplus.cplusexer');
+});
+Route::get('cplus.cplusfunc/', function () {
+  return view('cplus.cplusfunc');
+});
+Route::get('cplus.cplustutor/', function () {
+  return view('cplus.cplustutor');
+});
+
+
+
+
+
+
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
 //Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
 
