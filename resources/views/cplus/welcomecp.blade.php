@@ -25,7 +25,7 @@
   <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
   <link rel="next" title="Installation Instructions" href="../installation/index.html" />
   <link rel="prev" title="CodeIgniter User Guide" href="../index.html" />
-
+  <link rel="stylesheet" href="../../css/w3schools26.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -223,7 +223,7 @@
             </ul>
           </li>
         </ul>
-        
+
       </div>
       &nbsp;
     </nav>
@@ -267,7 +267,7 @@
                 <h4>C++ was developed by Bjarne Stroustrup, as an extension to the C language.</h4>
                 <h4>C++ gives programmers a high level of control over system resources and memory.</h4>
                 <h4>The language was updated 3 major times in 2011, 2014, and 2017 to C++11, C++14, and C++17.</h4>
-  
+
                 </ul>
                 <hr>
               </div>
@@ -283,6 +283,7 @@
                 <li>
                   <h5>C++ is fun and easy to learn!</h5>
                 </li>
+              </ul>
 
 
 

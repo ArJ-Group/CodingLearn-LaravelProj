@@ -18,7 +18,7 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -36,6 +36,11 @@
   <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
   <link rel="next" title="Downloading CodeIgniter" href="downloads.html" />
   <link rel="prev" title="Welcome to CodeIgniter" href="../general/welcome.html" />
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
+  <style>
+
+  </style>
+
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -171,7 +176,7 @@
         <ul class="current">
           <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javatutor')}}">Java TUTORIAL</a>
             <ul class="current">
-              
+
               <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Get Started</a></li>
               <li class="toctree-l2 "><a class=" reference internal" href="#">Java Syntax</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Comments</a></li>
@@ -192,7 +197,7 @@
             </ul>
           </li>
         </ul>
-        <ul >
+        <ul>
           <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
             <ul>
               <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
@@ -279,7 +284,213 @@
             </ul>
             <hr />
           </div>
-          
+          <h2>Java Install</h2>
+          <p>Some PCs might have Java already installed.</p>
+
+          <p>To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe):</p>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+              C:\Users\<em>Your Name</em>&gt;java -version
+            </div>
+          </div>
+
+          <p>If Java is installed, you will see something like this (depending on version):</p>
+          <div class="w3-example w3-padding-16" bis_skin_checked="1">
+            <div class="notranslate w3-black w3-padding" bis_skin_checked="1">
+              <code>
+                java version "11.0.1" 2018-10-16 LTS<br>
+                Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)<br>
+                Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+              </code>
+            </div>
+          </div>
+
+          <p>If you do not have Java installed on your computer, you can download it for free at <a href="https://www.oracle.com/technetwork/java/javase/overview/index.html" target="_blank">oracle.com</a>.</p>
+
+          <p><strong>Note:</strong> In this tutorial, we will write Java code in a text editor. However, it is possible to write Java in an Integrated Development Environment, such as IntelliJ IDEA, Netbeans or Eclipse, which are particularly useful when managing larger collections of Java files.</p>
+          <hr>
+
+          <h2>Setup for Windows</h2>
+          <p>To install Java on Windows:</p>
+
+
+          <li>1. Go to "System Properties" (Can be found on Control Panel &gt;
+            System and Security &gt; System &gt; Advanced System Settings)</li><br>
+          <li>2.Click on the "Environment variables" button under the "Advanced" tab</li><br>
+          <li>3.Then, select the "Path" variable in System variables and click on the "Edit"
+            button</li><br>
+          <li>4.Click on the "New" button and add the path where Java is installed,
+                sfollowed by <strong>\bin</strong>. By default, Java is installed in C:\Program
+                Files\Java\jdk-11.0.1 (If nothing else was specified when you installed it).
+                In that case, You will have to add a new path with: <strong>C:\Program
+                Files\Java\jdk-11.0.1\bin </strong><br>
+                Then, click "OK", and save the settings</li><br>
+          <li>5.At last, open Command Prompt (cmd.exe) and type <strong>java -version</strong> to see if Java is
+            running on your machine</li>
+          <br>
+
+          <!--
+<button onclick="myAccFunction1('DemoAcc')" class="w3-btn w3-block w3-dark-grey w3-left-align xx w3-border-bottom">Show how to install Java step-by-step with images &raquo;</button>
+<div id="DemoAcc" class="w3-light-grey w3-padding-16 w3-container">
+<h2 style="margin-top:0">Step 1</h2>
+<img src="system.png" class="w3-image">
+</div>
+-->
+          <button onclick="myAccFunction('DemoAcc')" class="w3-btn w3-block w3-left-align xx w3-border-bottom  ">Show how to install Java step-by-step with images »</button>
+          <div id="DemoAcc" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
+            <h2 style="margin-top:0">Step 1</h2>
+            <img src="system.png" class="w3-image">
+          </div>
+
+          <button onclick="myAccFunction('DemoAcc2')" class="w3-btn w3-block w3-left-align xx w3-border-bottom ">Step 2 »</button>
+          <div id="DemoAcc2" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
+            <h2 style="margin-top:0">Step 2</h2>
+            <img src="system1.png" class="w3-image">
+          </div>
+          <button onclick="myAccFunction('DemoAcc3')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 3 »</button>
+          <div id="DemoAcc3" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
+            <h2 style="margin-top:0">Step 3</h2>
+            <img src="path2.png" class="w3-image">
+          </div>
+          <button onclick="myAccFunction('DemoAcc4')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 4 »</button>
+          <div id="DemoAcc4" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
+
+            <h2 style="margin-top:0">Step 4</h2>
+            <img src="path3.png" class="w3-image">
+          </div>
+          <button onclick="myAccFunction('DemoAcc5')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 5 »</button>
+          <div id="DemoAcc5" class="w3-hide w3-light-grey w3-padding-16 w3-container" bis_skin_checked="1">
+
+            <h2 style="margin-top:0">Step 5</h2>
+            <p>Write the following in the command line (cmd.exe):</p>
+            <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+              C:\Users\<em>Your Name</em>&gt;java -version
+            </div>
+            <p>If Java was successfully installed, you will see something like this (depending on version):</p>
+            <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+              java version "11.0.1" 2018-10-16 LTS<br>
+              Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)<br>
+              Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+            </div>
+
+          </div>
+
+          <script>
+            function myAccFunction1(id) {
+              var x = document.getElementById(id);
+              if (x.className.indexOf("w3-hide") == -1) {
+                x.className += " w3-hide";
+                x.previousElementSibling.className =
+                  x.previousElementSibling.className.replace("ws-black", "");
+              } else {
+                x.className = x.className.replace(" w3-hide", "");
+                x.previousElementSibling.className += " ws-black";
+              }
+            }
+          </script>
+
+
+          <script>
+            function myAccFunction(id) {
+              var x = document.getElementById(id);
+              if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " ws-black";
+              } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                  x.previousElementSibling.className.replace("ws-black", "");
+              }
+            }
+          </script>
+
+          <hr>
+          <div id="midcontentadcontainer" style="overflow:auto;text-align:center" bis_skin_checked="1">
+            <!-- MidContent -->
+            <!-- <p class="adtext">Advertisement</p> -->
+
+            <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+            <div id="snhb-mid_content-0" bis_skin_checked="1" data-google-query-id="CP_l0_P-pPACFcGYcAodg8sPfA">
+              <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_6__container__" bis_skin_checked="1" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://e3b28de23791a5b530a86474f85174d3.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_6" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="14" style="border: 0px; vertical-align: bottom; left: -10000px !important; position: absolute !important;" bis_size="{&quot;x&quot;:52,&quot;y&quot;:1609,&quot;w&quot;:728,&quot;h&quot;:90,&quot;abs_x&quot;:52,&quot;abs_y&quot;:1609}" bis_id="fr_zcejmaig7uuwuz7a042xha" bis_depth="0" bis_chainid="34" data-load-complete="true"></iframe></div>
+            </div>
+
+          </div>
+          <hr>
+
+          <h2>Java Quickstart</h2>
+          <p>In Java, every application begins with a class name, and that class must match the filename.</p>
+          <p>Let's create our first Java file, called Main.java, which can be done in any text editor
+            (like Notepad).</p>
+          <p>The file should contain a "Hello World" message, which is written with the
+            following code:</p>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <p>Main.java</p>
+            <pre class=" w3-white language-java"><code class=" language-java"><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
+		<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	</code></pre>
+            <p>
+              <a target="_blank" class="w3-btn" href="https://www.w3schools.com/java/tryjava.asp?filename=demo_helloworld">Try it Yourself »</a>
+            </p>
+          </div>
+
+          <p>Don't worry if you don't understand the code above - we will discuss it in detail in later chapters.
+            For now, focus on <strong>how</strong> to run the code above.</p>
+          <p>Save the code in Notepad as "Main.java". Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type "javac
+            Main.java":</p>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+              C:\Users\<em>Your Name</em>&gt;javac Main.java
+            </div>
+          </div>
+          <p>This will compile your code. If there are no errors in the code, the command prompt will take you to the next line.
+            Now, type "java Main" to run the file:</p>
+          <div class="w3-example" bis_skin_checked="1">
+            <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+              C:\Users\<em>Your Name</em>&gt;java Main
+            </div>
+          </div>
+
+          <p>The output should read:</p>
+          <div class="w3-example w3-padding-16" bis_skin_checked="1">
+            <div class="notranslate w3-black w3-padding" bis_skin_checked="1">
+              <code class="notranslate">
+                Hello World
+              </code>
+            </div>
+            <a target="_blank" class="w3-btn w3-margin-top" href="https://www.w3schools.com/java/tryjava.asp?filename=demo_helloworld">Try it Yourself »</a>
+          </div>
+
+          <p><strong>Congratulations!</strong> You have written and executed your first Java program.</p>
+
+          <hr>
+          <div class="w3-clear nextprev" bis_skin_checked="1">
+            <a class="w3-left w3-btn" href="java_intro.asp">❮ Previous</a>
+            <a class="w3-right w3-btn" href="java_syntax.asp">Next ❯</a>
+          </div>
+          <div id="mypagediv2" style="position:relative;text-align:center;" bis_skin_checked="1"></div>
+          <br>
+
+        </div>
+        <div class="w3-col l2 m12" id="right" bis_skin_checked="1">
+
+          <div class="sidesection" bis_skin_checked="1">
+            <div id="skyscraper" bis_skin_checked="1">
+
+              <!--<pre>wide_skyscraper, all: [160,600][300,600][320,50][120,600][300,1050]</pre>-->
+              <div id="snhb-wide_skyscraper-0" bis_skin_checked="1" style="width: 835px !important; max-width: 835px !important; height: auto !important; max-height: none !important; padding-left: 0px !important; margin-left: -8px !important; margin-right: 0px !important; z-index: 0 !important; position: relative !important;" data-google-query-id="CP7l0_P-pPACFcGYcAodg8sPfA">
+                <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//wide_skyscraper_6__container__" bis_skin_checked="1" style="border: 0pt none; display: inline-block; max-height: none !important; max-width: 835px !important; padding: 0px !important; width: 835px; height: 130px;"><iframe frameborder="0" src="https://e3b28de23791a5b530a86474f85174d3.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/22152718/sws-hb//w3schools.com//wide_skyscraper_6" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="835" height="130" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="13" style="border: 0px; vertical-align: bottom; left: -10000px !important; position: absolute !important;" bis_size="{&quot;x&quot;:0,&quot;y&quot;:3026,&quot;w&quot;:835,&quot;h&quot;:130,&quot;abs_x&quot;:0,&quot;abs_y&quot;:3026}" bis_id="fr_j3b3vdp9zhrvqxrp5a5y4c" bis_depth="0" bis_chainid="35" data-load-complete="true"></iframe></div>
+              </div>
+              <!-- adspace wide-->
+
+            </div>
+          </div>
+
           <footer>
 
             <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
