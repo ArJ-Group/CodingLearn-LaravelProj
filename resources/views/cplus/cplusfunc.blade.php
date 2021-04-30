@@ -18,36 +18,7 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  </script>
-  <script type="text/javascript" src="https://cdn.snigelweb.com/pub/w3schools.com/20200508/T4/snhb-w3schools.com.min.js?202104221724"></script>
-  <script type="text/javascript" src="https://cdn.snigelweb.com/pub/w3schools.com/snhbMLSettings.js" async=""></script>
-  <script type="text/javascript" src="https://cdn.snigelweb.com/snhb/snhbGlobalSettings.js" async=""></script>
-  <script type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async=""></script>
-  <meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
-  <meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-  <meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-  <meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
-  <meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
-  <meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
-  <meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
-  <meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
-  <script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021042201.js" async=""></script>
-  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
-  <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main_id.js"></script>
-  <link rel="preload" href="https://adservice.google.co.id/adsid/integrator.js?domain=www.w3schools.com" as="script">
-  <script type="text/javascript" src="https://adservice.google.co.id/adsid/integrator.js?domain=www.w3schools.com"></script>
-  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.w3schools.com" as="script">
-  <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.w3schools.com"></script>
-  <link rel="prefetch" href="https://891c93b345bef7b529fef8a9a0206c64.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html">
-  <link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-38/html/container.html">
-  <script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20210224_00/e/js/element/element_main.js"></script>
-  <script src="https://www.google.com/cse/static/element/323d4b81541ddb5b/cse_element__en.js?usqp=CAI%3D" type="text/javascript"></script>
-  <link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/element/323d4b81541ddb5b/default+en.css">
-  <link type="text/css" rel="stylesheet" href="https://www.google.com/cse/static/style/look/v4/default.css">
-  <link rel="preload" href="https://adservice.google.co.id/adsid/integrator.js?domain=www.w3schools.com" as="script">
-  <script type="text/javascript" src="https://adservice.google.co.id/adsid/integrator.js?domain=www.w3schools.com"></script>
-  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.w3schools.com" as="script">
-  <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.w3schools.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
