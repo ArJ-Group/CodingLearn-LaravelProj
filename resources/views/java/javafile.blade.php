@@ -10,24 +10,9 @@
 
   <title>CLA</title>
 
-  <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    td,
-    th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-  </style>
 
 
 
@@ -36,14 +21,6 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
-
-
-
-
-
-
-
 
   <link rel="stylesheet" href="b/css/citheme.css" type="text/css" />
 
@@ -67,7 +44,7 @@
 
 
 
-    <div id="pulldown-menu" class="ciNav">
+      <div id="pulldown-menu" class="ciNav">
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to Java</a></li>
         </ul>
@@ -94,61 +71,88 @@
             </ul>
           </li>
 
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+          <ul class="current">
+            <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+              <ul>
+                <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.references')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
 
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
 
       </div>
 
@@ -184,10 +188,10 @@
 
 
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.welcomejava')}}">Welcome to Java</a></li>
         </ul>
         <ul>
-          
+
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
@@ -207,66 +211,91 @@
               <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-              
-            </ul>
-          </li>
-        
-        <ul >
-          <li class="toctree-l1"><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
             </ul>
           </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="current toctree-l2"><a class="current reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
 
+          <ul>
+            <li class="toctree-l1"><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul class="current">
+            <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
 
       </div>
       &nbsp;
@@ -288,7 +317,7 @@
             <ul class="wy-breadcrumbs">
               <li><a href="../index.html">Docs</a> &raquo;</li>
 
-              <li>HTML MEDIA</li>
+              <li>Java File</li>
               <li class="wy-breadcrumbs-aside">
 
               </li>
@@ -301,251 +330,143 @@
           <div role="main" class="document">
 
             <div class="section" id="contributing-to-codeigniter">
-              <h1>HTML MEDIA<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+              <h1>Java File<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
               <div class="toctree-wrapper compound">
                 <ul>
 
-                  <div class="section" id="support">
-                    <h2>What is Multimedia?<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-                    <p>Multimedia comes in many different formats. It can be almost anything you can hear or see,
-                      like images, music, sound, videos, records, films, animations, and more.</p>
-                    <p>Web pages often contain multimedia elements of different types and formats.</p>
-                  </div><br>
+                  <div class="section" id="document">
+                    <p class="intro">File handling is an important part of any application.</p>
+                    <p class="intro">Java has several methods for creating, reading, updating, and
+                      deleting files.</p>
+                    <hr>
 
-                  <div class="section" id="support">
-                    <h2>Browser Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-                    <p>The first web browsers had support for text only, limited to a single font in a single color.</p>
-                    <p>Later came browsers with support for colors, fonts, images, and multimedia!</p><br>
+                    <h2>Java File Handling</h2>
+                    <p>The <code class="w3-codespan">File</code> class from the <code class="w3-codespan">java.io</code> package, allows
+                      us to work with files.</p>
+                    <p>To use the <code class="w3-codespan">File</code> class, create an object of
+                      the class, and specify the filename or directory name:
+
+                    </p>
+                    <div class="w3-example" bis_skin_checked="1">
+                      <h3>Example</h3>
+                      <pre class=" w3-white language-java"><code class=" language-java"><span class="token keyword keyword-import">import</span> <span class="token namespace">java<span class="token punctuation">.</span>io</span><span class="token punctuation">.</span><span class="token class-name">File</span><span class="token punctuation">;</span>  <span class="token comment">// Import the File class</span>
+
+<span class="token class-name">File</span> myObj <span class="token operator">=</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">"filename.txt"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Specify the filename</span>
+</code></pre>
+                    </div>
+                    <div class="w3-note w3-panel" bis_skin_checked="1">
+                      <p>If you don't know what a package is, read our <a href="https://www.w3schools.com/java/java_packages.asp">Java Packages Tutorial</a>.</p>
+                    </div>
+
+                    <p>The <code class="w3-codespan">File</code> class has many useful methods for creating and getting information
+                      about files.
+                      For example:</p>
+                    <div class="w3-responsive" style="margin:-16px 0;" bis_skin_checked="1">
+                      <table class="w3-table-all notranslate">
+                        <tbody>
+                          <tr>
+                            <th style="width:25%">Method</th>
+                            <th style="width:15%">Type</th>
+                            <th style="width:60%">Description</th>
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">canRead()</code></td>
+                            <td>Boolean</td>
+                            <td>Tests whether the file is readable or not</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">canWrite()</code></td>
+                            <td>Boolean</td>
+                            <td>Tests whether the file is writable or not</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">createNewFile()</code></td>
+                            <td>Boolean</td>
+                            <td>Creates an empty file</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdate">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">delete()</code></td>
+                            <td>Boolean</td>
+                            <td>Deletes a file</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">exists()</code></td>
+                            <td>Boolean</td>
+                            <td>Tests whether the file exists</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">getName()</code></td>
+                            <td>String</td>
+                            <td>Returns the name of the file</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdate">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">getAbsolutePath()</code></td>
+                            <td>String</td>
+                            <td>Returns the absolute pathname of the file</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">length()</code></td>
+                            <td>Long</td>
+                            <td>Returns the size of the file in bytes</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">list()</code></td>
+                            <td>String[]</td>
+                            <td>Returns an array of the files in the directory</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                          <tr>
+                            <td><code class="w3-codespan">mkdir()</code></td>
+                            <td>Boolean</td>
+                            <td>Creates a directory</td>
+                            <!--<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="tryjava.asp?filename=demo_date_localdatetime">Try it &raquo;</a></td>-->
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <p>You will learn how to create, write, read and delete files in the next chapters:</p>
+                    <div class="w3-bar-block w3-light-grey" bis_skin_checked="1">
+                      <a href="https://www.w3schools.com/java/java_files_create.asp" class="w3-bar-item w3-button w3-border-bottom">Create/Write Files »</a>
+                      <a href="https://www.w3schools.com/java/java_files_read.asp" class="w3-bar-item w3-button w3-border-bottom">Read Files »</a>
+                      <a href="https://www.w3schools.com/java/java_files_delete.asp" class="w3-bar-item w3-button">Delete Files »</a>
+                    </div>
+
                   </div>
+                  <footer>
 
-                  <div class="section" id="security">
-                    <h2>Multimedia Formats<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
-                    <p>Multimedia elements (like audio or video) are stored in media files.</p>
-                    <p>The most common way to discover the type of a file, is to look at the file extension.</p>
-                    <p>Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.</p>
-                  </div><br>
+                    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
 
-                  <div class="section" id="tips-for-a-good-issue-report">
-                    <h2>Common Video Formats</h2>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/pic.jpg"></td>
-                          <td style="vertical-align:top">There are many video formats out there.<br>
-                            <br>The MP4, WebM, and Ogg formats are supported by HTML.<br><br>The MP4 format
-                            is recommended by YouTube.
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div><br>
-                  <table class="w3-table-all notranslate">
-                    <tbody>
-                      <tr>
-                        <th>Format</th>
-                        <th style="width:50px">File</th>
-                        <th>Description</th>
-                      </tr>
-
-                      <tr>
-                        <td>MPEG</td>
-                        <td>.mpg<br>.mpeg</td>
-                        <td>
-                          MPEG.
-                          Developed by
-                          the Moving Pictures Expert Group. The first popular video format on
-                          the web. Not supported anymore in HTML. </td>
-                      </tr>
+                      <a href="../documentation/index.html" class="btn btn-neutral float-right" title="Writing CodeIgniter Documentation">Next <span class="fa fa-arrow-circle-right"></span></a>
 
 
+                      <a href="../tutorial/conclusion.html" class="btn btn-neutral" title="Conclusion"><span class="fa fa-arrow-circle-left"></span> Previous</a>
 
-                      <tr>
-                        <td>AVI</td>
-                        <td>.avi</td>
-                        <td>
-                          AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV
-                          hardware. Plays well on Windows computers, but not in web browsers.</td>
-                      </tr>
-                      <tr>
-                        <td>WMV</td>
-                        <td>.wmv</td>
-                        <td>
-                          WMV (Windows Media Video). Developed by Microsoft. Commonly used in
-                          video cameras and TV hardware. Plays well on Windows computers, but not in
-                          web browsers.</td>
-                      </tr>
-                      <tr>
-                        <td>QuickTime</td>
-                        <td>.mov</td>
-                        <td>
-                          QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware.
-                          Plays well on Apple computers, but not in web browsers.</td>
-                      </tr>
-                      <tr>
-                        <td>RealVideo</td>
-                        <td>.rm<br>.ram</td>
-                        <td>
-                          RealVideo. Developed by Real Media to allow video streaming with low
-                          bandwidths. Does not play
-                          in web browsers.</td>
-                      </tr>
-                      <tr>
-                        <td>Flash</td>
-                        <td>.swf<br>.flv</td>
-                        <td>
-                          Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in
-                          web browsers.</td>
-                      </tr>
-                      <tr>
-                        <td>Ogg</td>
-                        <td>.ogg</td>
-                        <td>
-                          Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-                      </tr>
-                      <tr>
-                        <td>WebM</td>
-                        <td>.webm</td>
-                        <td>
-                          WebM.
-                          Developed by Mozilla, Opera, Adobe, and Google. Supported by
-                          HTML.</td>
-                      </tr>
-                      <tr>
-                        <td>MPEG-4<br>or MP4</td>
-                        <td>.mp4</td>
-                        <td>
-                          MP4.
-                          Developed by
-                          the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware.
-                          Supported by all browsers and&nbsp; recommended by YouTube.&nbsp;
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table><br>
+                    </div>
 
-                  <div class="admonition note">
-                    <p class="first admonition-title">Note</p>
-                    <p class="last">
-                    <p>Only MP4, WebM, and Ogg video are supported by the HTML standard.</p>
-                  </div>
 
-                  <div class="section" id="support">
-                    <h2>Common Audio Formats</h2>
-                    <p>MP3 is the best format for compressed recorded music. The
-                      term MP3 has become synonymous with digital music.</p>
-                    <p>If your website is about recorded music, MP3 is the choice.</p>
-                    <table class="w3-table-all notranslate">
-                      <tbody>
-                        <tr>
-                          <th>Format</th>
-                          <th style="width:50px">File</th>
-                          <th>Description</th>
-                        </tr>
-                        <tr>
-                          <td>MIDI</td>
-                          <td>.mid<br>.midi</td>
-                          <td>
-                            MIDI (Musical Instrument Digital Interface).
-                            Main format for all electronic
-                            music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics.
-                            Plays well on all computers and music hardware, but not in web browsers.</td>
-                        </tr>
-                        <tr>
-                          <td>RealAudio</td>
-                          <td>.rm<br>.ram</td>
-                          <td>
-                            RealAudio.
-                            Developed by Real Media
-                            to allow streaming of audio with low
-                            bandwidths. Does not play in web browsers.</td>
-                        </tr>
-                        <tr>
-                          <td>WMA</td>
-                          <td>.wma</td>
-                          <td>
-                            WMA (Windows Media Audio). Developed by Microsoft. Plays well on Windows computers, but not in
-                            web browsers.</td>
-                        </tr>
-                        <tr>
-                          <td>AAC</td>
-                          <td>.aac</td>
-                          <td>
-                            AAC (Advanced Audio Coding).
-                            Developed by Apple as the default format for
-                            iTunes. Plays well on Apple computers, but not in web browsers.</td>
-                        </tr>
-                        <tr>
-                          <td>WAV</td>
-                          <td>.wav</td>
-                          <td>
-                            WAV.
-                            Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems.
-                            Supported by
-                            HTML.</td>
-                        </tr>
-                        <tr>
-                          <td>Ogg</td>
-                          <td>.ogg</td>
-                          <td>
-                            Ogg.
-                            Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-                        </tr>
-                        <tr>
-                          <td>MP3</td>
-                          <td>.mp3</td>
-                          <td>
-                            MP3 files are actually the sound part of MPEG files.
-                            MP3 is the most popular format for music players. Combines good
-                            compression (small files) with high quality. Supported by all browsers.</td>
-                        </tr>
-                        <tr>
-                          <td>MP4</td>
-                          <td>.mp4</td>
-                          <td>
-                            MP4
-                            is a video format, but can also be used for audio. Supported by all browsers.</td>
-                        </tr>
-                      </tbody>
-                    </table><br>
-                  </div>
+                    <hr />
 
-                  <div class="admonition note">
-                    <p class="first admonition-title">Note</p>
-                    <p class="last">
-                    <p>Only MP3, WAV, and Ogg audio are supported by the HTML standard.</p>
-                  </div>
+                    <div role="contentinfo">
+                      <p>
+                        &copy; Copyright 2014 - 2019, British Columbia Institute of Technology.
+                        Last updated on Sep 19, 2019.
+                      </p>
+                    </div>
 
+                    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+                  </footer>
               </div>
             </div>
-
-
-          </div>
-          <footer>
-
-            <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-
-              <a href="../documentation/index.html" class="btn btn-neutral float-right" title="Writing CodeIgniter Documentation">Next <span class="fa fa-arrow-circle-right"></span></a>
-
-
-              <a href="../tutorial/conclusion.html" class="btn btn-neutral" title="Conclusion"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-
-            </div>
-
-
-            <hr />
-
-            <div role="contentinfo">
-              <p>
-                &copy; Copyright 2014 - 2019, British Columbia Institute of Technology.
-                Last updated on Sep 19, 2019.
-              </p>
-            </div>
-
-            Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-
-          </footer>
-        </div>
-      </div>
 
     </section>
 

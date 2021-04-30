@@ -1,3 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+}
 .w3-example {
   padding: 8px 20px;
   margin: 24px -20px;

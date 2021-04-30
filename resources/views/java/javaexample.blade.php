@@ -18,13 +18,8 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
-
-
-
-
-
-
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
   <link rel="stylesheet" href="b/css/citheme.css" type="text/css" />
@@ -79,10 +74,22 @@
                 </ul>
               </li>
             </ul>
-            <ul class="current">
-              <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+            <ul class="">
+              <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
                 <ul>
-                  <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+                  <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <ul>
+              <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+                <ul>
+                  <li class="toctree-l2 "><a class="s reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
                   <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
                   <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
                   <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
@@ -94,42 +101,70 @@
             <ul>
               <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
                 <ul>
-                  <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
+                  <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+
                 </ul>
               </li>
             </ul>
             <ul>
               <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
                 <ul>
-                  <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+
                 </ul>
               </li>
             </ul>
             <ul>
               <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
                 <ul>
-                  <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <ul class="current">
+              <li class="current toctree-l1"><a class="current reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+                <ul>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+
                 </ul>
               </li>
             </ul>
             <ul>
-              <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+              <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
                 <ul>
-                  <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-                  <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
+                  <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+
                 </ul>
               </li>
             </ul>
@@ -168,7 +203,7 @@
 
 
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to Java</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.welcomejava')}}">Welcome to Java</a></li>
         </ul>
         <ul>
 
@@ -196,61 +231,75 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
             </ul>
           </li>
         </ul>
         <ul class="current">
           <li class="current toctree-l1"><a class="current reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
             <ul>
-              <li class="current toctree-l2"><a class="current reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
+              <li class="current toctree-l2"><a class="current reference internal" href="#">Java Examples</a></li>
+
             </ul>
           </li>
         </ul>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
 
-
+            </ul>
+          </li>
+        </ul>
 
       </div>
       &nbsp;
@@ -283,429 +332,537 @@
             <hr />
           </div>
           <div role="main" class="document">
+            <h2>Java Syntax</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_helloworld">
+                Create a simple "Hello World" program</a>
+            </div>
+            <a href="java_syntax.asp" class="ws-btn w3-margin-top">Syntax Explained</a>
+            <hr>
 
-            <h1>Java <span class="color_h1">Examples</span></h1>
-            <div class="w3-clear nextprev">
+            <h2>Java Comments</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_single_comment">
+                Single-line comment before a line of code</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_single_comment_end">
+                Single-line comment at the end of a line of code</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_multi_comment">
+                Multi-line comment</a>
+            </div>
+            <a href="java_comments.asp" class="ws-btn w3-margin-top">Comments Explained</a>
+            <hr>
+
+            <h2>Java Variables</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_variables">
+                Create a string variable</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables_int">
+                Create an integer variable</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables_int2">
+                Create a variable without assigning the value, and assign the value later</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables_ow">
+                Overwrite an existing variable value</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables_final">
+                Create a final variable (unchangeable and read-only)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables2">
+                Combine text and a variable on display</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables3">
+                Add a variable to another variable</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_variables5">
+                Declare many variables of the same type with a comma-separated list</a>
+            </div>
+            <a href="java_variables.asp" class="ws-btn w3-margin-top">Variables Explained</a>
+            <hr>
+
+            <h2>Java Data Types</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_data_types">
+                A demonstration of different data types in Java</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_byte">
+                Create a byte type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_short">
+                Create a short type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_int">
+                Create an int type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_long">
+                Create a long type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_float">
+                Create a float type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_double">
+                Create a double type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_booleans">
+                Create a boolean type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_char">
+                Create a char type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_type_string">
+                Create a String type</a>
+            </div>
+            <a href="java_data_types.asp" class="ws-btn w3-margin-top">Data Types Explained</a>
+            <hr>
+
+            <h2>Java Type Casting</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_casting_wide">
+                Widening Casting</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_casting_narrow">
+                Narrowing Casting</a>
+            </div>
+            <a href="java_type_casting.asp" class="ws-btn w3-margin-top">Type Casting Explained</a>
+            <hr>
+
+            <h2>Java Operators</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_oper_add">
+                Addition operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_sub">
+                Subtraction operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_mult">
+                Multiplication operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_div">
+                Division operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_mod">
+                Modulus operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_inc">
+                Increment operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_dec">
+                Decrement operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_ass1">
+                Assignment operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_compare1">
+                Comparison operator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_oper_logical1">
+                Logical operator</a>
+            </div>
+            <a href="java_operators.asp" class="ws-btn w3-margin-top">Operators Explained</a>
+            <hr>
+
+            <h2>Java Strings</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_strings">
+                Create a string</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_quotes">
+                Quotes inside a string</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_length">
+                Find the length of a string</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_touppercase">
+                Using methods to convert strings to uppercase and lowercase</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_indexof">
+                Finding a string in a string</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_conc">
+                String concatenation</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_strings_num3">
+                If you add a number and a string, the result will be a string concatenation</a>
+            </div>
+            <a href="java_strings.asp" class="ws-btn w3-margin-top">Strings Explained</a>
+            <hr>
+
+            <h2>Java Math</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_math_max">
+                Math.max(x,y) - return the highest value of x and y</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_math_min">
+                Math.min(x,y) - return the lowest value of x and y</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_math_sqrt">
+                Math.sqrt(x) - return the square root of x</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_math_abs">
+                Math.abs(x) - return the absolute (positive) value of x</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_math_random">
+                Math.random() - return a random number between 0 and 1</a>
+            </div>
+            <a href="java_math.asp" class="ws-btn w3-margin-top">Math Explained</a>
+            <hr>
+
+            <h2>Java Booleans</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_booleans">
+                Create a boolean type</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_booleans1">
+                Find out if an expression is true or false</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_booleans3">
+                Use the "equal to" operator to evaluate a boolean expression</a>
+            </div>
+            <a href="java_booleans.asp" class="ws-btn w3-margin-top">Booleans Explained</a>
+            <hr>
+            <div id="midcontentadcontainer" style="overflow:auto;text-align:center" bis_skin_checked="1">
+              <!-- MidContent -->
+              <!-- <p class="adtext">Advertisement</p> -->
+
+              <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+              <div id="snhb-mid_content-0" bis_skin_checked="1" data-google-query-id="CM-uvNqGpvACFU2JjwodE9cF8Q" style="display: none;">
+                <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_1__container__" bis_skin_checked="1" style="border: 0pt none; width: 728px; height: 90px;"></div>
+              </div>
 
             </div>
             <hr>
 
-            <h3>Java Basic</h3>
-            <div class="w3-bar-block">
-
-              <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" class="btn btn-neutral" title="PHP Style Guide"><span class="fa fa-arrow-circle"></span> HTML document</a> <br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings"><span class="fa fa-arrow-circle"></span>Java headings</a> <br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs">Java paragraphs</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link"><span class="fa fa-arrow-circle">Java links</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img"><span class="fa fa-arrow-circle">Java images</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_button_basic"><span class="fa fa-arrow-circle">Java buttons</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_intro"><span class="fa fa-arrow-circle">Java lists</a><br> <br>
+            <h2>Java If...Else (Conditions)</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_if">
+                The if statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_if_else">
+                The else statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_if_else_if">
+                The else if statement</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_basic.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_conditions.asp" class="ws-btn w3-margin-top">If...Else Explained</a>
             <hr>
 
-            <h3>Java Attributes</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title"><span class="fa fa-arrow-circle"></span>The title attribute</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link"><span class="fa fa-arrow-circle"></span>The href attribute</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_img"><span class="fa fa-arrow-circle"></span>The width and height attributes</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_alt"><span class="fa fa-arrow-circle"></span>The alt attribute</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_noquotes"><span class="fa fa-arrow-circle"></span>Attribute without quotes</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_error"><span class="fa fa-arrow-circle"></span>Attribute without quotes does not work</a><br> <br>
+            <h2>Java Switch</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_switch">
+                The switch statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_switch_default">
+                The switch statement with a default keyword</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_attributes.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_switch.asp" class="ws-btn w3-margin-top">Switch Explained</a>
             <hr>
 
-            <h3>Java Headings</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings"><span class="fa fa-arrow-circle"></span>Java headings</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_hr"><span class="fa fa-arrow-circle"></span>Java horizontal rules</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_head"><span class="fa fa-arrow-circle"></span>Java head</a><br> <br>
+            <h2>Java Loops</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_while_loop">
+                While loop</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_do_while_loop">
+                Do while loop</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_for_loop">
+                For loop</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_for_each">
+                For-each loop</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_break">
+                Break a loop</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_continue">
+                Continue a loop</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_headings.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_while_loop.asp" class="ws-btn w3-margin-top">Loops Explained</a>
             <hr>
 
-            <h3>Java Paragraphs</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1"><span class="fa fa-arrow-circle"></span>Java paragraphs</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2"><span class="fa fa-arrow-circle"></span>More HTML paragraphs</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs"><span class="fa fa-arrow-circle"></span>The use of line breaks in HTML</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_poem"><span class="fa fa-arrow-circle"></span>Poem problems (some problems with HTML formatting)</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_pre"><span class="fa fa-arrow-circle"></span>How to control the line breaks and spaces with the &lt;pre&gt; tag</a><br> <br>
+            <h2>Java Arrays</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_array">
+                Create and access an array</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_change">
+                Change an array element</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_length">
+                Find the length of an array</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_change">
+                Access an array</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_loop">
+                Loop through an array</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_for_each">
+                Loop through an array with for-each</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_multi">
+                Multidimensional array</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_array_multi_for">
+                Loop through a multidimensional array</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_paragraphs.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_arrays.asp" class="ws-btn w3-margin-top">Arrays Explained</a>
             <hr>
 
-            <h3>Java Styles</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro"><span class="fa fa-arrow-circle"></span>Java styles</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_background-color"><span class="fa fa-arrow-circle"></span>Java background color</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color"><span class="fa fa-arrow-circle"></span>Java text color</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-family"><span class="fa fa-arrow-circle"></span>Java text font</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-size"><span class="fa fa-arrow-circle"></span>Java text size</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_text-align"><span class="fa fa-arrow-circle"></span>Java text alignment</a><br> <br>
+            <h2>Java Methods</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_method">
+                Create and call a method</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_multiple">
+                Call a method multiple times</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_param">
+                Method with parameters</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_param2">
+                Method with multiple parameters</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_void">
+                Return value</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_ifelse">
+                A method with if...else</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_method_overloading2">
+                Method overloading</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_recursion">
+                Recursion</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_recursion2">
+                Recursive function with a halting condition</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_styles.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-            <hr>
-            <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
-
-
-            </div>
-            <hr>
-
-            <h3>Java Text Formatting</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_b"><span class="fa fa-arrow-circle"></span>Bold formatting using the &lt;b&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_strong"><span class="fa fa-arrow-circle"></span>Strong formatting using the &lt;strong&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_i"><span class="fa fa-arrow-circle"></span>Italic formatting using the &lt;i&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_em"><span class="fa fa-arrow-circle"></span>Emphasized formatting using the &lt;em&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_small"><span class="fa fa-arrow-circle"></span>Small formatting using the &lt;small&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_mark"><span class="fa fa-arrow-circle"></span>Marked formatting using the &lt;mark&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_del"><span class="fa fa-arrow-circle"></span>Marked deleted using the &lt;del&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_ins"><span class="fa fa-arrow-circle"></span>Marked inserted using the &lt;ins&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_del_ins"><span class="fa fa-arrow-circle"></span>Marked deleted and inserted using &lt;del&gt; and &lt;ins&gt;</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sub"><span class="fa fa-arrow-circle"></span>Subscript formatting using the &lt;sub&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sup"><span class="fa fa-arrow-circle"></span>Superscript formatting using the &lt;sup&gt; element</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html_formatting.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-
-            <hr>
-            <h3>Java Quotations and Citations</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_q"><span class="fa fa-arrow-circle"></span>Formatting short quotations with the &lt;q&gt; element.</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_blockquote"><span class="fa fa-arrow-circle"></span>Formatting quoted sections with the &lt;blockquote&gt; element.</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_address"><span class="fa fa-arrow-circle"></span>Formatting document author/owner information with the &lt;address&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_abbr"><span class="fa fa-arrow-circle"></span>Formatting abbreviations and acronyms the &lt;abbr&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_cite"><span class="fa fa-arrow-circle"></span>Formatting work title with the &lt;cite&gt; element</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_bdo"><span class="fa fa-arrow-circle"></span>Formatting text direction with the &lt;bdo&gt; element</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html_quotation_elements.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_methods.asp" class="ws-btn w3-margin-top">Methods Explained</a>
             <hr>
 
-            <h3>Java Comments</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment"><span class="fa fa-arrow-circle"></span>Hidden comments</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_ie_conditional"><span class="fa fa-arrow-circle"></span>Conditional comments</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment_out"><span class="fa fa-arrow-circle"></span>Comments for debugging</a><br> <br>
+            <h2>Java Classes and Objects</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_class">
+                Create a class and an object of a class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_multi_obj">
+                Create multiple objects of a class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_attributes">
+                Accessing class attributes (variables)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_attributes2">
+                Modify attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_attributes3">
+                Override existing attribute values</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_attributes_multiple">
+                Multiple attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_method">
+                Create a class method</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_method_para">
+                Method with parameters</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_car">
+                Access class methods with an object</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_constructor">
+                Create a class constructor</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_constructor_para2">
+                Constructor with parameters</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_comments.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_classes.asp" class="ws-btn w3-margin-top">Classes and Objects Explained</a>
             <hr>
 
-            <h3>Java CSS</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline"><span class="fa fa-arrow-circle"></span>Java with inline CSS</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal"><span class="fa fa-arrow-circle"></span>Java with internal CSS</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_external"><span class="fa fa-arrow-circle"></span>Java with external CSS</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts"><span class="fa fa-arrow-circle"></span>Java with CSS fonts</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_id"><span class="fa fa-arrow-circle"></span>Java with CSS using the id attribute</a> <br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_class"><span class="fa fa-arrow-circle"></span>Java with CSS using the class attribute</a> <br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_borders"><span class="fa fa-arrow-circle"></span>Java and CSS borders</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_padding"><span class="fa fa-arrow-circle"></span>Java and CSS padding</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_margin"><span class="fa fa-arrow-circle"></span>Java and CSS margin</a><br> <br>
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_full"><span class="fa fa-arrow-circle"></span>Java and CSS full demo</a><br> <br>
+            <h2>Java Modifiers</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_mod_public">
+                Public class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_mod_default">
+                Default class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava_classes.asp?filename=demo_mod_public2">
+                Public attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_access_mod">
+                Private attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_mod_default2">
+                Default attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_mod_protected">
+                Protected attributes</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_mod_final">
+                Final class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava_classes.asp?filename=demo_mod_abstract">
+                Abstract class with abstract methods</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_css.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_modifiers.asp" class="ws-btn w3-margin-top">Modifiers Explained</a>
             <hr>
 
-            <h3>Java Links</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools"><span class="fa fa-arrow-circle"></span>Linking, using an absolute URL</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links"><span class="fa fa-arrow-circle"></span>Linking, using a relative URL</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors"><span class="fa fa-arrow-circle"></span>Changing the color of links</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_noline"><span class="fa fa-arrow-circle"></span>Removing the underline from links</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target"><span class="fa fa-arrow-circle"></span>Changing the target of a link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image"><span class="fa fa-arrow-circle"></span>An image as a link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_bookmark"><span class="fa fa-arrow-circle"></span>Creating a bookmark link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_target_top"><span class="fa fa-arrow-circle"></span>A link that breaks out of a frame</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_mailto"><span class="fa fa-arrow-circle"></span>A mailto link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_mailto_subject"><span class="fa fa-arrow-circle"></span>A mailto link with subject</a> <br> <br>
+            <h2>Java Encapsulation</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="showjava_classes.asp?filename=demo_getset">
+                Java encapsulation (getters and setters)</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_links.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-
-            <hr>
-            <h3>Java Images</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images">An image</a>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_attributes">An image height and width using attributes</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_size">An image height and width using CSS</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_style">An image height and width using both</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_folder">An image in another folder</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_wrong">An image with a broken link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_w3schools">An image on another server</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_link">Using an image as a link</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman">A moving image</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_map">An image map with clickable regions</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_float">A floating image</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html_images.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_encapsulation.asp" class="ws-btn w3-margin-top">Encapsulation Explained</a>
             <hr>
 
-            <h3>Java Tables</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_basic">Basic HTML tables</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_border">A table with borders</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_collapse">A table with collapsed borders</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellpadding">A table with cell padding</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings">A table with headings</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headings_left">A table with left-aligned headings</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_headers">Horizontal/Vertical table headings</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_tables2">A table with a caption</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_colspan">Table cells that span more than one column</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_rowspan">Table cells that span more than one row</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_cellspacing">A table with cell spacing</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_elements">A table with HTML tags inside</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id1">Tables with different style using id I</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id2">Tables with different style using id II</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class1">Tables with different style using class I</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_class2">Tables with different style using class II</a><br> <br>
+            <h2>Java Packages</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="showjava.asp?filename=demo_api_scanner">
+                Import a class from the Java API</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_api_scanner_package">
+                Import a package from the Java API</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_package">
+                Create a package</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_tables.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_packages.asp" class="ws-btn w3-margin-top">Packages Explained</a>
             <hr>
 
-            <h3>Java Lists</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered">An unordered list (default)</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_disc">An unordered list with disc bullets</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_circle">An unordered list with circle bullets</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_square">An unordered list with square bullets</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none">An unordered list without bullets</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered">An ordered list (default)</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_numbers">An ordered list with numbers</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_ucase">An ordered list with letters</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_lcase">An ordered list with lowercase letters</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_ucase">An ordered list with roman numbers</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered_roman_lcase">An ordered list with lowercase roman numbers</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_description">A description list</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested">A nested list I</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested2">A nested list II</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_horizontal">A horizontal list</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu">A horizontal list menu</a><br> <br>
+            <h2>Java Inheritance</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_inherit">
+                Java inheritance (extends)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_polymorphism">
+                Java polymorphism</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_lists.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_inheritance.asp" class="ws-btn w3-margin-top">Inheritance Explained</a>
             <hr>
 
-            <h3>Java Block and inline elements</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_block_div">The &lt;div&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_inline_span">The &lt;span&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div">Styling a &lt;div&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_span">Styling a &lt;span&gt; element</a><br> <br>
+            <h2>Java Inner Classes</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_class_inner">
+                Inner class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_inner2">
+                Private inner class (error when trying to access it from an outside class)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_inner3">
+                Static inner class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_class_inner_access">
+                Access outer class from inner class</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_blocks.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_inner_classes.asp" class="ws-btn w3-margin-top">Inner Classes Explained</a>
             <hr>
 
-            <h3>Java Classes</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_london">Style all elements with a specified class name</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_capitals">Access elements with a specified class name, with JavaScript</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_span">Multiple classes</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_classes_tags">Same class, different tag</a><br> <br>
+            <h2>Java Abstraction &amp; Interfaces</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_abstract">
+                Java abstract classes and methods</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_interface">
+                Java interface (implements)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_interface_multi">
+                Multiple interfaces</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_classes.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_interface.asp" class="ws-btn w3-margin-top">Interfaces Explained</a>
             <hr>
 
-            <h3>Java Id</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_css">Style an element with a specific id</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_class">Difference between class and id</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_js">Access an element with a specific id, with JavaScript</a><br> <br>
+            <h2>Java Enums</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_enums">
+                Create an enum with a group of constants</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_enums_class">
+                An enum inside a class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_enums_switch">
+                An enum in a switch statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_enums_loop">
+                Loop through an enum</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_id.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_enums.asp" class="ws-btn w3-margin-top">Enums Explained</a>
             <hr>
 
-            <h3>Java Layout</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float">Layout using float</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox">Layout using flexbox</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox2">Layout using flexbox 2</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_flexbox3">Layout using flexbox 3</a><br> <br>
+            <h2>Java User Input</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="showjava.asp?filename=demo_api_scanner">
+                Read user input</a>
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="showjava.asp?filename=demo_api_scanner2">
+                Read user input of various types</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_layout.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_user_input.asp" class="ws-btn w3-margin-top">User Input Explained</a>
             <hr>
 
-            <h3>Java IFrame</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe">Inline frame (a frame inside an HTML page)</a><br> <br>
+            <h2>Java Dates</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_date_localdate">
+                Display current date</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_date_localtime">
+                Display current time</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_date_localdatetime">
+                Display current date and time</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_date_format">
+                Formatting date and time</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_iframe.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_date.asp" class="ws-btn w3-margin-top">Dates Explained</a>
             <hr>
 
-            <h3>Java head Elements</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_none">A valid HTML document with no &lt;html&gt; &lt;body, and &lt;head&gt;</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_no_head">A valid HTML document with no &lt;head&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_title">The &lt;title&gt; element defines the document title</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_style">The &lt;style&gt; element contains style information</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_link">The &lt;link&gt; element defines a relationship to an external resource</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_meta">The &lt;meta&gt; element defines special meta information</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_script">The &lt;script&gt; element defines client-side JavaScripts</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_head_base">The &lt;base&gt; element defines the base URL for all URLs</a><br> <br>
+            <h2>Java ArrayList</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_arraylist_add">
+                Create an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_get">
+                Access an item in an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_remove">
+                Remove an item from an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_clear">
+                Remove all items from an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_size">
+                Get the size of an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_loop">
+                Loop through an ArrayList</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_for_each">
+                Loop through an ArrayList with for-each</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_arraylist_integer">
+                Create an ArrayList that should store numbers (integers)</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_head.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_arraylist.asp" class="ws-btn w3-margin-top">ArrayList Explained</a>
             <hr>
 
-            <h3>Java Scripts</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script">Insert a script</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_noscript">Use of the &lt;noscript&gt; tag</a><br> <br>
+            <h2>Java HashMap</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_hashmap_put">
+                Create a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_get">
+                Access an item in a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_remove">
+                Remove an item from a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_clear">
+                Remove all items from a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_size">
+                Get the size of a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_loop_keyvalue">
+                Loop through a HashMap</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashmap_integer">
+                Create a HashMap that should store String keys and Integer values</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_scripts.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_hashmap.asp" class="ws-btn w3-margin-top">HashMap Explained</a>
             <hr>
 
-            <h3>Java Computercode Elements</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_kbd">Keyboard input formatting using the &lt;kbd&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_samp">Computer output formatting using the &lt;samp&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_code">Programming code formatting using the &lt;code&gt; element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_codepre">Programming code formatting preserving whitespace and line-breaks</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_var">Variable formatting using the &lt;var&gt; element</a><br> <br>
+            <h2>Java HashSet</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_hashset_add">
+                Create a HashSet and add items to it</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_contains">
+                Check if an item exists in a HashSet</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_remove">
+                Remove an item from a HashSet</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_clear">
+                Remove all items from a HashSet</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_size">
+                Get the size of a HashSet</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_for_each">
+                Loop through a HashSet</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_hashset_integer">
+                Create a HashSet that should store Integer values</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_computercode_elements.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_hashset.asp" class="ws-btn w3-margin-top">HashSet Explained</a>
             <hr>
 
-            <h3>Java Forms</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_text">Form with text input</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio">Form with radio button input</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Form with text fields and a submit button</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit_id">Form with a text fields without a name attribute</a><br> <br> <br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_legend">Grouping Form Data</a><br> <br>
+            <h2>Java Iterator</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_iterator">
+                Getting an iterator</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_iterator_loop">
+                Looping throug a collection</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_iterator_remove">
+                Removing items from a collection</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_forms.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_iterator.asp" class="ws-btn w3-margin-top">Iterator Explained</a>
             <hr>
 
-            <h3>Java Form Elements</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select">A simple drop-down list</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select_pre">A drop-down list with a pre-selected value</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_textarea">A textarea (a multi-line text input field)</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_button">An input button</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist">Using the &lt;datalist&gt; Element</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output">Using the &lt;output&gt; Element</a><br> <br>
+            <h2>Java Wrapper Classes</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_arraylist_integer">
+                Create an ArrayList that should store numbers (integers)</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_wrapper_create">
+                Create wrapper objects</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_wrapper_methods">
+                Using wrapper methods</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_wrapper_string">
+                Convert wrapper objects to strings</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_form_elements.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_wrapper_classes.asp" class="ws-btn w3-margin-top">Wrapper Classes Explained</a>
             <hr>
 
-            <h3>Java Input Types</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_text">Input type text</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_password">Input type password</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_radio">Input type radio</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_checkbox">Input type checkbox</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button">Input type button</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number">Input type number - with restrictions</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_number_step">Input type number - with steps</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date">Input type date - with date picker</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date_max_min">Input type date - with restrictions</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_color">Input type color - with color picker</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_range">Input type range</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_month">Input type month</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_week">Input type week</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_time">Input type time</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime">Input type datetime</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime-local">Input type datetime-local</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_email">Input type email</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_search">Input type search</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_tel">Input type tel</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_url">Input type url</a><br> <br>
+            <h2>Java Exceptions (Try...Catch)</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_try_catch">
+                The try...catch statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_try_catch_finally">
+                The finally statement</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_throw">
+                The throw statement</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_form_input_types.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_try_catch.asp" class="ws-btn w3-margin-top">Exceptions Explained</a>
             <hr>
 
-            <h3>Java Input Attributes</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autocomplete">The autocomplete attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_form_novalidate">The novalidate attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_autofocus">The autofocus_attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_form">The form attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formaction">The formaction attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formenctype">The formenctype attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formmethod">The formmethod attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formnovalidate">The formnovalidate attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_formtarget">The formtarget attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_height_width">The height and width attributes</a>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_list">The list attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_max_min">The min and max attributes</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_multiple">The multiple attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_pattern">The pattern attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_placeholder">The placeholder attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_required">The required attribute</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_step">The step attribute</a><br> <br>
+            <h2>Java Regular Expressions</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_regex">
+                Search for the word "w3schools" in a sentence</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html_form_attributes.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_regex.asp" class="ws-btn w3-margin-top">Regular Expressions Explained</a>
             <hr>
 
-            <h3>Java Canvas Graphics</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_first">Draw on the canvas with JavaScript</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path">Draw a line with lineTo()</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2">Draw a circle with arc()</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text">Draw a text with fillText()</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text2">Draw a text with strokeText()</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad">Draw a linear gradient</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad2">Draw a circular gradient</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_img">Draw an image with drawImage()</a><br> <br>
+            <h2>Java Threads</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="tryjava.asp?filename=demo_threads">
+                Running a thread by extending the thread class</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_threads_runnable">
+                Running a thread by implementing the Runnable interface</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_threads_concurrency">
+                Concurrency problems</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="tryjava.asp?filename=demo_threads_concurrency2">
+                Avoid concurrency problems</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html5_canvas.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_threads.asp" class="ws-btn w3-margin-top">Threads Explained</a>
             <hr>
 
-            <h3>Java SVG Graphics</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_circle">SVG Circle</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect">SVG Rectangle</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_rect_round">SVG Rounded Rectangle</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_star">SVG Star</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_logo">SVG Logo</a><br> <br>
+            <h2>Java Files</h2>
+            <div class="w3-bar-block" bis_skin_checked="1">
+              <a class="w3-button w3-bar-item ws-grey" target="_blank" href="showjava.asp?filename=demo_files_create">
+                Create a file</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_files_write">
+                Write to a file</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_files_read">
+                Read a file</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_files_get">
+                Get file information</a>
+              <a class="w3-button w3-bar-item ws-grey w3-border-top" target="_blank" href="showjava.asp?filename=demo_files_delete">
+                Delete a file</a>
             </div>
-            <p><a href="https://www.w3schools.com/html/html5_svg.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
+            <a href="java_files.asp" class="ws-btn w3-margin-top">Files Explained</a>
             <hr>
 
-            <h3>Java Media</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play Bunny</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_all">Play bear video with controls</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_autoplay">Play bear video with autoplay</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play Horse sound with controls</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html_media.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-            <hr>
-
-            <h3>Java Geolocation</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation">Get geolocation coordinates</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_error">Handle geolocation errors</a><br> <br>
-              <!--<a class="btn btn-neutral" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map">Get geolocation with a map</a>
-            <a class="btn btn-neutral" target="_blank" href="tryit.asp?filename=tryhtml5_geolocation_map_script">Get geolocation with Google map script</a>-->
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation_watchposition">Get geolocation and watch the position</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html5_geolocation.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-            <hr>
-
-            <h3>Java Local Storage</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local">Store a name permanently</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local_clickcount">Store a counter permanently</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_session">Store a counter for one session</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html5_webstorage.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-            <hr>
-
-            <h3>Java Media</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video">Play a video file</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all">Play an audio file in HTML</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe">Play a YouTube video in HTML</a><br> <br>
-            </div>
-            <p><a href="https://www.w3schools.com/html/html_media.asp" class="btn btn-primary btn-lg btn-block border-none">Examples explained</a></p>
-            <hr>
-
-            <h3>More HTML Examples</h3>
-            <div class="w3-bar-block">
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop">Java drag and drop</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webworker">Java web workers</a><br> <br>
-              <a class="btn btn-neutral" target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_sse">Java server sent events</a><br> <br>
-            </div>
-            <br>
 
 
           </div>
@@ -725,8 +882,8 @@
 
             <div role="contentinfo">
               <p>
-                &copy; Copyright 2014 - 2019, British Columbia Institute of Technology.
-                Last updated on Sep 19, 2019.
+                &copy; Copyright 2020- 2021, Politeknik Negeri Malang.
+                Coding Web Application.
               </p>
             </div>
 

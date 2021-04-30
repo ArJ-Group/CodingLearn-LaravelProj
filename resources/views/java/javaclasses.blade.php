@@ -18,7 +18,8 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -74,64 +75,81 @@
               <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-              
-            </ul>
-          </li>
-       
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
             </ul>
           </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
+
+          <ul class="current">
+            <li class="current toctree-l1"><a class="current reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
       </div>
 
 
@@ -166,10 +184,10 @@
 
 
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.welcomejava')}}">Welcome to Java</a></li>
         </ul>
         <ul>
-          
+
           <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
             <ul>
               <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
@@ -189,69 +207,83 @@
               <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-              
-            </ul>
-          </li>
-       
-        <ul>
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
             </ul>
           </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
 
+          <ul class="current">
+            <li class="current toctree-l1"><a class="current reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+              <ul>
+                <li class="current toctree-l2 "><a class=" current reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
 
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
 
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
 
       </div>
+
       &nbsp;
     </nav>
 
@@ -271,7 +303,7 @@
             <ul class="wy-breadcrumbs">
               <li><a href="../index.html">Docs</a> &raquo;</li>
 
-              <li>Tutorial</li>
+              <li>Java Classes</li>
               <li class="wy-breadcrumbs-aside">
 
               </li>
@@ -282,400 +314,136 @@
             <hr />
           </div>
           <div role="main" class="document">
+            <div class="section" id="welcome-to-codeigniter">
+              <h2>Java - What is OOP?</h2>
+              <p>OOP stands for <strong>Object-Oriented Programming</strong>.</p>
 
-            <div class="section" id="tutorial">
-              <h1>HTML CANVAS<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
-              <div>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/gra.png"></td>
-                      <td>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics on a web page.<br>
-                        <br> The graphic to the left is created with <code class="w3-codespan">&lt;canvas&gt;</code>. It shows four
-                        elements: a red rectangle, a gradient rectangle,
-                        a multicolor rectangle, and a multicolor text
-                      </td>
-                    </tr>
-                  </tbody>
-                </table><br>
+              <p>Procedural programming is about writing procedures or methods that perform
+                operations on the data, while object-oriented programming is about
+                creating objects that contain both data and methods.</p>
+              <p>Object-oriented programming has several advantages over procedural
+                programming:</p>
+              <ul>
+                <li>OOP is faster and easier to execute</li>
+                <li>OOP provides a clear structure for the programs</li>
+                <li>OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes
+                  the
+                  code easier to maintain, modify and debug</li>
+                <li>OOP makes it possible to create full reusable
+                  applications with less code and shorter development time</li>
+              </ul>
+              <p><strong>Tip:</strong> The "Don't Repeat Yourself" (DRY) principle is about
+                reducing the repetition of code. You should extract out the codes that are
+                common for the application, and place them at a single place and reuse them
+                instead of repeating it.</p>
+              <hr>
 
-                <h2>What is HTML Canvas?</h2>
-                <p>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via JavaScript.</p>
-                <p>The <code class="w3-codespan">&lt;canvas&gt;</code> element is only a container for graphics. You must use
-                  JavaScript to actually draw the graphics.</p>
-                <p>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
-                <hr>
+              <h2>Java - What are Classes and Objects?</h2>
+              <p>Classes and objects are the two main aspects of object-oriented programming.</p>
+              <p>Look at the following illustration to see the difference between class and
+                objects:</p>
 
-                <h2>What is HTML Canvas?</h2>
-                <p>The HTML <code class="w3-codespan">&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via JavaScript.</p>
-                <p>The <code class="w3-codespan">&lt;canvas&gt;</code> element is only a container for graphics. You must use
-                  JavaScript to actually draw the graphics.</p>
-                <p>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
-                <hr>
+              <div class="flex-container" bis_skin_checked="1">
+                <div class="box" bis_skin_checked="1">
+                  <h2>class</h2>
+                  <p>Fruit</p>
+                </div>
+                <div class="box" bis_skin_checked="1">
+                  <h2>objects</h2>
+                  <p>Apple</p>
+                  <p>Banana</p>
+                  <p>Mango</p>
+                </div>
+              </div>
+              <p>Another example:</p>
+              <div class="flex-container" bis_skin_checked="1">
+                <div class="box" bis_skin_checked="1">
+                  <h2>class</h2>
+                  <p>Car</p>
+                </div>
+                <div class="box" bis_skin_checked="1">
+                  <h2>objects</h2>
+                  <p>Volvo</p>
+                  <p>Audi</p>
+                  <p>Toyota</p>
+                </div>
+              </div>
 
-                <h2>Browser Support</h2>
-                <p>The numbers in the table specify the first browser version that fully supports the
-                  <code class="w3-codespan">&lt;canvas&gt;</code> element.
-                </p>
-                <table class="browserref notranslate">
-                  <tbody>
-                    <tr>
-                      <th style="width:20%;font-size:16px;text-align:left;">Element</th>
-                      <th style="width:16%;" class="bsChrome" title="Chrome"></th>
-                      <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
-                      <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
-                      <th style="width:16%;" class="bsSafari" title="Safari"></th>
-                      <th style="width:16%;" class="bsOpera" title="Opera"></th>
-                    </tr>
-                    <tr>
-                      <td style="text-align:left;">&lt;canvas&gt;</td>
-                      <td>4.0</td>
-                      <td>9.0</td>
-                      <td>2.0</td>
-                      <td>3.1</td>
-                      <td>9.0</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <hr>
-
-                <h2>Canvas Examples</h2>
-                <p>A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.</p>
-                <p>The markup looks like this:</p>
-
-
-                <div class="highlight-ci">
-                  <div class="highlight">
-                    <pre><span></span><span class="o"></span><span class="nx"></span><span class="o"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>canvas<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="myCanvas"</span> width<span class="attributevaluecolor" style="color:mediumblue">="200"</span> height<span class="attributevaluecolor" style="color:mediumblue">="100"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/canvas<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
-    
-  </div>
-  
-  </pre>
-                  </div>
-
-                  <div class="admonition note">
-                    <p class="first admonition-title">Note </p>
-                    <p class="last">
-                    <p>Always specify an <code class="w3-codespan">id</code> attribute (to be referred to in a script),
-                      and a <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code>
-                      attribute to define the size of the canvas. To add a border, use the <code class="w3-codespan">style</code> attribute.</p>
-                  </div>
-
-                  <h4>Here is an example of a basic, empty canvas:</h4>
-
-                  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-                    Your browser does not support the canvas element.
-                  </canvas>
-                  <div class="w3-example">
-                    <h3>Example</h3>
-
-                    <div class="highlight-ci">
-                      <div class="highlight">
-                        <pre><span></span><span class="o"></span><span class="nx"></span><span class="o"></span> <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>canvas<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="myCanvas"</span> width<span class="attributevaluecolor" style="color:mediumblue">="200"</span> height<span class="attributevaluecolor" style="color:mediumblue">="100"</span>style<span class="attributevaluecolor" style="color:mediumblue">="border:1px solid #000000;"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/canvas<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
-</div>
-
-</pre>
-                      </div>
-
-                      <a target="_blank" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_empty" class="btn btn-primary btn-lg btn-block border-none">Try it Yourself »</a>
-                    </div>
-
-                    <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
-                      <!-- MidContent -->
-                      <!-- <p class="adtext">Advertisement</p> -->
-
-                      <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
-                      <div id="snhb-mid_content-0" data-google-query-id="CJnenKqBj_ACFfyLZgId3EcGWg" style="display: none;">
-                        <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__" style="border: 0pt none; width: 728px; height: 90px;"></div>
-                      </div>
-
-                    </div>
-                    <hr>
-
-                    <h2>Add a JavaScript</h2>
-                    <p>After creating the rectangular canvas area, you must add a JavaScript to do
-                      the drawing.</p>
-                    <p>Here are some examples:</p>
-                    <h3>Draw a Line</h3>
-                    <canvas id="myCanvas2" width="200" height="100" style="border:1px solid #d3d3d3;">
-                      Your browser does not support the canvas element
-                    </canvas>
-                    <script>
-                      var c = document.getElementById("myCanvas2");
-                      var canvOK = 1;
-                      try {
-                        c.getContext("2d");
-                      } catch (er) {
-                        canvOK = 0;
-                      }
-                      if (canvOK == 1) {
-                        var ctx = c.getContext("2d");
-                        ctx.moveTo(0, 0);
-                        ctx.lineTo(200, 100);
-                        ctx.stroke();
-                      }
-                    </script>
-                    <div class="w3-example">
-                      <h3>Example</h3>
-                      <div class="highlight-ci">
-                        <div class="highlight">
-                          <pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>&lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">moveTo</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">0</span>);<br>ctx.<span class="jspropertycolor" style="color:black">lineTo</span>(<span class="jsnumbercolor" style="color:red">200</span>, <span class="jsnumbercolor" style="color:red">100</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">stroke</span>();<br>&lt;/script&gt; </span></div>
-</div>
-</div>
-<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path" target="_blank">Try it Yourself »</a>
-<br><br>
-<h3>Draw a Circle</h3>
-<canvas id="myCanvas3" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the canvas element
-</canvas>
-<script>
-var c=document.getElementById("myCanvas3");
-var canvOK=1;
-try {c.getContext("2d");}
-catch (er) {canvOK=0;}
-if (canvOK==1)
- {
- var ctx=c.getContext("2d");
- ctx.beginPath();
- ctx.arc(95,50,40,0,2*Math.PI);
- ctx.stroke();
- }
-</script> 
-<div class="w3-example">
-<h3>Example</h3>
-
-<div class="highlight-ci"><div class="highlight"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">beginPath</span>();<br>ctx.<span class="jspropertycolor" style="color:black">arc</span>(<span class="jsnumbercolor" style="color:red">95</span>, <span class="jsnumbercolor" style="color:red">50</span>, <span class="jsnumbercolor" style="color:red">40</span>, <span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">2</span> * Math.<span class="jspropertycolor" style="color:black">PI</span>);<br>ctx.<span class="jspropertycolor" style="color:black">stroke</span>();<br><span class="jsnumbercolor" style="color:red">
-</span>  &lt;/script&gt; </span></div>
-</div>
-
-</div>
-<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_path2" target="_blank">Try it Yourself »</a>
-<br><br>
-
-<h3>Draw a Text</h3>
-<canvas id="myCanvas4" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the canvas element
-</canvas>
-<script>
-var c=document.getElementById("myCanvas4");
-var canvOK=1;
-try {c.getContext("2d");}
-catch (er) {canvOK=0;}
-if (canvOK==1)
- {
-    var ctx=c.getContext("2d");
-    ctx.font="30px Arial";
-    ctx.fillText("Hello World",10,50);
- }
-</script> 
-<div class="w3-example">
-<h3>Example</h3>
-
-<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">font</span> = <span class="jsstringcolor" style="color:brown">"30px Arial"</span>;<br>ctx.<span class="jspropertycolor" style="color:black">fillText</span>(<span class="jsstringcolor" style="color:brown">"Hello World"</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">50</span>);<br><span class="jsnumbercolor" style="color:red">
-</span>   &lt;/script&gt; </span></div>
-</div>
-</div>
-<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text" target="_blank">Try it Yourself »</a>
-<br><br>
-
-
-<h3>Stroke Text</h3>
-<canvas id="myCanvas5" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the canvas element
-</canvas>
-<script>
-var c=document.getElementById("myCanvas5");
-var canvOK=1;
-try {c.getContext("2d");}
-catch (er) {canvOK=0;}
-if (canvOK==1)
- {
-    var ctx=c.getContext("2d");
-    ctx.font="30px Arial";
-    ctx.strokeText("Hello World",10,50);
- }
-</script> 
-<div class="w3-example">
-<h3>Example</h3>
-
-<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">font</span> = <span class="jsstringcolor" style="color:brown">"30px Arial"</span>;<br>ctx.<span class="jspropertycolor" style="color:black">strokeText</span>(<span class="jsstringcolor" style="color:brown">"Hello World"</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">50</span>);<br><span class="jsnumbercolor" style="color:red">
-</span>  &lt;/script&gt; </span></div>
-</div>
+              <p>So, a class is a template for objects, and an object is an instance of a class.</p>
+              <p>When the individual objects are created, they inherit all the
+                variables and methods from the class.</p>
+              <p>You will learn much more about <a href="https://www.w3schools.com/java/java_classes.asp">classes and objects</a> in the next chapter.</p>
+              <hr>
+            </div>
 
 
 
-<h3>Draw Linear Gradient</h3>
-<canvas id="myCanvas6" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the canvas element
-</canvas>
-<script>
-var c=document.getElementById("myCanvas6");
-var canvOK=1;
-try {c.getContext("2d");}
-catch (er) {canvOK=0;}
-if (canvOK==1)
- {
-    var ctx=c.getContext("2d");
-    // Create gradient
-    var grd = ctx.createLinearGradient(0,0,200,0);
-    grd.addColorStop(0,"red");
-    grd.addColorStop(1,"white");
-    // Fill with gradient
-    ctx.fillStyle = grd;
-    ctx.fillRect(10,10,150,80);
- }
-</script> 
-<div class="w3-example">
-<h3>Example</h3>
-
-<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <br><span class="jsnumbercolor" style="color:red">
-</span> <span class="commentcolor" style="color:green">// Create gradient<br></span><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> grd = ctx.<span class="jspropertycolor" style="color:black">createLinearGradient</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">0</span>, <span class="jsnumbercolor" style="color:red">200</span>, <span class="jsnumbercolor" style="color:red">0</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsstringcolor" style="color:brown">"red"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">1</span>, <span class="jsstringcolor" style="color:brown">"white"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <br><span class="jsnumbercolor" style="color:red">
-</span> <span class="commentcolor" style="color:green">// Fill with gradient<br></span><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">fillStyle</span> = grd;<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">fillRect</span>(<span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">150</span>, <span class="jsnumbercolor" style="color:red">80</span>);<br>&lt;/script&gt; </span></div>
-
- <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</div>
-</div><br>
-
-<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_grad" target="_blank">Try it Yourself »</a>
-<br><br><h3>Draw Circular Gradient</h3>
-<canvas id="myCanvas7" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the canvas element
-</canvas>
-<script>
-var c=document.getElementById("myCanvas7");
-var canvOK=1;
-try {c.getContext("2d");}
-catch (er) {canvOK=0;}
-if (canvOK==1)
- {
-    var ctx=c.getContext("2d");
-    // Create gradient
-    var grd = ctx.createRadialGradient(75,50,5,90,60,100);
-    grd.addColorStop(0,"red");
-    grd.addColorStop(1,"white");
-    // Fill with gradient
-    ctx.fillStyle = grd;
-    ctx.fillRect(10,10,150,80);
- }
-</script> 
-<div class="w3-example">
-<h3>Example</h3>
-
-<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>   &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <br><span class="jsnumbercolor" style="color:red">
-</span> <span class="commentcolor" style="color:green">// Create gradient<br></span><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> grd = ctx.<span class="jspropertycolor" style="color:black">createRadialGradient</span>(<span class="jsnumbercolor" style="color:red">75</span>, <span class="jsnumbercolor" style="color:red">50</span>, <span class="jsnumbercolor" style="color:red">5</span>, <span class="jsnumbercolor" style="color:red">90</span>, <span class="jsnumbercolor" style="color:red">60</span>, <span class="jsnumbercolor" style="color:red">100</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">0</span>, <span class="jsstringcolor" style="color:brown">"red"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> grd.<span class="jspropertycolor" style="color:black">addColorStop</span>(<span class="jsnumbercolor" style="color:red">1</span>, <span class="jsstringcolor" style="color:brown">"white"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <br><span class="jsnumbercolor" style="color:red">
-</span> <span class="commentcolor" style="color:green">// Fill with gradient<br></span><span class="jsnumbercolor" style="color:red">
-</span>  ctx.<span class="jspropertycolor" style="color:black">fillStyle</span> = grd;<br>ctx.<span class="jspropertycolor" style="color:black">fillRect</span>(<span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">150</span>, <span class="jsnumbercolor" style="color:red">80</span>);<br>&lt;/script&gt; </span></div>
-</div>
-
-
-<div class="w3-example">
-<h3>Draw Image</h3>
-
-<div class="highlight-ci"><pre><span></span><div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
-</span>  &lt;script&gt;<br><span class="jskeywordcolor" style="color:mediumblue">var</span> c = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"myCanvas"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> ctx = c.<span class="jspropertycolor" style="color:black">getContext</span>(<span class="jsstringcolor" style="color:brown">"2d"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> <span class="jskeywordcolor" style="color:mediumblue">var</span> img = document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"scream"</span>);<br><span class="jsnumbercolor" style="color:red">
-</span> ctx.<span class="jspropertycolor" style="color:black">drawImage</span>(img, <span class="jsnumbercolor" style="color:red">10</span>, <span class="jsnumbercolor" style="color:red">10</span>);<br>&lt;/script&gt; </span></div>
-</div>
-<a class="btn btn-primary btn-lg btn-block border-none" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_img" target="_blank">Try it Yourself »</a>
-<br><br>
-<h2>HTML Canvas Tutorial</h2>
-<p>To learn more about <code class="w3-codespan">&lt;canvas&gt;</code>, please 
-read our <a href="https://www.w3schools.com/graphics/canvas_intro.asp">HTML Canvas Tutorial</a>.</p>
-
-  </div>
-</div>
-
-
-          </div><br><br><br>
+          </div>
+          <br><br><br>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="static_pages.html" class="btn btn-neutral float-right" title="Static pages">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../overview/goals.html" class="btn btn-neutral" title="Design and Architectural Goals"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
 
-  <hr/>
+            <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
 
-  <div role="contentinfo">
-    <p>
-        &copy; Copyright 2014 - 2019, British Columbia Institute of Technology.
-      Last updated on Sep 19, 2019.
-    </p>
-  </div>
+              <a href="static_pages.html" class="btn btn-neutral float-right" title="Static pages">Next <span class="fa fa-arrow-circle-right"></span></a>
 
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-  
-</footer>
+
+              <a href="../overview/goals.html" class="btn btn-neutral" title="Design and Architectural Goals"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+
+            </div>
+
+
+            <hr />
+
+            <div role="contentinfo">
+              <p>
+                &copy; Copyright  2020- 2021, Politeknik Negeri Malang.
+               Coding Web Application.
+              </p>
+            </div>
+
+            Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+          </footer>
         </div>
       </div>
 
     </section>
 
   </div>
-  
 
 
-  
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'3.1.11',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  false
-        };
-    </script>
-      <script type="text/javascript" src="b/jquery.js"></script>
-      <script type="text/javascript" src="b/underscore.js"></script>
-      <script type="text/javascript" src="b/doctools.js"></script>
 
-  
 
-  
-  
-    <script type="text/javascript" src="b/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
-      jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
-      });
+    var DOCUMENTATION_OPTIONS = {
+      URL_ROOT: '../',
+      VERSION: '3.1.11',
+      COLLAPSE_INDEX: false,
+      FILE_SUFFIX: '.html',
+      HAS_SOURCE: false
+    };
   </script>
-   
+  <script type="text/javascript" src="b/jquery.js"></script>
+  <script type="text/javascript" src="b/underscore.js"></script>
+  <script type="text/javascript" src="b/doctools.js"></script>
+
+
+
+
+
+  <script type="text/javascript" src="b/js/theme.js"></script>
+
+
+
+
+  <script type="text/javascript">
+    jQuery(function() {
+      SphinxRtdTheme.StickyNav.enable();
+    });
+  </script>
+
 
 </body>
+
 </html>

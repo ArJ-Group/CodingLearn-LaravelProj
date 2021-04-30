@@ -725,8 +725,8 @@
 
             <div role="contentinfo">
               <p>
-                &copy; Copyright 2014 - 2019, British Columbia Institute of Technology.
-                Last updated on Sep 19, 2019.
+                &copy; Copyright  2020- 2021, Politeknik Negeri Malang.
+               Coding Web Application.
               </p>
             </div>
 

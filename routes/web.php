@@ -129,6 +129,9 @@ Route::get('java.javafile/', function () {
 Route::get('java.javareferences/', function () {
   return view('java.javareferences');
 });
+Route::get('java.javaexer/', function () {
+  return view('java.javaexer');
+});
 
 //C++
 Route::get('cplus.welcomecp/', function () {

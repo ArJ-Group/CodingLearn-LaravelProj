@@ -416,7 +416,8 @@ Your web page should look good, and be easy to use, regardless of the device.
 
   <hr/>
 
-  Built with <a href="https://www.polinema.ac.id/"> Polinema </a> Team <a href="http://jti.polinema.ac.id/">JTI</a> provided by <a href="#">TI 2H</a>.
+   &copy; Copyright  2020- 2021, Politeknik Negeri Malang.
+               Coding Web Application TI-2H.
   
 </footer>
         </div>
