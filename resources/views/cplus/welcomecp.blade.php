@@ -25,7 +25,8 @@
   <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
   <link rel="next" title="Installation Instructions" href="../installation/index.html" />
   <link rel="prev" title="CodeIgniter User Guide" href="../index.html" />
-  <link rel="stylesheet" href="../../css/w3schools26.css">
+  
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,12 +70,11 @@
           </li>
         </ul>
         <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('cplus.cplusmethod')}}">C++ Function</a>
+          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('cplus.cplusmethod')}}">C++ Function</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
-
 
             </ul>
           </li>
@@ -82,11 +82,11 @@
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">C++ Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">C++ Access Specifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Access Specifiers</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Encapsulaton</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Inheritance</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Polymorphism</a></li>
@@ -97,17 +97,17 @@
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusfile')}}">C++ Example</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">C++ Example</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a></li>
 
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusreferences')}}">C++ Exercise</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exercise</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
 
             </ul>
           </li>
@@ -115,12 +115,12 @@
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Examples</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">C++ Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">C++ Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">C++ Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">C++ Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">C++ Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">C++ Accessibility</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Examples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Quiz</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exercise</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Certificate</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Summary</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Accessibility</a></li>
             </ul>
           </li>
         </ul>
@@ -155,13 +155,14 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        <ul class="current">
+      <ul class="current">
           <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to C++</a></li>
         </ul>
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplustutor')}}">C++ Tutorial</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">C++ Syntax</a></li>
+
+              <li class="toctree-l2 "><a class=" reference internal" href="#">C++ Syntax</a></li>
               <li class="toctree-l2"><a class="reference internal" href="">C++ Output</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Comments</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Variables</a></li>
@@ -181,13 +182,12 @@
             </ul>
           </li>
         </ul>
-        <ul>
+        <ul class="">
           <li class="toctree-l1 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
               <li class="toctree-l2 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
-
 
             </ul>
           </li>
@@ -195,7 +195,7 @@
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
               <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
@@ -220,12 +220,12 @@
         <ul>
           <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exercise</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
 
             </ul>
           </li>
         </ul>
-
+        
       </div>
       &nbsp;
     </nav>

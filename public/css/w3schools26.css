@@ -1,3 +1,15 @@
+.code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+.w3-black, .w3-hover-black:hover {
+  color: #fff!important;
+  background-color: #000!important;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+  color: #000!important;
+  background-color: #f1f1f1!important;
+}
 .flex-container {
     display: flex;
     flex-wrap: nowrap;

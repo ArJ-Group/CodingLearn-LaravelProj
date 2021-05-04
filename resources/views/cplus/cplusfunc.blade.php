@@ -37,6 +37,8 @@
   <link rel="next" title="Getting Started With CodeIgniter" href="getting_started.html" />
   <link rel="prev" title="Troubleshooting" href="../installation/troubleshooting.html" />
 
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
@@ -50,127 +52,78 @@
 
 
       <div id="pulldown-menu" class="ciNav">
+        <ul class="current">
+          <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to C++</a></li>
+        </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to HTML</a></li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplustutor')}}">C++ Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Home</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Introduction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Editors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Basic</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Headings</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Paragraph</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Styles</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Formatting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Quotations</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java CSS</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java links</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Images</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Tables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Block and Inline</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Id</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iframes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Javascript</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java File Paths</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Head</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Layout</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Responsive</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Computer Code</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Semantics</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Style Guide</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Entities</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Symbols</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Emojis</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Charset</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java URL Encode</a></li>
+
+              <li class="toctree-l2 "><a class=" reference internal" href="#">C++ Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">C++ Output</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Condition</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Array</a></li>
+
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+        <ul class="">
+          <li class="toctree-l1 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Java Graphics</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="static_pages.html">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Java Media</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="#">Java APIs</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../libraries/index.html">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="benchmark.html">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Access Specifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Encapsulaton</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Polymorphism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exceptions</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../database/index.html">Java Reference</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="examples.html">Java Tag List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="configuration.html">Java Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="connecting.html">Java Global Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="queries.html">Java Browser Support</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="results.html">Java Events</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="helpers.html">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="query_builder.html">Java Canvas</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="transactions.html">Java Audio/Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="metadata.html">Java Doctypes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="call_function.html">Java Character Sets</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java URL Encode</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="forge.html">Java Lang Codes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="utilities.html">Java Messages</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">Keyboard Short Cut</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="db_driver_reference.html">PX to EM Converter</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
+
             </ul>
           </li>
         </ul>
 
       </div>
-
 
     </div>
   </div>
@@ -186,7 +139,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 
-        <a href="../index.html" class="fa fa-home"> Java</a>
+        <a href="../index.html" class="fa fa-home"> C++</a>
 
 
         <div role="search">
@@ -202,89 +155,76 @@
 
 
 
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
+        <ul class="">
+          <li class=" toctree-l1"><a class=" reference internal" href="#">Welcome to C++</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplustutor')}}">C++ Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-              
+
+              <li class="toctree-l2 "><a class=" reference internal" href="#">C++ Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">C++ Output</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Condition</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Array</a></li>
+
             </ul>
           </li>
-        
-        
+        </ul>
         <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+          <li class="current toctree-l1 "><a class=" current reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+              <li class="current toctree-l2 "><a class=" current reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
 
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Access Specifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Encapsulaton</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Polymorphism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exceptions</a></li>
 
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
+
+            </ul>
+          </li>
+        </ul>
 
       </div>
       &nbsp;
@@ -295,7 +235,7 @@
 
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Java</a>
+        <a href="../index.html">C++</a>
       </nav>
 
 
@@ -306,7 +246,7 @@
             <ul class="wy-breadcrumbs">
               <li><a href="../index.html">Docs</a> &raquo;</li>
 
-              <li>Java Methods</li>
+              <li>C++ Function</li>
               <li class="wy-breadcrumbs-aside">
 
               </li>
@@ -316,97 +256,127 @@
             </ul>
             <hr />
           </div>
-          <h1>Java Methods</h1>
-          <div role="main" class="document">
-            <p class="intro">A <strong>method</strong> is a block of code which only runs when it is called.</p>
-            <p class="intro">You can pass data, known as parameters, into a method.</p>
-            <p class="intro">Methods are used to perform certain actions, and they are also known as <strong>functions</strong>.</p>
-            <p class="intro">Why use methods? To reuse code: define the code once, and use
-              it many times.</p>
-            <hr>
-            <h2>Create a Method</h2>
-            <p>A method must be declared within a class. It is defined
-              with the name of the method, followed by parentheses <strong>()</strong>. Java provides some pre-defined methods, such as <code class="w3-codespan">System.out.println()</code>, but you can also create your own methods to perform certain actions:</p>
-            <div class="w3-example" bis_skin_checked="1">
-              <h3>Example</h3>
-              <p>Create a method inside Main:</p>
-              <pre class=" w3-white language-java" data-line="2"><code class=" language-java"><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-  <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// code to be executed</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<div aria-hidden="true" data-range="2" class=" line-highlight" data-start="2" style="top: 22px;" bis_skin_checked="1"> 
-</div></code></pre>
-            </div>
-            <h4>Example Explained</h4>
-            <ul>
-              <li><code class="w3-codespan">myMethod()</code> is the name of the method</li>
-              <li><code class="w3-codespan">static</code> means that the method belongs to the
-                Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial.</li>
-              <li><code class="w3-codespan">void</code> means that this method does not have a
-                return value. You will learn more about return values later in this chapter</li>
-            </ul>
-            <hr>
+          <p class="intro">A function is a block of code which only runs when it is called.</p>
+          <p class="intro">You can pass data, known as parameters, into a function.</p>
+          <p class="intro">Functions are used to perform certain actions, and they are
+            important for reusing code: Define the code once, and use it many times.</p>
 
-            <h2>Call a Method</h2>
-            <p>To call a method in Java, write the method's name followed by two
-              parentheses <strong>()</strong> and a semicolon<strong>;</strong></p>
-            <p>In the following example, <code class="w3-codespan">myMethod()</code> is used to print a text (the action), when it is called:</p>
+          <hr>
 
-            <div class="w3-example" bis_skin_checked="1">
-              <h3>Example</h3>
-              <p>Inside <code class="w3-codespan">main</code>, call the <code class="w3-codespan">
-                  myMethod()</code> method:</p>
-              <pre class=" w3-white language-java" data-line="7"><code class=" language-java"><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-  <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"I just got executed!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
+          <h2>Create a Function</h2>
+          <p>C++ provides some pre-defined
+            functions, such as <code class="w3-codespan">main()</code>, which is used to
+            execute code. But you can also
+            create your own functions to perform certain actions. </p>
+          <p>To create (often referred to as <em>declare</em>) a function, specify the name of the function, followed by parentheses <strong>()</strong>: </p>
+          <div class="w3-example" bis_skin_checked="1">
+            <h3>Syntax</h3>
+            <div class="w3-code notranslate javaHigh" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="javakeywordcolor" style="color:mediumblue">void</span> <em>myFunction</em>() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> <span class="commentcolor" style="color:green">// code to be executed<br></span>}<br><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+          </div>
+          <h4>Example Explained</h4>
+          <ul>
+            <li><code class="w3-codespan">myFunction()</code> is the name of the function</li>
+            <li><code class="w3-codespan">void</code> means that the function does not have a
+              return value. You will learn more about return values later in the next chapter</li>
+            <li>inside the function (the body), add code that defines what the function should do</li>
+          </ul>
+          <hr>
 
-  <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+          <h2>Call a Function</h2>
+          <p>Declared functions are not executed immediately. They are "saved for later
+            use", and will be executed later, when they are called.</p>
+          <p>To call a function, write the function's name followed by two parentheses <code class="w3-codespan">()</code>
+            and a semicolon <code class="w3-codespan">;</code></p>
+          <p>In the following example, <code class="w3-codespan">myFunction()</code> is used to print a text (the action), when it is called:</p>
 
-<span class="token comment">// Outputs "I just got executed!"</span>
-<div aria-hidden="true" data-range="7" class=" line-highlight" data-start="7" style="top: 132px;" bis_skin_checked="1"> 
-</div></code></pre>
-              <p>
-                <a target="_blank" class="w3-btn" href="tryjava.asp?filename=demo_method">Try it Yourself »</a>
-              </p>
-            </div>
-
-            <p>A method can also be called multiple times:</p>
-
-            <div class="w3-example" bis_skin_checked="1">
-              <h3>Example</h3>
-              <pre class=" w3-white language-java" data-line="7,8,9"><code class=" language-java"><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-  <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"I just got executed!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">myMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token comment">// I just got executed!</span>
-<span class="token comment">// I just got executed!</span>
-<span class="token comment">// I just got executed!</span>
-<div aria-hidden="true" data-range="7" class=" line-highlight" data-start="7" style="top: 132px;" bis_skin_checked="1"> 
-</div><div aria-hidden="true" data-range="8" class=" line-highlight" data-start="8" style="top: 154px;" bis_skin_checked="1"> 
-</div><div aria-hidden="true" data-range="9" class=" line-highlight" data-start="9" style="top: 176px;" bis_skin_checked="1"> 
-</div></code></pre>
-              <p>
-                <a target="_blank" class="w3-btn" href="tryjava.asp?filename=demo_method_multiple">Try it Yourself »</a>
-              </p>
-            </div>
-
-
-
+          <div class="w3-example" bis_skin_checked="1">
+            <h3>Example</h3>
+            <p>Inside <code class="w3-codespan">main</code>,
+              call <code class="w3-codespan">
+                myFunction()</code>:</p>
+            <div class="w3-code notranslate javaHigh" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="commentcolor" style="color:green">// Create a function<br></span><span class="javakeywordcolor" style="color:mediumblue">void</span> myFunction() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> cout &lt;&lt; <span class="javastringcolor" style="color:brown">"I just got executed!"</span>;<br>}<br><br><span class="javakeywordcolor" style="color:mediumblue">int</span> main() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> <strong>myFunction();</strong> <span class="commentcolor" style="color:green">// call the function<br></span>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">return</span> <span class="javanumbercolor" style="color:red">0</span>;<br>}<br><br><span class="commentcolor" style="color:green">// Outputs
+                  "I just got executed!"<br></span><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+            <a target="_blank" class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/cpp/trycpp.asp?filename=demo_functions">Try it Yourself »</a>
           </div>
 
+          <p>A function can be called multiple times:</p>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <h3>Example</h3>
+            <div class="w3-code notranslate javaHigh" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="javakeywordcolor" style="color:mediumblue">void</span> myFunction() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> cout &lt;&lt; <span class="javastringcolor" style="color:brown">"I just got executed!\n"</span>;<br>}<br><br><span class="javakeywordcolor" style="color:mediumblue">int</span> main() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> <strong>myFunction();</strong><br>&nbsp; <strong>myFunction();</strong><br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> <strong>myFunction();</strong><br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">return</span> <span class="javanumbercolor" style="color:red">0</span>;<br>}<br><br><span class="commentcolor" style="color:green">//
+                  I just got executed!<br></span><span class="commentcolor" style="color:green">// I just got executed!<br></span><span class="commentcolor" style="color:green">// I just got executed!<br></span><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+            <a target="_blank" class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/cpp/trycpp.asp?filename=demo_functions_multiple">Try it Yourself »</a>
+          </div>
+          <hr>
+          <div id="midcontentadcontainer" style="overflow:auto;text-align:center" bis_skin_checked="1">
+            <!-- MidContent -->
+            <!-- <p class="adtext">Advertisement</p> -->
+
+            <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+            <div id="snhb-mid_content-0" bis_skin_checked="1" style="display: none;" data-google-query-id="CKKp2O-mr_ACFRHYjwod93YE4w">
+              <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_3__container__" bis_skin_checked="1" style="border: 0pt none; width: 728px; height: 90px;"></div>
+            </div>
+
+          </div>
+          <hr>
+
+          <h2>Function Declaration and Definition</h2>
+          <p>A C++ function consist of two parts:</p>
+          <ul>
+            <li><strong>Declaration:</strong> the function's name, return type, and parameters (if any)</li>
+            <li><strong>Definition:</strong> the body of the function (code to be executed)</li>
+          </ul>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <div class="w3-code notranslate javaHigh" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="javakeywordcolor" style="color:mediumblue">void</span> <strong>myFunction()</strong> { <span class="commentcolor" style="color:green">// <strong>declaration</strong><br></span>&nbsp; <span class="commentcolor" style="color:green">//
+                  the body of the function (<strong>definition</strong>)<br></span>}<br><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+          </div>
+
+          <p><strong>Note:</strong> If a user-defined function, such as <code class="w3-codespan">myFunction()</code> is declared after the <code class="w3-codespan">main()</code> function,
+            <strong>an error will occur</strong>. It is because C++ works from top to bottom; which means that if the function is not declared above
+            <code class="w3-codespan">main()</code>, the program is unaware of it:
+          </p>
+          <div class="w3-example w3-pale-red" bis_skin_checked="1">
+            <h3>Example</h3>
+            <div class="w3-code notranslate javaHigh w3-border-red" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="javakeywordcolor" style="color:mediumblue">int</span> main() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> myFunction();<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">return</span> <span class="javanumbercolor" style="color:red">0</span>;<br>}<br><br><span class="javakeywordcolor" style="color:mediumblue">void</span> myFunction() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> cout &lt;&lt; <span class="javastringcolor" style="color:brown">"I just got executed!"</span>;<br>}<br><br><span class="commentcolor" style="color:green">// Error<br></span><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+            <a target="_blank" class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/cpp/trycpp.asp?filename=demo_functions_multiple">Try it Yourself »</a>
+          </div>
+          <p>However, it is possible to separate the declaration and the definition of the function - for code optimization.</p>
+          <p>You will often see C++ programs that have function declaration above <code class="w3-codespan">main()</code>,
+            and function definition below <code class="w3-codespan">main()</code>. This will make the code
+            better organized and easier to read:</p>
+
+          <div class="w3-example" bis_skin_checked="1">
+            <h3>Example</h3>
+            <div class="w3-code notranslate javaHigh" bis_skin_checked="1"><span class="javacolor" style="color:black"><span class="javanumbercolor" style="color:red">
+                </span> <span class="commentcolor" style="color:green">// <strong>Function declaration</strong><br></span><span class="javakeywordcolor" style="color:mediumblue">void</span> myFunction();<br><br><span class="commentcolor" style="color:green">// The main method<br></span><span class="javakeywordcolor" style="color:mediumblue">int</span> main() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> myFunction();&nbsp; <span class="commentcolor" style="color:green">// <strong>call</strong> the function<br></span>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">return</span> <span class="javanumbercolor" style="color:red">0</span>;<br>}<br><br><span class="commentcolor" style="color:green">// <strong>Function definition</strong><br></span><span class="javakeywordcolor" style="color:mediumblue">void</span> myFunction() {<br>&nbsp; <span class="javanumbercolor" style="color:red">
+                </span> cout &lt;&lt; <span class="javastringcolor" style="color:brown">"I just got executed!"</span>;<br>}<br><span class="javanumbercolor" style="color:red">
+                </span> </span></div>
+            <a target="_blank" class="w3-btn w3-margin-bottom" href="https://www.w3schools.com/cpp/trycpp.asp?filename=demo_functions_err">Try it Yourself »</a>
+          </div>
+          <hr>
+
+         
+               
           <footer>
 
             <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">

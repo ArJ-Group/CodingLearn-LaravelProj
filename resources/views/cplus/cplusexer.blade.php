@@ -27,8 +27,6 @@
 
 
 
-
-
   <link rel="stylesheet" href="b/css/citheme.css" type="text/css" />
 
 
@@ -36,27 +34,10 @@
   <link rel="index" title="Index" href="../genindex.html" />
   <link rel="search" title="Search" href="../search.html" />
   <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
-  <link rel="next" title="Database Quick Start: Example Code" href="examples.html" />
-  <link rel="prev" title="Zip Encoding Class" href="../libraries/zip.html" />
+  <link rel="next" title="Getting Started With CodeIgniter" href="getting_started.html" />
+  <link rel="prev" title="Troubleshooting" href="../installation/troubleshooting.html" />
 
-  <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    td,
-    th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -71,107 +52,78 @@
 
 
       <div id="pulldown-menu" class="ciNav">
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to Java</a></li>
+        <ul class="current">
+          <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to C++</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplustutor')}}">C++ Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Home</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Introduction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Editors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Basic</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Attribute</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Headings</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Paragraph</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Styles</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Formatting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Quotations</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Colors</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java CSS</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java links</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Images</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Tables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Block and Inline</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Id</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iframes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Javascript</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java File Paths</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Head</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Layout</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Responsive</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Computer Code</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Semantics</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Style Guide</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Entities</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Symbols</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Emojis</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Charset</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java URL Encode</a></li>
+
+              <li class="toctree-l2 "><a class=" reference internal" href="#">C++ Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">C++ Output</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Condition</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Array</a></li>
+
             </ul>
           </li>
         </ul>
-        <ul>
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+        <ul class="">
+          <li class="toctree-l1 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
 
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Access Specifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Encapsulaton</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Polymorphism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exceptions</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="current toctree-l2"><a class="current reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
+
             </ul>
           </li>
         </ul>
 
       </div>
-
 
     </div>
   </div>
@@ -187,7 +139,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 
-        <a href="../index.html" class="fa fa-home"> Java</a>
+        <a href="../index.html" class="fa fa-home"> C++</a>
 
 
         <div role="search">
@@ -203,91 +155,76 @@
 
 
 
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to Java</a></li>
+        <ul class="">
+          <li class=" toctree-l1"><a class=" reference internal" href="#">Welcome to C++</a></li>
         </ul>
         <ul>
-
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplustutor')}}">C++ Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
+
+              <li class="toctree-l2 "><a class=" reference internal" href="#">C++ Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">C++ Output</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Condition</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Array</a></li>
 
             </ul>
           </li>
         </ul>
-        <ul>
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+        <ul class="">
+          <li class=" toctree-l1 "><a class="  reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a>
             <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+              <li class=" toctree-l2 "><a class="  reference internal" href="{{url('cplus.cplusfunc')}}">C++ Function</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Function Overloading</a></li>
 
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusclasses')}}">C++ Classes</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">Java Canva</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="news_section.html">Java SVG</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Classes/Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Constructors</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Access Specifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Encapsulaton</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Polymorphism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">C++ Exceptions</a></li>
+
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">Java Media</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Video</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Audio</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Plug-Ins</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java YouTube</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="{{url('cplus.cplusexample')}}">C++ Example</a></li>
+
             </ul>
           </li>
         </ul>
         <ul class="current">
-          <li class="current toctree-l1"><a class="current reference internal" href="{{url('java.javareferences')}}">Java References</a>
+          <li class="current toctree-l1"><a class="current reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a>
             <ul>
-              <li class="current toctree-l2"><a class="current reference internal" href="urls.html">Java Geolocation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="controllers.html">Java Drag/Drop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="reserved_names.html">Java Web Storage</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="views.html">Java Web Workers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="models.html">Java SSE</a></li>
+              <li class="current toctree-l2"><a class="current reference internal" href="{{url('cplus.cplusexer')}}">C++ Exercise</a></li>
+
             </ul>
           </li>
         </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">Java Examples</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="caching.html">Java Quiz</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="calendar.html">Java Exercise</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="cart.html">Java Certificate</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="config.html">Java Summary</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="email.html">Java Accessibility</a></li>
-            </ul>
-          </li>
-        </ul>
-
-
-
 
       </div>
       &nbsp;
@@ -298,7 +235,7 @@
 
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Java</a>
+        <a href="../index.html">C++</a>
       </nav>
 
 
@@ -309,7 +246,7 @@
             <ul class="wy-breadcrumbs">
               <li><a href="../index.html">Docs</a> &raquo;</li>
 
-              <li>Java References</li>
+              <li>Exercise</li>
               <li class="wy-breadcrumbs-aside">
 
               </li>
@@ -319,32 +256,26 @@
             </ul>
             <hr />
           </div>
-          <div role="main" class="document">
 
-
+          <div>
 
           </div>
-          <br>
+
+
+
           <footer>
 
             <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
 
-              <a href="examples.html" class="btn btn-neutral float-right" title="Database Quick Start: Example Code">Next <span class="fa fa-arrow-circle-right"></span></a>
+              <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started With CodeIgniter">Next <span class="fa fa-arrow-circle-right"></span></a>
 
 
-              <a href="../libraries/zip.html" class="btn btn-neutral" title="Zip Encoding Class"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+              <a href="../installation/troubleshooting.html" class="btn btn-neutral" title="Troubleshooting"><span class="fa fa-arrow-circle-left"></span> Previous</a>
 
             </div>
 
 
             <hr />
-
-            <div role="contentinfo">
-              <p>
-                &copy; Copyright 2020- 2021, Politeknik Negeri Malang.
-                Coding Web Application.
-              </p>
-            </div>
 
             Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 
