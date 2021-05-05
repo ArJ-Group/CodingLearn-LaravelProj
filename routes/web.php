@@ -19,7 +19,7 @@ Route::get('/users', function ($id) {
 });
 
 Route::get('/', function () {
-  return view('index');
+  return view('Auth.login');
 });
 Route::get('/index', function () {
   return view('index');

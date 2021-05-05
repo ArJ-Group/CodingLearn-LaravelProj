@@ -7,18 +7,18 @@
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--fontawesome css-->
-      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="a/css/font-awesome.min.css">
       <!--bootstrap css-->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="a/css/bootstrap.min.css">
       <!--animate css-->
-      <link rel="stylesheet" href="css/animate-wow.css">
+      <link rel="stylesheet" href="a/css/animate-wow.css">
       <!--main css-->
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="a/css/style.css">
+      <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="a/css/slick.min.css">
       <!--responsive css-->
-      <link rel="stylesheet" href="css/responsive.css">
-	    <link rel="stylesheet" href="css/styleLogin.css">
+      <link rel="stylesheet" href="a/css/responsive.css">
+	    <link rel="stylesheet" href="a/css/styleLogin.css">
    </head>
    <body>
       <header id="header" class="top-head">
@@ -35,7 +35,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="index.html" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -57,7 +57,7 @@
                            <div class="help-box">
                               <ul>
                                  <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Profile</span> <img  alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Help </a> </li>
                               </ul>
                            </div>
                         </div>
@@ -87,8 +87,8 @@
                </div>
                <div class="modal-body">
                   <ul>
-                     <li><a href="about-us.html"><img src="images/help-icon.png" alt="" /> About US</a></li>
-                     <li><a href="category.html"><img src="images/help-icon.png" alt="" /> Category </a></li>
+                     <li><a href="about-us.html"><img src="a/images/help-icon.png" alt="" /> About US</a></li>
+                     <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Category </a></li>
                   </ul>
                </div>
             </div>
