@@ -390,24 +390,24 @@
             <button onclick="myAccFunction('DemoAcc')" class="w3-btn w3-block w3-left-align xx w3-border-bottom  ">Show how to install Java step-by-step with images »</button>
             <div id="DemoAcc" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
               <h2 style="margin-top:0">Step 1</h2>
-              <img src="system.png" class="w3-image">
+              <img src="https://www.w3schools.com/java/system.png" class="w3-image">
             </div>
 
             <button onclick="myAccFunction('DemoAcc2')" class="w3-btn w3-block w3-left-align xx w3-border-bottom ">Step 2 »</button>
             <div id="DemoAcc2" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
               <h2 style="margin-top:0">Step 2</h2>
-              <img src="system1.png" class="w3-image">
+              <img src="https://www.w3schools.com/java/system1.png" class="w3-image">
             </div>
             <button onclick="myAccFunction('DemoAcc3')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 3 »</button>
             <div id="DemoAcc3" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
               <h2 style="margin-top:0">Step 3</h2>
-              <img src="path2.png" class="w3-image">
+              <img src="https://www.w3schools.com/java/path2.png" class="w3-image">
             </div>
             <button onclick="myAccFunction('DemoAcc4')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 4 »</button>
             <div id="DemoAcc4" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
 
               <h2 style="margin-top:0">Step 4</h2>
-              <img src="path3.png" class="w3-image">
+              <img src="https://www.w3schools.com/java/path3.png" class="w3-image">
             </div>
             <button onclick="myAccFunction('DemoAcc5')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 5 »</button>
             <div id="DemoAcc5" class="w3-hide w3-light-grey w3-padding-16 w3-container" bis_skin_checked="1">
