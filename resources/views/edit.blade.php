@@ -1,27 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<head>
-    <meta charset="UTF-8">
-    <title>CODING LEARN APPLICATION </title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--main css-->
-    <link rel="stylesheet" href="a/css/style.css">
-
- </head>
- <body>
-    <!-- Modal -->
-       <div class="main-product">        
-             <div class="row clearfix">
-                <div class="find-box">
-                   <h1>Find your Code Programming<br>Get Easy For Learn Programming</h1>
-                   <h4>REGISTER</h4>
-                   <div class="product-sh">
-                      <div class="col-sm-6">
-                      </div>
-                   </div>
-                </div>
-             </div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

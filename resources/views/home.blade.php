@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--fontawesome css-->
     <link rel="stylesheet" href="a/css/font-awesome.min.css">
-    <!--bootstrap css-->
-    <link rel="stylesheet" href="a/css/bootstrap.min.css">
+
     <!--animate css-->
     <link rel="stylesheet" href="a/css/animate-wow.css">
     <!--main css-->
@@ -34,7 +33,29 @@
                    <div class="right-nav">
                       <div class="login-sr">
                          <div class="login-signup">
-               
+                           <div class="login-sr">
+                              <div class="login-signup">
+                                 <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item dropdown">
+                  
+                                       <a id="navbarDropdown"  class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
+                                           {{ Auth::user()->name }}
+                                       </a>
+                                       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                           <a class="dropdown-item" href="{{ route('logout') }}"
+                                              onclick="event.preventDefault();
+                                                            document.getElementById('logout-form').submit();">
+                                               {{ __('Logout') }}
+                                           </a>
+                                           <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                               @csrf
+                                           </form>
+                                           <a href="{{url('mahasiswa')}}"> College Data</a>
+                                       </div>
+                                   </li>
+                                 </ul>
+                              </div>
+                           </div>
                          </div>
                       </div>
                       <div class="help-r hidden-xs">
@@ -100,7 +121,7 @@
                     {{ __('You are logged in!') }}
 
                     <table class="table table-responsive">
-
+                    
                         <tr><th>Username</th><th>:</th><td>{{ $user->username }}</td></tr>
                         
                         <tr><th>Name</th><th>:</th><td>{{ $user->name }}</td></tr>
@@ -108,9 +129,18 @@
                         <tr><th>Email</th><th>:</th><td>{{ $user->email }}</td></tr>
                         
                         <tr><th>Created At</th><th>:</th><td>{{ $user->created_at }}</td></tr>
-                        
+                      
+                        </button>
                         </table>
-
+                        
+                        
+                            <div class="login-signup">
+                               <ul>
+                                  <li><a class="custom-b" href="{{ url('edit') }}">Change Data</a></li>
+                               
+                               </ul>
+                            </div>
+                         
                 </div>
             </div>
         </div>

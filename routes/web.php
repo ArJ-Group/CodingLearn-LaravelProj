@@ -27,8 +27,14 @@ Route::get('/index', function () {
 Route::get('forum2/', function () {
   return view('forum2');
 });
-//Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
-//Route::resource('mahasiswa', MahasiswaController::class);
+Route::get('/edit', function () {
+  return view('edit');
+});
+Route::get('/compiler', function () {
+  return view('compiler');
+});
+Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
+Route::resource('mahasiswa', MahasiswaController::class);
 
 Route::get('/htm', function () {
     return view('htm');

@@ -1,5 +1,14 @@
 @extends('mahasiswa.layout')
 @section('content')
+<head>
+    <meta charset="UTF-8">
+    <title>CODING LEARN APPLICATION </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--main css-->
+    <link rel="stylesheet" href="a/css/style.css">
+
+ </head>
+ <div class="container">
     <div class="row">
         <div class="col-lg-12 margin-tb">
     <div class="pull-left mt-2">

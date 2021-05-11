@@ -1,6 +1,28 @@
 @extends('layouts.app')
 
 @section('content')
+
+<head>
+    <meta charset="UTF-8">
+    <title>CODING LEARN APPLICATION </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--main css-->
+    <link rel="stylesheet" href="a/css/style.css">
+
+ </head>
+ <body>
+    <!-- Modal -->
+       <div class="main-product">        
+             <div class="row clearfix">
+                <div class="find-box">
+                   <h1>Find your Code Programming<br>Get Easy For Learn Programming</h1>
+                   <h4>LOGIN</h4>
+                   <div class="product-sh">
+                      <div class="col-sm-6">
+                      </div>
+                   </div>
+                </div>
+             </div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -39,12 +61,13 @@
                             </div>
                         </div>
 
+
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                    <input id="checkbox13" class="filled-in chk-col-blue" type="checkbox" name="checkbox13"  {{ old('checkbox13') ? 'checked' : '' }}>
 
-                                    <label class="form-check-label" for="remember">
+                                    <label class="form-check-label" for="checkbox13">
                                         {{ __('Remember Me') }}
                                     </label>
                                 </div>
@@ -70,4 +93,5 @@
         </div>
     </div>
 </div>
+       </div>
 @endsection

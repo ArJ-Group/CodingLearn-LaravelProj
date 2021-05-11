@@ -345,7 +345,7 @@
           <div role="main" class="document">
             
   <div class="section" id="codeigniter-overview">
-<h1>CodeIgniter Overview<a class="headerlink" href="#codeigniter-overview" title="Permalink to this headline">¶</a></h1>
+<h1>HTML<a class="headerlink" href="#codeigniter-overview" title="Permalink to this headline">¶</a></h1>
 <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
 <form action="#" target="_blank">
   First name:<br>

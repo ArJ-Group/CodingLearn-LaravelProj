@@ -46,12 +46,28 @@
                      <div class="right-nav">
                         <div class="login-sr">
                            <div class="login-signup">
-                              <ul>
-                                 <li><a href="{{ route('login') }}">Login</a></li>
-                                 <li><a class="custom-b" href="#">Register</a></li>
+                              <ul class="navbar-nav ml-auto">
+                                 <li class="nav-item dropdown">
+               
+                                    <a id="navbarDropdown"  class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
+                                        {{ Auth::user()->name }}
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                           onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                                            {{ __('Logout') }}
+                                        </a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                        <a href="{{url('mahasiswa')}}"> College Data</a>
+                                    </div>
+                                </li>
                               </ul>
                            </div>
                         </div>
+                     
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
