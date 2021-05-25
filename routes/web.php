@@ -33,6 +33,9 @@ Route::get('/edit', function () {
 Route::get('/compiler', function () {
   return view('compiler');
 });
+Route::get('/Run', function () {
+  return view('Run');
+});
 Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 Route::resource('mahasiswa', MahasiswaController::class);
 

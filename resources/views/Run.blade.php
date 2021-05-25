@@ -1,8 +1,9 @@
+<!-- JQuery -->
 <!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>SAFARI BUSSINES </title>
+      <title>CODING LEARN APPLICATION</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!--enable mobile device-->
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,15 +17,14 @@
       <link rel="stylesheet" href="a/css/style.css">
       <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
       <link rel="stylesheet" href="a/css/slick.min.css">
+      <link rel="stylesheet" href="a/css/jquery-ui.css">
       <!--responsive css-->
       <link rel="stylesheet" href="a/css/responsive.css">
-	    <link rel="stylesheet" href="a/css/styleLogin.css">
    </head>
    <body>
       <header id="header" class="top-head">
          <!-- Static navbar -->
          <nav class="navbar navbar-default">
-             <nav class="navbar navbar-default">
             <div class="container-fluid">
                <div class="row">
                   <div class="col-md-4 col-sm-12 left-rs">
@@ -39,7 +39,7 @@
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
-                           <input type="text" class="form-control" placeholder="Search for products or companies">
+                           <input type="text" class="form-control" placeholder="Search for Code">
                         </div>
                      </form>
                   </div>
@@ -68,19 +68,20 @@
                               </ul>
                            </div>
                         </div>
+                     
                         <div class="help-r hidden-xs">
                            <div class="help-box">
                               <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Profile</span> <img  alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Help </a> </li>
+                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img  alt="" /> </a> </li>
+                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
                               </ul>
                            </div>
                         </div>
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">How it works</a></li>
-                                 <li><a href="productpage.html">Product for Business</a></li>
+                                 <li><a href="howitworks.html">Tutorial</a></li>
+                                 <li><a href="productpage.html">References</a></li>
                               </ul>
                            </div>
                         </div>
@@ -91,62 +92,37 @@
             <!--/.container-fluid --> 
          </nav>
       </header>
-      <!-- Modal -->
-      <div class="modal fade lug" id="myModal" role="dialog">
-         <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Change</h4>
-               </div>
-               <div class="modal-body">
-                  <ul>
-                     <li><a href="about-us.html"><img src="a/images/help-icon.png" alt="" /> About US</a></li>
-                     <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Category </a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>	
-      <div id="sidebar" class="top-nav">
-         <ul id="sidebar-nav" class="sidebar-nav">
-            <li><a href="#">Help</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Chamb for Business</a></li>
-         </ul>
-      </div>
 
-<div class="container">
-        <div class="form-container">
-        <h2>Log In</h2>
-        <label>Username</label>
-        <br>
-        <input id="name" type="text" placeholder="Username">
-        <br>
-        <p id="show"></p>
-        <br>
-        <label>Password</label>
-        <input id="password" type="password" placeholder="Password">
-        <br><br>
-        <button type="submit" class="btn btn-primary">Login</button>
-		 <a class="btn btn-link" href="{{ route('password.request') }}">Forgot Your Password</a>
-        <br><br>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- CSS Style -->
+
+<style type="text/css">
+br { display: none; }
+ textarea{display: block;margin: 10px 0; width:100%; border: 1px solid #333;}
  
+ iframe{display: block;margin: 10px 0; width:100%; resize:both; overflow: auto; border: 1px solid #333;}
+</style>
 
-    </div>
+<!-- JavaScript -->
 
-    </div>
+<script type="text/javascript">
+ function updateIframe(){
+ var myFrame = $("#myframe").contents().find('body');
+ var textareaValue = $("textarea").val();
+ myFrame.html(textareaValue);
+ }
+</script>
+<h1><marquee><font face="Calibri" color="#FF0000">See Your HTML Code Preview</font></marquee></h1>
 
-      <!--main js--> 
+<textarea rows="5" cols="50" placeholder="Type HTML Code Here"></textarea>
 
-      <script src="js/jquery-1.12.4.min.js"></script> 
-      <!--bootstrap js--> 
-      <script src="js/bootstrap.min.js"></script> 
-      <script src="js/bootstrap-select.min.js"></script>
-      <script src="js/slick.min.js"></script> 
-      <script src="js/wow.min.js"></script>
-      <!--custom js--> 
-      <script src="js/custom.js"></script>
-   </body>
-</html>
+<button style="border:1" type="button" onclick="updateIframe()"><i class="fa fa-pencil-square-o"></i>Run The Code</button>
+
+<iframe id="myframe"></iframe>
+
+<div>
+	<p align="center"><span style="text-decoration: none"><b>
+	<font face="Calibri">Created By</font><font color="#FF0000" face="Calibri"> <a href="#"">
+	<font color="#FF0000" face="Calibri"><span style="text-decoration: none">AR</span></font></a></b></div>
+	</html>

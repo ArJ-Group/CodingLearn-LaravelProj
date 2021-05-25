@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="" /></a>
+                        <a href="{{url('index')}}" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">

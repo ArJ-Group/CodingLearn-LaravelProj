@@ -34,7 +34,7 @@
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
                         </button>
-                        <a href="index.html" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
+                        <a href="{{url('index')}}" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
                      </div>
                      <form class="navbar-form navbar-left web-sh">
                         <div class="form">
@@ -427,7 +427,7 @@
                               <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Graphics</a></li>
                               <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
                               <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
-                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/a.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('Run')}}"><img width="32" src="a/images/a.png" alt="" /> Compiler</a></li>
                            </ul>
                         </div>
                      </div>
