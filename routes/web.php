@@ -42,8 +42,8 @@ Route::resource('mahasiswa', MahasiswaController::class);
 Route::get('/htm', function () {
     return view('htm');
 });
-Route::get('/c', function () {
-  return view('c');
+Route::get('/sql', function () {
+  return view('sql');
 });
 Route::get('/cplus', function () {
   return view('cplus');
@@ -142,6 +142,31 @@ Route::get('java.javaexer/', function () {
   return view('java.javaexer');
 });
 
+//SQL
+Route::get('sql.sqltutor/', function () {
+  return view('sql.sqltutor');
+});
+Route::get('sql.sqltutor1/', function () {
+  return view('sql.sqltutor1');
+});
+Route::get('sql.sqldb/', function () {
+  return view('sql.sqldb');
+});
+Route::get('sql.sqlrefer/', function () {
+  return view('sql.sqlrefer');
+});
+Route::get('cplus.cplusexample/', function () {
+  return view('cplus.cplusexample');
+});
+Route::get('cplus.cplusexer/', function () {
+  return view('cplus.cplusexer');
+});
+Route::get('cplus.cplusfunc/', function () {
+  return view('cplus.cplusfunc');
+});
+Route::get('cplus.cplustutor/', function () {
+  return view('cplus.cplustutor');
+});
 //C++
 Route::get('cplus.welcomecp/', function () {
   return view('cplus.welcomecp');
@@ -161,9 +186,10 @@ Route::get('cplus.cplusfunc/', function () {
 Route::get('cplus.cplustutor/', function () {
   return view('cplus.cplustutor');
 });
-
-
-
+//compiler
+Route::get('compiler.java.javacom/', function () {
+  return view('compiler.java..javacom');
+});
 
 
 
