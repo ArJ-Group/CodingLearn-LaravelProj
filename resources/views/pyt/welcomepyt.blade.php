@@ -101,7 +101,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Welcome to Java </title>
+  <title>Welcome to Python </title>
 
 
   <link rel="shortcut icon" href="b/html.png" />
@@ -133,110 +133,139 @@
 
       <div id="pulldown-menu" class="ciNav">
         <ul class="current">
-          <li class="toctree-l1"><a class="reference internal" href="#">Welcome to Java</a></li>
+          <li class="toctree-l1"><a class="reference internal" href="#">Welcome to Python</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pyttutor')}}">Python Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-
+              <li class="toctree-l2"><a class="reference internal" href="">Python Get Started</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="#">Python Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Python Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Variables</a></li>         
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Casting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Lists</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Tuples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Sets</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Dictionaries</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python If...Else</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python While Loops</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Function</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Lambda</a></li>      
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Array</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Classes/Object</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Iterators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Scope</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Modules</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Dates</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python JSON</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python RegEx</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python PIP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Try...Except</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python String Formatting</a></li>
+            
             </ul>
           </li>
         </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
-
-            </ul>
-          </li>
-        </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytfile')}}">Python FIle handling</a>
             <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python File Handling</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Read Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Create/Write Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Delete Files</a></li>
              
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytmodules')}}">Python Modules</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python File Handling</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Read Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Create/Write Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Delete Files</a></li>
              
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytmat')}}">Python Matplotlib</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('pyt.pytmat')}}">Python Get Started</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Pyplot</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Plotting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Markers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Line</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Labels</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Grid</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Subplots</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Scatter</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Bars</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Histogram</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Pie Charts</a></li>
+             
+            </ul>
+          </li>
+        </ul>
+        
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytmacl')}}">Python Machine Learning</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="#">Getting Startet</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Mean, Median, Mode</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Standard Deviation</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Percentile</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Data Distribution</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Normal Data Distribution</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Scatter Plot</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Linear Regression</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Polynomial Regression</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Multiple Regression</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Scale</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Train/Test</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Decision Tree</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytreferences')}}">Python References</a>
+            <ul>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Overview</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Built-in Functions</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python String Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python List Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Dictionary Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Tuple Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Set Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python File Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Keywords</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Exceptions</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Glossary</a></li>
+             
               
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytexample')}}">Python Examples</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Examples</a></li>
               
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pytexer')}}">Python Exercise</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Exercise</a></li>
               
             </ul>
           </li>
@@ -259,7 +288,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
 
-        <a href="../index.html" class="fa fa-home"> Java</a>
+        <a href="../index.html" class="fa fa-home"> Python</a>
 
 
         <div role="search">
@@ -276,110 +305,110 @@
 
 
       <ul class="current">
-          <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to Java</a></li>
+          <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to Python</a></li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Java Tutorial</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javatutor')}}">Python Tutorial</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Python Get Started</a></li>
+              <li class="toctree-l2 current"><a class="current reference internal" href="#">Python Syntax</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="">Python Comments</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Variables</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Element</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Data Types</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Type Casting</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Operators</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python String</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Math</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Booleans</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python If...Else</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Switch</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python While Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python For Loop</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Break/Continue</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Array</a></li>
 
             </ul>
           </li>
         </ul>
         <ul >
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
+          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Python Methods</a>
             <ul>
-              <li class="toctree-l2 "><a class="s reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
+              <li class="toctree-l2 "><a class="s reference internal" href="{{url('java.javamethod')}}">Python Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Method Parameters</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Method Overloading</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Scope</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Recursion</a></li>
 
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Python Classes</a>
             <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Python OOP</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Classs/Object</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Class Attributes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Class Methods</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Constructor</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Modifiers</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Encapsulation</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Packages/Api</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Inheritance</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Polymorhism</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Inner Classes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Abstraction</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Interface</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Enums</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python User Input</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Date</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python ArrayList</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Linked List</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python HashMap</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python HashSet</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Iterator</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Wrapper Classes</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Exceptions</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python RegEx</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Threads</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Lambda</a></li>
              
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Python FIle handling</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Create/Write Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Read Files</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Delete Files</a></li>
              
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Python References</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Keywords</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python String Method</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Math Method</a></li>
               
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Python Examples</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Examples</a></li>
               
             </ul>
           </li>
         </ul>
         <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
+          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Python Exercise</a>
             <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+              <li class="toctree-l2"><a class="reference internal" href="#">Python Exercise</a></li>
               
             </ul>
           </li>
@@ -394,7 +423,7 @@
 
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Java</a>
+        <a href="../index.html">Python</a>
       </nav>
 
 
@@ -405,7 +434,7 @@
             <ul class="wy-breadcrumbs">
               <li><a href="../index.html">Docs</a> &raquo;</li>
 
-              <li>Welcome to Java</li>
+              <li>Welcome to Python</li>
               <li class="wy-breadcrumbs-aside">
 
               </li>
@@ -418,13 +447,13 @@
           <div role="main" class="document">
 
             <div class="section" id="welcome-to-codeigniter">
-              <h1>Welcome to Java<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+              <h1>Welcome to Python<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
 
               <div class="admonition note">
                 <p class="first admonition-title">Apa Itu Java ? </p>
                 <p class="last">
-                <p>Java is a popular programming language, created in 1995.</p>
+                <p>Python is a popular programming language, created in 1995.</p>
 
                 <p>It is used for:</p>
 
@@ -441,13 +470,13 @@
               </div>
               <h2>Why Use Java?</h2>
               <ul>
-                <li>Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
+                <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
                 <li>It is one of the most popular programming language in the world</li>
                 <li>It is easy to learn and simple to use</li>
                 <li>It is open-source and free</li>
                 <li>It is secure, fast and powerful</li>
                 <li>It has a huge community support (tens of millions of developers)</li>
-                <li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
+                <li>Python is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
                 <li>As Java is close to <a href="/cpp/default.asp">C++</a> and <a href="/cs/default.asp">C#</a>, it makes it easy for programmers to switch to Java or vice versa</li>
               </ul>
               <hr>

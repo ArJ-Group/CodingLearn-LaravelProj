@@ -162,6 +162,10 @@ Route::get('cplus.cplustutor/', function () {
   return view('cplus.cplustutor');
 });
 
+//Python
+Route::get('pyt.welcomepyt/', function () {
+  return view('pyt.welcomepyt');
+});
 
 
 
