@@ -166,6 +166,30 @@ Route::get('cplus.cplustutor/', function () {
 Route::get('pyt.welcomepyt/', function () {
   return view('pyt.welcomepyt');
 });
+Route::get('pyt.pytexample/', function () {
+  return view('pyt.pytexample');
+});
+Route::get('pyt.pytexer/', function () {
+  return view('pyt.pytexer');
+});
+Route::get('pyt.pytfile/', function () {
+  return view('pyt.pytfile');
+});
+Route::get('pyt.pytmacl/', function () {
+  return view('pyt.pytmacl');
+});
+Route::get('pyt.pytmat/', function () {
+  return view('pyt.pytmat');
+});
+Route::get('pyt.pytmodules/', function () {
+  return view('pyt.pytmodules');
+});
+Route::get('pyt.pytreferences/', function () {
+  return view('pyt.pytreferences');
+});
+Route::get('pyt.pyttutor/', function () {
+  return view('pyt.pyttutor');
+});
 
 
 
