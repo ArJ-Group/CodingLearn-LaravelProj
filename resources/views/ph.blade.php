@@ -121,7 +121,7 @@
                <div class="row">
                   <ol class="breadcrumb">
                      <li><a href="{{url('index')}}">Back</a></li>
-                     <li class="active">Python Learn Application</li>
+                     <li class="active">Coding Learn Application</li>
                   </ol>
                </div>
             </div>
@@ -131,7 +131,7 @@
          <div class="container">
             <div class="row">
                <div class="furniture-main">
-                  <h2>Python Learn Application</h2>
+                  <h2>Coding Learn Application</h2>
                   <div class="col-md-3 col-sm-4">
                      <div class="furniture-left">
                         <h3>CLA</h3>
@@ -419,14 +419,14 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="{{url('pyt.welcomepyt')}}"><img width="32" src="a/images/g.png" alt="" /> Learn Python</a></li>
-                              <li><a href="{{url('pyt.pytfile')}}"><img width="32" src="a/images/g.png" alt="#" /> Python File Handling</a></li>
-                              <li><a href="{{url('pyt.pytmodules')}}"><img width="32" src="a/images/g.png" alt="" /> Python Modules</a></li>
-                              <li><a href="{{url('pyt.pytmat')}}"><img width="32" src="a/images/g.png" alt="" /> Python Matplotlib</a></li>
-                              <li><a href="{{url('pyt.pytmacl')}}"><img width="32" src="a/images/g.png" alt="" /> Python Machine Learning</a></li>
-                              <li><a href="{{url('pyt.pytreferences')}}"><img width="32" src="a/images/g.png" alt="" /> Python References</a></li>
-                              <li><a href="{{url('pyt.pytreferences')}}"><img width="32" src="a/images/g.png" alt="" /> Python Example</a></li>
-                              <li><a href="{{url('pyt.pyttutor')}}"><img width="32" src="a/images/g.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/g.png" alt="" /> Learn HTML</a></li>
+                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/g.png" alt="#" /> Learn Bootstrap</a></li>
+                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/g.png" alt="" /> Learn Colors</a></li>
+                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/g.png" alt="" /> Learn Icons</a></li>
+                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/g.png" alt="" /> Learn Graphics</a></li>
+                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/g.png" alt="" /> Learn How To</a></li>
+                              <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/g.png" alt="" /> Learn Sass</a></li>
+                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/g.png" alt="" /> Exercise</a></li>
                            </ul>
                         </div>
                      </div>

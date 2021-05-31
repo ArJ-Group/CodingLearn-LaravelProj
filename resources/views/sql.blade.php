@@ -419,9 +419,9 @@
                         <h3>Subcategories</h3>
                         <div class="right-list-f">
                            <ul>
-                              <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/d.png" alt="" /> Learn HTML</a></li>
-                              <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/d.png" alt="#" /> Learn Bootstrap</a></li>
-                              <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Colors</a></li>
+                              <li><a href="{{url('sql.sqltutor')}}"><img width="32" src="a/images/d.png" alt="" /> SQL Tutorial</a></li>
+                              <li><a href="{{url('sql.sqldb')}}"><img width="32" src="a/images/d.png" alt="#" /> SQL Create DB</a></li>
+                              <li><a href="{{url('sql.sqlrefer')}}"><img width="32" src="a/images/d.png" alt="" /> SQL References</a></li>
                               <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Icons</a></li>
                               <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Graphics</a></li>
                               <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/d.png" alt="" /> Learn How To</a></li>

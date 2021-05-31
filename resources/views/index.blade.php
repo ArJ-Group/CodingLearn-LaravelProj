@@ -79,7 +79,7 @@
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="howitworks.html">Tutorial</a></li>
+                                 <li><a href="{{ url('compiler.java.javacom') }}">Tutorial</a></li>
                                  <li><a href="{{ url('forum2') }}">Forum Discussion</a></li>
                               </ul>
                            </div>
@@ -155,9 +155,9 @@
                      </a>
                   </div>
                   <div class="col-lg-3 col-sm-6 col-md-3">
-                     <a href="{{url('c')}}">
+                     <a href="{{url('sql')}}">
                         <div class="box-img">
-                           <h4>C</h4>
+                           <h4>SQL</h4>
                            <img src="a/images/d.png" alt="" />
                         </div>
                      </a>
