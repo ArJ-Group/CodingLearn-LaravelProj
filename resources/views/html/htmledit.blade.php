@@ -437,41 +437,35 @@
   </ul>
   <hr/>
 </div>
-          <div role="main" class="document">
-            
-  <div class="section" id="installation-instructions">
-<h1>HTML Introduction<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h1>
-<h3> Simple Document HTML</h3>
+      
+            <h2>HTML Editor</h2><hr>
+            <div class="admonition note">
+               <p class="first admonition-title">Learn HTML Using Notepad or TextEdit</p>
+<p>Web pages can be created and modified by using professional HTML editors.</p>
+<p>However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</p>
+<p>We believe in that using a simple text editor is a good way to learn HTML.</p>
+<p>Follow the steps below to create your first web page with Notepad or TextEdit.</p>
+<hr>
+  </div>
 
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nx">!DOCTYPE html</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">head</span><span class="o">&gt;</span>
-          <span class="o">&lt;</span><span class="nx">title</span><span class="o">&gt;</span><span class="nx">Page</span> <span class="nx">Tittle</span><span class="o">&lt;/</span><span class="nx">title</span><span class="o">&gt;</span>
-  <span class="o">&lt;/</span><span class="nx">head</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
-
-          <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="o">My First Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-          <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="o">My First Paragraph</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-         
-    <span class="o">&lt;/</span><span class="nx">body</span><span class="o">&gt;</span>
-    <span class="o">&lt;/</span><span class="nx">html</span><span class="o">&gt;</span>
-</pre></div>
+<div class="admonition note">        
+   <p class="first admonition-title">Set-Up</p>
+   <ul>
+<p>1. Open TextEdit</p>
+<p>2. Write Some HTML</p>
+<div class="highlight-ci"><div class="highlight"><pre><span></span>
+   <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My First Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+   <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My first paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
+   <p></div>
+   
+   </pre>
+<p>3. Save the HTML Page</p>
+<p><img alt="View in Browser" style="height:auto;width:631px" src="a/images/save.jpeg" class="w3-image"></p>
+<p>4. View the HTML Page in Your Browser</p>
+<p><img alt="View in Browser" style="height:auto;width:631px" src="a/images/result.jpeg" class="w3-image"></p>
+<hr>
+</ul>
 </div>
-
-<h3> Example Explained </h3>
-<div class="section" id="who-is-codeigniter-for">
-  <ul class="simple">
-  <li>The  <span class="nf">&lt;</span><span class="nf">!DOCTYPE html</span><span class="nf">&gt;</span> declaration defines that this document is an HTML5 document</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> html</span><span class="nf">&gt;</span> element is the root element of an HTML page</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> head</span><span class="nf">&gt;</span> element contains meta information about the HTML page</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> title</span><span class="nf">&gt;</span>  element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> body</span><span class="nf">&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> h1</span><span class="nf">&gt;</span>  element defines a large heading</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> p</span><span class="nf">&gt;</span>  element defines a paragraph</li>
-
-  </ul>
-  </div>`
-
 </div>
 
           </div>
@@ -484,7 +478,7 @@
       
         <a href="../general/welcome.html" class="btn btn-neutral" title="Welcome to CodeIgniter"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
-    </div>
+    </div><hr>
   
 
   
