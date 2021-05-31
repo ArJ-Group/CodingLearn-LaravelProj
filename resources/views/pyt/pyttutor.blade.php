@@ -135,7 +135,7 @@
 
         <div id="pulldown-menu" class="ciNav">
           <ul class="current">
-            <li class="toctree-l1"><a class="reference internal" href="#">Welcome to Python</a></li>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.welcomepyt')}}">Welcome to Python</a></li>
           </ul>
           <ul>
             <li class="toctree-l1"><a class="reference internal" href="{{url('pyt.pyttutor')}}">Python Tutorial</a>
@@ -305,8 +305,8 @@
 
 
 
-          <ul >
-            <li class=" toctree-l1"><a class=" reference internal" href="#">Welcome to Python</a></li>
+          <ul>
+            <li class=" toctree-l1"><a class=" reference internal" href="{{url('pyt.welcomepyt')}}">Welcome to Python</a></li>
           </ul>
           <ul class="current">
             <li class="current toctree-l1"><a class="current reference internal" href="{{url('pyt.pyttutor')}}">Python Tutorial</a>
@@ -347,7 +347,7 @@
               </ul>
             </li>
           </ul>
-          <ul >
+          <ul>
             <li class=" toctree-l1"><a class=" reference internal" href="{{url('pyt.pytfile')}}">Python FIle handling</a>
               <ul>
                 <li class="toctree-l2"><a class="reference internal" href="#">Python File Handling</a></li>
@@ -476,43 +476,122 @@
             </div>
             <div role="main" class="document">
 
-              <div class="section" id="welcome-to-codeigniter">
-                <h1>Welcome to Python<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
-                <br>
+              <h2>Python Install</h2>
 
-                <div class="admonition note">
-                  <p class="first admonition-title">Apa Itu Python ? </p>
-                  <p class="last">
-                  <p>Python is a popular programming language. 
-                  It was created by Guido van Rossum, and released in 1991.</p>
+              <p>Many PCs and Macs will have python already installed.</p>
 
-                  <p>It is used for:</p>
+              <p>To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):</p>
 
-                  <ul>
-                    <li>Web Development (Server Side)</li>
-                    <li>Software Development</li>
-                    <li>Mathematics</li>
-                    <li>System Scripting</li>
-                  </ul>
-                  <hr>
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  C:\Users\<em>Your Name</em>&gt;python --version
                 </div>
-                <h2>Why Python?</h2><br>
-                <ul>
-                  <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
-                  <li>Python has a simple syntax similar to the English language.</li>
-                  <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
-                  <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick. </li>
-                  <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
-                  <li>It has a huge community support (tens of millions of developers)</li>
-                  <li>Python is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
-                  
-                </ul>
-                <hr>
-
-
-
               </div>
-              <footer>
+
+              <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  python --version
+                </div>
+              </div>
+
+              <p>If you find that you do not have python installed on your computer, then you can download it for free from the following website: <a href="https://www.python.org/" target="_blank">https://www.python.org/</a></p>
+              <hr>
+              <h2>Python Quickstart</h2>
+
+              <p>Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.</p>
+
+              <p>The way to run a python file is like this on the command line:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  C:\Users\<em>Your Name</em>&gt;python helloworld.py
+                </div>
+              </div>
+
+              <p>Where "helloworld.py" is the name of your python file.</p>
+
+              <p>Let's write our first Python file, called helloworld.py, which can be done in any text editor.</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <p>helloworld.py</p>
+                <div class="w3-code notranslate pythonHigh" bis_skin_checked="1"><span class="pythoncolor" style="color:black">
+                    <span class="pythonkeywordcolor" style="color:mediumblue">print</span>(<span class="pythonstringcolor" style="color:brown">"Hello, World!"</span>)<span class="pythonnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a target="_blank" class="w3-btn w3-margin-bottom" href="trypython.asp?filename=demo_helloworld">Try it Yourself »</a>
+              </div>
+
+              <p>Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  C:\Users\<em>Your Name</em>&gt;python helloworld.py
+                </div>
+              </div>
+
+
+              <p>The output should read:</p>
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  Hello, World!
+                </div>
+              </div>
+
+              <p>Congratulations, you have written and executed your first Python program.</p>
+
+
+              <h2>The Python Command Line</h2>
+
+              <p>To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.</p>
+              <p>Type the following on the Windows, Mac or Linux command line:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  C:\Users\<em>Your Name</em>&gt;python
+                </div>
+              </div>
+
+              Or, if the "python" command did not work, you can try "py":
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  C:\Users\<em>Your Name</em>&gt;py
+                </div>
+              </div>
+
+              <p>From there you can write any python, including our hello world example from earlier in the tutorial:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  <span style="opacity:0.5">C:\Users\<em>Your Name</em>&gt;python<br>
+                    Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32<br>
+                    Type "help", "copyright", "credits" or "license" for more information.</span><br>
+                  &gt;&gt;&gt; print("Hello, World!")
+                </div>
+              </div>
+
+              <p>Which will write "Hello, World!" in the command line:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  <span style="opacity:0.5">C:\Users\<em>Your Name</em>&gt;python<br>
+                    Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32<br>
+                    Type "help", "copyright", "credits" or "license" for more information.<br>
+                    &gt;&gt;&gt; print("Hello, World!")</span><br>
+                  Hello, World!
+                </div>
+              </div>
+
+
+              <p>Whenever you are done in the python command line, you can simply type the following to quit the python command line interface:</p>
+
+              <div class="w3-example" bis_skin_checked="1">
+                <div class="w3-code notranslate w3-black" bis_skin_checked="1">
+                  exit()
+                </div>
+              </div>
+               <footer>
 
                 <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
 
