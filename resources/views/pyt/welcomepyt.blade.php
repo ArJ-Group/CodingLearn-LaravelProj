@@ -101,7 +101,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Welcome to Java </title>
+  <title>Welcome to Python </title>
 
 
   <link rel="shortcut icon" href="b/html.png" />
