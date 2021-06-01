@@ -94,8 +94,6 @@
             <!--/.container-fluid --> 
          </nav>
       </header>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,8 +125,8 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html"/>
-        <link rel="next" title="Downloading CodeIgniter" href="downloads.html"/>
-        <link rel="prev" title="Welcome to CodeIgniter" href="../general/welcome.html"/> 
+        <link rel="next" title="Getting Started With CodeIgniter" href="getting_started.html"/>
+        <link rel="prev" title="Troubleshooting" href="../installation/troubleshooting.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -147,10 +145,10 @@
 <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to HTML</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Tutorial</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">HTML Tutorial</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="">HTML Home</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmledit')}}">HTML Editors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Basic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Element</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Attribute</a></li>
@@ -257,7 +255,6 @@
 </li>
 </ul>
 
-
       </div>
     
       
@@ -292,13 +289,13 @@
           
           
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">   HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.welcomehtml')}}">Welcome to HTML</a></li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.htmltutor')}}">HTML TUTORIAL</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Home</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">HTML Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="">HTML Home</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">HTML Introduction</a></li>
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmledit')}}">HTML Editors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="">HTML Editors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Basic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Element</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">HTML Attribute</a></li>
@@ -334,9 +331,9 @@
 </ul>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlform')}}">HTML Forms</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="getting_started.html">HTML Forms</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.htmlform')}}">HTML FORMS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlform')}}">HTML Forms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">HTML Forms Attribute</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html">HTML Forms Elements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="appflow.html">HTML Input Types</a></li>
@@ -347,14 +344,14 @@
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlgrapic')}}">HTML Graphics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="static_pages.html">HTMl Canva</a></li>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlgrapic')}}">HTMl Canva</a></li>
 <li class="toctree-l2"><a class="reference internal" href="news_section.html">HTMl SVG</a></li>
 </ul>
 </li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlmedia')}}">HTML Media</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="">HTML Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlmedia')}}">HTML Media</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Video</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Audio</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Plug-Ins</a></li>
@@ -374,7 +371,7 @@
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlexamp')}}">HTML Examples</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="benchmark.html">HTML Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlexamp')}}">HTML Examples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="caching.html">HTML Quiz</a></li>
 <li class="toctree-l2"><a class="reference internal" href="calendar.html">HTML Exercise</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cart.html">HTML Certificate</a></li>
@@ -385,7 +382,7 @@
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlreferences')}}">HTML Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="examples.html">HTML Tag List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlreferences')}}">HTML Tag List</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuration.html">HTML Attributes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="connecting.html">HTML Global Attributes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="queries.html">HTML Browser Support</a></li>
@@ -404,7 +401,6 @@
 </ul>
 </li>
 </ul>
-
           
         
       </div>
@@ -416,7 +412,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">CodeIgniter</a>
+        <a href="../index.html">HTML</a>
       </nav>
 
 
@@ -427,7 +423,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>HTML Introduction</li>
+    <li>HTML FORM</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -439,57 +435,54 @@
 </div>
           <div role="main" class="document">
             
-  <div class="section" id="installation-instructions">
-<h1>HTML Introduction<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h1>
-<h3> Simple Document HTML</h3>
-
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nx">!DOCTYPE html</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">head</span><span class="o">&gt;</span>
-          <span class="o">&lt;</span><span class="nx">title</span><span class="o">&gt;</span><span class="nx">Page</span> <span class="nx">Tittle</span><span class="o">&lt;/</span><span class="nx">title</span><span class="o">&gt;</span>
-  <span class="o">&lt;/</span><span class="nx">head</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
-
-          <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="o">My First Heading</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-          <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="o">My First Paragraph</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-         
-    <span class="o">&lt;/</span><span class="nx">body</span><span class="o">&gt;</span>
-    <span class="o">&lt;/</span><span class="nx">html</span><span class="o">&gt;</span>
-</pre></div>
+  <div class="section" id="codeigniter-overview">
+<h1>HTML<a class="headerlink" href="#codeigniter-overview" title="Permalink to this headline">¶</a></h1>
+<p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+<form action="#" target="_blank">
+  First name:<br>
+  <input type="text" name="firstname" value="Ariono"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Septian"><br><br>
+  <input type="submit" value="Submit">
+  </form> 
+  <br>
 </div>
 
-<h3> Example Explained </h3>
-<div class="section" id="who-is-codeigniter-for">
-  <ul class="simple">
-  <li>The  <span class="nf">&lt;</span><span class="nf">!DOCTYPE html</span><span class="nf">&gt;</span> declaration defines that this document is an HTML5 document</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> html</span><span class="nf">&gt;</span> element is the root element of an HTML page</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> head</span><span class="nf">&gt;</span> element contains meta information about the HTML page</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> title</span><span class="nf">&gt;</span>  element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> body</span><span class="nf">&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> h1</span><span class="nf">&gt;</span>  element defines a large heading</li>
-  <li>The  <span class="nf">&lt;</span><span class="nf"> p</span><span class="nf">&gt;</span>  element defines a paragraph</li>
+<h2>HTML Exercises</h2>
+<div class="admonition note">
+  <form autocomplete="off" id="w3-exerciseform" action="https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms1" method="post" target="_blank">
+    <div class="exercisewindow">
+    <h2>Exercise:</h2>
+    <p>In the form below, add an input field with the type "button" and the value "OK".</p>
+        <div class="exerciseprecontainer">
+    &lt;form&gt;
+        <br>
+      &lt;<input name="ex1" spellcheck="false" maxlength="30" style="width: 304px;">&gt;
+        <br>
+      &lt;/form&gt;
+      </div>
+      <br>
+        <button type="submit" class="w3-btn w3-margin-bottom">Submit Answer »</button>
+     
+        </form>
+  </div>
 
-  </ul>
-  </div>`
 
-</div>
 
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="downloads.html" class="btn btn-neutral float-right" title="Downloading CodeIgniter">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started With CodeIgniter">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../general/welcome.html" class="btn btn-neutral" title="Welcome to CodeIgniter"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../installation/troubleshooting.html" class="btn btn-neutral" title="Troubleshooting"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
 
-  
-
-
+  <hr/>
 
   Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
   

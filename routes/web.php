@@ -89,7 +89,9 @@ Route::get('html.htmlreferences/', function () {
 Route::get('html.htmlmedia/', function () {
   return view('html.htmlmedia');
 });
-
+Route::get('html.htmledit/', function () {
+  return view('html.htmledit');
+});
 //CSS
 Route::get('css.cssadvanced/', function () {
   return view('css.cssadvanced');
