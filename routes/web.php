@@ -195,8 +195,8 @@ Route::get('compiler.java.javacom/', function () {
 });
 
 //Test
-Route::get('landing/landing', function () {
-  return view('landing');
+Route::get('/land', function () {
+  return view('land');
 });
 
 
