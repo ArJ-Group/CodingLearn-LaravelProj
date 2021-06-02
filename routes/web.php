@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahasiswaController;
-use Illuminate\Http\Request;
+use Illuminate\Http\Request; 
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +14,14 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/users', function ($id) {
   return view('users');
 });
 
 Route::get('/', function () {
-  return view('Auth.landing');
+return view('Auth.login');
+return view('Auth.landing');
+
 });
 Route::get('/index', function () {
   return view('index');
@@ -37,11 +38,11 @@ Route::get('/compiler', function () {
 Route::get('/Run', function () {
   return view('Run');
 });
-Route::get('mahasiswa/cari/', [MahasiswaController::class, 'search']);
+Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 Route::resource('mahasiswa', MahasiswaController::class);
 
 Route::get('/htm', function () {
-  return view('htm');
+    return view('htm');
 });
 Route::get('/sql', function () {
   return view('sql');
@@ -205,16 +206,16 @@ Route::get('/land', function () {
 //Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
 
 //Route::get('/about-us', function () {
-//  return view('about-us');
+  //  return view('about-us');
 //});
 //Route::get('/category', function () {
-//  return view('category');
+  //  return view('category');
 //});
 //Route::get('/dinning', function () {
-//   return view('dinning');
+ //   return view('dinning');
 //});
 //Route::get('/news', function () {
-//  return view('news');
+  //  return view('news');
 //});
 /*
 Route::get('/news', function () {

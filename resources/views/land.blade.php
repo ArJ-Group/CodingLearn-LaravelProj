@@ -11,7 +11,6 @@
     <!-- SEO Meta Tags -->
     
     <meta name="author" content="ArJ">
-    <link rel="icon" href="a/images/icon-b1.png">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="" /> <!-- website name -->
@@ -47,7 +46,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="#"><img src="a/images/logo.png" style="width: 300px;" alt="alternative"></a> 
+            <a class="navbar-brand logo-image" href="#"><img src="a/images/logo.png" alt="alternative"></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
