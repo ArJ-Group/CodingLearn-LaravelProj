@@ -19,7 +19,6 @@ Route::get('/users', function ($id) {
 });
 
 Route::get('/', function () {
-return view('Auth.login');
 return view('Auth.landing');
 
 });
