@@ -93,9 +93,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large"><span class="blue">Young StartUp</span> Website Template</h1>
-                        <p class="p-large">Use Evolo website template to promote your business startup and generate leads for the offered services</p>
-                        <a class="btn-solid-lg page-scroll" href="#services">Discover</a>
+                        <h1 class="h1-large"><span class="blue">Young StartUp</span> Coding Learn Application</h1>
+                        <p class="p-large">Use Our Website To improve your coding Skill</p>
+                        <a class="btn-solid-lg page-scroll" href="{{url('login')}}">Start Learn!</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of div -->
                 <div class="col-lg-6">
