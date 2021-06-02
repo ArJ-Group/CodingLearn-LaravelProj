@@ -19,7 +19,7 @@ Route::get('/users', function ($id) {
 });
 
 Route::get('/', function () {
-  return view('Auth.login');
+  return view('landing');
 });
 Route::get('/index', function () {
   return view('index');
@@ -194,10 +194,7 @@ Route::get('compiler.java.javacom/', function () {
   return view('compiler.java..javacom');
 });
 
-//Test
-Route::get('landing/landing', function () {
-  return view('landing');
-});
+
 
 
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
