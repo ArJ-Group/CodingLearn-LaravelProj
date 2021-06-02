@@ -422,11 +422,7 @@
                               <li><a href="{{url('sql.sqltutor')}}"><img width="32" src="a/images/d.png" alt="" /> SQL Tutorial</a></li>
                               <li><a href="{{url('sql.sqldb')}}"><img width="32" src="a/images/d.png" alt="#" /> SQL Create DB</a></li>
                               <li><a href="{{url('sql.sqlrefer')}}"><img width="32" src="a/images/d.png" alt="" /> SQL References</a></li>
-                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Icons</a></li>
-                              <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Graphics</a></li>
-                              <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/d.png" alt="" /> Learn How To</a></li>
-                              <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/d.png" alt="" /> Learn Sass</a></li>
-                              <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/d.png" alt="" /> Exercise</a></li>
+                              <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/d.png" alt="" /> SQL Examples</a></li>
                            </ul>
                         </div>
                      </div>
