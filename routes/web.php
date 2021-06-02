@@ -196,9 +196,7 @@ Route::get('compiler.java.javacom/', function () {
 });
 
 //Test
-Route::get('/land', function () {
-  return view('land');
-});
+
 
 
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
