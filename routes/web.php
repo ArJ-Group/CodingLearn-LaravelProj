@@ -19,11 +19,9 @@ Route::get('/users', function ($id) {
 });
 
 Route::get('/', function () {
-<<<<<<< HEAD
-  return view('Auth.login');
-=======
-  return view('Auth.landing');
->>>>>>> 2f5df26429fa13132fd4bbf4ae145474c9f1e8fe
+return view('Auth.login');
+return view('Auth.landing');
+
 });
 Route::get('/index', function () {
   return view('index');
