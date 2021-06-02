@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from inovatik.com/evolo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Jun 2021 11:56:06 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,14 +23,14 @@
     <!-- Styles -->
     <link href="../../fonts.googleapis.com/css2ed1a.css?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
     <link href="../../fonts.googleapis.com/css218e1.css?family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
+    
+    <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/bootstrap.css') !!}">
+    <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/fontawesome-all.css') !!}">
+    <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/swiper.css') !!}">
+    <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/magnific-popup.css') !!}">
+    <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/styles.css') !!}">
     <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="b/ci-icon.ico" />
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -44,7 +42,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
+            <a class="navbar-brand logo-image" href="#"><img src="a/images/logo.png" alt="alternative"></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -98,7 +96,7 @@
                 </div> <!-- end of div -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative">
+                        <img class="img-fluid" src="landing/images/header-teamwork.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -119,22 +117,22 @@
                         <div class="swiper-container image-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-1.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-2.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-2.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-3.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-3.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-4.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-4.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-5.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-5.png" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="images/customer-logo-6.png" alt="alternative">
+                                    <img class="img-fluid" src="landing/images/customer-logo-6.png" alt="alternative">
                                 </div>
                             </div> <!-- end of swiper-wrapper -->
                         </div> <!-- end of swiper container -->
@@ -163,7 +161,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/services-icon-1.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/services-icon-1.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Market Analysis</h5>
@@ -175,7 +173,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/services-icon-2.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/services-icon-2.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Opportunity Scan</h5>
@@ -187,7 +185,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/services-icon-3.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/services-icon-3.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Action Plan</h5>
@@ -216,7 +214,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-1.svg" alt="alternative">
+                        <img class="img-fluid" src="landing/images/details-1.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -232,7 +230,7 @@
             <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
             <div class="col-lg-8">
                 <div class="image-container">
-                    <img class="img-fluid" src="images/details-1-lightbox.jpg" alt="alternative">
+                    <img class="img-fluid" src="landing/images/details-1-lightbox.jpg" alt="alternative">
                 </div> <!-- end of image-container -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
@@ -272,7 +270,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-2.svg" alt="alternative">
+                        <img class="img-fluid" src="landing/images/details-2.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -386,7 +384,7 @@
                     <div class="image-container">
                         <div class="video-wrapper">
                             <a class="popup-youtube" href="../../www.youtube.com/watch0683.html?v=fLCjQJCekTs" data-effect="fadeIn">
-                                <img class="img-fluid" src="images/video-preview.svg" alt="alternative">
+                                <img class="img-fluid" src="landing/images/video-preview.svg" alt="alternative">
                                 <span class="video-play-button">
                                     <span></span>
                                 </span>
@@ -409,7 +407,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/testimonials.svg" alt="alternative">
+                        <img class="img-fluid" src="landing/images/testimonials.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -423,7 +421,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                                        <img class="card-image" src="landing/images/testimonial-1.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.</p>
                                             <p class="testimonial-author">Jude Thorn - Designer</p>
@@ -435,7 +433,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                                        <img class="card-image" src="landing/images/testimonial-2.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Evolo has always helped or startup to position itself in the highly competitive market of mobile applications. You will not regret using it!</p>
                                             <p class="testimonial-author">Marsha Singer - Developer</p>
@@ -447,7 +445,7 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                                        <img class="card-image" src="landing/images/testimonial-3.jpg" alt="alternative">
                                         <div class="card-body">
                                             <p class="testimonial-text">Love their services and was so amazed with the support and results that I purchased Evolo for two years in a row. They are awesome.</p>
                                             <p class="testimonial-author">Roy Smith - Marketer</p>
@@ -489,7 +487,7 @@
                     <!-- Card -->
                     <div class="card" style="margin-left: 70px;">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/team-member-1.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/team-member-1.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Ariono Septian Jaya</h6>
@@ -514,7 +512,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/team-member-2.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/team-member-2.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Rajendra Rakha A P</h6>
@@ -544,7 +542,7 @@
                     <!-- Card -->
                     <div class="card" style="margin-left: 130px;">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/team-member-3.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Radithya Iqbal P</h6>
@@ -568,7 +566,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/team-member-3.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Wahyu Nandira Bakta</h6>
@@ -592,7 +590,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/team-member-3.svg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">M Bagas Ridhocaesar</h6>
@@ -624,7 +622,7 @@
 
 <!-- Contact -->
 <div id="contact" class="form-2 bg-gray">
-    <img class="decoration" src="images/contact-macbook.svg" alt="alternative">
+    <img class="decoration" src="landing/images/contact-macbook.svg" alt="alternative">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -741,12 +739,12 @@
 
 
 <!-- Scripts -->
-<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-<script src="js/scripts.js"></script> <!-- Custom scripts -->
+<script src="landing/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+<script src="landing/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="landing/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+<script src="landing/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="landing/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+<script src="landing/js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 
 </html>
