@@ -740,7 +740,6 @@
 
 
 <!-- Scripts -->
-{!! asset('landing/css/styles.css') !!}
 <script src="{!! asset('landing/js/jquery.min.js') !!}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
 <script src="{!! asset('landing/js/bootstrap.min.js') !!}"></script> <!-- Bootstrap framework -->
 <script src="{!! asset('landing/js/jquery.easing.min.js') !!}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
