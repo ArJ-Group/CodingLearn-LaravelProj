@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="a/images/icon-b1.png">
     
     <!-- SEO Meta Tags -->
     
@@ -14,7 +13,7 @@
     <meta property="og:site" content="" /> <!-- website link -->
     <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
     <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-    
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
     <meta property="og:type" content="article" />
 
@@ -31,7 +30,7 @@
     <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/magnific-popup.css') !!}">
     <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/styles.css') !!}">
     <!-- Favicon  -->
-    
+    <link rel="shortcut icon" href="b/ci-icon.ico" />
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -43,7 +42,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
             <!-- Image Logo -->
-            <a class="" href="#"><img src="{!! asset('a/images/logo.png') !!}" style="width: 300px;" alt="alternative"></a> 
+            <a class="navbar-brand logo-image" href="#"><img src="a/images/logo.png" alt="alternative"></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -90,14 +89,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large"><span class="blue">Young StartUp</span> Coding Learn Application</h1>
-                        <p class="p-large">Use Our Website To improve your coding Skill</p>
-                        <a class="btn-solid-lg page-scroll" href="{{url('login')}}">Discover</a>
+                        <h1 class="h1-large"><span class="blue">Young StartUp</span> Website Template</h1>
+                        <p class="p-large">Use Evolo website template to promote your business startup and generate leads for the offered services</p>
+                        <a class="btn-solid-lg page-scroll" href="#services">Discover</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of div -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="{!! asset('landing/images/header-teamwork.svg') !!}" alt="alternative">
+                        <img class="img-fluid" src="landing/images/header-teamwork.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
