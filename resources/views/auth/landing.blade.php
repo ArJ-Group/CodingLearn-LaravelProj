@@ -3,10 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD:resources/views/land.blade.php
-=======
+
     <link rel="icon" href="a/images/icon-b1.png">
->>>>>>> 2f5df26429fa13132fd4bbf4ae145474c9f1e8fe:resources/views/auth/landing.blade.php
+
     
     <!-- SEO Meta Tags -->
     
@@ -47,7 +46,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="#"><img src="a/images/logo.png" style="width: 300px;" alt="alternative"></a> 
+            <a class="" href="#"><img src="a/images/logo.png" style="width:300px;" alt="alternative"></a> 
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
