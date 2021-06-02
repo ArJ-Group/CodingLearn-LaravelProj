@@ -188,11 +188,16 @@ Route::get('cplus.cplusfunc/', function () {
 Route::get('cplus.cplustutor/', function () {
   return view('cplus.cplustutor');
 });
+
 //compiler
 Route::get('compiler.java.javacom/', function () {
   return view('compiler.java..javacom');
 });
 
+//Test
+Route::get('landing/', function () {
+  return view('landing');
+});
 
 
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
