@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="a/images/logo.png">
+    <link rel="icon" href="a/images/icon-b1.png">
     
     <!-- SEO Meta Tags -->
     
-    <meta name="author" content="Inovatik">
+    <meta name="author" content="ArJ">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="" /> <!-- website name -->
@@ -731,7 +731,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p class="p-small">Copyright © <a href="https://inovatik.com/">Template by Inovatik</a></p>
+                <p class="p-small">Copyright © Coding Learn Applicaation<a href="Polinema.ac.id"> 2021</a></p>
             </div> <!-- end of col -->
         </div> <!-- enf of row -->
     </div> <!-- end of container -->
