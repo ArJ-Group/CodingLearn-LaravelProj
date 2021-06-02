@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="{!! asset('css/stylelogin.css') !!}">
 
-    <title>Sign in & Sign up Form</title>
+    <title>Welcome To Coding Learn Application</title>
 </head>
 
 <body>
