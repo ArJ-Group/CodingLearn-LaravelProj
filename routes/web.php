@@ -199,6 +199,31 @@ Route::get('compiler.java.javacom/', function () {
 Route::get('Home.Home/', function () {
   return view('Home.Home');
 });
+Route::get('fl.Film1/', function () {
+  return view('fl.Film1');
+});
+Route::get('fl.Film2/', function () {
+  return view('fl.Film2');
+});
+Route::get('fl.Film3/', function () {
+  return view('fl.Film3');
+});
+Route::get('fl.Film4/', function () {
+  return view('fl.Film4');
+});
+Route::get('fl.Film5/', function () {
+  return view('fl.Film5');
+});
+Route::get('fl.Film6/', function () {
+  return view('fl.Film6');
+});
+Route::get('fl.Film7/', function () {
+  return view('fl.Film7');
+});
+Route::get('fl.Film8/', function () {
+  return view('fl.Film8');
+});
+
 
 //test
 Route::get('auth.profile/', function () {
