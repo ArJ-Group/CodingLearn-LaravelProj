@@ -491,7 +491,7 @@
                     <!-- Card -->
                     <div class="card" style="margin-left: 70px;">
                         <div class="card-image">
-                            <img class="img-fluid" src="landing/images/team-member-1.svg" alt="alternative">
+                            <img class="img-fluid" src="a/images/ari.jpeg" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Ariono Septian Jaya</h6>

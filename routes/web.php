@@ -195,8 +195,10 @@ Route::get('compiler.java.javacom/', function () {
   return view('compiler.java..javacom');
 });
 
-//Test
-
+//Tutorial Video
+Route::get('Home.Home/', function () {
+  return view('Home.Home');
+});
 
 
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
@@ -242,6 +244,7 @@ Route::get('/category/overview/{id}', 'App\Http\Controllers\forum\FrontEndContro
 Route::get('/forum/overview/{id}', 'App\Http\Controllers\forum\FrontEndController@forumOverview')->name('forum.overview');
 
 Route::middleware(['auth', 'admin'])->group(function(){
+route::get('dashboard/home', 'App\Http\Controllers\DashboardController@home');
 route::get('dashboard/home', 'App\Http\Controllers\DashboardController@home');
 
 route::get('dashboard/category/new', 'App\Http\Controllers\forum\CategoryController@create')->name('category.new');

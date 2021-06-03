@@ -79,7 +79,7 @@
                         <div class="nav-b hidden-xs">
                            <div class="nav-box">
                               <ul>
-                                 <li><a href="{{ url('compiler.java.javacom') }}">Tutorial</a></li>
+                                 <li><a href="{{ url('Home.Home') }}">Tutorial</a></li>
                                  <li><a href="{{ url('forum2') }}">Forum Discussion</a></li>
                               </ul>
                            </div>
