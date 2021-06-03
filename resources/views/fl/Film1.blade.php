@@ -11,14 +11,14 @@
  <!-- Favicon Icon -->
  <link rel="icon" type="image/png" href="../img/icon.png">
  <!-- Bootstrap core CSS-->
- <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="a/bootstrap/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom fonts for this template-->
- <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+ <link href="a/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
  <!-- Custom styles for this template-->
- <link href="../css/osahan.css" rel="stylesheet">
+ <link href="a/css/osahan.css" rel="stylesheet">
  <!-- Owl Carousel -->
- <link rel="stylesheet" href="../vendor/owl-carousel/owl.carousel.css">
- <link rel="stylesheet" href="../vendor/owl-carousel/owl.theme.css">
+ <link rel="stylesheet" href="a/owl-carousel/owl.carousel.css">
+ <link rel="stylesheet" href="a/owl-carousel/owl.theme.css">
 </head>
 
 <body id="page-top">
@@ -152,10 +152,10 @@
     <div class="col-md-8">
      <div class="single-video-left">
       <div class="single-video">
-       <video width="100%" height="315%" src="../vid/film1.mkv" frameborder="5" controls></video>
+       <video width="100%" height="315%" src="a/vid/htm.mp4" frameborder="5" controls></video>
      </div>
      <div class="single-video-title box mb-3">
-       <h2><a href="#">Spongebob On The Run </a><span title="" data-placement="top"
+       <h2><a href="#">HTML </a><span title="" data-placement="top"
         data-toggle="tooltip" data-original-title="Verified"><i
         class="fas fa-check-circle text-success"></i></span></h2>
 
@@ -406,14 +406,14 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
 </div>
 </div>
 <!-- Bootstrap core JavaScript-->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="a/jquery/jquery.min.js"></script>
+<script src="a/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Core plugin JavaScript-->
-<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="a/jquery-easing/jquery.easing.min.js"></script>
 <!-- Owl Carousel -->
-<script src="../vendor/owl-carousel/owl.carousel.js"></script>
+<script src="a/owl-carousel/owl.carousel.js"></script>
 <!-- Custom scripts for all pages-->
-<script src="js/custom.js"></script>
+<script src="a/js/custom1.js"></script>
 </body>
 
 </html>

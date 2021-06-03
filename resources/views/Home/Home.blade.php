@@ -309,16 +309,16 @@
       <div class="col-xl-3 col-sm-6 mb-3 ">
          <div class="video-card">
             <div class=" video-card-image">
-               <a class="play-icon" href="../film-page/Film1.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film1.html"><img class="img-fluid" src="../img/film1.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="../img/film1.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film1.html">Spongebob The Movie 2020 </a>
+                  <a href="{{url('fl.Film1')}}">HTML </a>
                </div>
                <div class="video-page text-success">
-                  Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                  Code Video <a title="" data-placement="top" data-toggle="tooltip" href="#"
                   data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
                </div>
                <div class="video-view">
@@ -330,13 +330,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/Film2.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film2.html"><img class="img-fluid" src="../img/film2.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="../img/film2.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film2.html">Avenger Infinity War</a>
+                  <a href="{{url('fl.Film2')}}">Java</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -351,13 +351,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/Film3.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film3.html"><img class="img-fluid" src="../img/film3.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film3')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="../img/film3.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film3.html">Frozen II</a>
+                  <a href="{{url('fl.Film3')}}">CSS</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -372,13 +372,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/Film4.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film4.html"><img class="img-fluid" src="../img/film4.jpeg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="../img/film4.jpeg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film4.html">Maleficent: Mistress of Evil</a>
+                  <a href=".{{url('fl.Film4')}}">SQL</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -393,13 +393,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image ">
-               <a class="play-icon" href="../film-page/video-page.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/video-page.html"><img class="img-fluid" src="../img/film5.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="../img/film5.jpg" alt=""></a>
                <div class="time">00:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="video-page.html">Minion Holiday Special 2020</a>
+                  <a href="{{url('fl.Film5')}}">JS</a>
                </div>
                <div class="video-page text-danger">
                   Cooming Soon Trailer Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -414,13 +414,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/film6.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/film6.html"><img class="img-fluid" src="../img/film6.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="../img/film6.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film6.html">Superman Red Son 2020</a>
+                  <a href="{{url('fl.Film6')}}">PHP</a>
                </div>
                <div class="video-page text-success">
                   Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -435,13 +435,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/Film7.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film7.html"><img class="img-fluid" src="../img/film7.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="../img/film7.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film7.html">The Dawn 2019</a>
+                  <a href="{{url('fl.Film7')}}">Python</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -456,13 +456,13 @@
       <div class="col-xl-3 col-sm-6 mb-3">
          <div class="video-card">
             <div class="video-card-image">
-               <a class="play-icon" href="../film-page/Film8.html"><i class="fas fa-play-circle"></i></a>
-               <a href="../film-page/Film8.html"><img class="img-fluid" src="../img/film8.jpg" alt=""></a>
+               <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
+               <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="../img/film8.jpg" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="../film-page/Film8.html">Clownery 2020</a>
+                  <a href="{{url('fl.Film8')}}">C++</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
