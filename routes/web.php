@@ -200,6 +200,10 @@ Route::get('Home.Home/', function () {
   return view('Home.Home');
 });
 
+//test
+Route::get('auth.profile/', function () {
+  return view('auth.profile');
+});
 
 //Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
 //Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
