@@ -516,7 +516,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="landing/images/team-member-2.svg" alt="alternative">
+                            <img class="img-fluid" src="landing/images/rjn.jpeg" style="height: 200px;width:300px;" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Rajendra Rakha A P</h6>
