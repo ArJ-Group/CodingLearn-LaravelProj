@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
       <nav class="breadcrumb">
-        <a href="{{route('main')}}" class="breadcrumb-item active"> Home</a>
+        <a href="" class="breadcrumb-item active"> Home</a>
         <span class ="breadcrumb-item active"> {{$category->title}} </span>
       </nav>
 <div class="row">
@@ -26,9 +26,8 @@
                   </tr>
                 </thead>
                 @if(count($category->forums) > 0)
-                  @foreach($category->forums)
+                  @foreach($category->forums as $forum)
                 <tbody>
-                  
                   <tr>
                     <td>
                       <h3 class="h5">

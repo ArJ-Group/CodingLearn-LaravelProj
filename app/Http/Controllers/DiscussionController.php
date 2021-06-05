@@ -45,7 +45,7 @@ class DiscussionController extends Controller
 
         if($request->notify && $request->notify == "on"){
             $notify = 1;
-        }
+        } else{$notify = 0;}
 
         $discussion = new discussion;
         $discussion->title = $request->title;

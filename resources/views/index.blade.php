@@ -85,7 +85,7 @@
                         <div class="nav-box">
                            <ul>
                               <li><a href="{{ url('Home.Home') }}">Tutorial</a></li>
-                              <li><a href="{{ url('forum2') }}">Forum Discussion</a></li>
+                              <li><a href="{{ route('forum_main')}}">Forum Discussion</a></li>
                            </ul>
                         </div>
                      </div>

@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
       <nav class="breadcrumb">
-      <a href="{{route('main')}}" class="breadcrumb-item active"> Home</a>
+      <a href="" class="breadcrumb-item active"> Home</a>
       </nav>
     <div class="row">
         <div class="col-lg-12">
