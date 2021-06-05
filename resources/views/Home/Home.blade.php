@@ -19,6 +19,7 @@
    <!-- Owl Carousel -->
    <link rel="stylesheet" href="a/owl-carousel/owl.carousel.css">
    <link rel="stylesheet" href="a/owl-carousel/owl.theme.css">
+   
 </head>
 
 <body id="page-top">
@@ -51,6 +52,12 @@
                Upload Video
             </a>
          </li> -->
+         <li class="nav-item mx-1">
+            <a class="nav-link" href="{{url('index')}}">
+             <i class="fas fa-plus-circle fa-fw"></i>
+             BACK CLA
+           </a>
+          </li>
          <li class="nav-item dropdown no-arrow mx-1">
             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -80,19 +87,29 @@
    <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
       <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button"
       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <img alt="Avatar" src="../img/icon2.png">
+      
       Admin
    </a>
    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-      <a class="dropdown-item" href="../DLL/account.html"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
-      Account</a>
-      <a class="dropdown-item" href="#"><i class="fas fa-fw fa-video"></i> &nbsp;
-      Subscriptions</a>
-      <a class="dropdown-item" href="#"><i class="fas fa-fw fa-cog"></i> &nbsp; Settings</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="../RegLog/sessionLogout.php" data-toggle="modal" data-target="#logoutModal"><i
-         class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
+      <a id="navbarDropdown" class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
+         {{ Auth::user()->name }}
+      </a>
+
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+         <a href="{{url('home')}}"> Profile</a>
+         <a href="{{url('mahasiswa')}}"> College Data</a>
+         
+         <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                 document.getElementById('logout-form').submit();">
+            {{ __('Logout') }}
+         </a>
+         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+            @csrf
+         </form>
+         
+
       </div>
+
    </li>
 </ul>
 </nav>
@@ -197,7 +214,7 @@
                   <div class="category-item">
                      <a href="#">
                         <img class="img-fluid" src="a/images/b.png" alt="">
-                        <h6>Java</h6>
+                        <h6>JAVA</h6>
                         
                      </a>
                   </div>
@@ -310,7 +327,7 @@
          <div class="video-card">
             <div class=" video-card-image">
                <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="../img/film1.jpg" alt=""></a>
+               <a href="{{url('fl.Film1')}}"><img class="img-fluid" src="a/images/a.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
@@ -331,12 +348,12 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="../img/film2.jpg" alt=""></a>
+               <a href="{{url('fl.Film2')}}"><img class="img-fluid" src="a/images/b.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
                <div class="video-title">
-                  <a href="{{url('fl.Film2')}}">Java</a>
+                  <a href="{{url('fl.Film2')}}">JAVA</a>
                </div>
                <div class="video-page text-success">
                   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -352,7 +369,7 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film3')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="../img/film3.jpg" alt=""></a>
+               <a href="{{url('fl.Film3')}}"><img class="img-fluid" src="a/images/c.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
@@ -373,7 +390,7 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="../img/film4.jpeg" alt=""></a>
+               <a href="{{url('fl.Film4')}}"><img class="img-fluid" src="a/images/d.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
@@ -394,7 +411,7 @@
          <div class="video-card">
             <div class="video-card-image ">
                <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="../img/film5.jpg" alt=""></a>
+               <a href="{{url('fl.Film5')}}"><img class="img-fluid" src="a/images/e.png" alt=""></a>
                <div class="time">00:00</div>
             </div>
             <div class="video-card-body">
@@ -415,7 +432,7 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="../img/film6.jpg" alt=""></a>
+               <a href="{{url('fl.Film6')}}"><img class="img-fluid" src="a/images/f.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
@@ -436,7 +453,7 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="../img/film7.jpg" alt=""></a>
+               <a href="{{url('fl.Film7')}}"><img class="img-fluid" src="a/images/g.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">
@@ -457,7 +474,7 @@
          <div class="video-card">
             <div class="video-card-image">
                <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
-               <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="../img/film8.jpg" alt=""></a>
+               <a href="{{url('fl.Film8')}}"><img class="img-fluid" src="a/images/h.png" alt=""></a>
                <div class="time">60:00</div>
             </div>
             <div class="video-card-body">

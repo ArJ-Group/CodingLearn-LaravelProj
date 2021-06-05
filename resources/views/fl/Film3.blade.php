@@ -7,18 +7,18 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <meta name="description" content="Askbootstrap">
  <meta name="author" content="Askbootstrap">
- <title>ArJ Movie - Watch Movie & Series</title>
+ <title>CODING LEARN APPLICATION</title>
  <!-- Favicon Icon -->
- <link rel="icon" type="image/png" href="../img/icon.png">
+ <link rel="icon" type="image/png" href="a/img/icon.png">
  <!-- Bootstrap core CSS-->
- <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ <link href="a/bootstrap/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom fonts for this template-->
- <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+ <link href="a/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
  <!-- Custom styles for this template-->
- <link href="../css/osahan.css" rel="stylesheet">
+ <link href="a/css/osahan.css" rel="stylesheet">
  <!-- Owl Carousel -->
- <link rel="stylesheet" href="../vendor/owl-carousel/owl.carousel.css">
- <link rel="stylesheet" href="../vendor/owl-carousel/owl.theme.css">
+ <link rel="stylesheet" href="a/owl-carousel/owl.carousel.css">
+ <link rel="stylesheet" href="a/owl-carousel/owl.theme.css">
 </head>
 
 <body id="page-top">
@@ -29,7 +29,7 @@
  </button> &nbsp;&nbsp;
  <a class="navbar-brand mr-1" href="../Home/Home-User.html">
    <div class="logo">
-    <img src="../img/logo.png" style="height: 50px;width: 50px;margin-left: 30px">
+    <img src="a/images/logo.png" style="height: 50px;width: 100px;margin-left: 30px">
   </div>
 </a>
 <!-- Navbar Search -->
@@ -96,6 +96,7 @@
 </li>
 </ul>
 </nav>
+
 <div id="wrapper">
    <!-- Sidebar -->
    <ul class="sidebar navbar-nav">
@@ -142,10 +143,8 @@
      <span> About Us</span>
  </a>
 </li>
-
-
-
 </ul>
+
 <div id="content-wrapper">
  <div class="container-fluid pb-0">
   <div class="video-block section-padding">
@@ -153,27 +152,26 @@
     <div class="col-md-8">
      <div class="single-video-left">
       <div class="single-video">
-        <video width="100%" height="315%" src="../vid/film3.mp4" frameborder="5" controls></video>
+       <video width="100%" height="315%" src="a/vid/java.m4v" frameborder="5" controls></video>
      </div>
      <div class="single-video-title box mb-3">
-       <h2><a href="#">Frozen II </a><span title="" data-placement="top"
+       <h2><a href="#">HTML </a><span title="" data-placement="top"
         data-toggle="tooltip" data-original-title="Verified"><i
         class="fas fa-check-circle text-success"></i></span></h2>
 
       </div>
       <div class="single-video-info-content box mb-3">
         <h6>Diterbitkan</h6>
-        <p>2020</p>
+        <p>2021</p>
         <h6>Genre </h6>
-        <p>Action</p>
+        <p>Learn</p>
         <h6>Synopsis</h6>
-        <p>Having harnessed her ever-growing power after lifting the dreadful curse of the eternal winter in Frozen (2013), 
-          the beautiful conjurer of snow and ice, Queen Elsa, now rules the peaceful kingdom of Arendelle, enjoying a happy life with her sister, Princess Anna. However, a melodious voice that only Elsa can hear keeps her awake, inviting her to the mystical enchanted forest that the sisters' father told them about a long time ago. Now, unable to block the thrilling call of the secret siren, Elsa, along with Anna, Kristoff, Olaf, and Sven summons up the courage to follow the voice into the unknown, intent on finding answers in the perpetually misty realm in the woods. More and more, an inexplicable imbalance is hurting not only her kingdom
-        but also the neighboring tribe of Northuldra. Can Queen Elsa put her legendary magical skills to good use to restore peace and stability</p>
+        <p>Bagi Anda yang belum tahu, HTML adalah kepanjangan dari Hypertext Markup Language. Perlu diketahui bawah HTML bukan termasuk bahasa pemrograman, melainkan HTML adalah markup standart yang digunakan dalam menampilkan halaman website. Jadi dengan HTML tidak memiliki kemampuan untuk membuat website yang dinamis, perlu mengkombinasikan dengan bahasa pemrograman web lain.
+          Menurut sejarahnya, HTML pertama kali diperkenalkan pada tahun 1990-an. Tim Berners-Lee pada tahun 1989 menciptakan HTML sederhana namun sangat efektif untuk pengkodean dokumen elektronik. Web browser pada zaman itu digunakan untuk membuka dokumen-dokumen dengan format HTML. Pada saat tahun 90-an inilah yang menjadi sejarah lahirnya HTML sehingga dinamakan HTML versi 1.0.</p>
         <h6>Kualitas</h6>
         <p>Blueray</p>
         <h6>Diterbitkan</h6>
-        <p>ArJ Movie </p>
+        <p>CODING LEARN APPLICATION </p>
       </div>
     </div>
   </div>
@@ -182,7 +180,7 @@
      <div class="row">
       <div class="col-md-12">
        <div class="adblock">
-        <div class="../img">
+        <div class="a/img">
          Google AdSense<br>
          336 x 280
        </div>
@@ -209,11 +207,11 @@
   <div class="video-card video-card-list">
    <div class="video-card-image">
     <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-    <a href="video-page.html"><img class="../img-fluid" src="../img/film5.jpg" alt=""></a>
+    <a href="video-page.html"><img class="../img-fluid" src="a/images/b.png" alt=""></a>
     <div class="time">00:00</div>
   </div>
   <div class="video-title">
-    <a href="video-page.html">Official Trailer Minion Holiday Special 2020</a>
+    <a href="{{url('fl.Film2')}}">JAVA</a>
   </div>
 
   <div class="video-page text-danger">
@@ -228,12 +226,12 @@
 <div class="video-card video-card-list">
  <div class="video-card-image">
   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-  <a href="#"><img class="../img-fluid" src="../img/film1.jpg" alt=""></a>
+  <a href="#"><img class="../img-fluid" src="a/images/c.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
 
 <div class="video-title">
-  <a href="Film1.html">Spongebob The Movie 2020</a>
+  <a href="{{url('fl.Film3')}}">CSS</a>
 </div>
 <div class="video-page text-success">
   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -248,12 +246,12 @@
 <div class="video-card video-card-list">
  <div class="video-card-image">
   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-  <a href="#"><img class="../img-fluid" src="../img/film2.jpg" alt=""></a>
+  <a href="#"><img class="../img-fluid" src="a/images/d.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
 
 <div class="video-title">
-  <a href="Film2.html">Avangers Infinity War</a>
+  <a href="{{url('fl.Film4')}}">SQL</a>
 </div>
 <div class="video-page text-success">
   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -268,12 +266,12 @@
 <div class="video-card video-card-list">
  <div class="video-card-image">
   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-  <a href="#"><img class="../img-fluid" src="../img/film4.jpeg" alt=""></a>
+  <a href="#"><img class="../img-fluid" src="a/images/e.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
 
 <div class="video-title">
-  <a href="Film4.html">Maleficent Mistress of Evil</a>
+  <a href="{{url('fl.Film5')}}">JS</a>
 </div>
 <div class="video-page text-success">
   Bluray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -287,12 +285,12 @@
 <div class="video-card video-card-list">
  <div class="video-card-image">
   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-  <a href="#"><img class="../img-fluid" src="../img/film6.jpg" alt=""></a>
+  <a href="#"><img class="../img-fluid" src="a/images/f.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
 
 <div class="video-title">
-  <a href="Film6.html">Superman Red Son</a>
+  <a href="{{url('fl.Film6')}}">PHP</a>
 </div>
 <div class="video-page text-success">
   Web-Rip Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -306,12 +304,12 @@
 <div class="video-card video-card-list">
  <div class="video-card-image">
   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-  <a href="#"><img class="../img-fluid" src="../img/film7.jpg" alt=""></a>
+  <a href="#"><img class="../img-fluid" src="a/images/g.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
 
 <div class="video-title">
-  <a href="Film7.html">The Dawn</a>
+  <a href="{{url('fl.Film7')}}">PHYTON</a>
 </div>
 <div class="video-page text-success">
  Blueray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -326,12 +324,12 @@
 <div class="video-card video-card-list">
   <div class="video-card-image">
    <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-   <a href="#"><img class="../img-fluid" src="../img/film8.jpg" alt=""></a>
+   <a href="#"><img class="../img-fluid" src="a/images/h.png" alt=""></a>
    <div class="time">60:00</div>
  </div>
 
  <div class="video-title">
-   <a href="Film8.html">Clownery</a>
+   <a href="{{url('fl.Film8')}}">C++</a>
  </div>
  <div class="video-page text-success">
   Blueray Available <a title="" data-placement="top" data-toggle="tooltip" href="#"
@@ -373,8 +371,8 @@
 </div>
 <div class="col-lg-6 col-sm-6 text-right">
   <div class="app">
-   <a href="#"><img alt="" src="../img/googleplay.png"></a>
-   <a href="#"><img alt="" src="../img/apps.png"></a>
+   <a href="#"><img alt="" src="a/img/googleplay.png"></a>
+   <a href="#"><img alt="" src="a/img/apps.png"></a>
  </div>
 </div>
 </div>
@@ -392,31 +390,31 @@
 <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
 aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-   <div class="modal-content">
-      <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-         </button>
-      </div>
-      <div class="modal-body">Select "Logout" below if you are ready to end your current session.
-      </div>
-      <div class="modal-footer">
-         <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-         <a class="btn btn-primary" href="../RegLog/sessionLogout.php">Logout</a>
-      </div>
-   </div>
+ <div class="modal-content">
+  <div class="modal-header">
+   <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+   <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+</div>
+<div class="modal-body">Select "Logout" below if you are ready to end your current session.
+</div>
+<div class="modal-footer">
+ <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+ <a class="btn btn-primary" href="../RegLog/sessionLogout.php">Logout</a>
+</div>
+</div>
 </div>
 </div>
 <!-- Bootstrap core JavaScript-->
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="a/jquery/jquery.min.js"></script>
+<script src="a/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Core plugin JavaScript-->
-<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="a/jquery-easing/jquery.easing.min.js"></script>
 <!-- Owl Carousel -->
-<script src="../vendor/owl-carousel/owl.carousel.js"></script>
+<script src="a/owl-carousel/owl.carousel.js"></script>
 <!-- Custom scripts for all pages-->
-<script src="js/custom.js"></script>
+<script src="a/js/custom1.js"></script>
 </body>
 
 </html>
