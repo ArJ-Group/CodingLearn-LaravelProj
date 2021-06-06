@@ -11,15 +11,13 @@ class FrontEndController extends Controller
     public function index()
     {
         $categories = category::latest()->get();
-        return view('welcome', \compact('categories'));
+        return view('forum', \compact('categories'));
     }
-
     public function categoryOverview($id){
         $category = category::find($id);
 
         return view('client.category-overview', \compact('category'));
     }
-
     public function forumOverview($id){
         $forum = forum::find($id);
 

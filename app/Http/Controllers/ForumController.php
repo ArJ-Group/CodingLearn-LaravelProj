@@ -40,7 +40,12 @@ class ForumController extends Controller
      */
     public function store(Request $request)
     {
-        forum::create($request->all());
+        $forums = new forum;
+        $forums->title = $request->title;
+        $forums->desc = $request->desc;
+        $forums->category_id = $request->category_id;
+        $forums->user_id = auth()->id();
+        $forums->discussion = 0;
         Session::flash('message','Forum created');
         Session::flash('alert-class', 'alert-success');
         return back();

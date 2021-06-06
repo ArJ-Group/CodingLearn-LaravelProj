@@ -45,7 +45,7 @@ class DiscussionController extends Controller
 
         if($request->notify && $request->notify == "on"){
             $notify = 1;
-        }
+        } else{$notify = 0;}
 
         $discussion = new discussion;
         $discussion->title = $request->title;
@@ -124,8 +124,6 @@ class DiscussionController extends Controller
     {
         $replies = discussion_reply::find($id);
         $replies->delete();
-        Session::flash('message','Forum Deleted');
-        Session::flash('alert-class', 'alert-success');
         return back();
     }
 }

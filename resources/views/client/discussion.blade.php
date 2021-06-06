@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
       <nav class="breadcrumb">
-      <a href="{{route('main')}}" class="breadcrumb-item active"> Home</a>
+      <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
       </nav>
     <div class="row">
         <div class="col-lg-12">
@@ -25,7 +25,7 @@
                 <tbody>
                   <tr>
                     <td class="author-col">
-                      <div>by<a href="#"> {{$discussion->user->name}}</a></div>
+                      <div>by {{$discussion->user->name}}</div>
                     </td>
                     <td class="post-col d-lg-flex justify-content-lg-between">
                       <div>
@@ -38,14 +38,8 @@
                     </td>
                     <td>
                       <div>
-                        <span class="font-weight-bold">Discussions:</span> {{$discussion->user->discussions}} 
+                        <span class="font-weight-bold">Total replies:</span> {{count($discussion->reply)}} 
                       </div>
-                    </td>
-                    <td>
-                      <p>
-                        {{$discussion->desc}}
-                      </p>
-                      
                     </td>
                   </tr>
                 </tbody>
@@ -58,7 +52,7 @@
                   <tbody>
                     <tr>
                       <td class="author-col">
-                        <div>by<a href="#"> {{$reply->user->name}}</a></div>
+                        <div>by {{$reply->user->name}}</div>
                       </td>
                       <td class="post-col d-lg-flex justify-content-lg-between">
                         <div>
@@ -70,8 +64,8 @@
                         </div>
                       </td>
                       <td>
-                        @if(auth()->id()== $reply->user_id)
-                        <a href="{{'reply.delete', $reply->id}}" class="btn btn-danger"> delete</a>
+                        @if(auth()->id() == $reply->user_id || auth()->id('is_admin') == 1)
+                        <a href="{{route('reply.delete', $reply->id)}}" class="btn btn-danger"> delete</a>
                         @endif
                       </td>
                     </tr>
