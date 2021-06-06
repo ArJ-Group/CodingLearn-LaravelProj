@@ -58,9 +58,9 @@ object-position: center center;
    <div class="container">
 
     <ol class="breadcrumb">
-
+      @if( auth()->id('is_admin') == 1)
         <li class="breadcrumb-item"><a href="{{url('/app_upload')}}">Upload App</a></li>
-            
+           @endif 
         </ol>
 
     <div class="row justify-content-center">
@@ -72,14 +72,31 @@ object-position: center center;
     <div class="row text-center">
 
     @foreach($Apps as $App)
+    
       <div class="col-sm-6">
       <div class="thumbnail">
-        <img class="img-responsive img-resize" src="{{url('../')}}/public/apps/{{$App}}" alt="App">
-        
-        
+
+        <table
+        class="table table-striped table-responsivelg table-bordered"
+      >
+        <thead class="thead-light">
+          <img class="img-responsive img-resize" src="{{asset('/apps/'.$App)}}" alt="App">
+          <tr>
+            <th scope="col"><a class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px;">{{$App}}</a></th>
+            <th scope="col"><a href="{{url('/download')}}/{{$App}}" class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px; role="button">Download</a></th>
+            <th scope="col">@if( auth()->id('is_admin') == 1)
+              <a href="{{route('view_apps.destroy', $App)}}" class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px; role="button">Delete</a>
+              @endif</th>
+            
+          </tr>
+        </thead>
+</table>
+
+     
         <p>
-        <a href="{{url('/download')}}/{{$App}}" class="btnThumbnail" role="button">Download</a>
-        <a href="" class="btnThumbnail" role="button">Delete</a>
+        
+      
+        
         </p>
       </div>
       </div>

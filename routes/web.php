@@ -27,6 +27,8 @@ Route::get('/view_apps','AppUploadController@show');
 
 Route::get('/download/{appName}','AppUploadController@download');
 
+route::get('/view_apps/delete/{appName}', 'AppUploadController@destroy')->name('view_apps.destroy');
+
 Route::get('/', function () {
 return view('Auth.landing');
 
