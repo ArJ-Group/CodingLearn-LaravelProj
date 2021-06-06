@@ -18,6 +18,15 @@ Route::get('/users', function ($id) {
   return view('users');
 });
 
+//aplud
+Route::get('/app_upload','AppUploadController@index');
+
+Route::post('/app_upload/upload','AppUploadController@upload')->name('upload');
+
+Route::get('/view_apps','AppUploadController@show');
+
+Route::get('/download/{appName}','AppUploadController@download');
+
 Route::get('/', function () {
 return view('Auth.landing');
 
