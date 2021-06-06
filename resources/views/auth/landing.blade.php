@@ -574,7 +574,7 @@
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Wahyu Nandira Bakta</h6>
-                            <p>UI/UX Designer <br> Back-end Programmer</p>
+                            <p>Back-end Programmer Support</p>
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -598,7 +598,7 @@
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">M Bagas Ridhocaesar</h6>
-                            <p>Researcher <br> Data Mining </p>
+                            <p>Not Found! <br><br> </p>
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>

@@ -37,6 +37,7 @@ Route::get('/compiler', function () {
 Route::get('/Run', function () {
   return view('Run');
 });
+
 Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 Route::resource('mahasiswa', MahasiswaController::class);
 
@@ -63,6 +64,11 @@ Route::get('/ph', function () {
 });
 Route::get('/php', function () {
   return view('php');
+});
+
+
+Route::get('mahasiswa.test/', function () {
+  return view('mahasiswa.test');
 });
 
 //HTML
