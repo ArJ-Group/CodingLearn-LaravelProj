@@ -155,7 +155,7 @@
        <video width="100%" height="315%" src="a/vid/java.m4v" frameborder="5" controls></video>
      </div>
      <div class="single-video-title box mb-3">
-       <h2><a href="#">HTML </a><span title="" data-placement="top"
+       <h2><a href="#">JAVA </a><span title="" data-placement="top"
         data-toggle="tooltip" data-original-title="Verified"><i
         class="fas fa-check-circle text-success"></i></span></h2>
 
@@ -207,11 +207,11 @@
   <div class="video-card video-card-list">
    <div class="video-card-image">
     <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
-    <a href="video-page.html"><img class="../img-fluid" src="a/images/b.png" alt=""></a>
+    <a href="video-page.html"><img class="../img-fluid" src="a/images/a.png" alt=""></a>
     <div class="time">00:00</div>
   </div>
   <div class="video-title">
-    <a href="{{url('fl.Film2')}}">JAVA</a>
+    <a href="{{url('fl.Film1')}}">HTML</a>
   </div>
 
   <div class="video-page text-danger">
