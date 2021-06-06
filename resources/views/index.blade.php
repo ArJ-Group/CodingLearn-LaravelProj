@@ -108,7 +108,7 @@
             <div class="modal-body">
                <ul>
                   <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Book</a></li>
-                  <li><a href="category.html"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
+                  <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
                </ul>
             </div>
          </div>

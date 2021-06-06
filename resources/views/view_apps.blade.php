@@ -80,7 +80,7 @@ object-position: center center;
         class="table table-striped table-responsivelg table-bordered"
       >
         <thead class="thead-light">
-          <img class="img-responsive img-resize" src="{{asset('/apps/'.$App)}}" alt="App">
+          <img class="img-responsive img-resize" src="{{asset('/apps/'.$App)}}" alt="App"><hr>
           <tr>
             <th scope="col"><a class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px;">{{$App}}</a></th>
             <th scope="col"><a href="{{url('/download')}}/{{$App}}" class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px; role="button">Download</a></th>
