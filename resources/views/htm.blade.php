@@ -347,32 +347,32 @@
                               </div>
                            </div>
                         </div>
-                        <div class="big-box">
-                           <div class="big-img-box">
-                              <img src="a/images/mac-about.png" alt="" />
-                           </div>
-                           <div class="big-dit-b clearfix">
-                              <div class="col-md-6">
-                                 <div class="left-big">
-                                    <h3>Tutorial Vidio</h3>
-                                    <p>By <span>Group</span> 2 <span>TI 2H</span></p>
-                                    <div class="prod-btn">
-                                       <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Save to wishlist</a>
-                                       <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Like this</a>
-                                       
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-md-6">
-                                 <div class="right-big-b">
-                                    <div class="tight-btn-b clearfix">
-                                       <a class="view-btn" href="#">View</a>
-                                       
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                        <!-- Video -->
+    <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Check out the video</h2>
+
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="../../www.youtube.com/watch0683.html?v=fLCjQJCekTs" data-effect="fadeIn">
+                                <img class="img-fluid" src="landing/images/video-preview.svg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                    <p class="p-heading">This video will show you a case study for one of our Major Customers and will help you understand why your startup needs Evolo in this highly competitive market</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of video -->
                         <div class="row cat-pd">
                            <div class="col-md-6 col-sm-6">
                               <div class="small-box-c">
