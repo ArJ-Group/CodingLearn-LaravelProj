@@ -36,6 +36,37 @@
     <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/styles.css') !!}">
     <!-- Favicon  -->
     <link rel="shortcut icon" href="b/ci-icon.ico" />
+    <style>
+        .social-text {
+            padding: 0.7rem 0;
+            font-size: 1rem;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icon {
+            height: 46px;
+            width: 46px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0.45rem;
+            color: #333;
+            border-radius: 50%;
+            border: 1px solid #333;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+
+        .social-icon:hover {
+            color: #4481eb;
+            border-color: #4481eb;
+        }
+    </style>
 
 
 </head>
@@ -254,7 +285,7 @@
 
                     <!-- Registration Form -->
                     <div class="form-container">
-                        <form id="requestForm" method="POST" action="{{ route('register') }}">
+                        <form method="POST" action="{{ route('register') }}" id="requestForm">
 
                             <div class="form-group">
 
@@ -314,15 +345,15 @@
                                 <div class="help-block with-errors"></div>
                             </div>
 
-                            <div class="form-group row mb-0">
+                            <div class="form-group row mb-0" style="padding-right:50px">
                                 <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="form-control-submit-button">
+                                    <button type="submit"  class="form-control-submit-button">
                                         {{ __('Register') }}
                                     </button>
                                 </div>
                             </div>
-                            <p class="social-text">Or Sign up with social platforms</p>
-                            <div class="social-media">
+                            <p class="social-text" style="text-align:center;padding-left: 20px;">Or Sign up with social platforms</p>
+                            <div class="social-media" style="padding-left: 21px;">
                                 <a href="#" class="social-icon">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
