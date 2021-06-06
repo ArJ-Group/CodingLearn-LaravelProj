@@ -19,7 +19,7 @@
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">Author</th>
-                    <th scope="col">Message</th>
+                    <th scope="col">Details</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -36,11 +36,10 @@
                         <span class="font-weight-bold">Posted:</span> {{$discussion->created_at->diffForHumans()}}
                       </div>
                     </td>
-                    <td>
-                      <div>
-                        <span class="font-weight-bold">Total replies:</span> {{count($discussion->reply)}} 
-                      </div>
-                    </td>
+                  </tr>
+                  <tr>
+                  <td class="font-weight-bold"> <div>Content</div></td>
+                  <td class="post-col d-lg-flex justify-content-lg-between"><div>{!!$discussion->desc!!}</div> </td>
                   </tr>
                 </tbody>
               </table>
@@ -83,7 +82,7 @@
                   </table>
                 @endforeach
               @else
-                no replies to the discussion
+                <h4>No replies to the discussion yet</h4>
               @endif
               </div>
           </div>
@@ -91,6 +90,11 @@
       </div>
 
       
+      
+      @if(!auth()->user())
+      <div></div>
+      <h5>You haven't Login yet </h5>
+      @else
       <form action="{{route('discussion.reply', $discussion->id)}}" method = "post" class="mb-3">
         @csrf
         <div class="form-group">
@@ -109,42 +113,6 @@
           </button>
         </div>
       </form>
-      @if(!auth()->user())
-      <div>
-        <div class="d-lg-flex align-items-center mb-3">
-          <form
-            action=""
-            class="form-inline d-block d-sm-flex mr-2 mb-3 mb-lg-0"
-          >
-            <div class="form-group mr-2 mb-3 mb-md-0">
-              <label for="email" class="mr-2">Email:</label>
-              <input
-                type="email"
-                class="form-control"
-                placeholder="example@gmail.com"
-                required
-              />
-            </div>
-
-            <div class="form-group mr-2 mb-3 mb-md-0">
-              <label for="password" class="mr-2">Password:</label>
-              <input
-                type="password"
-                class="form-control"
-                name="password"
-                required
-              />
-            </div>
-
-            <button class="btn btn-primary">Login</button>
-          </form>
-          <span class="mr-2">or...</span>
-          <button class="btn btn-success">Create Account</button>
-        </div>
-      </div>
-      <p class="small">
-        <a href="#">Have you forgotten your account details?</a>
-      </p>
       @endif
     </div>
 @endsection

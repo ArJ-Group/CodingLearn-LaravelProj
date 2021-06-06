@@ -23,7 +23,10 @@
                     <th scope="col">Topic</th>
                     <th scope="col ">Created</th>
                     <th scope="col">Statistics</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Delete</th>
                   </tr>
+
                 </thead>
                 <tbody>
 
@@ -46,10 +49,23 @@
                       <div>{{$discussion->reply->count()}} replies</div>
                       <div>{{$discussion->views}} views</div>
                     </td>
+                    <td>
+                    @if(auth()->id() == $discussion->user_id || auth()->id('is_admin') == 1)
+                      <a href="{{route('discussion.edit', $discussion->id)}}" class="btn btn-primary">Edit</a>
+                        @else
+                        <div>Can't update</div>
+                        @endif
+                    </td>
+                    <td>
+                      <div>
+                      @if(auth()->id() == $discussion->user_id || auth()->id('is_admin') == 1)
+                        <a href="{{route('discussion.delete', $discussion->id)}}" class="btn btn-danger"> delete</a>
+                      @endif
+                      </div>
                   </tr>
                   @endforeach
                 @else
-                  <h4>No discussion topics in this forum</h4>
+                  <h4>No discussion topics in this forum yet</h4>
                 @endif
                   
                 </tbody>
@@ -58,7 +74,12 @@
           </div>
         </div>
       </div>
-
+      @if(!auth()->user())
+      <div></div>
+      <div></div>
+      <h5>You haven't Login yet </h5>
+      @else
+      <a href="{{route('discussion.new', $forum->id)}}" class="btn btn-lg btn-primary mb-2">New Discussion Topic</a>
       <div class="mb-3 clearfix">
         <nav aria-label="Navigate post pages" class="float-lg-right">
           <ul class="pagination pagination-sm mb-lg-0">
@@ -124,6 +145,6 @@
           <button type="submit" class="btn btn-sm btn-primary">Sort</button>
         </form>
       </div>
-      <a href="{{route('discussion.new', $forum->id)}}" class="btn btn-lg btn-primary mb-2">New Discussion Topic</a>
+      @endif
     </div>
 @endsection

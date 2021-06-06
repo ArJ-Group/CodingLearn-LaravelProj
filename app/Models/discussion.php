@@ -10,7 +10,7 @@ class discussion extends Model
     use HasFactory;
 
     public function discussion(){
-        return $this->belongsTo('App\Models\forum');
+        return $this->belongsTo('App\Models\forum', 'forum_id');
     }
 
     public function user(){
@@ -20,4 +20,7 @@ class discussion extends Model
     public function reply(){
         return $this->hasMany('App\Models\discussion_reply');
     }
+    protected $fillable=[
+        'id','title','desc', 'forum_id', 'notify'
+    ];
 }

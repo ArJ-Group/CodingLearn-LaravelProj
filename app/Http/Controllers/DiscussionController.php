@@ -81,7 +81,9 @@ class DiscussionController extends Controller
      */
     public function edit($id)
     {
-        //
+        $discussion = discussion::find($id);
+        $forum = forum::latest()->get();
+        return view('client.edit_discussion', \compact('discussion','forum'));
     }
 
     /**
@@ -111,7 +113,11 @@ class DiscussionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $discussion=discussion::find($id);
+        $discussion->update($request->all());
+        Session::flash('message','Forum updaed');
+        Session::flash('alert-class', 'alert-success');
+        return back();
     }
 
     /**
@@ -124,6 +130,13 @@ class DiscussionController extends Controller
     {
         $replies = discussion_reply::find($id);
         $replies->delete();
+        return back();
+    }
+
+    public function delete($id)
+    {
+        $discussion = discussion::find($id);
+        $discussion->delete();
         return back();
     }
 }

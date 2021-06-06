@@ -46,6 +46,7 @@ class ForumController extends Controller
         $forums->category_id = $request->category_id;
         $forums->user_id = auth()->id();
         $forums->discussion = 0;
+        $forums->save();
         Session::flash('message','Forum created');
         Session::flash('alert-class', 'alert-success');
         return back();
@@ -72,7 +73,7 @@ class ForumController extends Controller
     {
         $forum = forum::find($id);
         $categories = category::latest()->get();
-        return view('admin.pages.edit_forum', \compact('forum','categories'));
+        return view('client.edit_forum', \compact('forum','categories'));
     }
 
     /**

@@ -270,44 +270,49 @@ Route::get('/new-topic', function () {
   return view('client.new-topic');
 });
 //To Forum Main Page
-Route::get('/mainForum', 'App\Http\Controllers\FrontEndController@index')->name('forum_main');
+Route::get('/mainForum', 'FrontEndController@index')->name('forum_main');
 
 //Category Overview
-Route::get('/category/overview/{id}', 'App\Http\Controllers\FrontEndController@categoryOverview')->name('category.overview');
+Route::get('/category/overview/{id}', 'FrontEndController@categoryOverview')->name('category.overview');
 
 //Forum Overview
-Route::get('/forum/overview/{id}', 'App\Http\Controllers\FrontEndController@forumOverview')->name('forum.overview');
+Route::get('/forum/overview/{id}', 'FrontEndController@forumOverview')->name('forum.overview');
 
 //Admin pages
 Route::middleware(['auth', 'admin'])->group(function(){
-route::get('dashboard/home', 'App\Http\Controllers\DashboardController@home');
-route::get('dashboard/home', 'App\Http\Controllers\DashboardController@home');
+route::get('dashboard/home', 'DashboardController@home');
+route::get('dashboard/home', 'DashboardController@home');
 
-route::get('dashboard/category/new', 'App\Http\Controllers\CategoryController@create')->name('category.new');
-route::post('dashboard/category/new', 'App\Http\Controllers\CategoryController@store')->name('category.store');
-route::get('dashboard/categories', 'App\Http\Controllers\CategoryController@index')->name('categories');
+route::get('dashboard/category/new', 'CategoryController@create')->name('category.new');
+route::post('dashboard/category/new', 'CategoryController@store')->name('category.store');
+route::get('dashboard/categories', 'CategoryController@index')->name('categories');
 
-route::get('dashboard/categories/{id}', 'App\Http\Controllers\CategoryController@show')->name('category');
+route::get('dashboard/categories/{id}', 'CategoryController@show')->name('category');
 
-route::get('dashboard/categories/edit/{id}', 'App\Http\Controllers\CategoryController@edit')->name('category.edit');
-route::post('dashboard/categories/edit/{id}', 'App\Http\Controllers\CategoryController@update')->name('category.update');
-route::get('dashboard/categories/delete/{id}', 'App\Http\Controllers\CategoryController@destroy')->name('category.destroy');
-
-route::get('dashboard/forums/edit/{id}', 'App\Http\Controllers\ForumController@edit')->name('forum.edit');
-route::post('dashboard/forums/edit/{id}', 'App\Http\Controllers\ForumController@update')->name('forum.update');
-route::get('dashboard/forums/delete/{id}', 'App\Http\Controllers\ForumController@destroy')->name('forum.destroy');
+route::get('dashboard/categories/edit/{id}', 'CategoryController@edit')->name('category.edit');
+route::post('dashboard/categories/edit/{id}', 'CategoryController@update')->name('category.update');
+route::get('dashboard/categories/delete/{id}', 'CategoryController@destroy')->name('category.destroy');
 });
 
 //Forum Client
-route::get('client/forum/new', 'App\Http\Controllers\ForumController@create')->name('forum.new');
-route::post('client/forum/new', 'App\Http\Controllers\ForumController@store')->name('forum.store');
-route::get('client/forums', 'App\Http\Controllers\ForumController@index')->name('forums');
+route::get('client/forum/new', 'ForumController@create')->name('forum.new');
+route::post('client/forum/new', 'ForumController@store')->name('forum.store');
+route::get('client/forums', 'ForumController@index')->name('forums');
 
-route::get('client/forums/{id}', 'App\Http\Controllers\ForumController@show')->name('forum');
+route::get('client/forums/{id}', 'ForumController@show')->name('forum');
 
-// Topics Client
-route::get('client/discussion/new/{id}', 'App\Http\Controllers\DiscussionController@create')->name('discussion.new');
-route::post('client/discussion/new', 'App\Http\Controllers\DiscussionController@store')->name('discussion.store');
-route::get('client/discussion/{id}', 'App\Http\Controllers\DiscussionController@show')->name('discussion');
-route::post('client/discussion/reply/{id}', 'App\Http\Controllers\DiscussionController@reply')->name('discussion.reply');
-route::get('client/discussion/reply/delete/{id}', 'App\Http\Controllers\DiscussionController@destroy')->name('reply.delete');
+
+route::get('dashboard/forums/edit/{id}', 'ForumController@edit')->name('forum.edit');
+route::post('dashboard/forums/edit/{id}', 'ForumController@update')->name('forum.update');
+route::get('dashboard/forums/delete/{id}', 'ForumController@destroy')->name('forum.destroy');
+
+// Discussion Client
+route::get('client/discussion/new/{id}', 'DiscussionController@create')->name('discussion.new');
+route::post('client/discussion/new', 'DiscussionController@store')->name('discussion.store');
+route::get('client/discussion/{id}', 'DiscussionController@show')->name('discussion');
+route::post('client/discussion/reply/{id}', 'DiscussionController@reply')->name('discussion.reply');
+route::get('client/discussion/reply/delete/{id}', 'DiscussionController@destroy')->name('reply.delete');
+
+route::get('client/discussion/edit/{id}', 'DiscussionController@edit')->name('discussion.edit');
+route::post('client/discussion/edit/{id}', 'DiscussionController@update')->name('discussion.update');
+route::get('client/discussion/delete/{id}', 'DiscussionController@delete')->name('discussion.delete');

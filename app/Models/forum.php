@@ -22,4 +22,8 @@ class forum extends Model
     public function posts(){
         return $this->HasMany('App\Models\post');
     }
+
+    protected $fillable=[
+        'id','title','desc', 'user_id','forum_id', 'notify'
+    ];
 }
