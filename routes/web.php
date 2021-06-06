@@ -27,6 +27,8 @@ Route::get('/view_apps','AppUploadController@show');
 
 Route::get('/download/{appName}','AppUploadController@download');
 
+route::get('/view_apps/delete/{appName}', 'AppUploadController@destroy')->name('view_apps.destroy');
+
 Route::get('/', function () {
 return view('Auth.landing');
 
@@ -46,6 +48,7 @@ Route::get('/compiler', function () {
 Route::get('/Run', function () {
   return view('Run');
 });
+
 Route::get('mahasiswa/cari/', [MahasiswaController::class,'search']);
 Route::resource('mahasiswa', MahasiswaController::class);
 
@@ -72,6 +75,11 @@ Route::get('/ph', function () {
 });
 Route::get('/php', function () {
   return view('php');
+});
+
+
+Route::get('mahasiswa.test/', function () {
+  return view('mahasiswa.test');
 });
 
 //HTML
@@ -179,6 +187,7 @@ Route::get('cplus.cplusfunc/', function () {
 Route::get('cplus.cplustutor/', function () {
   return view('cplus.cplustutor');
 });
+
 //C++
 Route::get('cplus.welcomecp/', function () {
   return view('cplus.welcomecp');
@@ -233,32 +242,62 @@ Route::get('fl.Film8/', function () {
   return view('fl.Film8');
 });
 
-
-//test
-Route::get('auth.profile/', function () {
-  return view('auth.profile');
+//Python
+Route::get('pyt.welcomepyt/', function () {
+  return view('pyt.welcomepyt');
+});
+Route::get('pyt.pytexample/', function () {
+  return view('pyt.pytexample');
+});
+Route::get('pyt.pytexer/', function () {
+  return view('pyt.pytexer');
+});
+Route::get('pyt.pytfile/', function () {
+  return view('pyt.pytfile');
+});
+Route::get('pyt.pytmat/', function () {
+  return view('pyt.pytmat');
+});
+Route::get('pyt.pytmacl/', function () {
+  return view('pyt.pytmacl');
+});
+Route::get('pyt.pytmodules/', function () {
+  return view('pyt.pytmodules');
+});
+Route::get('pyt.pytreferences/', function () {
+  return view('pyt.pytreferences');
+});
+Route::get('pyt.pyttutor/', function () {
+  return view('pyt.pyttutor');
 });
 
-//Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
-//Route::get('/search', 'MahasiswaController@search')->name('mahasiswa.search');
-
-//Route::get('/about-us', function () {
-  //  return view('about-us');
-//});
-//Route::get('/category', function () {
-  //  return view('category');
-//});
-//Route::get('/dinning', function () {
- //   return view('dinning');
-//});
-//Route::get('/news', function () {
-  //  return view('news');
-//});
-/*
-Route::get('/news', function () {
-    return view('news');
+//JavaScript
+Route::get('js.jsdom/', function () {
+  return view('js.jsdom');
 });
-*/
+Route::get('js.welcomejs/', function () {
+  return view('js.welcomejs');
+});
+Route::get('js.jsexample/', function () {
+  return view('js.jsexample');
+});
+Route::get('js.jsexer/', function () {
+  return view('js.jsexer');
+});
+Route::get('js.jsform/', function () {
+  return view('js.jsform');
+});
+Route::get('js.jsfunc/', function () {
+  return view('js.jsfunc');
+});
+Route::get('js.jsobj/', function () {
+  return view('js.jsobj');
+});
+Route::get('js.jstutor/', function () {
+  return view('js.jstutor');
+});
+
+
 
 
 Auth::routes();
