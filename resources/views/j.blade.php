@@ -80,8 +80,8 @@
                      <div class="nav-b hidden-xs">
                         <div class="nav-box">
                            <ul>
-                              <li><a href="howitworks.html">Tutorial</a></li>
-                              <li><a href="productpage.html">References</a></li>
+                              <li><a href="howitworks.js">Tutorial</a></li>
+                              <li><a href="productpage.js">References</a></li>
                            </ul>
                         </div>
                      </div>
@@ -123,7 +123,7 @@
             <div class="row">
                <ol class="breadcrumb">
                   <li><a href="{{url('index')}}">Back</a></li>
-                  <li class="active">Coding Learn Application</li>
+                  <li class="active">JavaScript Learn Application</li>
                </ol>
             </div>
          </div>
@@ -133,7 +133,7 @@
       <div class="container">
          <div class="row">
             <div class="furniture-main">
-               <h2>Coding Learn Application</h2>
+               <h2>JavaScript Learn Application</h2>
                <div class="col-md-3 col-sm-4">
                   <div class="furniture-left">
                      <h3>CLA</h3>
@@ -421,119 +421,27 @@
                      <h3>Subcategories</h3>
                      <div class="right-list-f">
                         <ul>
-                           <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/e.png" alt="" /> Learn HTML</a></li>
-                           <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/e.png" alt="#" /> Learn Bootstrap</a></li>
-                           <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/e.png" alt="" /> Learn Colors</a></li>
-                           <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/e.png" alt="" /> Learn Icons</a></li>
-                           <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/e.png" alt="" /> Learn Graphics</a></li>
-                           <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/e.png" alt="" /> Learn How To</a></li>
-                           <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/e.png" alt="" /> Learn Sass</a></li>
-                           <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/e.png" alt="" /> Exercise</a></li>
+                           <li><a href="{{url('js.welcomejs')}}"><img width="32" src="a/images/e.png" alt="" /> Introduction JavaScript</a></li>
+                           <li><a href="{{url('js.jstutor')}}"><img width="32" src="a/images/e.png" alt="#" /> JavaScript Tutorial</a></li>
+                           <li><a href="{{url('js.jsform')}}"><img width="32" src="a/images/e.png" alt="" />JavaScript Forms</a></li>
+                           <li><a href="{{url('js.jsobj')}}"><img width="32" src="a/images/e.png" alt="" /> JavaScript Objects</a></li>
+                           <li><a href="{{url('js.jsfunc')}}"><img width="32" src="a/images/e.png" alt="" /> JavaScript Functions</a></li>
+                           <li><a href="{{url('js.jsdom')}}"><img width="32" src="a/images/e.png" alt="" /> JavaScript HTML DOM</a></li>
+                           <li><a href="{{url('js.jsexample')}}"><img width="32" src="a/images/e.png" alt="" /> JavaScript Example</a></li>
+                           <li><a href="{{url('js.jsexer')}}"><img width="32" src="a/images/e.png" alt="" /> Exercise</a></li>
+
                         </ul>
                      </div>
                   </div>
                </div>
-               <div class="loding-box">
-                  <a href="#">
-                     <div class="sk-wave">
-                        <div class="sk-rect sk-rect1"></div>
-                        <div class="sk-rect sk-rect2"></div>
-                        <div class="sk-rect sk-rect3"></div>
-                        <div class="sk-rect sk-rect4"></div>
-                        <div class="sk-rect sk-rect5"></div>
-                     </div>
-                     <span>Loding ...</span>
-                  </a>
-               </div>
+
+
             </div>
          </div>
       </div>
    </div>
+
    <footer>
-      <div class="main-footer">
-         <div class="container">
-            <div class="row">
-               <div class="footer-top clearfix">
-                  <div class="col-md-2 col-sm-6">
-                     <h2>Start a free
-                        account today
-                     </h2>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                     <div class="form-box">
-                        <input type="text" placeholder="Enter yopur e-mail" />
-                        <button>Continue</button>
-                     </div>
-                  </div>
-                  <div class="col-md-4 col-sm-12">
-                     <div class="help-box-f">
-                        <h4>Question? Call us on 12 34 56 78 for help</h4>
-                        <p>Easy setup - no payment fees - up to 100 products for free</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="footer-link-box clearfix">
-                  <div class="col-md-6 col-sm-6">
-                     <div class="left-f-box">
-                        <div class="col-sm-4">
-                           <h2>SELL ON chamb</h2>
-                           <ul>
-                              <li><a href="#">Create account</a></li>
-                              <li><a href="howitworks.html">How it works suppliers</a></li>
-                              <li><a href="pricing.html">Pricing</a></li>
-                              <li><a href="#">FAQ for Suppliers</a></li>
-                           </ul>
-                        </div>
-                        <div class="col-sm-4">
-                           <h2>BUY ON chamb</h2>
-                           <ul>
-                              <li><a href="#">Create account</a></li>
-                              <li><a href="#">How it works buyers</a></li>
-                              <li><a href="#">Categories</a></li>
-                              <li><a href="#">FAQ for buyers</a></li>
-                           </ul>
-                        </div>
-                        <div class="col-sm-4">
-                           <h2>COMPANY</h2>
-                           <ul>
-                              <li><a href="about-us.html">About chamb</a></li>
-                              <li><a href="#">Contact us</a></li>
-                              <li><a href="#">Press</a></li>
-                              <li><a href="#">Careers</a></li>
-                              <li><a href="#">Terms of use</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                     <div class="right-f-box">
-                        <h2>INDUSTRIES</h2>
-                        <ul class="col-sm-4">
-                           <li><a href="#">Textiles</a></li>
-                           <li><a href="#">Furniture</a></li>
-                           <li><a href="#">Leather</a></li>
-                           <li><a href="#">Agriculture</a></li>
-                           <li><a href="#">Food & drinks</a></li>
-                        </ul>
-                        <ul class="col-sm-4">
-                           <li><a href="#">Office</a></li>
-                           <li><a href="#">Decoratives</a></li>
-                           <li><a href="#">Electronics</a></li>
-                           <li><a href="#">Machines</a></li>
-                           <li><a href="#">Building</a></li>
-                        </ul>
-                        <ul class="col-sm-4">
-                           <li><a href="#">Cosmetics</a></li>
-                           <li><a href="#">Health</a></li>
-                           <li><a href="#">Jewelry</a></li>
-                           <li><a href="#">See all here</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
       <div class="copyright">
          <div class="container">
             <div class="row">
@@ -563,13 +471,15 @@
                         </a>
                      </li>
                   </ul>
-                  <ul class="right-flag">
-                     <li><a href="#"><img src="a/images/flag.png" alt="" /> <span>Change</span></a></li>
-                  </ul>
+
                </div>
             </div>
          </div>
       </div>
+
+
+
+
    </footer>
    <!--main js-->
    <script src="a/js/jquery-1.12.4.min.js"></script>
