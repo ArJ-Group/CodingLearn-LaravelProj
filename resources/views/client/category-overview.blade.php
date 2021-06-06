@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
       <nav class="breadcrumb">
-        <a href="" class="breadcrumb-item active"> Home</a>
+        <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
         <span class ="breadcrumb-item active"> {{$category->title}} </span>
       </nav>
 <div class="row">
@@ -21,7 +21,6 @@
                   <tr>
                     <th scope="col">Forum</th>
                     <th scope="col">Topics</th>
-                    <th scope="col">Posts</th>
                     <th scope="col">Latest Post</th>
                   </tr>
                 </thead>
@@ -37,8 +36,7 @@
                         {{$forum->desc}}
                       </p>
                     </td>
-                    <td><div>0</div></td>
-                    <td><div>0</div></td>
+                    <td><div>{{count($forum->discussions)}}</div></td>
                     <td>
                       <h4 class="h6 font-weight-bold mb-0">
                       </h4>
@@ -53,7 +51,7 @@
                 </table>
             </div>
           </div>
-          <a href="{{route('forum.new', $category->id)}}" class="btn btn-lg btn-primary mb-2">New Topic</a>
+          <a href="{{route('forum.new', $category->id)}}" class="btn btn-lg btn-primary mb-2">New Forum</a>
         </div>
         
 @endsection

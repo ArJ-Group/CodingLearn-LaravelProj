@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
       <nav class="breadcrumb">
-        <a href="#" class="breadcrumb-item active"> Home</a>
+        <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
         <a href="{{route('category.overview', $forum->category->id)}}" class="breadcrumb-item active"> {{$forum->category->title}}</a>
         <span class ="breadcrumb-item active"> {{$forum->title}} </span>
       </nav>
@@ -39,7 +39,7 @@
                       
                     </td>
                     <td>
-                      <div>by <a href="#">{{$discussion->user->name}}</a></div>
+                      <div>by {{$discussion->user->name}}</div>
                       <div>{{$discussion->created_at}}</div>
                     </td>
                     <td>
@@ -49,7 +49,7 @@
                   </tr>
                   @endforeach
                 @else
-                  <h4>No topics in this forum</h4>
+                  <h4>No discussion topics in this forum</h4>
                 @endif
                   
                 </tbody>
@@ -124,6 +124,6 @@
           <button type="submit" class="btn btn-sm btn-primary">Sort</button>
         </form>
       </div>
-      <a href="{{route('discussion.new', $forum->id)}}" class="btn btn-lg btn-primary mb-2">New Topic</a>
+      <a href="{{route('discussion.new', $forum->id)}}" class="btn btn-lg btn-primary mb-2">New Discussion Topic</a>
     </div>
 @endsection

@@ -124,8 +124,6 @@ class DiscussionController extends Controller
     {
         $replies = discussion_reply::find($id);
         $replies->delete();
-        Session::flash('message','Forum Deleted');
-        Session::flash('alert-class', 'alert-success');
         return back();
     }
 }
