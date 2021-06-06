@@ -388,7 +388,7 @@
               </ul>
             </li>
           </ul>
-          <ul class="">>
+          <ul class="">
             <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.jsobj')}}">Java Script Objects</a>
               <ul>
                 <li class=" toctree-l2 "><a class=" reference internal" href="{{url('js.jsobj')}}">Java Script Objects Definitions</a></li>

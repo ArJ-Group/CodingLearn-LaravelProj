@@ -311,9 +311,9 @@
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
 
           <ul class="">
-            <li class=" toctree-l1"><a class="current reference internal" href="#">Welcome to Java Script</a></li>
+           <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.welcomejs')}}">Welcome to Java Script</a></li>
           </ul>
-          <ul class="current">>
+          <ul class="current">
             <li class="current toctree-l1"><a class="current reference internal" href="{{url('js.jstutor')}}">Java Script Tutorial</a>
               <ul>
                 <li class="current toctree-l2"><a class="current reference internal" href="">Java Script Where To</a></li>

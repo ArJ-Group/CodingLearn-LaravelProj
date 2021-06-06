@@ -388,10 +388,10 @@
               </ul>
             </li>
           </ul>
-          <ul class="current">>
-            <li class="current toctree-l1"><a class="current reference internal" href="{{url('js.jsobj')}}">Java Script Objects</a>
+          <ul>
+            <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.jsobj')}}">Java Script Objects</a>
               <ul>
-                <li class="current toctree-l2 "><a class="current reference internal" href="{{url('js.jsobj')}}">Java Script Objects Definitions</a></li>
+                <li class=" toctree-l2 "><a class=" reference internal" href="{{url('js.jsobj')}}">Java Script Objects Definitions</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script Properties</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script Methods</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script Display</a></li>
@@ -435,10 +435,10 @@
               </ul>
             </li>
           </ul>
-          <ul>
-            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsexample')}}">Java Script Examples</a>
+          <ul class="current">
+            <li class="current toctree-l1"><a class="current reference internal" href="{{url('js.jsexample')}}">Java Script Examples</a>
               <ul>
-                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML DOM</a></li>
+                <li class="current toctree-l2"><a class="current reference internal" href="#">Java Script HTML DOM</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Input</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Objects</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Events</a></li>
