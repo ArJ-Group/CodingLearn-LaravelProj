@@ -36,37 +36,7 @@
     <link rel="stylesheet" type="text/css" href="{!! asset('landing/css/styles.css') !!}">
     <!-- Favicon  -->
     <link rel="shortcut icon" href="b/ci-icon.ico" />
-    <style>
-        .social-text {
-            padding: 0.7rem 0;
-            font-size: 1rem;
-        }
-
-        .social-media {
-            display: flex;
-            justify-content: center;
-        }
-
-        .social-icon {
-            height: 46px;
-            width: 46px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 0.45rem;
-            color: #333;
-            border-radius: 50%;
-            border: 1px solid #333;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: 0.3s;
-        }
-
-        .social-icon:hover {
-            color: #4481eb;
-            border-color: #4481eb;
-        }
-    </style>
+   
 
 
 </head>
@@ -101,9 +71,7 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#register">Register</a>
-                    </li>
+                    
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
@@ -200,7 +168,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Our newest program</h2>
+                    <h2 class="h2-heading">Our Program</h2>
                     <p class="p-heading">
                         Kami menyelenggarakan beberapa program
                         untuk mendukung Pembelajaran coding di Indonesia.</p>
@@ -361,134 +329,7 @@
         </div> <!-- end of container -->
     </div> <!-- end of slider-2 -->
     <!-- end of testimonials -->
-    <!-- Registration -->
-    <div id="register">
-   
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Join With Us For Free </h2>
-                        <p>Discover it now</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Kurikulum Standard Industri Global</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Belajar Secara Fleksibel</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Code & Materi Dari Developer Expert</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Telah Dipercaya Oleh lembaga Pendidikan</div>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
 
-                <div class="col-lg-6">
-
-                    <!-- Registration Form -->
-                    <div class="form-container" class="cards-4">
-                        <form method="POST" action="{{ route('register') }}" class="requestForm">
-
-                            <div class="form-group">
-
-                                <input id="username" placeholder="Username" type="text" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
-
-                                @error('username')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
-                            </div>
-
-
-                            <div class="form-group">
-
-                                <input id="name" placeholder="Name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-                                @error('name')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
-
-                            </div>
-
-                            <div class="form-group">
-
-                                <input id="email" placeholder="Email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                                @error('email')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
-                            </div>
-
-
-                            <div class="form-group">
-
-                                <input id="password" placeholder="Password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                @error('password')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group">
-
-
-                                <input id="password-confirm" placeholder="Confirm Password" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-
-                            </div>
-                            <div class="form-group checkbox">
-                                <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I agree with Evolo's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms & Conditions</a>
-                                <div class="help-block with-errors"></div>
-                            </div>
-
-                            <div class="form-group row mb-0" style="padding-right:50px">
-                                <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="form-control-submit-button">
-                                        {{ __('Register') }}
-                                    </button>
-                                </div>
-                            </div>
-                            <p class="social-text" style="text-align:center;padding-left: 20px;">Or Sign up with social platforms</p>
-                            <div class="social-media" style="padding-left: 21px;">
-                                <a href="#" class="social-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" class="social-icon">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon">
-                                    <i class="fab fa-google"></i>
-                                </a>
-                                <a href="#" class="social-icon">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-
-
-
-                        </form>
-                    </div> <!-- end of form-container -->
-                    <!-- end of registration form -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
-    <!-- end of registration -->
 
 
     <!-- About -->
