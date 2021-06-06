@@ -397,10 +397,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/testimonial-1.jpg" alt="alternative">
+                                        <img class="card-image" src="a/images/andin.jpeg" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.</p>
-                                            <p class="testimonial-author">Jude Thorn - Designer</p>
+                                            <p class="testimonial-text">Yang kudapat darisini adalah teknik belajar yang terstruktur 
+                                                dan komunitasnya yang bagus. CLA jadi salah satu andalanku dalam mempersiapkan diri demi karir. 
+                                                </p>
+                                            <p class="testimonial-author">Amelia Widya Andini - Student Polinema</p>
                                         </div>
                                     </div>
                                 </div> <!-- end of swiper-slide -->
@@ -409,10 +411,11 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/testimonial-2.jpg" alt="alternative">
+                                        <img class="card-image" src="a/images/lyd.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">Evolo has always helped or startup to position itself in the highly competitive market of mobile applications. You will not regret using it!</p>
-                                            <p class="testimonial-author">Marsha Singer - Developer</p>
+                                            <p class="testimonial-text">Mengandalkan kuliah saja, tidak cukup. Dengan CLA, saya mantap tinggalkan dunia gaming lantas belajar dunia Android yang ternyata menyenangkan. Yang nomor satu, 
+                                                CLA mengajarkan ilmu berorientasi kerja. Kini saya sangat terbantu dalam karir saya.</p>
+                                            <p class="testimonial-author">Putri Lidya - Student Polinema</p>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -421,10 +424,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="landing/images/testimonial-3.jpg" alt="alternative">
+                                        <img class="card-image" src="a/images/abd.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <p class="testimonial-text">Love their services and was so amazed with the support and results that I purchased Evolo for two years in a row. They are awesome.</p>
-                                            <p class="testimonial-author">Roy Smith - Marketer</p>
+                                            <p class="testimonial-text">Saya khusus mendedikasikan waktu saya untuk belajar ngoding. Di CLA belajarnya
+                                                 step by step, library-nya up-to-date. Kalau ada eror, nggak bingung. Di sini saya juga belajar
+                                                untuk nggak asal coding. Saya jadi percaya diri</p>
+                                            <p class="testimonial-author">Abdul Rohman - Student Polinema</p>
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -518,7 +523,7 @@
                     <!-- Card -->
                     <div class="card" style="margin-left: 130px;">
                         <div class="card-image">
-                            <img class="img-fluid" src="landing/images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src="a/images/radit.jpeg" style="height: 200px;width:500px;" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Radithya Iqbal P</h6>
@@ -542,7 +547,7 @@
                     <!-- Card -->
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-fluid" src="landing/images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src="a/images/dira.jpg" style="height: 200px;width:300px;" alt="alternative">
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">Wahyu Nandira Bakta</h6>
@@ -605,16 +610,16 @@
                 <h2 class="h2-heading">Contact details</h2>
                 <p class="p-heading">Don't hesitate to give us a call or just use the contact form below</p>
                 <ul class="list-unstyled li-space-lg">
-                    <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Innovative, San Francisco, CA 94043, US</li>
-                    <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+81 720 2212</a></li>
-                    <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:contact@evolo.com">contact@evolo.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> &nbsp;Jl. Soekarno Hatta No.9, Jatimulyo, Kota Malang, Jawa Timur 65141</li>
+                    <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+62 341404424</a></li>
+                    <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:contact@evolo.com">CodingLearn@Polinema.com</a></li>
                 </ul>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
             <div class="col-lg-6">
                 <div class="map-responsive">
-                    <iframe src="../../www.google.com/maps/embeddeb9.html?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.507640204439!3d37.757814996609724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sro!4v1498231462606" allowfullscreen></iframe>
+                    <iframe src="https://maps.google.com/maps?q=politeknik%20negeri%20malang&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
                 </div>
             </div> <!-- end of col -->
             <div class="col-lg-6">
@@ -656,15 +661,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="footer-col first">
-                    <h6>About Evolo</h6>
-                    <p class="p-small">Evolo is a business website Bootstrap HTML template which has a light illustrative design and was built to help you create beautiful websites</p>
+                    <h6>About Us</h6>
+                    <p class="p-small">Kami hadir sebagai platform pendidikan teknologi yang membantu menghasilkan talenta 
+                        digital berstandar global. Semua demi mengakselerasi Indonesia agar menjadi yang terdepan.</p>
                 </div> <!-- end of footer-col -->
                 <div class="footer-col second">
                     <h6>Links</h6>
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                        <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                        <li>Menu: <a class="page-scroll" href="#services">Services</a>, <a class="page-scroll" href="#details">Details</a>, <a class="page-scroll" href="#pricing">Pricing</a>, <a class="page-scroll" href="#contact">Contact</a></li>
+                        
+                        
+                        <li>Menu: <a class="page-scroll" href="#services">Services</a>, <a class="page-scroll" href="#details">Details</a>, <a class="page-scroll" 
+                        href="#pricing">Team</a>, <a class="page-scroll" href="#contact">Contact</a></li>
                     </ul>
                 </div> <!-- end of footer-col -->
                 <div class="footer-col third">
@@ -692,7 +699,7 @@
                             <i class="fab fa-instagram fa-stack-1x"></i>
                         </a>
                     </span>
-                    <p class="p-small">We would love to hear from you <a href="mailto:contact@evolo.com"><strong>contact@evolo.com</strong></a></p>
+                    <p class="p-small">Contact Us! <a href="mailto:contact@evolo.com"><strong>CodingLearn@Polinema.com</strong></a></p>
                 </div> <!-- end of footer-col -->
             </div> <!-- end of col -->
         </div> <!-- end of row -->
