@@ -308,7 +308,7 @@
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
 
-        <ul class="current">
+          <ul class="current">
             <li class="current toctree-l1"><a class="current reference internal" href="#">Welcome to Java Script</a></li>
           </ul>
           <ul>
@@ -473,7 +473,7 @@
               <ul class="wy-breadcrumbs">
                 <li><a href="../index.html">Docs</a> &raquo;</li>
 
-                <li>Welcome to Java</li>
+                <li>Welcome to Java Script</li>
                 <li class="wy-breadcrumbs-aside">
 
                 </li>
@@ -486,37 +486,27 @@
             <div role="main" class="document">
 
               <div class="section" id="welcome-to-codeigniter">
-                <h1>Welcome to Java<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+                <h1>Welcome to Java Script<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 
-
+                <br>
                 <div class="admonition note">
-                  <p class="first admonition-title">Apa Itu Java ? </p>
+                  <p class="first admonition-title">Apa Itu Java Script? </p>
                   <p class="last">
-                  <p>Java Script is a popular programming language, created in 1995.</p>
-
-                  <p>It is used for:</p>
-
-                  <ul>
-                    <li>Mobile applications (specially Android apps)</li>
-                    <li>Desktop applications</li>
-                    <li>Web applications</li>
-                    <li>Web servers and application servers</li>
-                    <li>Games</li>
-                    <li>Database connection</li>
-                    <li>And much, much more!</li>
-                  </ul>
-                  <hr>
+                  <p>JavaScript is the world's most popular programming language.</p>
+                  <p>JavaScript is the programming language of the Web.</p>
+                  <p>JavaScript is easy to learn.</p>
+                  <p>This tutorial will teach you JavaScript from basic to advanced.</p>
                 </div>
-                <h2>Why Use Java?</h2>
+
+                <h2>Why Use JavaScript?</h2>
+                <br>
+
+                <b>JavaScript is one of the 3 languages all web developers must learn:</b>
                 <ul>
-                  <li>Java Script works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
-                  <li>It is one of the most popular programming language in the world</li>
-                  <li>It is easy to learn and simple to use</li>
-                  <li>It is open-source and free</li>
-                  <li>It is secure, fast and powerful</li>
-                  <li>It has a huge community support (tens of millions of developers)</li>
-                  <li>Java Script is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
-                  <li>As Java is close to <a href="/cpp/default.asp">C++</a> and <a href="/cs/default.asp">C#</a>, it makes it easy for programmers to switch to Java or vice versa</li>
+                  <li>HTML to define the content of web pages</li>
+                  <li>CSS to specify the layout of web pages</li>
+                  <li>JavaScript to program the behavior of web pages</li>
+
                 </ul>
                 <hr>
 

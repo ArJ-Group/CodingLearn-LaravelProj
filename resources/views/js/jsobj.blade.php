@@ -1,628 +1,809 @@
-
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>CODING LEARN APPLICATION</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!--enable mobile device-->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--fontawesome css-->
-      <link rel="stylesheet" href="a/css/font-awesome.min.css">
-      <!--bootstrap css-->
-      <link rel="stylesheet" href="a/css/bootstrap.min.css">
-      <!--animate css-->
-      <link rel="stylesheet" href="a/css/animate-wow.css">
-      <!--main css-->
-      <link rel="stylesheet" href="a/css/style.css">
-      <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
-      <link rel="stylesheet" href="a/css/slick.min.css">
-      <link rel="stylesheet" href="a/css/jquery-ui.css">
-      <!--responsive css-->
-      <link rel="stylesheet" href="a/css/responsive.css">
-   </head>
-   <body>
-      <header id="header" class="top-head">
-         <!-- Static navbar -->
-         <nav class="navbar navbar-default">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-4 col-sm-12 left-rs">
-                     <div class="navbar-header">
-                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
-                        <span class="sr-only">Toggle navigation</span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
-                        <span class="icon-bar"></span> 
-                        </button>
-                        
-                     </div>
-                     <form class="navbar-form navbar-left web-sh">
-                        <div class="form">
-                           <input type="text" class="form-control" placeholder="Search for Code">
-                        </div>
-                     </form>
-                  </div>
-                  <div class="col-md-8 col-sm-12">
-                     <div class="right-nav">
-                        <div class="login-sr">
-                           <div class="login-signup">
-                              <ul class="navbar-nav ml-auto">
-                                 <li class="nav-item dropdown">
-               
-                                    <a id="navbarDropdown"  class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
-                                        {{ Auth::user()->name }}
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                           onclick="event.preventDefault();
-                                                         document.getElementById('logout-form').submit();">
-                                            {{ __('Logout') }}
-                                        </a>
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                            @csrf
-                                        </form>
-                                        <a href="{{url('mahasiswa')}}"> College Data</a>
-                                    </div>
-                                </li>
-                              </ul>
-                           </div>
-                        </div>
-                     
-                        <div class="help-r hidden-xs">
-                           <div class="help-box">
-                              <ul>
-                                 <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img  alt="" /> </a> </li>
-                                 <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="nav-b hidden-xs">
-                           <div class="nav-box">
-                              <ul>
-                                 <li><a href={{url('index')}}>BACK CLA</a></li>
-                                 <li><a href="productpage.html">References</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!--/.container-fluid --> 
-         </nav>
-      </header>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>CLA</title>
-
-
-
-
-  <link rel="shortcut icon" href="b/ci-icon.ico" />
-
-
-
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-  <link rel="stylesheet" href="b/css/citheme.css" type="text/css" />
-
-
-
-  <link rel="index" title="Index" href="../genindex.html" />
-  <link rel="search" title="Search" href="../search.html" />
-  <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
-  <link rel="next" title="Downloading CodeIgniter" href="downloads.html" />
-  <link rel="prev" title="Welcome to CodeIgniter" href="../general/welcome.html" />
-  <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
-  <style>
-
-  </style>
-
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-
+  <meta charset="UTF-8">
+  <title>CODING LEARN APPLICATION</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--enable mobile device-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--fontawesome css-->
+  <link rel="stylesheet" href="a/css/font-awesome.min.css">
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="a/css/bootstrap.min.css">
+  <!--animate css-->
+  <link rel="stylesheet" href="a/css/animate-wow.css">
+  <!--main css-->
+  <link rel="stylesheet" href="a/css/style.css">
+  <link rel="stylesheet" href="a/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="a/css/slick.min.css">
+  <link rel="stylesheet" href="a/css/jquery-ui.css">
+  <!--responsive css-->
+  <link rel="stylesheet" href="a/css/responsive.css">
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body>
+  <header id="header" class="top-head">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 left-rs">
+            <div class="navbar-header">
+              <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <div id="nav">
-    <div id="nav_inner">
+            </div>
+            <form class="navbar-form navbar-left web-sh">
+              <div class="form">
+                <input type="text" class="form-control" placeholder="Search for Code">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="right-nav">
+              <div class="login-sr">
+                <div class="login-signup">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
 
+                      <a id="navbarDropdown" class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
+                        {{ Auth::user()->name }}
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                          {{ __('Logout') }}
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                          @csrf
+                        </form>
+                        <a href="{{url('mahasiswa')}}"> College Data</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-
-      <div id="pulldown-menu" class="ciNav">
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="welcome.html">Welcome to Java</a></li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">Java Tutorial</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Get Started</a></li>
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 current"><a class="current reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
-
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
-
-            </ul>
-          </li>
-        </ul>
-
-      </div>
-
-
-    </div>
-  </div>
-  <div id="nav2">
-    <a href="#" id="openToc">
-      <img src="data:image/jpeg;base64,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" title="Toggle Table of Contents" alt="Toggle Table of Contents" />
-    </a>
-  </div>
-
-  <div class="wy-grid-for-nav">
-
-
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-
-        <a href="../index.html" class="fa fa-home"> Java</a>
-
-
-        <div role="search">
-          <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-            <input type="text" name="q" placeholder="Search docs" />
-            <input type="hidden" name="check_keywords" value="yes" />
-            <input type="hidden" name="area" value="default" />
-          </form>
+              <div class="help-r hidden-xs">
+                <div class="help-box">
+                  <ul>
+                    <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img alt="" /> </a> </li>
+                    <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="nav-b hidden-xs">
+                <div class="nav-box">
+                  <ul>
+                    <li><a href={{url('index')}}>BACK CLA</a></li>
+                    <li><a href="productpage.html">References</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!--/.container-fluid -->
+    </nav>
+  </header>
+  <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <html class="no-js" lang="en">
+  <!--<![endif]-->
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to Java Script </title>
+
+
+    <link rel="shortcut icon" href="b/html.png" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="b/css/citheme.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{!! asset('css/w3schools26.css') !!}">
 
 
 
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.welcomejava')}}">Welcome to Java</a></li>
-        </ul>
-        <ul class="current">
-          <li class="toctree-l1 current"><a class="current reference internal" href="{{url('java.javatutor')}}">Java TUTORIAL</a>
-            <ul class="current">
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="top" title="CodeIgniter 3.1.11 documentation" href="../index.html" />
+    <link rel="next" title="Installation Instructions" href="../installation/index.html" />
+    <link rel="prev" title="CodeIgniter User Guide" href="../index.html" />
 
-              <li class="toctree-l2 current"><a class="current reference internal" href="#">Java Get Started</a></li>
-              <li class="toctree-l2 "><a class=" reference internal" href="#">Java Syntax</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Comments</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Variables</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Element</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Data Types</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Type Casting</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Operators</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Booleans</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java If...Else</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Switch</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java While Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java For Loop</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Break/Continue</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Array</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javamethod')}}">Java Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Parameters</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Method Overloading</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Scope</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Recursion</a></li>
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaclasses')}}">Java Classes</a>
-            <ul>
-              <li class="toctree-l2 "><a class=" reference internal" href="{{url('java.javaclasses')}}">Java OOP</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Classs/Object</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Attributes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Class Methods</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Constructor</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Modifiers</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Encapsulation</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Packages/Api</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inheritance</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Polymorhism</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Inner Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Abstraction</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Interface</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Enums</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java User Input</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Date</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java ArrayList</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Linked List</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashMap</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java HashSet</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Iterator</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Wrapper Classes</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exceptions</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java RegEx</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Threads</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Lambda</a></li>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javafile')}}">Java FIle handling</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Create/Write Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Read Files</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Delete Files</a></li>
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javareferences')}}">Java References</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Keywords</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java String Method</a></li>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Math Method</a></li>
+  </head>
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexample')}}">Java Examples</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Examples</a></li>
+  <body class="wy-body-for-nav" role="document">
 
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li class="toctree-l1"><a class="reference internal" href="{{url('java.javaexer')}}">Java Exercise</a>
-            <ul>
-              <li class="toctree-l2"><a class="reference internal" href="#">Java Exercise</a></li>
+    <div id="nav">
+      <div id="nav_inner">
 
-            </ul>
-          </li>
-        </ul>
+
+
+        <div id="pulldown-menu" class="ciNav">
+          <ul class="current">
+            <li class="toctree-l1"><a class="reference internal" href="#">Welcome to Java Script</a></li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jstutor')}}">Java Script Where To</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="">Java Script Output</a></li>
+                <li class="toctree-l2 "><a class=" reference internal" href="#">Java Script Syntax</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="">Java Script Statements</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Syntax</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Comments</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Variables</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Let</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Const</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Operators</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arithmetic</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Assignment</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Data Types</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Functions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Objects</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script String</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script String Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Numbers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Numbers Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arrays</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Const</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Sort</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Iteration</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Dates</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Formats</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Get Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Set Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Math</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Random</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Booleans</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Comparisons</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Conditions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Switch</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For in</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For Of</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop While</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Break</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Type Conversion</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Bitwise</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script RegExp</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Errors</a></li>
+
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Scope</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Hoisting</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Strict Mode</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script this Keyword</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arrow Function</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script JSON</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Debugging</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Style Guide</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Best Practices</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Mistakes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Performance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Reserved Words</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul class="">
+            <li class="toctree-l1 "><a class=" reference internal" href="{{url('js.jsform')}}">Java Script Forms</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('js.jsform')}}">Java Script Forms</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Forms API</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsobj')}}">Java Script Objects</a>
+              <ul>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('js.jsobj')}}">Java Script Objects Definitions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Properties</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Display</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Accessors</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Constructors</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Prototypes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script ECMAScript 5</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsfunc')}}">Java Script Functions</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Definitions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Parameters</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Invocation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Call</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Apply</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Closures</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsdom')}}">Java Script HTML DOM</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Intro</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Document</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Elements</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM HTML</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM CSS</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Animations</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Events Listener</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Navigation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Nodes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Collections</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Node Lists</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsexample')}}">Java Script Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML DOM</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Objects</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Browser</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Editor</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsexer')}}">Java Script Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+
 
       </div>
-      &nbsp;
-    </nav>
+    </div>
+    <div id="nav2">
+      <a href="#" id="openToc">
+        <img src="data:image/jpeg;base64,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" title="Toggle Table of Contents" alt="Toggle Table of Contents" />
+      </a>
+    </div>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+    <div class="wy-grid-for-nav">
 
 
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">CodeIgniter</a>
+      <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+        <div class="wy-side-nav-search">
+
+          <a href="../index.html" class="fa fa-home"> Java</a>
+
+
+          <div role="search">
+            <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+              <input type="text" name="q" placeholder="Search docs" />
+              <input type="hidden" name="check_keywords" value="yes" />
+              <input type="hidden" name="area" value="default" />
+            </form>
+          </div>
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+
+          <ul class="">
+            <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.welcomejs')}}">Welcome to Java Script</a></li>
+          </ul>
+          <ul class="">
+            <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.jstutor')}}">Java Script Tutorial</a>
+              <ul>
+                <li class=" toctree-l2"><a class=" reference internal" href="">Java Script Where To</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="">Java Script Output</a></li>
+                <li class="toctree-l2 "><a class=" reference internal" href="#">Java Script Syntax</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="">Java Script Statements</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Syntax</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Comments</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Variables</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Let</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Const</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Operators</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arithmetic</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Assignment</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Data Types</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Functions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Objects</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script String</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script String Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Numbers</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Numbers Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arrays</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Const</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Sort</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Array Iteration</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Dates</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Formats</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Get Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Date Set Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Math</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Random</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Booleans</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Comparisons</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Conditions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Switch</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For in</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop For Of</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Loop While</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Break</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Type Conversion</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Bitwise</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script RegExp</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Errors</a></li>
+
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Scope</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Hoisting</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Strict Mode</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script this Keyword</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Arrow Function</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Classes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script JSON</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Debugging</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Style Guide</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Best Practices</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Mistakes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Performance</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Reserved Words</a></li>
+
+              </ul>
+            </li>
+          </ul>
+          <ul class="">
+            <li class=" toctree-l1 "><a class="  reference internal" href="{{url('js.jsform')}}">Java Script Forms</a>
+              <ul>
+                <li class=" toctree-l2 "><a class="  reference internal" href="{{url('js.jsform')}}">Java Script Forms</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Forms API</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+          <ul class="current">>
+            <li class="current toctree-l1"><a class="current reference internal" href="{{url('js.jsobj')}}">Java Script Objects</a>
+              <ul>
+                <li class="current toctree-l2 "><a class="current reference internal" href="{{url('js.jsobj')}}">Java Script Objects Definitions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Properties</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Methods</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Display</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Accessors</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Constructors</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Prototypes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script ECMAScript 5</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsfunc')}}">Java Script Functions</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Definitions</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Parameters</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Invocation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Call</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Apply</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Function Closures</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsdom')}}">Java Script HTML DOM</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Intro</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Method</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Document</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Elements</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM HTML</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM CSS</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Animations</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Events Listener</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Navigation</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Nodes</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Collections</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script DOM Node Lists</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsexample')}}">Java Script Examples</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML DOM</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Input</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Objects</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script HTML Events</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Browser</a></li>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Editor</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="toctree-l1"><a class="reference internal" href="{{url('js.jsexer')}}">Java Script Exercise</a>
+              <ul>
+                <li class="toctree-l2"><a class="reference internal" href="#">Java Script Exercise</a></li>
+
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+        &nbsp;
       </nav>
 
+      <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
 
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-            <ul class="wy-breadcrumbs">
-              <li><a href="../index.html">Docs</a> &raquo;</li>
+        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Java Script</a>
+        </nav>
 
-              <li>Java Get Started</li>
-              <li class="wy-breadcrumbs-aside">
 
-              </li>
-              <div style="float:right;margin-left:5px;" id="closeMe">
-                <img title="Classic Layout" alt="classic layout" src="data:image/gif;base64,R0lGODlhFAAUAJEAAAAAADMzM////wAAACH5BAUUAAIALAAAAAAUABQAAAImlI+py+0PU5gRBRDM3DxbWoXis42X13USOLauUIqnlsaH/eY6UwAAOw==" />
+
+        <div class="wy-nav-content">
+          <div class="rst-content">
+            <div role="navigation" aria-label="breadcrumbs navigation">
+              <ul class="wy-breadcrumbs">
+                <li><a href="../index.html">Docs</a> &raquo;</li>
+
+                <li>Welcome to Java Script</li>
+                <li class="wy-breadcrumbs-aside">
+
+                </li>
+                <div style="float:right;margin-left:5px;" id="closeMe">
+                  <img title="Classic Layout" alt="classic layout" src="data:image/gif;base64,R0lGODlhFAAUAJEAAAAAADMzM////wAAACH5BAUUAAIALAAAAAAUABQAAAImlI+py+0PU5gRBRDM3DxbWoXis42X13USOLauUIqnlsaH/eY6UwAAOw==" />
+                </div>
+              </ul>
+              <hr />
+            </div>
+            <div role="main" class="document">
+              <div class="section" id="welcome-to-codeigniter">
+                <div class="w3-panel w3-note">
+                  <p>In JavaScript, objects are king. If you understand objects, you understand JavaScript.</p>
+                </div>
+                <hr>
+
+                <p>In JavaScript, almost "everything" is an object.</p>
+
+                <ul>
+                  <li>Booleans can be objects (if defined with the <code class="w3-codespan">new</code> keyword)</li>
+                  <li>Numbers can be objects (if defined with the <code class="w3-codespan">new</code> keyword)</li>
+                  <li>Strings can be objects (if defined with the <code class="w3-codespan">new</code> keyword)</li>
+                  <li>Dates are always objects</li>
+                  <li>Maths are always objects</li>
+                  <li>Regular expressions are always objects</li>
+                  <li>Arrays are always objects</li>
+                  <li>Functions are always objects</li>
+                  <li>Objects are always objects</li>
+                </ul>
+                <p>All JavaScript values, except primitives, are objects.</p>
+
+                <hr>
+
+                <h2>JavaScript Primitives</h2>
+                <p>A <strong>primitive value</strong> is a value that has no properties or methods.</p>
+                <p>A <strong>primitive data type</strong> is data that has a primitive value.</p>
+                <p>JavaScript defines 5 types of primitive data types:</p>
+                <ul>
+                  <li><code class="w3-codespan">string</code></li>
+                  <li><code class="w3-codespan">number</code></li>
+                  <li><code class="w3-codespan">boolean</code></li>
+                  <li><code class="w3-codespan">null</code></li>
+                  <li><code class="w3-codespan">undefined</code></li>
+                </ul>
+
+                <p>Primitive values are immutable (they are hardcoded and therefore cannot be changed).</p>
+
+                <div class="w3-panel w3-note">
+                  <p>if x = 3.14, you can change the value of x. But you cannot change the value of 3.14.</p>
+                </div>
+
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th>Value</th>
+                      <th>Type</th>
+                      <th>Comment</th>
+                    </tr>
+                    <tr>
+                      <td>"Hello"</td>
+                      <td>string</td>
+                      <td>"Hello" is always "Hello"</td>
+                    </tr>
+                    <tr>
+                      <td>3.14</td>
+                      <td>number</td>
+                      <td>3.14 is always 3.14</td>
+                    </tr>
+                    <tr>
+                      <td>true</td>
+                      <td>boolean</td>
+                      <td>true is always true</td>
+                    </tr>
+                    <tr>
+                      <td>false</td>
+                      <td>boolean</td>
+                      <td>false is always false</td>
+                    </tr>
+                    <tr>
+                      <td>null</td>
+                      <td>null (object)</td>
+                      <td>null is always null</td>
+                    </tr>
+                    <tr>
+                      <td>undefined</td>
+                      <td>undefined</td>
+                      <td>undefined is always undefined</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <hr>
+                <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+                  <!-- MidContent -->
+                  <!-- <p class="adtext">Advertisement</p> -->
+
+                  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+                  <div id="snhb-mid_content-0" data-google-query-id="CJyU1tqng_ECFc6HcAodMO4OEA" style="display: none;">
+                    <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_0__container__" style="border: 0pt none; width: 728px; height: 0px;"></div>
+                    <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_1__container__" style="border: 0pt none; width: 728px; height: 0px;"></div>
+                  </div>
+
+                </div>
+                <hr>
+
+                <h2>Objects are Variables</h2>
+                <p>JavaScript variables can contain single values:</p>
+
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                      <span class="jskeywordcolor" style="color:mediumblue">var</span> person = <span class="jsstringcolor" style="color:brown">"John Doe"</span>;<span class="jsnumbercolor" style="color:red">
+                      </span> </span></div>
+                  <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_variable" target="_blank">Try it Yourself »</a>
+                </div>
+                <p>Objects are variables too. But objects can contain many
+                  values. </p>
+                <p>The values are written as <strong>name : value</strong> pairs (name and value separated by a
+                  colon).</p>
+
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                      <span class="jskeywordcolor" style="color:mediumblue">var</span> person = {firstName:<span class="jsstringcolor" style="color:brown">"John"</span>, lastName:<span class="jsstringcolor" style="color:brown">"Doe"</span>, age:<span class="jsnumbercolor" style="color:red">50</span>, eyeColor:<span class="jsstringcolor" style="color:brown">"blue"</span>};<span class="jsnumbercolor" style="color:red">
+                      </span> </span></div>
+                  <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_object" target="_blank">Try it Yourself »</a>
+                </div>
+
+                <div class="w3-panel w3-note">
+                  <p>A JavaScript object is a collection of <strong>named values</strong></p>
+                </div>
+
+                <hr>
+                <h2>Object Properties</h2>
+
+                <p>The named values, in JavaScript objects, are called <strong>properties</strong>.</p>
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th style="width:20%">Property</th>
+                      <th>Value</th>
+                    </tr>
+                    <tr>
+                      <td>firstName</td>
+                      <td>John</td>
+                    </tr>
+                    <tr>
+                      <td>lastName</td>
+                      <td>Doe</td>
+                    </tr>
+                    <tr>
+                      <td>age</td>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <td>eyeColor</td>
+                      <td>blue</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <p>Objects written as name value pairs are similar to:</p>
+                <ul>
+                  <li>Associative arrays in PHP</li>
+                  <li>Dictionaries in Python</li>
+                  <li>Hash tables in C</li>
+                  <li>Hash maps in Java</li>
+                  <li>Hashes in Ruby and Perl</li>
+                </ul>
+
+                <hr>
+                <h2>Object Methods</h2>
+                <p>Methods are <strong>actions</strong> that can be performed on objects.</p>
+
+                <p>Object properties can be both primitive values, other objects, and functions.</p>
+
+                <p>An <strong>object method</strong> is an object property containing a <strong>function
+                    definition</strong>.</p>
+
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th style="width:20%">Property</th>
+                      <th>Value</th>
+                    </tr>
+                    <tr>
+                      <td>firstName</td>
+                      <td>John</td>
+                    </tr>
+                    <tr>
+                      <td>lastName</td>
+                      <td>Doe</td>
+                    </tr>
+                    <tr>
+                      <td>age</td>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <td>eyeColor</td>
+                      <td>blue</td>
+                    </tr>
+                    <tr>
+                      <td>fullName</td>
+                      <td>function() {return this.firstName + " " + this.lastName;}</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="w3-panel w3-note">
+                  <p>JavaScript objects are containers for named values, called properties and methods.</p>
+                </div>
+
+                <p>You will learn more about methods in the next chapters.</p>
+
+                <hr>
+                <h2>Creating a JavaScript Object</h2>
+                <p>With JavaScript, you can define and create your own objects.</p>
+                <p>There are different ways to create new objects:</p>
+                <ul>
+                  <li>Define and create a single object, using an object literal.</li>
+                  <li>Define and create a single object, with the keyword <code class="w3-codespan">new</code>.</li>
+                  <li>Define an object constructor, and then create objects of the constructed type.</li>
+                </ul>
+
+                <div class="w3-panel w3-note">
+                  <p>In ECMAScript 5, an object can also be created with the function <code class="w3-codespan">Object.create()</code>.</p>
+                </div>
+
+                <hr>
+                <h2>Using an Object Literal</h2>
+                <p>This is the easiest way to create a JavaScript Object.</p>
+                <p>Using an object literal, you both define and create an object in one
+                  statement.</p>
+                <p>An object literal is a list of name:value pairs (like age:50) inside curly braces {}.</p>
+                <p>The following example creates a new JavaScript object with four properties:</p>
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                      </span> <span class="jskeywordcolor" style="color:mediumblue">var</span>
+                      person = {firstName:<span class="jsstringcolor" style="color:brown">"John"</span>, lastName:<span class="jsstringcolor" style="color:brown">"Doe"</span>, age:<span class="jsnumbercolor" style="color:red">50</span>, eyeColor:<span class="jsstringcolor" style="color:brown">"blue"</span>};<span class="jsnumbercolor" style="color:red">
+                      </span> </span></div>
+                  <a target="_blank" class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_create_1">Try it Yourself »</a>
+                </div>
+                <p>Spaces and line breaks are not important. An object definition can span multiple lines:</p>
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                      <span class="jskeywordcolor" style="color:mediumblue">var</span> person = {<br>&nbsp;&nbsp;firstName: <span class="jsstringcolor" style="color:brown">"John"</span>,<br>&nbsp;&nbsp;lastName: <span class="jsstringcolor" style="color:brown">"Doe"</span>,<br>&nbsp;&nbsp;age: <span class="jsnumbercolor" style="color:red">50</span>,<br>&nbsp;&nbsp;eyeColor: <span class="jsstringcolor" style="color:brown">"blue"</span><br>};<span class="jsnumbercolor" style="color:red">
+                      </span> </span></div>
+                  <a target="_blank" class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_create_2">Try it Yourself »</a>
+                </div>
+                <hr>
+
+                <h2>Using the JavaScript Keyword new</h2>
+                <p>The following example also creates a new JavaScript object with four properties:</p>
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                      </span> <span class="jskeywordcolor" style="color:mediumblue">var</span>
+                      person = <span class="jskeywordcolor" style="color:mediumblue">new</span> Object();<br>
+                      person.<span class="jspropertycolor" style="color:black">firstName</span> = <span class="jsstringcolor" style="color:brown">"John"</span>;<br>
+                      person.<span class="jspropertycolor" style="color:black">lastName</span> = <span class="jsstringcolor" style="color:brown">"Doe"</span>;<br>
+                      person.<span class="jspropertycolor" style="color:black">age</span> = <span class="jsnumbercolor" style="color:red">50</span>;<br>
+                      person.<span class="jspropertycolor" style="color:black">eyeColor</span> = <span class="jsstringcolor" style="color:brown">"blue"</span>;<span class="jsnumbercolor" style="color:red">
+                      </span> </span></div>
+                  <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_create_new" target="_blank">Try it Yourself »</a>
+                </div>
+
+                <div class="w3-panel w3-note">
+                  <p>The two examples above do exactly the same. There is no need to use <code class="w3-codespan">new Object()</code>.<br>
+                    For simplicity, readability and execution speed, use the first one (the object literal method).</p>
+                </div>
+
+                <hr>
+
+                <h2>JavaScript Objects are Mutable</h2>
+                <p>Objects are mutable: They are addressed by reference, not by value.</p>
+                <p>If person is an object, the following statement will not create a copy of person:</p>
+
+                <div class="w3-example">
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                      <span class="jskeywordcolor" style="color:mediumblue">var</span> x = person;&nbsp; <span class="commentcolor" style="color:green">// This will not create a copy of person.
+                      </span></span></div>
+                </div>
+
+                <p>The object x is <strong>not a copy</strong> of person. It <strong>is</strong>
+                  person.
+                  Both x and person are the same object.</p>
+                <p>Any changes to x will also change person, because x and person are the same object. </p>
+                <div class="w3-example">
+                  <h3>Example</h3>
+                  <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                      <span class="jskeywordcolor" style="color:mediumblue">var</span> person = {firstName:<span class="jsstringcolor" style="color:brown">"John"</span>, lastName:<span class="jsstringcolor" style="color:brown">"Doe"</span>, age:<span class="jsnumbercolor" style="color:red">50</span>, eyeColor:<span class="jsstringcolor" style="color:brown">"blue"</span>}<br><span class="jsnumbercolor" style="color:red">
+                      </span> <br><span class="jskeywordcolor" style="color:mediumblue">var</span> x = person;<br>
+                      <span class="jspropertycolor" style="color:black">age</span> = <span class="jsnumbercolor" style="color:red">10</span>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="commentcolor" style="color:green">// This will change both x.age and person.age
+                      </span></span></div>
+                  <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_object_mutable" target="_blank">Try it Yourself »</a>
+                </div>
+
+
+
+
+
               </div>
-            </ul>
-            <hr />
-          </div>
-          <div class="section" id="welcome-to-codeigniter">
-            <h2>Java Install</h2>
-            <p>Some PCs might have Java already installed.</p>
-
-            <p>To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe):</p>
-
-            <div class="w3-example" bis_skin_checked="1">
-              <div class="w3-code notranslate w3-black" bis_skin_checked="1">
-                C:\Users\<em>Your Name</em>&gt;java -version
-              </div>
             </div>
+            <footer>
 
-            <p>If Java is installed, you will see something like this (depending on version):</p>
-            <div class="w3-example w3-padding-16" bis_skin_checked="1">
-              <div class="notranslate w3-black w3-padding" bis_skin_checked="1">
-                <code>
-                  java version "11.0.1" 2018-10-16 LTS<br>
-                  Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)<br>
-                  Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
-                </code>
-              </div>
-            </div>
+              <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
 
-            <p>If you do not have Java installed on your computer, you can download it for free at <a href="https://www.oracle.com/technetwork/java/javase/overview/index.html" target="_blank">oracle.com</a>.</p>
+                <a href="../installation/index.html" class="btn btn-neutral float-right" title="Installation Instructions">Next <span class="fa fa-arrow-circle-right"></span></a>
 
-            <p><strong>Note:</strong> In this tutorial, we will write Java code in a text editor. However, it is possible to write Java in an Integrated Development Environment, such as IntelliJ IDEA, Netbeans or Eclipse, which are particularly useful when managing larger collections of Java files.</p>
-            <hr>
 
-            <h2>Setup for Windows</h2>
-            <p>To install Java on Windows:</p>
+                <a href="../index.html" class="btn btn-neutral" title="CodeIgniter User Guide"><span class="fa fa-arrow-circle-left"></span> Previous</a>
 
-            <ul>
-              <li>Go to "System Properties" (Can be found on Control Panel &gt;
-                System and Security &gt; System &gt; Advanced System Settings)</li><br>
-              <li>Click on the "Environment variables" button under the "Advanced" tab</li><br>
-              <li>Then, select the "Path" variable in System variables and click on the "Edit"
-                button</li><br>
-              <li>Click on the "New" button and add the path where Java is installed,
-                sfollowed by <strong>\bin</strong>. By default, Java is installed in C:\Program
-                Files\Java\jdk-11.0.1 (If nothing else was specified when you installed it).
-                In that case, You will have to add a new path with: <strong>C:\Program
-                  Files\Java\jdk-11.0.1\bin </strong><br>
-                Then, click "OK", and save the settings</li><br>
-              <li>At last, open Command Prompt (cmd.exe) and type <strong>java -version</strong> to see if Java is
-                running on your machine</li>
-            </ul>
-            <br>
-
-            <!--
-<button onclick="myAccFunction1('DemoAcc')" class="w3-btn w3-block w3-dark-grey w3-left-align xx w3-border-bottom">Show how to install Java step-by-step with images &raquo;</button>
-<div id="DemoAcc" class="w3-light-grey w3-padding-16 w3-container">
-<h2 style="margin-top:0">Step 1</h2>
-<img src="system.png" class="w3-image">
-</div>
--->
-            <button onclick="myAccFunction('DemoAcc')" class="w3-btn w3-block w3-left-align xx w3-border-bottom  ">Show how to install Java step-by-step with images »</button>
-            <div id="DemoAcc" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
-              <h2 style="margin-top:0">Step 1</h2>
-              <img src="https://www.w3schools.com/java/system.png" class="w3-image">
-            </div>
-
-            <button onclick="myAccFunction('DemoAcc2')" class="w3-btn w3-block w3-left-align xx w3-border-bottom ">Step 2 »</button>
-            <div id="DemoAcc2" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
-              <h2 style="margin-top:0">Step 2</h2>
-              <img src="https://www.w3schools.com/java/system1.png" class="w3-image">
-            </div>
-            <button onclick="myAccFunction('DemoAcc3')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 3 »</button>
-            <div id="DemoAcc3" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
-              <h2 style="margin-top:0">Step 3</h2>
-              <img src="https://www.w3schools.com/java/path2.png" class="w3-image">
-            </div>
-            <button onclick="myAccFunction('DemoAcc4')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 4 »</button>
-            <div id="DemoAcc4" class="w3-hide ws-grey w3-padding-16 w3-container" bis_skin_checked="1">
-
-              <h2 style="margin-top:0">Step 4</h2>
-              <img src="https://www.w3schools.com/java/path3.png" class="w3-image">
-            </div>
-            <button onclick="myAccFunction('DemoAcc5')" class="w3-btn w3-block w3-left-align xx w3-border-bottom">Step 5 »</button>
-            <div id="DemoAcc5" class="w3-hide w3-light-grey w3-padding-16 w3-container" bis_skin_checked="1">
-
-              <h2 style="margin-top:0">Step 5</h2>
-              <p>Write the following in the command line (cmd.exe):</p>
-              <div class="w3-code notranslate w3-black" bis_skin_checked="1">
-                C:\Users\<em>Your Name</em>&gt;java -version
-              </div>
-              <p>If Java was successfully installed, you will see something like this (depending on version):</p>
-              <div class="w3-code notranslate w3-black" bis_skin_checked="1">
-                java version "11.0.1" 2018-10-16 LTS<br>
-                Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)<br>
-                Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
               </div>
 
-            </div>
 
-            <script>
-              function myAccFunction1(id) {
-                var x = document.getElementById(id);
-                if (x.className.indexOf("w3-hide") == -1) {
-                  x.className += " w3-hide";
-                  x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace("ws-black", "");
-                } else {
-                  x.className = x.className.replace(" w3-hide", "");
-                  x.previousElementSibling.className += " ws-black";
-                }
-              }
-            </script>
+              <hr />
 
+              &copy; Copyright 2020- 2021, Politeknik Negeri Malang.
+              Coding Web Application TI-2H.
 
-            <script>
-              function myAccFunction(id) {
-                var x = document.getElementById(id);
-                if (x.className.indexOf("w3-show") == -1) {
-                  x.className += " w3-show";
-                  x.previousElementSibling.className += " ws-black";
-                } else {
-                  x.className = x.className.replace(" w3-show", "");
-                  x.previousElementSibling.className =
-                    x.previousElementSibling.className.replace("ws-black", "");
-                }
-              }
-            </script>
-
-            <hr>
-            <div id="midcontentadcontainer" style="overflow:auto;text-align:center" bis_skin_checked="1">
-              <!-- MidContent -->
-              <!-- <p class="adtext">Advertisement</p> -->
-
-              <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
-              <div id="snhb-mid_content-0" bis_skin_checked="1" data-google-query-id="CP_l0_P-pPACFcGYcAodg8sPfA">
-                <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_6__container__" bis_skin_checked="1" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://e3b28de23791a5b530a86474f85174d3.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_6" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" data-google-container-id="14" style="border: 0px; vertical-align: bottom; left: -10000px !important; position: absolute !important;" bis_size="{&quot;x&quot;:52,&quot;y&quot;:1609,&quot;w&quot;:728,&quot;h&quot;:90,&quot;abs_x&quot;:52,&quot;abs_y&quot;:1609}" bis_id="fr_zcejmaig7uuwuz7a042xha" bis_depth="0" bis_chainid="34" data-load-complete="true"></iframe></div>
-              </div>
-
-            </div>
-            <hr>
-
-            <h2>Java Quickstart</h2>
-            <p>In Java, every application begins with a class name, and that class must match the filename.</p>
-            <p>Let's create our first Java file, called Main.java, which can be done in any text editor
-              (like Notepad).</p>
-            <p>The file should contain a "Hello World" message, which is written with the
-              following code:</p>
-
-            <div class="w3-example" bis_skin_checked="1">
-              <p>Main.java</p>
-              <pre class=" w3-white language-java"><code class=" language-java"><span class="token keyword keyword-public">public</span> <span class="token keyword keyword-class">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-		<span class="token keyword keyword-public">public</span> <span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-		<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-		<span class="token punctuation">}</span>
-		<span class="token punctuation">}</span>
-	</code></pre>
-              <p>
-                <a target="_blank" class="w3-btn" href="https://www.w3schools.com/java/tryjava.asp?filename=demo_helloworld">Try it Yourself »</a>
-              </p>
-            </div>
-
-            <p>Don't worry if you don't understand the code above - we will discuss it in detail in later chapters.
-              For now, focus on <strong>how</strong> to run the code above.</p>
-            <p>Save the code in Notepad as "Main.java". Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type "javac
-              Main.java":</p>
-
-            <div class="w3-example" bis_skin_checked="1">
-              <div class="w3-code notranslate w3-black" bis_skin_checked="1">
-                C:\Users\<em>Your Name</em>&gt;javac Main.java
-              </div>
-            </div>
-            <p>This will compile your code. If there are no errors in the code, the command prompt will take you to the next line.
-              Now, type "java Main" to run the file:</p>
-            <div class="w3-example" bis_skin_checked="1">
-              <div class="w3-code notranslate w3-black" bis_skin_checked="1">
-                C:\Users\<em>Your Name</em>&gt;java Main
-              </div>
-            </div>
-
-            <p>The output should read:</p>
-            <div class="w3-example w3-padding-16" bis_skin_checked="1">
-              <div class="notranslate w3-black w3-padding" bis_skin_checked="1">
-                <code class="notranslate">
-                  Hello World
-                </code>
-              </div>
-              <a target="_blank" class="w3-btn w3-margin-top" href="https://www.w3schools.com/java/tryjava.asp?filename=demo_helloworld">Try it Yourself »</a>
-            </div>
-
-            <p><strong>Congratulations!</strong> You have written and executed your first Java program.</p>
+            </footer>
           </div>
         </div>
 
-
-
-  <footer>
-
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-
-      <a href="downloads.html" class="btn btn-neutral float-right" title="Downloading CodeIgniter">Next <span class="fa fa-arrow-circle-right"></span></a>
-
-
-      <a href="../general/welcome.html" class="btn btn-neutral" title="Welcome to CodeIgniter"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      </section>
 
     </div>
 
@@ -630,50 +811,31 @@
 
 
 
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: '../',
+        VERSION: '3.1.11',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE: false
+      };
+    </script>
+    <script type="text/javascript" src="b/jquery.js"></script>
+    <script type="text/javascript" src="b/underscore.js"></script>
+    <script type="text/javascript" src="b/doctools.js"></script>
 
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-
-  </footer>
-  </div>
-  </div>
-
-  </section>
-
-  </div>
-
-
-
-
-
-  <script type="text/javascript">
-    var DOCUMENTATION_OPTIONS = {
-      URL_ROOT: '../',
-      VERSION: '3.1.11',
-      COLLAPSE_INDEX: false,
-      FILE_SUFFIX: '.html',
-      HAS_SOURCE: false
-    };
-  </script>
-  <script type="text/javascript" src="b/jquery.js"></script>
-  <script type="text/javascript" src="b/underscore.js"></script>
-  <script type="text/javascript" src="b/doctools.js"></script>
+    <script type="text/javascript" src="b/js/theme.js"></script>
 
 
 
 
-
-  <script type="text/javascript" src="b/js/theme.js"></script>
-
-
-
-
-  <script type="text/javascript">
-    jQuery(function() {
-      SphinxRtdTheme.StickyNav.enable();
-    });
-  </script>
+    <script type="text/javascript">
+      jQuery(function() {
+        SphinxRtdTheme.StickyNav.enable();
+      });
+    </script>
 
 
-</body>
+  </body>
 
-</html>
+  </html>

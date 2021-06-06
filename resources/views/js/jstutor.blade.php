@@ -311,12 +311,12 @@
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
 
           <ul class="">
-            <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.welcomejs')}}">Welcome to Java Script</a></li>
+            <li class=" toctree-l1"><a class="current reference internal" href="#">Welcome to Java Script</a></li>
           </ul>
-          <ul class="">
-            <li class=" toctree-l1"><a class=" reference internal" href="{{url('js.jstutor')}}">Java Script Tutorial</a>
+          <ul class="current">>
+            <li class="current toctree-l1"><a class="current reference internal" href="{{url('js.jstutor')}}">Java Script Tutorial</a>
               <ul>
-                <li class=" toctree-l2"><a class=" reference internal" href="">Java Script Where To</a></li>
+                <li class="current toctree-l2"><a class="current reference internal" href="">Java Script Where To</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="">Java Script Output</a></li>
                 <li class="toctree-l2 "><a class=" reference internal" href="#">Java Script Syntax</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="">Java Script Statements</a></li>
@@ -378,10 +378,10 @@
               </ul>
             </li>
           </ul>
-          <ul class="current">
-            <li class="current toctree-l1 "><a class=" current reference internal" href="{{url('js.jsform')}}">Java Script Forms</a>
+          <ul class="">
+            <li class="toctree-l1 "><a class=" reference internal" href="{{url('js.jsform')}}">Java Script Forms</a>
               <ul>
-                <li class="current toctree-l2 "><a class=" current reference internal" href="{{url('js.jsform')}}">Java Script Forms</a></li>
+                <li class="toctree-l2 "><a class=" reference internal" href="{{url('js.jsform')}}">Java Script Forms</a></li>
                 <li class="toctree-l2"><a class="reference internal" href="#">Java Script Forms API</a></li>
 
 
@@ -487,183 +487,174 @@
               <hr />
             </div>
             <div role="main" class="document">
-              <h2>JavaScript Form Validation</h2>
-              <p>HTML form validation can be done by JavaScript.</p>
-              <p>If a form field (fname) is empty, this function alerts a message, and returns
-                false, to prevent the form from being submitted:</p>
-              <div class="w3-example">
-                <h3>JavaScript Example</h3>
-                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
-                    <span class="jskeywordcolor" style="color:mediumblue">function</span> validateForm() {<br><span class="jsnumbercolor" style="color:red">
-                    </span>&nbsp;&nbsp;<span class="jskeywordcolor" style="color:mediumblue">var</span>
-                    x = document.<span class="jspropertycolor" style="color:black">forms</span>[<span class="jsstringcolor" style="color:brown">"myForm"</span>][<span class="jsstringcolor" style="color:brown">"fname"</span>].<span class="jspropertycolor" style="color:black">value</span>;<br><span class="jsnumbercolor" style="color:red">
-                    </span> &nbsp;
-                    <span class="jskeywordcolor" style="color:mediumblue">if</span> (x == <span class="jsstringcolor" style="color:brown">""</span>) {<br><span class="jsnumbercolor" style="color:red">
-                    </span> &nbsp;&nbsp;&nbsp; alert(<span class="jsstringcolor" style="color:brown">"Name must be filled out"</span>);<br><span class="jsnumbercolor" style="color:red">
-                    </span> &nbsp;&nbsp;&nbsp; <span class="jskeywordcolor" style="color:mediumblue">return</span> <span class="jskeywordcolor" style="color:mediumblue">false</span>;<br><span class="jsnumbercolor" style="color:red">
-                    </span> &nbsp;&nbsp;}<br><span class="jsnumbercolor" style="color:red">
-                    </span>} </span></div>
-              </div>
 
-              <p>The function can be called when the form is submitted:</p>
-
+              <h2>The &lt;script&gt; Tag</h2>
+              <p>In HTML, JavaScript code is inserted between <code class="w3-codespan">&lt;script&gt;</code> and <code class="w3-codespan">&lt;/script&gt;</code> tags.</p>
               <div class="w3-example">
-                <h3>HTML Form Example</h3>
+                <h3>Example</h3>
                 <div class="w3-code notranslate htmlHigh">
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>form<span class="attributecolor" style="color:red"> name<span class="attributevaluecolor" style="color:mediumblue">="myForm"</span> action<span class="attributevaluecolor" style="color:mediumblue">="/action_page.php"</span> <strong>onsubmit<span class="attributevaluecolor" style="color:mediumblue">="return validateForm()"</span></strong>
-                      method<span class="attributevaluecolor" style="color:mediumblue">="post"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  Name: <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="text"</span> name<span class="attributevaluecolor" style="color:mediumblue">="fname"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="submit"</span> value<span class="attributevaluecolor" style="color:mediumblue">="Submit"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/form<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                    document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>).<span class="jspropertycolor" style="color:black">innerHTML</span> = <span class="jsstringcolor" style="color:brown">"My First JavaScript"</span>;<br>
+                  </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
                 </div>
-                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_validation_js" target="_blank">Try it Yourself »</a>
-              </div>
-              <hr>
-
-              <h2>JavaScript Can Validate Numeric Input</h2>
-              <p>JavaScript is often used to validate numeric input:</p>
-
-              <div class="w3-example">
-                <p>Please input a number between 1 and 10</p>
-                <input id="numb" type="text">
-                <button type="button" onclick="myFunction()">Submit</button>
-                <p id="demo"></p>
-                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_validation_number" target="_blank">Try it Yourself »</a>
-              </div>
-              <hr>
-              <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
-                <!-- MidContent -->
-                <!-- <p class="adtext">Advertisement</p> -->
-
-                <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
-                <div id="snhb-mid_content-0" data-google-query-id="CJ7n1ummg_ECFQk7jwode2wHwg" style="display: none;">
-                  <div id="google_ads_iframe_/22152718/sws-hb//w3schools.com//mid_content_1__container__" style="border: 0pt none; width: 728px; height: 0px;"></div>
-                </div>
-
-              </div>
-              <hr>
-
-              <h2>Automatic HTML Form Validation</h2>
-              <p>HTML form validation can be performed automatically by the browser:</p>
-              <p>If a form field (fname) is empty, the <code class="w3-codespan">required</code> attribute prevents this form from being
-                submitted: </p>
-
-              <div class="w3-example">
-                <h3>HTML Form Example</h3>
-                <div class="w3-code notranslate htmlHigh">
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>form<span class="attributecolor" style="color:red"> action<span class="attributevaluecolor" style="color:mediumblue">="/action_page.php"</span> method<span class="attributevaluecolor" style="color:mediumblue">="post"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  &nbsp; <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="text"</span> name<span class="attributevaluecolor" style="color:mediumblue">="fname"</span> <strong>required</strong></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  &nbsp;
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>input<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="submit"</span> value<span class="attributevaluecolor" style="color:mediumblue">="Submit"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/form<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
-                </div>
-                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_validation_html" target="_blank">Try it Yourself »</a>
+                <p>
+                  <a class="w3-btn" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto" target="_blank">Try it Yourself »</a>
+                </p>
               </div>
 
               <div class="w3-panel w3-note">
-                <p>Automatic HTML form validation does not work in Internet Explorer 9 or earlier.</p>
+                <p>Old JavaScript examples may use a type attribute: &lt;script type="text/javascript"&gt;.<br>
+                  The type attribute is not required. JavaScript is the default scripting language in HTML.</p>
               </div>
 
               <hr>
-              <h2>Data Validation</h2>
-              <p>Data validation is the process of ensuring that user input is clean,
-                correct, and useful.</p>
-              <p>Typical validation tasks are:</p>
+              <h2>JavaScript Functions and Events</h2>
+              <p>A JavaScript <code class="w3-codespan">function</code> is a block of JavaScript code, that can be executed when "called" for.</p>
+              <p>For example, a function can be called when an <b>event</b> occurs, like when the user clicks a button.</p>
+              <div class="w3-panel w3-note">
+                <p>You will learn much more about functions and events in later chapters.</p>
+              </div>
+              <hr>
+
+              <h2>JavaScript in &lt;head&gt; or &lt;body&gt;</h2>
+              <p>You can place any number of scripts in an HTML document.</p>
+              <p>Scripts can be placed in the <code class="w3-codespan">&lt;body&gt;</code>, or in the <code class="w3-codespan">&lt;head&gt;</code> section of an HTML page, or in both.</p>
+
+              <hr>
+              <h2>JavaScript in &lt;head&gt;</h2>
+              <p>In this example, a JavaScript <code class="w3-codespan">function</code> is placed in the <code class="w3-codespan">&lt;head&gt;</code> section
+                of an HTML page.</p>
+              <p>The function is invoked (called) when a button is clicked:</p>
+
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  <p><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                      <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span class="jsnumbercolor" style="color:red">
+                      </span>&nbsp;&nbsp;document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>).<span class="jspropertycolor" style="color:black">innerHTML</span> = <span class="jsstringcolor" style="color:brown">"Paragraph changed."</span>;<br><span class="jsnumbercolor" style="color:red">
+                      </span>}<br>
+                    </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  </p>
+                  <p><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>A Web Page<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="demo"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>A Paragraph<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="button"</span> onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>Try
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  </p>
+                  <p><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                    <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  </p>
+                </div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_whereto_head" target="_blank">Try it Yourself »</a>
+              </div>
+              <h2>JavaScript in &lt;body&gt;</h2>
+              <p>In this example, a JavaScript <code class="w3-codespan">function</code> is placed in the <code class="w3-codespan">&lt;body&gt;</code> section of an HTML page.</p>
+              <p>The function is invoked (called) when a button is clicked:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                  <br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>A Web Page<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="attributecolor" style="color:red"> id<span class="attributevaluecolor" style="color:mediumblue">="demo"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>A Paragraph<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red"> type<span class="attributevaluecolor" style="color:mediumblue">="button"</span> onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>Try
+                  it<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span class="jsnumbercolor" style="color:red">
+                    </span> &nbsp; document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>).<span class="jspropertycolor" style="color:black">innerHTML</span> = <span class="jsstringcolor" style="color:brown">"Paragraph changed."</span>;<br><span class="jsnumbercolor" style="color:red">
+                    </span>}<br>
+                  </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+                <a target="_blank" class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_whereto_body">Try it Yourself »</a>
+              </div>
+
+              <div class="w3-panel w3-note">
+                <p>Placing scripts at the bottom of the &lt;body&gt; element improves the display
+                  speed, because script interpretation slows down the display.</p>
+              </div>
+
+              <hr>
+              <h2>External JavaScript</h2>
+              <p>Scripts can also be placed in external files:</p>
+              <div class="w3-example">
+                <h3>External file: myScript.js</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp; document.<span class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor" style="color:brown">"demo"</span>).<span class="jspropertycolor" style="color:black">innerHTML</span> = <span class="jsstringcolor" style="color:brown">"Paragraph changed."</span>;<br><span class="jsnumbercolor" style="color:red">
+                    </span>}<span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+              </div>
+
+              <p>External scripts are practical when the same code is used in many different web pages. </p>
+              <p>JavaScript files have the file extension <strong>.js</strong>.</p>
+              <p>To use an external script, put the name of the script file in the <code class="w3-codespan">src</code> (source) attribute of
+                a <code class="w3-codespan">&lt;script&gt;</code> tag:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="myScript.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+                <a target="_blank" href="tryit.asp?filename=tryjs_whereto_external" class="w3-btn w3-margin-bottom">Try it Yourself »</a>
+              </div>
+
+              <p>You can place an external script reference in <code class="w3-codespan">&lt;head&gt;</code> or <code class="w3-codespan">&lt;body&gt;</code> as you like.</p>
+              <p>The script will behave as if it was located exactly where the <code class="w3-codespan">&lt;script&gt;</code> tag is located.</p>
+
+              <div class="w3-panel w3-note">
+                <p>External scripts cannot contain <code class="w3-codespan">&lt;script&gt;</code> tags.</p>
+              </div>
+
+              <hr>
+              <h2>External JavaScript Advantages</h2>
+              <p>Placing scripts in external files has some advantages:</p>
               <ul>
-                <li>has the user filled in all required fields?</li>
-                <li>has the user entered a valid date?</li>
-                <li>has the user entered text in a numeric field?</li>
+                <li>It separates HTML and code</li>
+                <li>It makes HTML and JavaScript easier to read and maintain</li>
+                <li>Cached JavaScript files can speed up page loads</li>
               </ul>
-              <p>Most often, the purpose of data validation is to ensure correct user input.</p>
-              <p>Validation can be defined by many different methods, and deployed in many
-                different ways.</p>
-              <p><strong>Server side validation</strong> is performed by a web server, after input has been sent to the
-                server.</p>
-
-              <p><strong>Client side validation</strong> is performed by a web browser, before input is sent to a web server.</p>
+              <p>To add several script files to one page&nbsp; - use several script tags:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="myScript1.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="myScript2.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+              </div>
               <hr>
+              <h2>External References</h2>
+              <p>External scripts can be referenced with a full URL or with a path relative to the current web
+                page.</p>
+              <p>This example uses a full URL to link to a script: </p>
 
-              <h2>HTML Constraint Validation</h2>
-              <p>HTML5 introduced a new HTML validation concept called <strong>constraint
-                  validation</strong>.</p>
-              <p>HTML constraint validation is based on:</p>
-              <ul>
-                <li>Constraint validation <strong>HTML</strong> <strong>Input Attributes</strong></li>
-                <li>Constraint validation <strong>CSS Pseudo Selectors</strong></li>
-                <li>Constraint validation <strong>DOM Properties and Methods</strong></li>
-              </ul>
-              <hr>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="https://www.w3schools.com/js/myScript.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+                <p><a target="_blank" href="tryit.asp?filename=tryjs_whereto_url" class="w3-btn">Try it Yourself »</a></p>
+              </div>
 
-              <h2>Constraint Validation HTML Input Attributes</h2>
-              <table class="w3-table-all notranslate">
-                <tbody>
-                  <tr>
-                    <th style="width:25%">Attribute</th>
-                    <th>Description</th>
-                  </tr>
-                  <tr>
-                    <td>disabled</td>
-                    <td>Specifies that the input element should be disabled</td>
-                  </tr>
-                  <tr>
-                    <td>max</td>
-                    <td>Specifies the maximum value of an input element</td>
-                  </tr>
-                  <tr>
-                    <td>min</td>
-                    <td>Specifies the minimum value of an input element</td>
-                  </tr>
-                  <tr>
-                    <td>pattern</td>
-                    <td>Specifies the value pattern of an input element</td>
-                  </tr>
-                  <tr>
-                    <td>required</td>
-                    <td>Specifies that the input field requires an element</td>
-                  </tr>
-                  <tr>
-                    <td>type&nbsp;</td>
-                    <td>Specifies the type of an input element</td>
-                  </tr>
-                </tbody>
-              </table>
+              <p>This example uses a script located in a specified folder on the current web
+                site:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="/js/myScript.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+                <p><a target="_blank" href="tryit.asp?filename=tryjs_whereto_url_relative" class="w3-btn">Try it Yourself »</a></p>
+              </div>
 
-              <p>For a full list, go to <a href="/html/html_form_attributes.asp">HTML
-                  Input Attributes</a>.</p>
-
-              <hr>
-
-              <h2>Constraint Validation CSS Pseudo Selectors</h2>
-              <table class="w3-table-all notranslate">
-                <tbody>
-                  <tr>
-                    <th style="width:25%">Selector</th>
-                    <th>Description</th>
-                  </tr>
-                  <tr>
-                    <td>:disabled</td>
-                    <td>Selects input elements with the "disabled" attribute specified</td>
-                  </tr>
-                  <tr>
-                    <td>:invalid</td>
-                    <td>Selects input elements with invalid values</td>
-                  </tr>
-                  <tr>
-                    <td>:optional</td>
-                    <td>Selects input elements with no "required" attribute specified</td>
-                  </tr>
-                  <tr>
-                    <td>:required</td>
-                    <td>Selects input elements with the "required" attribute specified</td>
-                  </tr>
-                  <tr>
-                    <td>:valid</td>
-                    <td>Selects input elements with valid values</td>
-                  </tr>
-                </tbody>
-              </table>
-
-
+              <p>This example links to a script located in the same folder as the current page:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate htmlHigh">
+                  <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>script<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="myScript.js"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/script<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                </div>
+                <p><a target="_blank" href="tryit.asp?filename=tryjs_whereto_external" class="w3-btn">Try it Yourself »</a></p>
+              </div>
 
 
 

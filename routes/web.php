@@ -272,33 +272,32 @@ Route::get('pyt.pyttutor/', function () {
 });
 
 //JavaScript
+Route::get('js.jsdom/', function () {
+  return view('js.jsdom');
+});
 Route::get('js.welcomejs/', function () {
   return view('js.welcomejs');
 });
-Route::get('pyt.pytexample/', function () {
-  return view('pyt.pytexample');
+Route::get('js.jsexample/', function () {
+  return view('js.jsexample');
 });
-Route::get('pyt.pytexer/', function () {
-  return view('pyt.pytexer');
+Route::get('js.jsexer/', function () {
+  return view('js.jsexer');
 });
-Route::get('pyt.pytfile/', function () {
-  return view('pyt.pytfile');
+Route::get('js.jsform/', function () {
+  return view('js.jsform');
 });
-Route::get('pyt.pytmat/', function () {
-  return view('pyt.pytmat');
+Route::get('js.jsfunc/', function () {
+  return view('js.jsfunc');
 });
-Route::get('pyt.pytmacl/', function () {
-  return view('pyt.pytmacl');
+Route::get('js.jsobj/', function () {
+  return view('js.jsobj');
 });
-Route::get('pyt.pytmodules/', function () {
-  return view('pyt.pytmodules');
+Route::get('js.jstutor/', function () {
+  return view('js.jstutor');
 });
-Route::get('pyt.pytreferences/', function () {
-  return view('pyt.pytreferences');
-});
-Route::get('pyt.pyttutor/', function () {
-  return view('pyt.pyttutor');
-});
+
+
 
 
 Auth::routes();
