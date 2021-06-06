@@ -536,7 +536,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-8">
-                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Company Name © 2018</p>
+                     <p><img width="90" src="a/images/logo.png" alt="#" style="margin-top: -5px;" /> Copyright © 2021 Coding Learn Applicaation</p>
                   </div>
                   <div class="col-md-4">
                      <ul class="list-inline socials">
