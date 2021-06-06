@@ -114,30 +114,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h5>Trusted By</h5>
+                    <h5>Supported By</h5>
                     
                     <!-- Image Slider -->
                     <div class="slider-container">
                         <div class="swiper-container image-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-1.png" alt="alternative">
+                                    <img class="img-fluid" src="https://i2.wp.com/www.rentalan.id/wp-content/uploads/2020/04/logo-kemendikbud.png?resize=300%2C64&ssl=1" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-2.png" alt="alternative">
+                                    <img class="img-fluid" src="https://www.kalderanews.com/wp-content/uploads/2020/09/Logo-Kampus-Merdeka-diluncurkan.jpg" style="height: 50px;" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-3.png" alt="alternative">
+                                    <img class="img-fluid" src="https://cdn-2.tstatic.net/tribunnewswiki/foto/bank/images/kemenristek-dikti-logo.jpg" style="height: 50px;" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-4.png" alt="alternative">
+                                    <img class="img-fluid" src="https://lh3.googleusercontent.com/proxy/S0tnAeVW1eyyc-GWyH3Dt-fE7_Y0JF0hWonhSpNGCFvw4ewEh7zC_Y0odrAMkNKvMO0IDwLsSXs9pKdJqEjFAe1PdFCDp6lwv4Dn4uzSdm_BBIGNwhpj78vlTQ2yelikZfJl" style="height: 50px;" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-5.png" alt="alternative">
+                                    <img class="img-fluid" src="https://i0.wp.com/desainerhub.com/wp-content/uploads/2020/11/hostinger.png?resize=395%2C150&ssl=1" style="height: 50px;" alt="alternative">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="img-fluid" src="landing/images/customer-logo-6.png" alt="alternative">
+                                    <img class="img-fluid" src="https://qwords.com/blog/wp-content/uploads/2021/05/stay-and-play-at-home-with-popular-past-google-doodles-halloween-2016-6753651837108773-2xa.gif" style="height: 50px;" alt="alternative">
                                 </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="https://geeksfarm.files.wordpress.com/2018/01/developers.png" style="height: 50px;" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="a/images/dev.jpg" style="height: 50px;" alt="alternative">
+                                </div>
+        
                             </div> <!-- end of swiper-wrapper -->
                         </div> <!-- end of swiper container -->
                     </div> <!-- end of slider-container -->
@@ -155,8 +162,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Business growth services</h2>
-                    <p class="p-heading">We serve small and medium sized companies in all tech related industries with high quality business growth services based on many years of software development experience</p>
+                    <h2 class="h2-heading">Our newest program</h2>
+                    <p class="p-heading">
+                    Kami menyelenggarakan beberapa program 
+                    untuk mendukung Pembelajaran coding di Indonesia.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -168,8 +177,8 @@
                             <img class="img-fluid" src="landing/images/services-icon-1.svg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Market Analysis</h5>
-                            <p>Our team of enthusiastic marketers will analyse and evaluate your company</p>
+                            <h5 class="card-title">Kurikulum Standard Industri</h5>
+                            <p>Kurikulum dikembangkan bersama perusahaan dan pemilik teknologi dunia sesuai kebutuhan industri terkini.</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -180,8 +189,9 @@
                             <img class="img-fluid" src="landing/images/services-icon-2.svg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Opportunity Scan</h5>
-                            <p>Once the market analysis is completed our staff looks for fresh opportunities</p>
+                            <h5 class="card-title">Belajar Fleksibel Sesuai Kemauan anda</h5>
+                            <p>Belajar kapan pun, di mana pun, secara mandiri. Bebas memilih 
+                                kelas sesuai minat belajar. Akses seumur hidup ke kelas dan forum diskusi setelah lulus.</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -192,8 +202,9 @@
                             <img class="img-fluid" src="landing/images/services-icon-3.svg" alt="alternative">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Action Plan</h5>
-                            <p>With all the information in place you will be presented with a written action plan</p>
+                            <h5 class="card-title">Materi & Code dari Developer Expert</h5>
+                            <p>Validasi skill Anda melalui 1-on-1 
+                                Professional Code Review yang diberikan langsung oleh Developer Expert.</p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -266,45 +277,6 @@
     </div> <!-- end of lightbox-basic -->
     <!-- end of lightbox -->
     <!-- end of details 1 lightbox -->
-
-
-    <!-- Details 2 -->
-    <div class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="landing/images/details-2.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Try to optimize wherever possible</h2>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Basically we'll teach you step by step the actions</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">In order to develop your company and reach new heights</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Everyone will be pleased from stakeholders to staff</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg" href="terms.html">Terms</a>
-                        <a class="btn-outline-reg" href="privacy.html">Policy</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 2 -->
-
-
-
 
     <!-- Registration -->
     <div id="registration" class="form-1">
