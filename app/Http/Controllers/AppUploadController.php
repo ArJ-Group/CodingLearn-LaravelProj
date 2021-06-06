@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Respose;
+use Illuminate\Support\Facades\File;
 //use File;
 
 class AppUploadController extends Controller
@@ -28,7 +29,7 @@ class AppUploadController extends Controller
             //random name
             $new_name=rand().'-'.time().'.'.$app->getClientOriginalExtension();
 
-            $app_size=$app->getClientSize();
+            $app_size=$app->getSize();
             //add apps folder
             $app->move(public_path('apps'), $new_name);
 
@@ -68,8 +69,25 @@ class AppUploadController extends Controller
     function download($appName)
     {
         $filePath=public_path('apps/'.$appName);
+        
         return response()->download($filePath);
         //echo $filePath;
     }
+    public function destroy($appName)
+    {
+        //TODO : Implementasikan Proses Delete Mahasiswa By Id
+        // return "proses destroy database";
+        
+        File::delete(public_path('apps/'.$appName));
+        $path=public_path('apps');
+        $files=\File::files($path);
+        foreach($files as $file)
+        {
+            $app=pathinfo($file);
+            $ListofApp[]=$app['basename'];
+        }
+      //  $filePath=public_path('apps/'.$appName)->delete();
+        return view('/view_apps')->with('Apps',$ListofApp);
 
+    }
 }
