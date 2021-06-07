@@ -9,7 +9,7 @@
  <meta name="author" content="Askbootstrap">
  <title>CODING LEARN APPLICATION</title>
  <!-- Favicon Icon -->
- <link rel="icon" type="image/png" href="a/img/icon.png">
+ <link rel="icon" type="image/png" href="a/images/logo.png">
  <!-- Bootstrap core CSS-->
  <link href="a/bootstrap/css/bootstrap.min.css" rel="stylesheet">
  <!-- Custom fonts for this template-->
