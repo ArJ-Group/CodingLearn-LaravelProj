@@ -297,6 +297,10 @@ Route::get('js.jstutor/', function () {
   return view('js.jstutor');
 });
 
+//PHP
+Route::get('php.welcomephp/', function () {
+  return view('php.welcomephp');
+});
 
 
 
