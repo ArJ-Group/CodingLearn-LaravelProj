@@ -4,6 +4,9 @@
 <div class="container">
       <nav class="breadcrumb">
         <a href="" class="breadcrumb-item active"> Home</a>
+        @if(auth()->id('is_admin') == 1)
+      <a href="{{route('admin_page')}}" class="breadcrumb-item active"> To Admin page</a>
+        @endif
       </nav>
       <div class="row">
         <div class="col-lg-8">

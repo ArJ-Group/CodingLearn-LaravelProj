@@ -319,8 +319,7 @@ Route::get('/forum/overview/{id}', 'FrontEndController@forumOverview')->name('fo
 
 //Admin pages
 Route::middleware(['auth', 'admin'])->group(function(){
-route::get('dashboard/home', 'DashboardController@home');
-route::get('dashboard/home', 'DashboardController@home');
+route::get('dashboard/home', 'DashboardController@home')->name('admin_page');
 
 route::get('dashboard/category/new', 'CategoryController@create')->name('category.new');
 route::post('dashboard/category/new', 'CategoryController@store')->name('category.store');
