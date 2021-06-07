@@ -98,8 +98,8 @@
          <!-- Modal content-->
          <div class="modal-content">
             <div class="modal-header">
-               <button type="button" class="close" data-dismiss="modal">&times;</button>
-               <h4 class="modal-title">Language</h4>
+               li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Book</a></li>
+                  <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
             </div>
             <div class="modal-body">
                <ul>
