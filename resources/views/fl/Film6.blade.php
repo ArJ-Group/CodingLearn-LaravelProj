@@ -166,8 +166,9 @@
         <h6>Genre </h6>
         <p>Learn</p>
         <h6>Synopsis</h6>
-        <p>Bagi Anda yang belum tahu, HTML adalah kepanjangan dari Hypertext Markup Language. Perlu diketahui bawah HTML bukan termasuk bahasa pemrograman, melainkan HTML adalah markup standart yang digunakan dalam menampilkan halaman website. Jadi dengan HTML tidak memiliki kemampuan untuk membuat website yang dinamis, perlu mengkombinasikan dengan bahasa pemrograman web lain.
-          Menurut sejarahnya, HTML pertama kali diperkenalkan pada tahun 1990-an. Tim Berners-Lee pada tahun 1989 menciptakan HTML sederhana namun sangat efektif untuk pengkodean dokumen elektronik. Web browser pada zaman itu digunakan untuk membuka dokumen-dokumen dengan format HTML. Pada saat tahun 90-an inilah yang menjadi sejarah lahirnya HTML sehingga dinamakan HTML versi 1.0.</p>
+        <p>PHP: Hypertext Preprocessor[3] (sebelumnya disebut Personal Home Pages) adalah bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML.[4][5] PHP banyak dipakai untuk memprogram situs web dinamis. PHP dapat digunakan untuk membangun sebuah CMS.
+
+          Tidak hanya berjalan melalui peladen web, PHP juga bisa menyelesaikan tugas-tugas pemrograman dalam bentuk antarmuka baris perintah (CLI)</p>
         <h6>Kualitas</h6>
         <p>Blueray</p>
         <h6>Diterbitkan</h6>

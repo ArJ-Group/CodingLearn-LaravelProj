@@ -166,8 +166,7 @@
         <h6>Genre </h6>
         <p>Learn</p>
         <h6>Synopsis</h6>
-        <p>Bagi Anda yang belum tahu, HTML adalah kepanjangan dari Hypertext Markup Language. Perlu diketahui bawah HTML bukan termasuk bahasa pemrograman, melainkan HTML adalah markup standart yang digunakan dalam menampilkan halaman website. Jadi dengan HTML tidak memiliki kemampuan untuk membuat website yang dinamis, perlu mengkombinasikan dengan bahasa pemrograman web lain.
-          Menurut sejarahnya, HTML pertama kali diperkenalkan pada tahun 1990-an. Tim Berners-Lee pada tahun 1989 menciptakan HTML sederhana namun sangat efektif untuk pengkodean dokumen elektronik. Web browser pada zaman itu digunakan untuk membuka dokumen-dokumen dengan format HTML. Pada saat tahun 90-an inilah yang menjadi sejarah lahirnya HTML sehingga dinamakan HTML versi 1.0.</p>
+        <p>(Structured Query Language)[4] adalah sebuah bahasa yang digunakan untuk mengakses data dalam basis data relasional. Bahasa ini secara de facto merupakan bahasa standar yang digunakan dalam manajemen basis data relasional. Saat ini hampir semua server basis data yang ada mendukung bahasa ini untuk melakukan manajemen datanya.</p>
         <h6>Kualitas</h6>
         <p>Blueray</p>
         <h6>Diterbitkan</h6>

@@ -166,8 +166,9 @@
         <h6>Genre </h6>
         <p>Learn</p>
         <h6>Synopsis</h6>
-        <p>Bagi Anda yang belum tahu, HTML adalah kepanjangan dari Hypertext Markup Language. Perlu diketahui bawah HTML bukan termasuk bahasa pemrograman, melainkan HTML adalah markup standart yang digunakan dalam menampilkan halaman website. Jadi dengan HTML tidak memiliki kemampuan untuk membuat website yang dinamis, perlu mengkombinasikan dengan bahasa pemrograman web lain.
-          Menurut sejarahnya, HTML pertama kali diperkenalkan pada tahun 1990-an. Tim Berners-Lee pada tahun 1989 menciptakan HTML sederhana namun sangat efektif untuk pengkodean dokumen elektronik. Web browser pada zaman itu digunakan untuk membuka dokumen-dokumen dengan format HTML. Pada saat tahun 90-an inilah yang menjadi sejarah lahirnya HTML sehingga dinamakan HTML versi 1.0.</p>
+        <p>JavaScript (/ˈdʒɑːvəˌskrɪpt/[8]) (disingkat JS) adalah bahasa pemrograman tingkat tinggi dan dinamis.[9] JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT.[10] JavaScript merupakan salah satu teknologi inti World Wide Web selain HTML dan CSS. JavaScript membantu membuat halaman web interaktif dan merupakan bagian aplikasi web yang esensial.
+
+          Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engine JavaScript disisipkan ke dalam perangkat lunak lain seperti dalam server-side dalam server web dan basis data, dalam program non web seperti perangkat lunak pengolah kata dan pembaca PDF, dan sebagai runtime environment yang memungkinkan penggunaan JavaScript untuk membuat aplikasi desktop maupun mobile.</p>
         <h6>Kualitas</h6>
         <p>Blueray</p>
         <h6>Diterbitkan</h6>
