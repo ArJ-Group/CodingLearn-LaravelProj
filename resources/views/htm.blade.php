@@ -100,12 +100,12 @@
          <div class="modal-content">
             <div class="modal-header">
                <button type="button" class="close" data-dismiss="modal">&times;</button>
-               <h4 class="modal-title">Change</h4>
+               <h4 class="modal-title">Language</h4>
             </div>
             <div class="modal-body">
                <ul>
                   <li><a href="#"><img src="a/images/flag-up-1.png" alt="" /> United States</a></li>
-                  <li><a href="#"><img src="a/images/flag-up-2.png" alt="" /> France </a></li>
+                  <li><a href="#"><img src="https://img2.pngdownload.id/20180330/yrw/kisspng-national-monument-proclamation-of-indonesian-indep-indonesia-5abeeb03048406.4634628915224614430185.jpg" alt="" /> Indonesia </a></li>
                </ul>
             </div>
          </div>

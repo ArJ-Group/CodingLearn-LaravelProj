@@ -319,6 +319,12 @@ Route::get('php.phpoop/', function () {
 Route::get('php.phpxml/', function () {
   return view('php.phpxml');
 });
+Route::get('php.phptutor/', function () {
+  return view('php.phptutor');
+});
+Route::get('php.phpdtb/', function () {
+  return view('php.phpdtb');
+});
 
 
 

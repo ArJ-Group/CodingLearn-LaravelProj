@@ -80,8 +80,8 @@
                      <div class="nav-b hidden-xs">
                         <div class="nav-box">
                            <ul>
-                              <li><a href="howitworks.html">Tutorial</a></li>
-                              <li><a href="productpage.html">References</a></li>
+                              <li><a href="howitworks.php">Tutorial</a></li>
+                              <li><a href="productpage.php">References</a></li>
                            </ul>
                         </div>
                      </div>
@@ -99,12 +99,12 @@
          <div class="modal-content">
             <div class="modal-header">
                <button type="button" class="close" data-dismiss="modal">&times;</button>
-               <h4 class="modal-title">Change</h4>
+               <h4 class="modal-title">Language</h4>
             </div>
             <div class="modal-body">
                <ul>
                   <li><a href="#"><img src="a/images/flag-up-1.png" alt="" /> United States</a></li>
-                  <li><a href="#"><img src="a/images/flag-up-2.png" alt="" /> France </a></li>
+                  <li><a href="#"><img src="https://img2.pngdownload.id/20180330/yrw/kisspng-national-monument-proclamation-of-indonesian-indep-indonesia-5abeeb03048406.4634628915224614430185.jpg" alt="" /> Indonesia </a></li>
                </ul>
             </div>
          </div>
@@ -123,7 +123,7 @@
             <div class="row">
                <ol class="breadcrumb">
                   <li><a href="{{url('index')}}">Back</a></li>
-                  <li class="active">Coding Learn Application</li>
+                  <li class="active">PHP Learn Application</li>
                </ol>
             </div>
          </div>
@@ -133,7 +133,7 @@
       <div class="container">
          <div class="row">
             <div class="furniture-main">
-               <h2>Coding Learn Application</h2>
+               <h2>PHP Learn Application</h2>
                <div class="col-md-3 col-sm-4">
                   <div class="furniture-left">
                      <h3>CLA</h3>
@@ -421,14 +421,15 @@
                      <h3>Subcategories</h3>
                      <div class="right-list-f">
                         <ul>
-                           <li><a href="{{url('html.welcomehtml')}}"><img width="32" src="a/images/f.png" alt="" /> Learn HTML</a></li>
-                           <li><a href="{{url('html.htmlapi')}}"><img width="32" src="a/images/f.png" alt="#" /> Learn Bootstrap</a></li>
-                           <li><a href="{{url('html.htmlexamp')}}"><img width="32" src="a/images/f.png" alt="" /> Learn Colors</a></li>
-                           <li><a href="{{url('html.htmlform')}}"><img width="32" src="a/images/f.png" alt="" /> Learn Icons</a></li>
-                           <li><a href="{{url('html.htmlgrapic')}}"><img width="32" src="a/images/f.png" alt="" /> Learn Graphics</a></li>
-                           <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/f.png" alt="" /> Learn How To</a></li>
-                           <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/f.png" alt="" /> Learn Sass</a></li>
-                           <li><a href="{{url('html.htmltutor')}}"><img width="32" src="a/images/f.png" alt="" /> Exercise</a></li>
+                           <li><a href="{{url('php.welcomephp')}}"><img width="32" src="a/images/f.png" alt="" /> Introduction PHP</a></li>
+                           <li><a href="{{url('php.phptutor')}}"><img width="32" src="a/images/f.png" alt="#" /> PHP Tutorial</a></li>
+                           <li><a href="{{url('php.phpform')}}"><img width="32" src="a/images/f.png" alt="" /> PHP Form</a></li>
+                           <li><a href="{{url('php.phpadv')}}"><img width="32" src="a/images/f.png" alt="" /> PHP Advanced</a></li>
+                           <li><a href="{{url('php.phpoop')}}"><img width="32" src="a/images/f.png" alt="" /> PHP OOP</a></li>
+                           <li><a href="{{url('php.phpdtb')}}"><img width="32" src="a/images/f.png" alt="" /> PHP Database</a></li>
+                           <li><a href="{{url('php.phpxml')}}"><img width="32" src="a/images/f.png" alt="" /> PHP XML</a></li>
+                           <li><a href="{{url('php.phpexamp')}}"><img width="32" src="a/images/f.png" alt="" /> Example</a></li>
+                           <li><a href="{{url('php.phpexer')}}"><img width="32" src="a/images/f.png" alt="" /> Exercise</a></li>
                         </ul>
                      </div>
                   </div>
