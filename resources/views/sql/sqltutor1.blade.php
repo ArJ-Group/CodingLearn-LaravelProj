@@ -352,11 +352,11 @@
           
           
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.welcomehtml')}}">Welcome to SQL</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="{{url('sql.sqltutor')}}">Welcome to SQL</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmltutor')}}">SQL TUTORIAL</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="">SQL Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="{{url('sql.sqltutor1')}}">SQL TUTORIAL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="{{url('sql.sqltutor1')}}">SQL Home</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">SQL Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">SQL Syntax</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#">SQL Select</a></li>
@@ -400,7 +400,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlform')}}">SQL Database</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('sql.sqldb')}}">SQL Database</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="getting_started.html">SQL Create DB</a></li>
 <li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">SQL Drop DB</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html">SQL Backup DB</a></li>
@@ -424,7 +424,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlgrapic')}}">HTML References</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('sql.sqlrefer')}}">HTML References</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="static_pages.html">SQL Keyword</a></li>
 <li class="toctree-l2"><a class="reference internal" href="news_section.html">MySQL Function</a></li>
 <li class="toctree-l2"><a class="reference internal" href="static_pages.html">SQL Server Function</a></li>
@@ -434,7 +434,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="{{url('html.htmlmedia')}}">SQL EXAMPLES</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="{{url('sql.sqlexam')}}">SQL EXAMPLES</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="">SQL Examples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">SQL Quiz</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">SQL Exercises</a></li>
@@ -480,7 +480,7 @@
             
   <div class="section" id="welcome-to-codeigniter">
 <h1>Welcome to SQL<a class="headerlink" href="#welcome-to-codeigniter" title="Permalink to this headline">¶</a></h1>
-<h1>Welcome to SQL</a></h1>
+
 <div class="w3-container">
    <div class="w3-row">
      <div class="w3-col l10">
