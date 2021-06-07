@@ -487,7 +487,237 @@
               <hr />
             </div>
             <div role="main" class="document">
-              
+              <p class="intro">JavaScript functions are <strong>defined</strong> with the
+                <code class="w3-codespan">function</code> keyword.
+              </p>
+              <p class="intro">You can use a function <strong>declaration</strong> or a
+                function <strong>expression</strong>.</p>
+              <hr>
+
+              <h2>Function Declarations</h2>
+              <p>Earlier in this tutorial, you learned that functions are <strong>declared</strong> with the
+                following syntax:</p>
+              <div class="w3-code w3-border notranslate jsHigh"><span class="jscolor" style="color:black">
+                  <div>
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> <em>functionName</em>(<em>parameters</em>) {<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp; <span class="commentcolor" style="color:green">// <em>code to be executed</em><br></span><span class="jsnumbercolor" style="color:red">
+                    </span>}
+                  </div>
+                </span></div>
+
+              <p>Declared functions are not executed immediately. They are "saved for later use",
+                and will be executed later, when they are invoked (called upon).</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(a, b) {<br><span class="jsnumbercolor" style="color:red">
+                    </span> &nbsp; <span class="jskeywordcolor" style="color:mediumblue">return</span> a * b;<br>}<br><span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a target="_blank" href="tryit.asp?filename=tryjs_function_return" class="w3-btn w3-margin-bottom">Try it Yourself »</a>
+              </div>
+
+              <div class="w3-panel w3-note">
+                <p>Semicolons are used to separate executable JavaScript statements.<br>
+                  Since a function <strong>declaration</strong> is not an executable statement, it is
+                  not common to end it with a semicolon.</p>
+              </div>
+
+              <hr>
+              <h2>Function Expressions</h2>
+              <p>A JavaScript function can also be defined using an <strong>expression</strong>.</p>
+              <p>A function expression can be stored in a variable:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">var</span> x = <span class="jskeywordcolor" style="color:mediumblue">function</span> (a, b) {<span class="jskeywordcolor" style="color:mediumblue">return</span> a * b};<span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_expression" target="_blank">Try it Yourself »</a>
+              </div>
+
+              <p>After a function expression has been stored in a variable, the variable can
+                be used as a function:</p>
+
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">var</span> x = <span class="jskeywordcolor" style="color:mediumblue">function</span> (a, b) {<span class="jskeywordcolor" style="color:mediumblue">return</span> a * b};<br>
+                    <span class="jskeywordcolor" style="color:mediumblue">var</span> z = x(<span class="jsnumbercolor" style="color:red">4</span>, <span class="jsnumbercolor" style="color:red">3</span>); </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_expression_variable" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>The function above is actually an <strong>anonymous function</strong> (a function without a
+                name).</p>
+              <p>Functions stored in variables do not need function names. They are always
+                invoked (called) using the variable name.</p>
+
+              <div class="w3-panel w3-note">
+                <p>The function above ends with a semicolon because it is a part of an executable statement.</p>
+              </div>
+
+              <hr>
+              <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+                <!-- MidContent -->
+                <!-- <p class="adtext">Advertisement</p> -->
+
+                <div id="div-gpt-ad-1493883843099-0" style="" data-google-query-id="CI3qw4qchfECFRXajwod2-QADw">
+
+                  <div id="google_ads_iframe_/16833175/MidContent_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/16833175/MidContent_0" title="3rd party ad content" name="google_ads_iframe_/16833175/MidContent_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="conversion-measurement 'src'" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="b" data-load-complete="true"></iframe></div>
+                </div>
+
+              </div>
+              <hr>
+              <h2>The Function() Constructor</h2>
+              <p>As you have seen in the previous examples, JavaScript functions are defined
+                with the <code class="w3-codespan">function</code> keyword.</p>
+              <p>Functions can also be defined with a built-in JavaScript function constructor called
+                <code class="w3-codespan">Function()</code>.
+              </p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> myFunction = <span class="jskeywordcolor" style="color:mediumblue">new</span> Function(<span class="jsstringcolor" style="color:brown">"a"</span>, <span class="jsstringcolor" style="color:brown">"b"</span>, <span class="jsstringcolor" style="color:brown">"return a * b"</span>);<br><br><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> x = myFunction(<span class="jsnumbercolor" style="color:red">4</span>, <span class="jsnumbercolor" style="color:red">3</span>); </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_constructor" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>You actually don't have to use the function constructor. The example above is the same as writing:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> myFunction = <span class="jskeywordcolor" style="color:mediumblue">function</span> (a, b) {<span class="jskeywordcolor" style="color:mediumblue">return</span> a * b};<br><br><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> x = myFunction(<span class="jsnumbercolor" style="color:red">4</span>, <span class="jsnumbercolor" style="color:red">3</span>); </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_constructor2" target="_blank">Try it Yourself »</a>
+              </div>
+
+              <div class="w3-panel w3-note">
+                <p>Most of the time, you can avoid using the <code class="w3-codespan">new</code> keyword in JavaScript.</p>
+              </div>
+
+              <hr>
+              <h2>Function Hoisting</h2>
+              <p>Earlier in this tutorial, you learned about "hoisting" (<a href="js_hoisting.asp">JavaScript Hoisting</a>).</p>
+              <p>Hoisting is JavaScript's default behavior of moving <strong>declarations</strong> to the top of the
+                current scope.</p>
+
+              <p>Hoisting applies to variable declarations and to function declarations.</p>
+              <p>Because of this, JavaScript functions can be called before they are declared:</p>
+              <div class="w3-code w3-border notranslate jsHigh"><span class="jscolor" style="color:black">
+                  <div>
+                    myFunction(<span class="jsnumbercolor" style="color:red">5</span>);<br><span class="jsnumbercolor" style="color:red">
+                    </span><br>
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(y) {<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp;&nbsp;<span class="jskeywordcolor" style="color:mediumblue">return</span> y * y;<br><span class="jsnumbercolor" style="color:red">
+                    </span>}
+                  </div>
+                </span></div>
+              <p>Functions defined using an expression are not hoisted.</p>
+
+              <hr>
+              <h2>Self-Invoking Functions</h2>
+              <p>Function expressions can be made "self-invoking".</p>
+              <p>A self-invoking expression is invoked (started) automatically, without being called.</p>
+
+              <p>Function expressions will execute automatically if the expression is followed
+                by ().</p>
+              <p>You cannot self-invoke a function declaration.</p>
+              <p>You have to add
+                parentheses around the function to indicate that it is a function expression:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                    </span>(<span class="jskeywordcolor" style="color:mediumblue">function</span> () {<br><span class="jsnumbercolor" style="color:red">
+                    </span>&nbsp;&nbsp;<span class="jskeywordcolor" style="color:mediumblue">var</span> x = <span class="jsstringcolor" style="color:brown">"Hello!!"</span>; &nbsp;<span class="commentcolor" style="color:green">// I will invoke myself<br></span><span class="jsnumbercolor" style="color:red">
+                    </span>})();<span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_expression_self" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>The function above is actually an <strong>anonymous self-invoking function</strong> (function
+                without name).</p>
+              <hr>
+              <h2>Functions Can Be Used as Values</h2>
+              <p>JavaScript functions can be used as values:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(a, b) {<br>&nbsp; <span class="jskeywordcolor" style="color:mediumblue">return</span> a * b;<br>}<br><br><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> x = myFunction(<span class="jsnumbercolor" style="color:red">4</span>, <span class="jsnumbercolor" style="color:red">3</span>); </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_value" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>JavaScript functions can be used in expressions:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(a, b) {<br>&nbsp; <span class="jskeywordcolor" style="color:mediumblue">return</span> a * b;<br>}<br><br><span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">var</span> x = myFunction(<span class="jsnumbercolor" style="color:red">4</span>, <span class="jsnumbercolor" style="color:red">3</span>) * <span class="jsnumbercolor" style="color:red">2</span>; </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_value2" target="_blank">Try it Yourself »</a>
+              </div>
+              <hr>
+
+              <h2>Functions are Objects</h2>
+              <p>The <code class="w3-codespan">typeof</code> operator in JavaScript returns "function" for
+                functions.</p>
+              <p>But, JavaScript functions can best be described as objects.</p>
+              <p>JavaScript functions have both <strong>properties</strong> and <strong>
+                  methods</strong>.</p>
+              <p>The <code class="w3-codespan">arguments.length</code> property returns the number of arguments received when
+                the function was invoked:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(a, b) {<br>&nbsp;&nbsp;<span class="jskeywordcolor" style="color:mediumblue">return</span> <span class="jskeywordcolor" style="color:mediumblue">arguments</span>.<span class="jspropertycolor" style="color:black">length</span>;<br>} </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_length" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>The <code class="w3-codespan">toString()</code> method returns the function as a string:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction(a, b) {<br>&nbsp; <span class="jskeywordcolor" style="color:mediumblue">return</span> a * b;<br>}<br><br><span class="jskeywordcolor" style="color:mediumblue">var</span> txt = myFunction.<span class="jspropertycolor" style="color:black">toString</span>(); </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_function_tostring" target="_blank">Try it Yourself »</a>
+              </div>
+
+              <div class="w3-panel w3-note">
+                <p>A function defined as the property of an object, is called a method to the object.<br>
+                  A function designed to create new objects, is called an object constructor.</p>
+              </div>
+
+              <hr>
+              <h2>Arrow Functions</h2>
+              <p>Arrow functions allows a short syntax for writing function expressions.</p>
+              <p>You don't need the <code class="w3-codespan">function</code> keyword, the <code class="w3-codespan">return</code> keyword, and the
+                <strong>curly brackets</strong>.
+              </p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+                    </span><span class="commentcolor" style="color:green">// ES5<br></span>
+                    <span class="jskeywordcolor" style="color:mediumblue">var</span> x = <span class="jskeywordcolor" style="color:mediumblue">function</span>(x, y) {<br><span class="jsnumbercolor" style="color:red">
+                    </span> &nbsp;<span class="jsnumbercolor" style="color:red">
+                    </span> <span class="jskeywordcolor" style="color:mediumblue">return</span> x * y;<br><span class="jsnumbercolor" style="color:red">
+                    </span>}<br><br><span class="jsnumbercolor" style="color:red">
+                    </span><span class="commentcolor" style="color:green">// ES6<br></span>
+                    <span class="jskeywordcolor" style="color:mediumblue">const</span> x = (x, y) =&gt; x * y;<br> <span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_es6_arrow" target="_blank">Try it Yourself »</a>
+              </div>
+              <p>Arrow functions do not have their own <code class="w3-codespan">this</code>.
+                They are not well suited for defining <strong>object methods</strong>.</p>
+              <p>Arrow functions are not hoisted. They must be defined <strong>before</strong> they are used.</p>
+              <p>Using <code class="w3-codespan">const</code>
+                is safer than using <code class="w3-codespan">var</code>, because a function expression is
+                always constant value.</p>
+              <p>You can only omit the <code class="w3-codespan">return</code> keyword and the curly brackets if the function is a single statement.
+                Because of this, it might be a good habit to always keep them:</p>
+              <div class="w3-example">
+                <h3>Example</h3>
+                <div class="w3-code notranslate jsHigh"><span class="jscolor" style="color:black">
+                    <span class="jskeywordcolor" style="color:mediumblue">const</span> x = (x, y) =&gt; { <span class="jskeywordcolor" style="color:mediumblue">return</span> x * y };<br> <span class="jsnumbercolor" style="color:red">
+                    </span> </span></div>
+                <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryjs_es6_arrow_safe" target="_blank">Try it Yourself »</a>
+              </div>
+
+              <div class="w3-panel w3-note">
+                <p>Arrow functions are not supported in IE11 or earlier.</p>
+              </div>
+
+
             </div>
             <footer>
 

@@ -487,8 +487,68 @@
               <hr />
             </div>
             <div role="main" class="document">
+              <p class="intro">Examples of using JavaScript to access and manipulate DOM objects.</p>
+              <hr>
+
+              <h2>The Document Object</h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="tryit.asp?filename=tryjs_doc_cookie">Display all name/value pairs of cookies in a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_domain">Display the domain name of the server that loaded the document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_lastmodified">Display the date and time the document was last modified</a>
+                <!--<a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_referrer">Display the URL of the document that loaded the current document</a>-->
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_title">Display the title of a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_url">Display the full URL of a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_open">Replace the content of a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_open2">Open a new window, and add some content</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_getelementsbyname">Display the number of elements with a specific name</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_getelementsbytagname">Display the number of elements with a specific tag name</a>
+              </div>
+              <p><a href="js_htmldom.asp" class="w3-btn">Document Object Explained</a></p>
+
+              <hr>
+
+              <h2>
+                The Anchors Collection
+              </h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="tryit.asp?filename=tryjs_doc_anchors">Find the number of anchors in a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_anchors2">Find the innerHTML of the first anchor in a document</a>
+              </div>
+              <hr>
+
+              <h2>
+                The Links Collection</h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="tryit.asp?filename=tryjs_doc_links">Display the number of links in a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_links2">Display the href attribute of the first link in a document</a>
+              </div>
+              <hr>
+
+              <h2>
+                The Forms Collection</h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="tryit.asp?filename=tryjs_doc_forms">Find the number of forms in a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_forms2">Find the name of the first form in a document</a>
+              </div>
+              <hr>
+
+              <h2>
+                The Images Collection</h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" target="_blank" href="tryit.asp?filename=tryjs_doc_images">Return the number of images in a document</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" target="_blank" href="tryit.asp?filename=tryjs_doc_images2">Return the id of the first image in a document</a>
+              </div>
+
+              <hr>
+
+              <h2>CSS Manipulation</h2>
+              <div class="w3-bar-block">
+                <a class="w3-button w3-bar-item w3-light-grey" href="tryit.asp?filename=tryjs_dom_visibility" target="_blank">Change the visibility of an HTML element</a>
+                <a class="w3-button w3-bar-item w3-light-grey w3-border-top" href="tryit.asp?filename=tryjs_dom_css_bgcolor" target="_blank">Change the background color of an HTML element</a>
+              </div>
 
             </div>
+            <br><br>
             <footer>
 
               <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
