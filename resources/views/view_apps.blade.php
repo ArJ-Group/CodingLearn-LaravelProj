@@ -54,14 +54,18 @@ object-position: center center;
 } 
 </style>
 </head>
+
 <body>
+  
    <div class="container">
 
     <ol class="breadcrumb">
       @if( auth()->id('is_admin') == 1)
         <li class="breadcrumb-item"><a href="{{url('/app_upload')}}">Upload App</a></li>
+        <li class="breadcrumb-item"><a href="{{url('index')}}">Back CLA</a></li>
            @endif 
         </ol>
+        
 
     <div class="row justify-content-center">
 

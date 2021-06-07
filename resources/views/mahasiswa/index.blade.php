@@ -1,5 +1,67 @@
 @extends('mahasiswa.layout')
 @section('content')
+<header id="header" class="top-head">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+       <div class="container-fluid">
+          <div class="row">
+             <div class="col-md-4 col-sm-12 left-rs">
+                <div class="navbar-header">
+                   <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                   </button>
+                   <a href="{{url('index')}}" class="navbar-brand"><img src="a/images/logo.png" alt="" /></a>
+                </div>
+            
+             </div>
+             <div class="col-md-8 col-sm-12">
+                <div class="right-nav">
+
+                   <div class="login-sr">
+                      <div class="login-signup">
+                         <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+
+                               <a id="navbarDropdown" class="right-arrow pull-right" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><span class="caret"></span>
+                                  {{ Auth::user()->name }}
+                               </a>
+                               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                  <a href="{{url('home')}}"> Profile</a>
+                                  <a href="{{url('mahasiswa')}}"> College Data</a>
+                                  
+                                  <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                          document.getElementById('logout-form').submit();">
+                                     {{ __('Logout') }}
+                                  </a>
+                                  <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                     @csrf
+                                  </form>
+
+                               </div>
+                            </li>
+                         </ul>
+                      </div>
+                   </div>
+
+                   <div class="help-r hidden-xs">
+                      <div class="help-box">
+                         <ul>
+                            <li> <a data-toggle="modal" data-target="#myModal" href="#"> <span>Material</span> <img alt="" /> </a> </li>
+                            <li> <a href="#"><img class="h-i" src="a/images/help-icon.png" alt="" /> Examples </a> </li>
+                         </ul>
+                      </div>
+                   </div>
+                  
+                </div>
+             </div>
+          </div>
+       </div>
+       <!--/.container-fluid -->
+    </nav>
+ </header>
 <head>
     <meta charset="UTF-8">
     <title>CODING LEARN APPLICATION </title>
@@ -8,6 +70,7 @@
     <link rel="stylesheet" href="a/css/style.css">
 
  </head>
+ 
  <div class="container">
     <div class="row">
         <div class="col-lg-12 margin-tb">
