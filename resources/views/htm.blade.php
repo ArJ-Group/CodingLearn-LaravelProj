@@ -99,13 +99,13 @@
          <!-- Modal content-->
          <div class="modal-content">
             <div class="modal-header">
-               li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Book</a></li>
-                  <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Choose</h4>
             </div>
             <div class="modal-body">
                <ul>
-                  <li><a href="#"><img src="a/images/flag-up-1.png" alt="" /> United States</a></li>
-                  <li><a href="#"><img src="https://img2.pngdownload.id/20180330/yrw/kisspng-national-monument-proclamation-of-indonesian-indep-indonesia-5abeeb03048406.4634628915224614430185.jpg" alt="" /> Indonesia </a></li>
+                  <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Book</a></li>
+                  <li><a href="{{url('view_apps')}}"><img src="a/images/help-icon.png" alt="" /> Jobsheet </a></li>
                </ul>
             </div>
          </div>
