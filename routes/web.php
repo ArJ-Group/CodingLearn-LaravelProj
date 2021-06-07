@@ -301,6 +301,24 @@ Route::get('js.jstutor/', function () {
 Route::get('php.welcomephp/', function () {
   return view('php.welcomephp');
 });
+Route::get('php.phpadv/', function () {
+  return view('php.phpadv');
+});
+Route::get('php.phpexamp/', function () {
+  return view('php.phpexamp');
+});
+Route::get('php.phpexer/', function () {
+  return view('php.phpexer');
+});
+Route::get('php.phpform/', function () {
+  return view('php.phpform');
+});
+Route::get('php.phpoop/', function () {
+  return view('php.phpoop');
+});
+Route::get('php.phpxml/', function () {
+  return view('php.phpxml');
+});
 
 
 
