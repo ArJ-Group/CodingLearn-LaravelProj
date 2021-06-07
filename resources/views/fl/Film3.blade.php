@@ -27,7 +27,7 @@
   <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
    <i class="fas fa-bars"></i>
  </button> &nbsp;&nbsp;
- <a class="navbar-brand mr-1" href="../Home/Home-User.html">
+ <a class="navbar-brand mr-1" href="{{url('index')}}">
    <div class="logo">
     <img src="a/images/logo.png" style="height: 50px;width: 100px;margin-left: 30px">
   </div>
@@ -210,7 +210,7 @@
 <div class="col-md-12">
   <div class="video-card video-card-list">
    <div class="video-card-image">
-    <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+    <a class="play-icon" href="{{url('fl.Film1')}}"><i class="fas fa-play-circle"></i></a>
     <a href="video-page.html"><img class="../img-fluid" src="a/images/a.png" alt=""></a>
     <div class="time">00:00</div>
   </div>
@@ -229,7 +229,7 @@
 
 <div class="video-card video-card-list">
  <div class="video-card-image">
-  <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+  <a class="play-icon" href="{{url('fl.Film2')}}"><i class="fas fa-play-circle"></i></a>
   <a href="#"><img class="../img-fluid" src="a/images/b.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
@@ -249,7 +249,7 @@
 
 <div class="video-card video-card-list">
  <div class="video-card-image">
-  <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+  <a class="play-icon" href="{{url('fl.Film4')}}"><i class="fas fa-play-circle"></i></a>
   <a href="#"><img class="../img-fluid" src="a/images/d.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
@@ -269,7 +269,7 @@
 
 <div class="video-card video-card-list">
  <div class="video-card-image">
-  <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+  <a class="play-icon" href="{{url('fl.Film5')}}"><i class="fas fa-play-circle"></i></a>
   <a href="#"><img class="../img-fluid" src="a/images/e.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
@@ -288,7 +288,7 @@
 </div>
 <div class="video-card video-card-list">
  <div class="video-card-image">
-  <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+  <a class="play-icon" href="{{url('fl.Film6')}}"><i class="fas fa-play-circle"></i></a>
   <a href="#"><img class="../img-fluid" src="a/images/f.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
@@ -307,7 +307,7 @@
 </div>
 <div class="video-card video-card-list">
  <div class="video-card-image">
-  <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+  <a class="play-icon" href="{{url('fl.Film7')}}"><i class="fas fa-play-circle"></i></a>
   <a href="#"><img class="../img-fluid" src="a/images/g.png" alt=""></a>
   <div class="time">60:00</div>
 </div>
@@ -327,7 +327,7 @@
 
 <div class="video-card video-card-list">
   <div class="video-card-image">
-   <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+   <a class="play-icon" href="{{url('fl.Film8')}}"><i class="fas fa-play-circle"></i></a>
    <a href="#"><img class="../img-fluid" src="a/images/h.png" alt=""></a>
    <div class="time">60:00</div>
  </div>
