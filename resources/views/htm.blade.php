@@ -410,6 +410,7 @@
                         <li><a href="{{url('html.htmlmedia')}}"><img width="32" src="a/images/a.png" alt="" /> Learn How To</a></li>
                         <li><a href="{{url('html.htmlreferences')}}"><img width="32" src="a/images/a.png" alt="" /> Learn Sass</a></li>
                         <li><a href="{{url('Run')}}"><img width="32" src="a/images/a.png" alt="" /> Compiler</a></li>
+                        <li><a href="{{url('view_appsh')}}"><img width="32" src="a/images/a.png" alt="" /> Material HTML</a></li>
                      </ul>
                   </div>
                </div>

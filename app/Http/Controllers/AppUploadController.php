@@ -65,7 +65,17 @@ class AppUploadController extends Controller
         }
         return view('/view_apps')->with('Apps',$ListofApp);
     }
-
+    function show1()
+    {
+        $path=public_path('apps/h');
+        $files=\File::files($path);
+        foreach($files as $file)
+        {
+            $app=pathinfo($file);
+            $ListofApp[]=$app['basename'];
+        }
+        return view('/view_appss')->with('Apps/h',$ListofApp);
+    }
     function download($appName)
     {
         $filePath=public_path('apps/'.$appName);

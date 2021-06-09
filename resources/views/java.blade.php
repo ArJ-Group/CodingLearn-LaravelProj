@@ -428,6 +428,7 @@
                            <li><a href="{{url('java.javafile')}}"><img width="32" src="a/images/b.png" alt="" /> Learn Java File Handling</a></li>
                            <li><a href="{{url('java.javareferences')}}"><img width="32" src="a/images/b.png" alt="" /> Java References</a></li>
                            <li><a href="{{url('java.javaexample')}}"><img width="32" src="a/images/b.png" alt="" /> Java Example</a></li>
+                           <li><a href="{{url('java.javamat')}}"><img width="32" src="a/images/b.png" alt="" /> Java Material</a></li>
 
                         </ul>
                      </div>

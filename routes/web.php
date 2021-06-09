@@ -21,9 +21,22 @@ Route::get('/users', function ($id) {
 //aplud
 Route::get('/app_upload','AppUploadController@index');
 
+Route::get('/app_uploadh','AppUploadController@index');
+
+Route::get('/app_uploadpy','AppUploadController@index');
+
+Route::get('/app_uploadsql','AppUploadController@index');
+
 Route::post('/app_upload/upload','AppUploadController@upload')->name('upload');
 
 Route::get('/view_apps','AppUploadController@show');
+
+Route::get('/view_appss','AppUploadController@show');
+
+Route::get('/view_appspy','AppUploadController@show');
+
+Route::get('/view_appssql','AppUploadController@show');
+
 
 Route::get('/download/{appName}','AppUploadController@download');
 
@@ -160,6 +173,9 @@ Route::get('java.javareferences/', function () {
 });
 Route::get('java.javaexer/', function () {
   return view('java.javaexer');
+});
+Route::get('java.javamat/', function () {
+  return view('java.javamat');
 });
 
 //SQL

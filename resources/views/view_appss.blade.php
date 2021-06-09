@@ -85,7 +85,7 @@ object-position: center center;
         class="table table-striped table-responsivelg table-bordered"
       >
         <thead class="thead-light">
-          <img class="img-responsive img-resize" src="{{asset('/apps/'.$App)}}" alt="{{$App}}"><hr>
+          <img class="img-responsive img-resize" src="{{asset('/apps/h/'.$App)}}" alt="{{$App}}"><hr>
           <tr>
            
             <th scope="col"><a href="{{url('/download')}}/{{$App}}" class="btnThumbnail" style="display:block;margin-bottom:15px;width:150px; role="button">Download</a></th>
@@ -113,7 +113,7 @@ object-position: center center;
 </div>
 
 <div class="admonition note">
-  <p class="first admonition-title">Material T Programming</p>
+  <p class="first admonition-title">Material g Programming</p>
 <div class="row justify-content-center">
 
 
