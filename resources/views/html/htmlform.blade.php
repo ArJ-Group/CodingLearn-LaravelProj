@@ -334,7 +334,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.htmlform')}}">HTML FORMS</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlform')}}">HTML Forms</a></li>
-<li class="toctree-l2"><a class="reference internal" href="at_a_glance.html">HTML Forms Attribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlforma')}}">HTML Forms Attribute</a></li>
 <li class="toctree-l2"><a class="reference internal" href="features.html">HTML Forms Elements</a></li>
 <li class="toctree-l2"><a class="reference internal" href="appflow.html">HTML Input Types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="mvc.html">HTML Input Attributes</a></li>

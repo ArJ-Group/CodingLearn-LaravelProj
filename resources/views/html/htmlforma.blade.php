@@ -407,8 +407,8 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.htmlmedia')}}">HTML MEDIA</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlforma')}}">HTML Media</a></li>
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlvid')}}">HTMl Video</a></li>
+<li class="toctree-l2"><a class="reference internal" href="">HTML Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="">HTMl Video</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Audio</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Plug-Ins</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl YouTube</a></li>
@@ -493,213 +493,159 @@
           <div role="main" class="document">
             
   <div class="section" id="contributing-to-codeigniter">
-<h1>HTML MEDIA<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+<h1>HTML MEDIA<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1><hr>
 <div class="toctree-wrapper compound">
 <ul>
-
-  <div class="section" id="support">
-    <h2>What is Multimedia?<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-    <p>Multimedia comes in many different formats. It can be almost anything you can hear or see,
-       like images, music, sound, videos, records, films, animations, and more.</p>
-    <p>Web pages often contain multimedia elements of different types and formats.</p>
-    </div><br>
-
-<div class="section" id="support">
-<h2>Browser Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-<p>The first web browsers had support for text only, limited to a single font in a single color.</p>
-<p>Later came browsers with support for colors, fonts, images, and multimedia!</p><br>
+  <div class="admonition note">
+    <p class="first admonition-title">The Action Attribute </p>
+  <p>The <code class="w3-codespan">action</code> attribute defines the action to be performed when the form is submitted.</p>
+  <p>Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+  <p>In the example below, the form data is sent to a file called &quot;action_page.php&quot;. 
+  This file contains a server-side script that handles the form data:</p>
+  </div>
+  <div class="admonition note">
+    <p class="first admonition-title">Example </p>
+  <div class="w3-example">
+    <p>On submit, send form data to &quot;profile.php&quot;:</p>
+    <div class="highlight-ci"><div class="highlight"><pre>&lt;form action="/profile.php"&gt;<br>&nbsp; &lt;label for=&quot;fname&quot;&gt;First Account Bill:&lt;/label&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot; value=&quot;John&quot;&gt;&lt;br&gt;<br>&nbsp; &lt;label for=&quot;lname&quot;&gt;Last name:&lt;/label&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot; value=&quot;Doe&quot;&gt;&lt;br&gt;&lt;br&gt;<br>&nbsp; &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;<br>&lt;/form&gt;
+  </div>
 </div>
 
-<div class="section" id="security">
-<h2>Multimedia Formats<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
-<p>Multimedia elements (like audio or video) are stored in media files.</p>
-<p>The most common way to discover the type of a file, is to look at the file extension.</p>
-<p>Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.</p>
-</div><br>
-
-<div class="section" id="tips-for-a-good-issue-report">
-<h2>Common Video Formats</h2>
-<table>
-<tbody><tr>
-<td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/pic.jpg"></td>
-<td style="vertical-align:top">There are many video formats out there.<br>
-<br>The MP4, WebM, and Ogg formats are supported by HTML.<br><br>The MP4 format 
-is recommended by YouTube.</td>
-</tr>
-</tbody></table>
-</div><br>
-<table class="w3-table-all notranslate">
-  <tbody><tr>
-  <th>Format</th>
-  <th style="width:50px">File</th>
-  <th>Description</th>
-  </tr>
-  
-  <tr>
-  <td>MPEG</td>
-  <td>.mpg<br>.mpeg</td>
-  <td>
-  MPEG. 
-  Developed by 
-  the Moving Pictures Expert Group. The first popular video format on 
-  the web. Not supported anymore in HTML. </td>
-  </tr>
-  
-  
-  
-  <tr>
-  <td>AVI</td>
-  <td>.avi</td>
-  <td>
-  AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV 
-  hardware. Plays well on Windows computers, but not in web browsers.</td>
-  </tr>
-  <tr>
-  <td>WMV</td>
-  <td>.wmv</td>
-  <td>
-  WMV (Windows Media Video). Developed by Microsoft. Commonly used in 
-  video cameras and TV hardware. Plays well on Windows computers, but not in  
-  web browsers.</td>
-  </tr>
-  <tr>
-  <td>QuickTime</td>
-  <td>.mov</td>
-  <td>
-  QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware. 
-  Plays well on Apple computers, but not in web browsers.</td>
-  </tr>
-  <tr>
-  <td>RealVideo</td>
-  <td>.rm<br>.ram</td>
-  <td>
-  RealVideo. Developed by Real Media to allow video streaming with low 
-  bandwidths. Does not play 
-  in web browsers.</td>
-  </tr>
-  <tr>
-  <td>Flash</td>
-  <td>.swf<br>.flv</td>
-  <td>
-  Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in 
-  web browsers.</td>
-  </tr>
-  <tr>
-  <td>Ogg</td>
-  <td>.ogg</td>
-  <td>
-  Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-  </tr>
-  <tr>
-  <td>WebM</td>
-  <td>.webm</td>
-  <td>
-  WebM. 
-  Developed by Mozilla, Opera, Adobe, and Google. Supported by 
-  HTML.</td>
-  </tr>
-  <tr>
-  <td>MPEG-4<br>or MP4</td>
-  <td>.mp4</td>
-  <td>
-  MP4. 
-  Developed by 
-  the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware. 
-  Supported by all browsers and&nbsp; recommended by YouTube.&nbsp; 
-  </td>
-  </tr>
-  </tbody></table><br>
+</pre></div>
+  </div></div>
+  <div class="admonition important">
+    <p class="first admonition-title"><strong>Tip:</strong></p>
+  <p> If the <code class="w3-codespan">action</code> attribute is omitted, the action is set to the current page.</p>
+  </div>
 
   <div class="admonition note">
-    <p class="first admonition-title">Note</p>
-    <p class="last"><p>Only MP4, WebM, and Ogg video are supported by the HTML standard.</p>
-    </div>
+    <p class="first admonition-title">The Target Attribute </p>
 
-    <div class="section" id="support">
-      <h2>Common Audio Formats</h2>
-      <p>MP3 is the best format for compressed recorded music. The 
-        term MP3 has become synonymous with digital music.</p>
-        <p>If your website is about recorded music, MP3 is the choice.</p>
-        <table class="w3-table-all notranslate">
-        <tbody><tr>
-        <th>Format</th>
-        <th style="width:50px">File</th>
-        <th>Description</th>
-        </tr>
-        <tr>
-        <td>MIDI</td>
-        <td>.mid<br>.midi</td>
-        <td>
-        MIDI (Musical Instrument Digital Interface). 
-        Main format for all electronic 
-        music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. 
-        Plays well on all computers and music hardware, but not in web browsers.</td>
-        </tr>
-        <tr>
-        <td>RealAudio</td>
-        <td>.rm<br>.ram</td>
-        <td>
-        RealAudio. 
-        Developed by Real Media 
-        to allow streaming of audio with low 
-        bandwidths. Does not play in web browsers.</td>
-        </tr>
-        <tr>
-        <td>WMA</td>
-        <td>.wma</td>
-        <td>
-        WMA (Windows Media Audio). Developed by Microsoft. Plays well on Windows computers, but not in 
-        web browsers.</td>
-        </tr>
-        <tr>
-        <td>AAC</td>
-        <td>.aac</td>
-        <td>
-        AAC (Advanced Audio Coding). 
-        Developed by Apple as the default format for 
-        iTunes. Plays well on Apple computers, but not in web browsers.</td>
-        </tr>
-        <tr>
-        <td>WAV</td>
-        <td>.wav</td>
-        <td>
-        WAV. 
-        Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems. 
-        Supported by 
-        HTML.</td>
-        </tr>
-        <tr>
-        <td>Ogg</td>
-        <td>.ogg</td>
-        <td>
-        Ogg. 
-        Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-        </tr>
-        <tr>
-        <td>MP3</td>
-        <td>.mp3</td>
-        <td>
-        MP3 files are actually the sound part of MPEG files. 
-        MP3 is the most popular format for music players. Combines good 
-        compression (small files) with high quality. Supported by all browsers.</td>
-        </tr>
-        <tr>
-        <td>MP4</td>
-        <td>.mp4</td>
-        <td>
-        MP4 
-        is a video format, but can also be used for audio. Supported by all browsers.</td>
-        </tr>
-        </tbody></table><br>
-      </div>
+  <p>The <code class="w3-codespan">target</code> attribute specifies where to 
+  display the response that is received after submitting the form.</p>
+  <p>The <code class="w3-codespan">target</code> attribute can have one of the 
+  following values:</p></div>
+  <table class="w3-table-all notranslate"> 
+    <tr>
+      <th style="width:20%">Value</th>
+      <th>Description</th>
+    </tr>  
+    <tr>
+      <td>_blank</td>
+      <td>The response is displayed in a new window or tab</td>
+    </tr>
+    <tr>
+      <td>_self</td>
+      <td>The response is displayed in the current window</td>
+    </tr>
+    <tr>
+      <td>_parent</td>
+      <td>The response is displayed in the parent frame</td>
+    </tr>
+    <tr>
+      <td>_top</td>
+      <td>The response is displayed in the full body of the window</td>
+    </tr>
+    <tr>
+      <td><i>framename</i></td>
+      <td>The response is displayed in a named iframe</td>
+    </tr>
+    </table><hr>
+    <div class="admonition note">
+      <p class="first admonition-title">TIP </p>
+  <p>The default value is <code class="w3-codespan">_self</code> which means that 
+  the response will open in the current window.</p></div>
+ 
+  <hr>
+  <div class="admonition note">
+    <p class="first admonition-title">The Method Attribute </p>
+  <p>The <code class="w3-codespan">method</code> attribute specifies the HTTP 
+  method to be used when submitting the form data.</p>
+  <p>The form-data can be sent as URL variables (with <code class="w3-codespan">method=&quot;get&quot;</code>) 
+  or as HTTP post transaction (with <code class="w3-codespan">method=&quot;post&quot;</code>).</p>
+  <p>The default HTTP method when submitting form data is GET.&nbsp;</p></div>
+  <div class="admonition note">
+    <p class="first admonition-title">Notes </p>
+  <p><b>Notes on GET:</b> </p>
+  <ul>
+    <li>Appends the form data to the URL, in name/value pairs</li>
+    <li>NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)</li>
+    <li>The length of a URL is limited (2048 characters)</li>
+    <li>Useful for form submissions where a user wants to bookmark the result</li>
+    <li>GET is good for non-secure data, like query strings in Google</li>
+  </ul>
+  <p><b>Notes on POST:</b> </p>
+  <ul>
+    <li>Appends the form data inside the body of the HTTP request (the submitted 
+    form data is not shown in the URL)</li>
+    <li>POST has no size limitations, and can be used to send large amounts of data.</li>
+    <li>Form submissions with POST cannot be bookmarked</li>
+  </ul></div>
 
-      <div class="admonition note">
-        <p class="first admonition-title">Note</p>
-        <p class="last"><p>Only MP3, WAV, and Ogg audio are supported by the HTML standard.</p>
-        </div>
+    <div class="admonition important">
+      <p class="first admonition-title"><strong>Tip:</strong> </p>
+  <p> Always use POST if the form data contains sensitive or personal information!</p>
+  </div>
+  <hr>
+  <div class="admonition note">
+    <p class="first admonition-title"><strong>The Autocomplete Attribute</strong> </p>
 
-</div>
-</div>
+  <p>The <code class="w3-codespan">autocomplete</code> attribute specifies whether 
+  a form should have autocomplete on or off.</p>
+  <p>When autocomplete is on, the browser automatically complete values based on values that the user has entered before.</p>
+  <hr>
+  </div><hr>
+  <div class="admonition note">
+    <p class="first admonition-title"><strong>List of All &lt;form&gt; Attributes</strong> </p>
+  <div class="w3-responsive">
+  <table class="w3-table-all">
+   <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_accept_charset.asp">accept-charset</a></td>
+    <td>Specifies the character encodings used for form submission</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_action.asp">action</a></td>
+    <td>Specifies where to send the form-data when a form is submitted</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_autocomplete.asp">autocomplete</a></td>
+    <td>Specifies whether a form should have autocomplete on or off</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_enctype.asp">enctype</a></td>
+    <td>Specifies how the form-data should be encoded when submitting it to the 
+    server (only for method=&quot;post&quot;)</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_method.asp">method</a></td>
+    <td>Specifies the HTTP method to use when sending form-data</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_name.asp">name</a></td>
+    <td>Specifies the name of the form</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_novalidate.asp">novalidate</a></td>
+    <td>Specifies that the form should not be validated when submitted</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_rel.asp">rel</a></td>
+    <td>Specifies the relationship between a linked resource and the current 
+    document</td>
+   </tr>
+   <tr>
+    <td><a href="/tags/att_form_target.asp">target</a></td>
+    <td>Specifies where to display the response that is received after submitting 
+    the form</td>
+   </tr>
+  </table>
+  </div>
+
+
 
 
           </div>

@@ -408,7 +408,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="{{url('html.htmlmedia')}}">HTML MEDIA</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlforma')}}">HTML Media</a></li>
-<li class="toctree-l2"><a class="reference internal" href="{{url('html.htmlvid')}}">HTMl Video</a></li>
+<li class="toctree-l2"><a class="reference internal" href="">HTMl Video</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Audio</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl Plug-Ins</a></li>
 <li class="toctree-l2"><a class="reference internal" href="">HTMl YouTube</a></li>
@@ -493,214 +493,189 @@
           <div role="main" class="document">
             
   <div class="section" id="contributing-to-codeigniter">
-<h1>HTML MEDIA<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
+<h1>HTML VIDEO<a class="headerlink" href="#contributing-to-codeigniter" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
-<ul>
+<ul><hr>
 
   <div class="section" id="support">
-    <h2>What is Multimedia?<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-    <p>Multimedia comes in many different formats. It can be almost anything you can hear or see,
-       like images, music, sound, videos, records, films, animations, and more.</p>
-    <p>Web pages often contain multimedia elements of different types and formats.</p>
-    </div><br>
-
-<div class="section" id="support">
-<h2>Browser Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
-<p>The first web browsers had support for text only, limited to a single font in a single color.</p>
-<p>Later came browsers with support for colors, fonts, images, and multimedia!</p><br>
-</div>
-
-<div class="section" id="security">
-<h2>Multimedia Formats<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
-<p>Multimedia elements (like audio or video) are stored in media files.</p>
-<p>The most common way to discover the type of a file, is to look at the file extension.</p>
-<p>Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.</p>
-</div><br>
-
-<div class="section" id="tips-for-a-good-issue-report">
-<h2>Common Video Formats</h2>
-<table>
-<tbody><tr>
-<td style="width:225px"><img alt="Videoformats" width="196" height="109" src="a/images/pic.jpg"></td>
-<td style="vertical-align:top">There are many video formats out there.<br>
-<br>The MP4, WebM, and Ogg formats are supported by HTML.<br><br>The MP4 format 
-is recommended by YouTube.</td>
-</tr>
-</tbody></table>
-</div><br>
-<table class="w3-table-all notranslate">
-  <tbody><tr>
-  <th>Format</th>
-  <th style="width:50px">File</th>
-  <th>Description</th>
-  </tr>
-  
-  <tr>
-  <td>MPEG</td>
-  <td>.mpg<br>.mpeg</td>
-  <td>
-  MPEG. 
-  Developed by 
-  the Moving Pictures Expert Group. The first popular video format on 
-  the web. Not supported anymore in HTML. </td>
-  </tr>
-  
-  
-  
-  <tr>
-  <td>AVI</td>
-  <td>.avi</td>
-  <td>
-  AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV 
-  hardware. Plays well on Windows computers, but not in web browsers.</td>
-  </tr>
-  <tr>
-  <td>WMV</td>
-  <td>.wmv</td>
-  <td>
-  WMV (Windows Media Video). Developed by Microsoft. Commonly used in 
-  video cameras and TV hardware. Plays well on Windows computers, but not in  
-  web browsers.</td>
-  </tr>
-  <tr>
-  <td>QuickTime</td>
-  <td>.mov</td>
-  <td>
-  QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware. 
-  Plays well on Apple computers, but not in web browsers.</td>
-  </tr>
-  <tr>
-  <td>RealVideo</td>
-  <td>.rm<br>.ram</td>
-  <td>
-  RealVideo. Developed by Real Media to allow video streaming with low 
-  bandwidths. Does not play 
-  in web browsers.</td>
-  </tr>
-  <tr>
-  <td>Flash</td>
-  <td>.swf<br>.flv</td>
-  <td>
-  Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in 
-  web browsers.</td>
-  </tr>
-  <tr>
-  <td>Ogg</td>
-  <td>.ogg</td>
-  <td>
-  Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-  </tr>
-  <tr>
-  <td>WebM</td>
-  <td>.webm</td>
-  <td>
-  WebM. 
-  Developed by Mozilla, Opera, Adobe, and Google. Supported by 
-  HTML.</td>
-  </tr>
-  <tr>
-  <td>MPEG-4<br>or MP4</td>
-  <td>.mp4</td>
-  <td>
-  MP4. 
-  Developed by 
-  the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware. 
-  Supported by all browsers and&nbsp; recommended by YouTube.&nbsp; 
-  </td>
-  </tr>
-  </tbody></table><br>
-
-  <div class="admonition note">
-    <p class="first admonition-title">Note</p>
-    <p class="last"><p>Only MP4, WebM, and Ogg video are supported by the HTML standard.</p>
+    <div class="admonition note">
+      <p class="first admonition-title">Note</p>
+      <p>The HTML <code class="w3-codespan">&lt;video&gt;</code> element is used to 
+        show a video on a web page.</p></div><hr>
     </div>
-
-    <div class="section" id="support">
-      <h2>Common Audio Formats</h2>
-      <p>MP3 is the best format for compressed recorded music. The 
-        term MP3 has become synonymous with digital music.</p>
-        <p>If your website is about recorded music, MP3 is the choice.</p>
-        <table class="w3-table-all notranslate">
-        <tbody><tr>
-        <th>Format</th>
-        <th style="width:50px">File</th>
-        <th>Description</th>
-        </tr>
-        <tr>
-        <td>MIDI</td>
-        <td>.mid<br>.midi</td>
-        <td>
-        MIDI (Musical Instrument Digital Interface). 
-        Main format for all electronic 
-        music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. 
-        Plays well on all computers and music hardware, but not in web browsers.</td>
-        </tr>
-        <tr>
-        <td>RealAudio</td>
-        <td>.rm<br>.ram</td>
-        <td>
-        RealAudio. 
-        Developed by Real Media 
-        to allow streaming of audio with low 
-        bandwidths. Does not play in web browsers.</td>
-        </tr>
-        <tr>
-        <td>WMA</td>
-        <td>.wma</td>
-        <td>
-        WMA (Windows Media Audio). Developed by Microsoft. Plays well on Windows computers, but not in 
-        web browsers.</td>
-        </tr>
-        <tr>
-        <td>AAC</td>
-        <td>.aac</td>
-        <td>
-        AAC (Advanced Audio Coding). 
-        Developed by Apple as the default format for 
-        iTunes. Plays well on Apple computers, but not in web browsers.</td>
-        </tr>
-        <tr>
-        <td>WAV</td>
-        <td>.wav</td>
-        <td>
-        WAV. 
-        Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems. 
-        Supported by 
-        HTML.</td>
-        </tr>
-        <tr>
-        <td>Ogg</td>
-        <td>.ogg</td>
-        <td>
-        Ogg. 
-        Developed by the Xiph.Org Foundation. Supported by HTML.</td>
-        </tr>
-        <tr>
-        <td>MP3</td>
-        <td>.mp3</td>
-        <td>
-        MP3 files are actually the sound part of MPEG files. 
-        MP3 is the most popular format for music players. Combines good 
-        compression (small files) with high quality. Supported by all browsers.</td>
-        </tr>
-        <tr>
-        <td>MP4</td>
-        <td>.mp4</td>
-        <td>
-        MP4 
-        is a video format, but can also be used for audio. Supported by all browsers.</td>
-        </tr>
-        </tbody></table><br>
+    <div class="admonition note">
+      <p class="first admonition-title">Example</p>
+      <div id="content-wrapper">
+        <div class="container-fluid pb-0">
+         <div class="video-block section-padding">
+          <div class="row">
+           <div class="col-md-8">
+            <div class="single-video-left">
+             <div class="single-video">
+              <video width="100%" height="100%" src="a/vid/a.mkv" frameborder="5" controls></video>
+            </div>
+      </div> </div> </div> </div> </div> </div> </div>
+      <hr>
+      <div class="admonition note">
+        <p class="first admonition-title">The HTML &lt;video&gt; Element</p>
+  
+      <p>To show a video in HTML, use the <code class="w3-codespan">&lt;video&gt;</code> element:</p>
+      <div class="w3-example">
+        <h3>Example</h3><p>
+        <div class="highlight-ci"><div class="highlight"><pre>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;<br>&nbsp; &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;<br>&nbsp; &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot;&gt;<br>Your browser does not support the video tag.<br>&lt;/video&gt;
+      </div></div></div>
+      </div></div>
+      <hr>
+      <div class="admonition note">
+        <p class="first admonition-title">How it Works</p>
+      <p>The <code class="w3-codespan">controls</code> attribute adds video controls, like play, pause, and volume.</p>
+      <p>It is a good idea to always include <code class="w3-codespan">width</code> and <code class="w3-codespan">height</code> attributes. If height and width are not set, the page 
+      might flicker while the video loads.</p>
+      <p>The <code class="w3-codespan">&lt;source&gt;</code> element allows you to specify alternative video 
+      files which the browser may choose from. The browser will use the first recognized format.</p>
+      <p>The text between the <code class="w3-codespan">&lt;video&gt;</code> and <code class="w3-codespan">&lt;/video&gt;</code> tags will only be displayed 
+      in browsers that do not 
+      support the <code class="w3-codespan">&lt;video&gt;</code> element.</p>
       </div>
+      <div class="admonition note">
+        <p class="first admonition-title">HTML &lt;video&gt; Autoplay</p>
+      <p>To start a video automatically, use the <code class="w3-codespan">autoplay</code> attribute:</p>
+      <div class="w3-example">
+      <h3>Example</h3><p>
+      <div class="highlight-ci"><div class="highlight"><pre>
+      &lt;video width=&quot;320&quot; height=&quot;240&quot; autoplay&gt;<br>
+      &nbsp; &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;<br>
+      &nbsp; &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot;&gt;<br>
+      Your browser does not support the video tag.<br>
+      &lt;/video&gt;
+      </div></div></div>
+      </div>
+      <div class="admonition important">
+        <p class="first admonition-title"><strong>Note:</strong></p>
+      <p> Chromium browsers do not 
+      allow autoplay in most cases. However, muted autoplay is always allowed.</p>
+      </div>
+      <div class="admonition note">
+        <p class="first admonition-title"><strong>Note:</strong></p>
+      <p>Add <code class="w3-codespan">muted</code> after <code class="w3-codespan">
+      autoplay</code> to let your video start playing automatically (but muted):</p>
+      </div>
+      <div class="w3-example">
 
       <div class="admonition note">
-        <p class="first admonition-title">Note</p>
-        <p class="last"><p>Only MP3, WAV, and Ogg audio are supported by the HTML standard.</p>
-        </div>
+ 
+        <p class="first admonition-title"><strong>Note:</strong></p>
+        <h3>Example</h3><p>
+      <div class="w3-code notranslate htmlHigh">
+        <div class="highlight-ci"><div class="highlight"><pre>
+      &lt;video width=&quot;320&quot; height=&quot;240&quot; autoplay muted&gt;<br>
+      &nbsp; &lt;source src=&quot;movie.mp4&quot; type=&quot;video/mp4&quot;&gt;<br>
+      &nbsp; &lt;source src=&quot;movie.ogg&quot; type=&quot;video/ogg&quot;&gt;<br>
+      Your browser does not support the video tag.<br>
+      &lt;/video&gt;
+      </div></div></div>
+    
+      </div>
+  
+      
+   
+      <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+      <!-- MidContent -->
+      <!-- <p class="adtext">Advertisement</p> -->
+      
+        <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+        <div id="snhb-mid_content-0"></div>
+      
+      </div>
+      <hr>
+      <div class="admonition note">
+        <p class="first admonition-title"><strong>HTML Video Formats</strong></p>
+     
+      <p>There are three supported video formats: MP4, WebM, and Ogg. The browser support for the different formats is:</p>
+      <table class="w3-table-all notranslate">
+      <tr>
+      <th style="width:25%">Browser</th>
+      <th style="width:25%">MP4</th>
+      <th style="width:25%">WebM</th>
+      <th style="width:25%">Ogg</th>
+      </tr>
+      <tr>
+      <td>Edge</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      </tr>
+      <tr>
+      <td>Chrome</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      </tr>
+      <tr>
+      <td>Firefox</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      </tr>
+      <tr>
+      <td>Safari</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>NO</td>
+      </tr>
+      <tr>
+      <td>Opera</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      </tr>
+      </table>
+     
+      </div>
+      <div class="admonition note">
+        <p class="first admonition-title"><strong>HTML Video - Media Types</strong></p>
+      
+      <table class="w3-table-all notranslate" id="table1">
+      <tr>
+      <th style="width:50%">File Format</th>
+      <th style="width:50%">Media Type</th>
+      </tr>
+      <tr>
+      <td>MP4</td>
+      <td>video/mp4</td>
+      </tr>
+      <tr>
+      <td>WebM</td>
+      <td>video/webm</td>
+      </tr>
+      <tr>
+      <td>Ogg</td>
+      <td>video/ogg</td>
+      </tr>
+      </table>
+  
+      </div>
+      <div class="admonition note">
+        <p class="first admonition-title"><strong>HTML Video Tags</strong></p>
 
-</div>
-</div>
-
+      <table class="w3-table-all notranslate">
+      <tr>
+      <th style="width:20%">Tag</th>
+      <th>Description</th>
+      </tr>
+      <tr>
+      <td><a href="/tags/tag_video.asp">&lt;video&gt;</a></td>
+      <td>Defines a video or movie</td>
+      </tr>
+      <tr>
+      <td><a href="/tags/tag_source.asp">&lt;source&gt;</a></td>
+      <td>Defines multiple media resources for media elements, such as &lt;video&gt; and &lt;audio&gt;</td>
+      </tr>
+      <tr>
+      <td><a href="/tags/tag_track.asp">&lt;track&gt;</a></td>
+      <td>Defines text tracks in media players</td>
+      </tr>
+      </table>
 
           </div>
           <footer>

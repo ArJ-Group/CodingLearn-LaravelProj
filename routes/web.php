@@ -123,6 +123,12 @@ Route::get('html.htmlmedia/', function () {
 Route::get('html.htmledit/', function () {
   return view('html.htmledit');
 });
+Route::get('html.htmlforma/', function () {
+  return view('html.htmlforma');
+});
+Route::get('html.htmlvid/', function () {
+  return view('html.htmlvid');
+});
 //CSS
 Route::get('css.cssadvanced/', function () {
   return view('css.cssadvanced');
