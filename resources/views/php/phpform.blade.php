@@ -424,11 +424,160 @@
                   <img title="Classic Layout" alt="classic layout" src="data:image/gif;base64,R0lGODlhFAAUAJEAAAAAADMzM////wAAACH5BAUUAAIALAAAAAAUABQAAAImlI+py+0PU5gRBRDM3DxbWoXis42X13USOLauUIqnlsaH/eY6UwAAOw==" />
                 </div>
               </ul>
-              <hr />
+              <hr/>
             </div>
             <div role="main" class="document">
               <div class="section" id="welcome-to-codeigniter">
-
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>PHP - A Simple HTML Form</strong> </p>
+                <p>The example below displays a simple HTML form with two input fields and a submit button:</p>
+             
+                <h3>Example</h3>
+                <div class="w3-code htmlHigh notranslate">
+                &lt;html&gt;<br>
+                &lt;body&gt;<br>
+                <br>
+                &lt;form action=&quot;welcome.php&quot; method=&quot;post&quot;&gt;<br>
+                Name: &lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br&gt;<br>
+                E-mail: &lt;input type=&quot;text&quot; name=&quot;email&quot;&gt;&lt;br&gt;<br>
+                &lt;input type=&quot;submit&quot;&gt;<br>
+                &lt;/form&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+                </div>
+                </div>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Note</strong> </p>
+                <p>When the user fills out the form above and clicks the submit button, the form data is sent 
+                for processing to a PHP file named &quot;welcome.php&quot;. The form data is sent with 
+                the HTTP POST method.</p>
+                
+                <p>To display the submitted data you could simply echo all the variables. The &quot;welcome.php&quot; looks like this:</p>
+                <div class="w3-code w3-border notranslate"><div>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br>
+                <br>
+                Welcome &lt;?php echo $_POST[&quot;name&quot;]; ?&gt;&lt;br&gt;<br>
+                 Your email address is: &lt;?php echo $_POST[&quot;email&quot;]; ?&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+                </div></div>
+                <p>The output could be something like this:</p>
+                <div class="w3-code htmlHigh w3-border notranslate"><div>
+                 Welcome John<br>
+                Your email address is john.doe@example.com </div></div>
+                <p>The same result could also be achieved using the HTTP GET method:</p>
+                
+                <h3>Example</h3>
+                <div class="w3-code htmlHigh notranslate">
+                &lt;html&gt;<br>
+                &lt;body&gt;<br>
+                <br>
+                &lt;form action=&quot;welcome_get.php&quot; method=&quot;get&quot;&gt;<br>
+                 Name: &lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br&gt;<br>
+                 E-mail: &lt;input type=&quot;text&quot; name=&quot;email&quot;&gt;&lt;br&gt;<br>
+                &lt;input type=&quot;submit&quot;&gt;<br>
+                &lt;/form&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+                </div>
+                </div>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>and &quot;welcome_get.php&quot; looks like this:</strong> </p>
+                <div class="w3-code w3-border notranslate"><div>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br></div>
+                <br>
+                
+                Welcome &lt;?php echo $_GET[&quot;name&quot;]; ?&gt;&lt;br&gt;<br>
+                 Your email address is: &lt;?php echo $_GET[&quot;email&quot;]; ?&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+                </div></div>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Note</strong> </p>
+                <p>The code above is quite simple. However, the most important thing is missing. You need 
+                to validate form data to protect your script from malicious code.</p>
+                
+                
+                <p><strong>Think SECURITY when processing PHP forms!</strong></p>
+                <p>This page does not contain any form validation, it just shows how you can 
+                send and retrieve form data.</p>
+                <p>However, the next pages will show how to process PHP forms with security in mind! Proper validation of form data is important 
+                to protect your form from hackers and spammers!</p>
+                </div></div>
+                
+                </div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>GET vs. POST</strong> </p>
+                <p>Both GET and POST create an array (e.g. array( key1 =&gt; value1, 
+                key2 =&gt; value2, key3 =&gt; value3, ...)). This array holds key/value pairs, where 
+                keys are the names of the form controls and values are the input data from the user.</p>
+                <p>Both GET and POST are treated as $_GET and $_POST. These are superglobals, 
+                which means that they are always accessible, regardless of scope - and you can access them from any function,
+                class or file without having to do anything special.</p>
+                <p>$_GET is an array of variables passed to the current script via the URL parameters.</p>
+                <p>$_POST is an array of variables passed to the current script via the HTTP POST method.</p></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>When to use GET?</strong> </p>
+             
+                <p>Information sent from a form with the GET method is <strong>visible to everyone</strong> (all 
+                variable names and values are displayed in the URL). GET also has limits on the amount of 
+                information to send. The limitation is about 2000 characters. However, 
+                because the variables are displayed in the URL, it is possible to bookmark the 
+                page. This can be useful in some cases.</p>
+                <p>GET may be used for sending non-sensitive data.</p></div><hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Note:</strong> </p>
+                <p><b></b> GET should NEVER be used for sending passwords or other sensitive information!</p></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>When to use POST?</strong> </p>
+                <h2></h2>
+                <p>Information sent from a form with the POST method is <strong>invisible to others</strong> 
+                (all names/values are embedded within the body of the HTTP request) and 
+                has <strong>no limits</strong> on the amount of information to send.</p>
+                <p>Moreover POST supports advanced functionality such as support for multi-part 
+                binary input while uploading files to server.</p>
+                <p>However, because the variables are not displayed in the URL, it is not possible to bookmark the page.</p></div><hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>When to use POST?</strong> </p>
+                <p><strong>Developers prefer POST for sending form data.</strong></p>
+                </div>
+              
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>PHP Exercises</strong> </p>
+               
+                <form autocomplete="off" id="w3-exerciseform" action="exercise.asp?filename=exercise_forms1" method="post" target="_blank">
+                <h2>Test Yourself With Exercises</h2>
+                <div class="exercisewindow">
+                <h2>Exercise:</h2>
+                <p>If the form in the white section below gets submitted, how can you, in welcome.php, output the value from the "first name" field?</p>
+                <div class="exerciseprecontainer">
+                <pre>
+                <div style="background-color:white; padding:10px">&lt;form action="welcome.php" method="get"&gt;
+                First name: &lt;input type="text" name="fname"&gt;
+                &lt;/form&gt;
+                </div>
+                &lt;html&gt;
+                &lt;body&gt;
+                Welcome &lt;?php echo <input name="ex1" maxlength="14" style="width: 148px;">; ?&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                </pre>
+                </div>
+                <br>
+                <button type="submit" class="w3-btn w3-margin-bottom">Submit Answer &raquo;</button>
+                </div>
+                </form></div>
+                
 
               </div>
             </div>

@@ -428,7 +428,326 @@
                         </div>
                         <div role="main" class="document">
                             <div class="section" id="welcome-to-codeigniter">
+                                <h2>PHP Array Functions</h2>
 
+                                <table class="w3-table-all notranslate">
+                                  <tr>
+                                    <th style="width:25%">Function</th>
+                                    <th style="width:75%">Description</th>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array.asp">array()</a></td>
+                                    <td>Creates an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_change_key_case.asp">array_change_key_case()</a></td>
+                                    <td>Changes all keys in an array to lowercase or uppercase</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_chunk.asp">array_chunk()</a></td>
+                                    <td>Splits an array into chunks of arrays</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_column.asp">array_column()</a></td>
+                                    <td>Returns the values from a single column in the input array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_combine.asp">array_combine()</a></td>
+                                    <td>Creates an array by using the elements from one &quot;keys&quot; array and one &quot;values&quot; array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_count_values.asp">array_count_values()</a></td>
+                                    <td>Counts all the values of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_diff.asp">array_diff()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare values only)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_diff_assoc.asp">array_diff_assoc()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare keys and values)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_diff_key.asp">array_diff_key()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare keys only)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_diff_uassoc.asp">array_diff_uassoc()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare keys and values, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_diff_ukey.asp">array_diff_ukey()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare keys only, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_fill.asp">array_fill()</a></td>
+                                    <td>Fills an array with values</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_fill_keys.asp">array_fill_keys()</a></td>
+                                    <td>Fills an array with values, specifying keys</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_filter.asp">array_filter()</a></td>
+                                    <td>Filters the values of an array using a callback function</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_flip.asp">array_flip()</a></td>
+                                    <td>Flips/Exchanges all keys with their associated values in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_intersect.asp">array_intersect()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare values only)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_intersect_assoc.asp">array_intersect_assoc()</a></td>
+                                    <td>Compare arrays and returns the matches (compare keys and values)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_intersect_key.asp">array_intersect_key()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare keys only)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_intersect_uassoc.asp">array_intersect_uassoc()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare keys and values, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_intersect_ukey.asp">array_intersect_ukey()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare keys only, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_key_exists.asp">array_key_exists()</a></td>
+                                    <td>Checks if the specified key exists in the array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_keys.asp">array_keys()</a></td>
+                                    <td>Returns all the keys of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_map.asp">array_map()</a></td>
+                                    <td>Sends each value of an array to a user-made function, which returns new values</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_merge.asp">array_merge()</a></td>
+                                    <td>Merges one or more arrays into one array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_merge_recursive.asp">array_merge_recursive()</a></td>
+                                    <td>Merges one or more arrays into one array recursively</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_multisort.asp">array_multisort()</a></td>
+                                    <td>Sorts multiple or multi-dimensional arrays</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_pad.asp">array_pad()</a></td>
+                                    <td>Inserts a specified number of items, with a specified value, to an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_pop.asp">array_pop()</a></td>
+                                    <td>Deletes the last element of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_product.asp">array_product()</a></td>
+                                    <td>Calculates the product of the values in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_push.asp">array_push()</a></td>
+                                    <td>Inserts one or more elements to the end of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_rand.asp">array_rand()</a></td>
+                                    <td>Returns one or more random keys from an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_reduce.asp">array_reduce()</a></td>
+                                    <td>Returns an array as a string, using a user-defined function</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_replace.asp">array_replace()</a></td>
+                                    <td>Replaces the values of the first array with the values from following arrays</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_replace_recursive.asp">array_replace_recursive()</a></td>
+                                    <td>Replaces the values of the first array with the values from following arrays recursively</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_reverse.asp">array_reverse()</a></td>
+                                    <td>Returns an array in the reverse order</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_search.asp">array_search()</a></td>
+                                    <td>Searches an array for a given value and returns the key</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_shift.asp">array_shift()</a></td>
+                                    <td>Removes the first element from an array, and returns the value of the removed element</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_slice.asp">array_slice()</a></td>
+                                    <td>Returns selected parts of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_splice.asp">array_splice()</a></td>
+                                    <td>Removes and replaces specified elements of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_sum.asp">array_sum()</a></td>
+                                    <td>Returns the sum of the values in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_udiff.asp">array_udiff()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare values only, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_udiff_assoc.asp">array_udiff_assoc()</td>
+                                    <td>Compare arrays, and returns the differences (compare keys and values, using a built-in function to compare the keys and a user-defined function to compare the values)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_udiff_uassoc.asp">array_udiff_uassoc()</a></td>
+                                    <td>Compare arrays, and returns the differences (compare keys and values, using two user-defined key comparison functions)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_uintersect.asp">array_uintersect()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare values only, using a user-defined key comparison function)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_uintersect_assoc.asp">array_uintersect_assoc()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare keys and values, using a built-in function to compare the keys and a user-defined function to compare the values)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_uintersect_uassoc.asp">array_uintersect_uassoc()</a></td>
+                                    <td>Compare arrays, and returns the matches (compare keys and values, using two user-defined key comparison functions)</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_unique.asp">array_unique()</a></td>
+                                    <td>Removes duplicate values from an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_unshift.asp">array_unshift()</a></td>
+                                    <td>Adds one or more elements to the beginning of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_values.asp">array_values()</a></td>
+                                    <td>Returns all the values of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_walk.asp">array_walk()</a></td>
+                                    <td>Applies a user function to every member of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_walk_recursive.asp">array_walk_recursive()</a></td>
+                                    <td>Applies a user function recursively to every member of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_arsort.asp">arsort()</a></td>
+                                    <td>Sorts an associative array in descending order, according to the value</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_asort.asp">asort()</a></td>
+                                    <td>Sorts an associative array in ascending order, according to the value</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_compact.asp">compact()</a></td>
+                                    <td>Create array containing variables and their values</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_count.asp">count()</a></td>
+                                    <td>Returns the number of elements in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_current.asp">current()</a></td>
+                                    <td>Returns the current element in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_each.asp">each()</a></td>
+                                    <td><span class="deprecated">Deprecated from PHP 7.2.</span> Returns the current key and value pair from an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_end.asp">end()</a></td>
+                                    <td>Sets the internal pointer of an array to its last element</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_extract.asp">extract()</a></td>
+                                    <td>Imports variables into the current symbol table from an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_in_array.asp">in_array()</a></td>
+                                    <td>Checks if a specified value exists in an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_key.asp">key()</a></td>
+                                    <td>Fetches a key from an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_krsort.asp">krsort()</a></td>
+                                    <td>Sorts an associative array in descending order, according to the key</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_ksort.asp">ksort()</a></td>
+                                    <td>Sorts an associative array in ascending order, according to the key</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_list.asp">list()</a></td>
+                                    <td>Assigns variables as if they were an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_natcasesort.asp">natcasesort()</a></td>
+                                    <td>Sorts an array using a case insensitive &quot;natural order&quot; algorithm</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_natsort.asp">natsort()</a></td>
+                                    <td>Sorts an array using a &quot;natural order&quot; algorithm</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_next.asp">next()</a></td>
+                                    <td>Advance the internal array pointer of an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_pos.asp">pos()</a></td>
+                                    <td>Alias of <a href="func_array_current.asp">current()</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_prev.asp">prev()</a></td>
+                                    <td>Rewinds the internal array pointer</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_range.asp">range()</a></td>
+                                    <td>Creates an array containing a range of elements</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_reset.asp">reset()</a></td>
+                                    <td>Sets the internal pointer of an array to its first element</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_rsort.asp">rsort()</a></td>
+                                    <td>Sorts an indexed array in descending order</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_shuffle.asp">shuffle()</a></td>
+                                    <td>Shuffles an array</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_sizeof.asp">sizeof()</a></td>
+                                    <td>Alias of <a href="func_array_count.asp">count()</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_sort.asp">sort()</a></td>
+                                    <td>Sorts an indexed array in ascending order</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_uasort.asp">uasort()</a></td>
+                                    <td>Sorts an array by values using a user-defined comparison function</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_uksort.asp">uksort()</a></td>
+                                    <td>Sorts an array by keys using a user-defined comparison function</td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="func_array_usort.asp">usort()</a></td>
+                                    <td>Sorts an array using a user-defined comparison function</td>
+                                  </tr>
+                                </table>
 
                             </div>
                         </div>

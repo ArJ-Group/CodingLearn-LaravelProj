@@ -428,8 +428,54 @@
             </div>
             <div role="main" class="document">
               <div class="section" id="welcome-to-codeigniter">
-
-
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>What is XML?</strong> </p>
+                
+                <p>The XML language is a way to structure data for sharing across websites.</p>
+                <p>Several web technologies like RSS Feeds and Podcasts are written in XML.</p>
+                <p>XML is easy to create. It looks a lot like HTML, except 
+                that you make up your own tags.</p>
+                <p>If you want to learn more about XML, please visit our 
+                <a href="/xml/default.asp">XML tutorial</a>.</p></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>What is an XML Parser?</strong> </p>
+                
+                <p>To read and update, create and manipulate an XML document, you will need 
+                an XML parser.</p>
+                <p>In PHP there are two major types of XML parsers:</p>
+                <ul>
+                  <li>Tree-Based Parsers</li>
+                  <li>Event-Based Parsers</li>
+                </ul></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>Tree-Based Parsers</strong> </p>
+             
+                <p>Tree-based parsers holds the entire document in Memory and transforms the XML document into a 
+                Tree structure. It analyzes the whole document, and provides access to the Tree elements (DOM).</p>
+                <p>This type of parser is a better option for smaller 
+                XML documents, but not for large XML document as it causes major 
+                performance issues.</p>
+                <p>Example of tree-based parsers:</p>
+                <ul>
+                  <li>SimpleXML</li>
+                  <li>DOM</li>
+                </ul></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>Event-Based Parsers</strong> </p>
+           
+                <p>Event-based parsers do 
+                not hold the entire document in Memory, instead, they read in one node at a 
+                time and allow you to interact with in real time. Once you move onto the next 
+                node, the old one is thrown away.</p>
+                <p>This type of parser is well suited for large XML documents. It parses faster and consumes less memory. </p>
+                <p>Example of event-based parsers:</p>
+                <ul>
+                  <li>XMLReader</li>
+                  <li>XML Expat Parser</li>
+                </ul></div>
               </div>
             </div>
 

@@ -428,7 +428,76 @@
             </div>
             <div role="main" class="document">
               <div class="section" id="welcome-to-codeigniter">
-
+                <h1>PHP <span class="color_h1">-- What is OOP?</span></h1>
+                
+                <hr>
+                <p class="intro">From PHP5, you can also write PHP code in an object-oriented 
+                style.</p>
+                <p class="intro">Object-Oriented programming is faster and easier to execute.</p>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>OOP in Php?</strong> </p>
+                
+                <p>OOP stands for Object-Oriented Programming.</p>
+                
+                <p>Procedural programming is about writing procedures or functions that perform 
+                operations on the data, while object-oriented programming is about 
+                creating objects that contain both data and functions.</p>
+                <p>Object-oriented programming has several advantages over procedural 
+                programming:</p>
+                <ul>
+                  <li>OOP is faster and easier to execute</li>
+                  <li>OOP provides a clear structure for the programs</li>
+                  <li>OOP helps to keep the PHP code DRY &quot;Don't Repeat Yourself&quot;, and makes 
+                  the 
+                  code easier to maintain, modify and debug</li>
+                  <li>OOP makes it possible to create full reusable 
+                  applications with less code and shorter development time</li>
+                </ul></div><hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Tip:</strong> </p>
+                <p> The &quot;Don't Repeat Yourself&quot; (DRY) principle is about 
+                reducing the repetition of code. You should extract out the codes that are 
+                common for the application, and place them at a single place and reuse them 
+                instead of repeating it.</p></div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>PHP - What are Classes and Objects?</strong> </p>
+              
+                <p>Classes and objects are the two main aspects of object-oriented programming.</p>
+                <p>Look at the following illustration to see the difference between class and 
+                objects:</p>
+                
+                <div class="flex-container">
+                  <div class="box">
+                    <h2>class</h2>  
+                    <p>Animal</p>
+                  </div>
+                  <div class="box">
+                    <h2>objects</h2>  
+                    <p>Cow</p>
+                    <p>Cat</p>
+                    <p>Ant</p>
+                  </div>
+                </div>
+                <p>Another example:</p>
+                <div class="flex-container">
+                  <div class="box">
+                    <h2>class</h2>  
+                    <p>Transportation</p>
+                  </div>
+                  <div class="box">
+                    <h2>objects</h2>  
+                    <p>Plane</p>
+                    <p>Car</p>
+                    <p>Ship</p>
+                  </div>
+                </div>
+                
+                <p>So, a class is a template for objects, and an object is an instance of a class.</p>
+                <p>When the individual objects are created, they inherit all the 
+                properties and behaviors from the class, but each object will have different values for the properties.</p>
+                <p>Look at the next chapters to learn more about OOP.</p>
 
               </div>
             </div>

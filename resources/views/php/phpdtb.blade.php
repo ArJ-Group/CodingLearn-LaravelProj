@@ -428,8 +428,80 @@
             </div>
             <div role="main" class="document">
               <div class="section" id="welcome-to-codeigniter">
-
-
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>What is MySQL?</strong> </p>
+                
+                <ul>
+                  <li>MySQL is a database system used on the web</li>
+                  <li>MySQL is a database system that runs on a server</li> 
+                <li>MySQL is ideal for both small and large applications</li>
+                  <li>MySQL is very fast, reliable, and easy to use</li> 
+                <li>MySQL uses standard SQL</li> 
+                <li>MySQL compiles on a number of platforms</li> 
+                <li>MySQL is free to download and use</li>
+                  <li>MySQL is developed, distributed, and supported by Oracle Corporation</li>
+                  <li>MySQL is named after co-founder Monty Widenius's daughter: My</li>
+                </ul>
+                <p>The data in a MySQL database are stored in tables. A table is a collection of related data, and it consists of columns 
+                and rows.</p>
+                <p>Databases are useful for storing information categorically. A company may 
+                have a database with the following tables:</p>
+                <ul>
+                  <li>Employees</li>
+                  <li>Products</li>
+                  <li>Customers</li>
+                  <li>Orders</li>
+                </ul>
+                </div>
+                <hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>PHP + MySQL Database System</strong> </p>
+           
+                <ul>
+                  <li>PHP combined with MySQL are cross-platform (you can develop in 
+                  Windows and serve on a Unix platform)</li>
+                </ul>
+                </div>
+                <hr>
+                <div class="admonition note">
+                  <p class="first admonition-title"><strong>Database Queries</strong> </p>
+               
+                <p> A query is a question or a request.</p>
+                
+                <p>We can query a database for specific information and have a 
+                recordset returned.</p>
+                
+                <p>Look at the following query (using standard SQL):</p>
+                
+                <div class="w3-code w3-border notranslate sqlHigh"><div>
+                
+                SELECT LastName FROM Employees
+                
+                </div></div>
+                
+                <p>The query above selects all the data in the &quot;LastName&quot; column from the &quot;Employees&quot; 
+                table.</p>
+                <p>To learn more about SQL, please visit our <a href="/sql/default.asp">SQL 
+                tutorial</a>.</p></div>
+                <hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Download MySQL Database</strong> </p>
+               
+                <p>If you don't have a PHP server with a MySQL Database, you can download it 
+                for free here: <a href="http://www.mysql.com" target="_blank">
+                http://www.mysql.com</a><br>
+                </p></div>
+                <hr>
+                <div class="admonition important">
+                  <p class="first admonition-title"><strong>Facts About MySQL Database</strong> </p>
+             
+                <p>MySQL is the de-facto standard database system for web sites 
+                with HUGE volumes of both data and end-users (like Facebook, Twitter, 
+                and Wikipedia).</p>
+                <p>Another great thing about MySQL is that it can be scaled down to support 
+                embedded database applications.</p>
+                <p>Look at <a target="_blank" href="http://www.mysql.com/customers/">
+                http://www.mysql.com/customers/</a> for an overview of companies using MySQL.</p></div>
               </div>
             </div>
 

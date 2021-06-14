@@ -430,9 +430,80 @@
               <div class="section" id="welcome-to-codeigniter">
 
 
+                <h2>Easy Learning with &quot;PHP Tryit&quot;</h2>
+<p>With our online &quot;PHP Tryit&quot; editor, you can edit the PHP code, and click 
+on a button to view the result.</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;!DOCTYPE html&gt;<br>
+ &lt;html&gt;<br>
+    &lt;body&gt;<br><br>
+ <span class="marked">&lt;?php<br>
+ echo &quot;My first PHP script!&quot;;<br>
+ ?&gt;</span><br>
+ <br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;
+</div>
+</div>
+<p><b>Click on the &quot;Try it Yourself&quot; button to see how it works.</b></p>
+<hr>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+
+</div>
+<hr>
+
+<h2>PHP Examples</h2>
+<p>Learn by examples! This tutorial supplements all explanations with clarifying examples.</p>
+<p><a class="w3-button w3-light-grey w3-round" href="php_examples.asp">See All PHP Examples</a></p>
+<hr>
+
+<h2>PHP Quiz Test</h2>
+<p>Learn by taking a quiz! This quiz will give you a signal of how much you know, or do not know, about PHP.</p>
+<p><a href="php_quiz.asp" class="w3-button w3-blue w3-round">Start PHP Quiz!</a></p>
+<hr>
+
+<h2>PHP References</h2>
+<p>W3Schools' PHP reference contains different categories of all PHP functions, keywords and constants, along with examples.</p>
+<div class="refcont">
+  <a class="bigbtn" href="php_ref_array.asp">Array</a>
+  <a class="bigbtn" href="php_ref_calendar.asp">Calendar</a>
+  <a class="bigbtn" href="php_ref_date.asp">Date</a>
+  <a class="bigbtn" href="php_ref_directory.asp">Directory</a>
+  <a class="bigbtn" href="php_ref_error.asp">Error</a>
+  <a class="bigbtn" href="php_ref_exception.asp">Exception</a>
+  <a class="bigbtn" href="php_ref_filesystem.asp">Filesystem</a>
+  <a class="bigbtn" href="php_ref_filter.asp">Filter</a>
+  <a class="bigbtn" href="php_ref_ftp.asp">FTP</a>
+  <a class="bigbtn" href="php_ref_json.asp">JSON</a>
+  <a class="bigbtn" href="php_ref_keywords.asp">Keywords</a>
+  <a class="bigbtn" href="php_ref_libxml.asp">Libxml</a>
+  <a class="bigbtn" href="php_ref_mail.asp">Mail</a>
+  <a class="bigbtn" href="php_ref_math.asp">Math</a>
+  <a class="bigbtn" href="php_ref_misc.asp">Misc</a>
+  <a class="bigbtn" href="php_ref_mysqli.asp">MySQLi</a>
+  <a class="bigbtn" href="php_ref_network.asp">Network</a>
+  <a class="bigbtn" href="php_ref_output_control.asp">Output <span class="w3-hide-large">Control</span></a>
+  <a class="bigbtn" href="php_ref_regex.asp">RegEx</a>
+  <a class="bigbtn" href="php_ref_simplexml.asp">SimpleXML</a>
+  <a class="bigbtn" href="php_ref_stream.asp">Stream</a>  
+  <a class="bigbtn" href="php_ref_string.asp">String</a>
+  <a class="bigbtn" href="php_ref_variable_handling.asp">Var Handling</a>
+  <a class="bigbtn" href="php_ref_xml.asp">XML Parser</a>
+  <a class="bigbtn" href="php_ref_zip.asp">Zip</a>
+  <a class="bigbtn" href="php_ref_timezones.asp">Timezones</a>
+</div>
+
               </div>
             </div>
-
+            
             <footer>
 
               <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
