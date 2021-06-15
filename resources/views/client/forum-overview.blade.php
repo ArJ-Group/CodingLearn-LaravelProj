@@ -4,7 +4,6 @@
       <nav class="breadcrumb">
         <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
         <a href="{{route('category.overview', $forum->category->id)}}" class="breadcrumb-item active"> {{$forum->category->title}}</a>
-        <span class ="breadcrumb-item active"> {{$forum->title}} </span>
       </nav>
 <div class="row">
         <div class="col-lg-12">
@@ -16,15 +15,26 @@
                 {{$forum->title}}
               </h4>
               <table
+                class="table table-striped table-responsive table-bordered mb-xl-0"
+              >
+              <thead class="thead-light">
+                    <th width='2000px'>{{$forum->desc}}</th>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+              
+              <table
                 class="table table-striped table-responsivelg table-bordered"
               >
                 <thead class="thead-light">
                   <tr>
-                    <th scope="col">Topic</th>
+                    <th scope="col">Answer</th>
                     <th scope="col ">Created</th>
-                    <th scope="col">Statistics</th>
+                    <th scope="col">Reply</th>
                     <th scope="col">Update</th>
                     <th scope="col">Delete</th>
+                    <th scope="col">Reply</th>
                   </tr>
 
                 </thead>
@@ -35,9 +45,7 @@
                   <tr>
                     <td>
                       <h3 class="h6">
-                        <a href="{{route('discussion', $discussion->id)}}" class=""
-                          >{{$discussion->title}}</a
-                        >
+                        {{$discussion->desc}}
                       </h3>
                       
                     </td>
@@ -47,25 +55,37 @@
                     </td>
                     <td>
                       <div>{{$discussion->reply->count()}} replies</div>
-                      <div>{{$discussion->views}} views</div>
                     </td>
                     <td>
                     @if(auth()->id() == $discussion->user_id || auth()->id('is_admin') == 1)
                       <a href="{{route('discussion.edit', $discussion->id)}}" class="btn btn-primary">Edit</a>
                         @else
-                        <div>Can't update</div>
+                        <div>Cannot Update</div>
                         @endif
                     </td>
                     <td>
                       <div>
                       @if(auth()->id() == $discussion->user_id || auth()->id('is_admin') == 1)
-                        <a href="{{route('discussion.delete', $discussion->id)}}" class="btn btn-danger"> delete</a>
+                        <a href="{{route('discussion.delete', $discussion->id)}}" class="btn btn-danger"> Delete</a>
+                        @else
+                        <div>Cannot Delete</div>
                       @endif
                       </div>
+                    </td>
+                    <td>
+                      <div>
+                      @if(auth()->id())
+                        <a href="{{route('discussion', $discussion->id)}}" class="btn btn-primary"> Reply</a>
+                        @else
+                        <div>Cannot Reply</div>
+                      @endif
+                      </div>
+                    </td>
                   </tr>
+                  
                   @endforeach
                 @else
-                  <h4>No discussion topics in this forum yet</h4>
+                  <h4>No answers in this topics yet</h4>
                 @endif
                   
                 </tbody>
@@ -79,7 +99,26 @@
       <div></div>
       <h5>You haven't Login yet </h5>
       @else
-      <a href="{{route('discussion.new', $forum->id)}}" class="btn btn-lg btn-primary mb-2">New Discussion Topic</a>
+      <form action="{{route('discussion.store', $forum->id)}}" method = "post" class="mb-3">
+        @csrf
+        <div class="form-group">
+          <label for="comment">Create new question to this answer</label>
+          <textarea
+            class="form-control"
+            name="desc"
+            rows="10"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-primary mt-2 mb-lg-5">
+            Submit reply
+          </button>
+          <button type="reset" class="btn btn-danger mt-2 mb-lg-5">
+            Reset
+          </button>
+        </div>
+      </form>
+
+      
       <div class="mb-3 clearfix">
         <nav aria-label="Navigate post pages" class="float-lg-right">
           <ul class="pagination pagination-sm mb-lg-0">

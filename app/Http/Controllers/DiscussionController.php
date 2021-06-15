@@ -39,7 +39,7 @@ class DiscussionController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, $id)
     {
         $notify = "";
 
@@ -48,9 +48,8 @@ class DiscussionController extends Controller
         } else{$notify = 0;}
 
         $discussion = new discussion;
-        $discussion->title = $request->title;
         $discussion->desc = $request->desc;
-        $discussion->forum_id = $request->forum_id;
+        $discussion->forum_id = $id;
         $discussion->user_id = auth()->id();
         $discussion->notify = $notify;
 
@@ -66,11 +65,7 @@ class DiscussionController extends Controller
      */
     public function show($id)
     {
-        $discussion = discussion::find($id);
-        if($discussion){
-            $discussion->increment('views', 1);
-        }
-        return view('client.discussion', \compact('discussion'));
+        //
     }
 
     /**

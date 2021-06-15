@@ -30,7 +30,7 @@ class ForumController extends Controller
         $forums = forum::latest()->paginate(10);
         $categories = category::latest()->get();
         return view('client.new-forum', \compact('forums','categories'));
-        return view('client.new-forum', compact('categories'));    }
+    }
 
     /**
      * Store a newly created resource in storage.

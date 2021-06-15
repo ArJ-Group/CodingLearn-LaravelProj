@@ -3,7 +3,6 @@
 <div class="container">
       <nav class="breadcrumb">
         <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
-        <span class ="breadcrumb-item active"> {{$category->title}} </span>
       </nav>
 <div class="row">
         <div class="col-lg-8">
@@ -18,21 +17,23 @@
                 class="table table-striped table-responsive table-bordered mb-xl-0"
               >
               <thead class="thead-light">
+              @if(count($category->forums) > 0)
                   <tr>
-                    <th scope="col">Forum</th>
-                    <th scope="col">Topics</th>
-                    <th scope="col">Latest Post</th>
+                    <th scope="col" width='400px'>Question</th>
+                    <th scope="col">Answer</th>
+                    <th scope="col" width='100px'>Latest Post</th>
                     <th scope="col">Update</th>
                     <th scope="col">Delete</th>
                   </tr>
                 </thead>
+              @endif
                 @if(count($category->forums) > 0)
                   @foreach($category->forums as $forum)
                 <tbody>
                   <tr>
                     <td>
                       <h3 class="h5">
-                        <a href="{{route('forum.overview', $forum->id)}}" class="text-uppercase">{{$forum->title}}</a>
+                        <a href="{{route('forum.overview', $forum->id)}}">{{$forum->title}}</a>
                       </h3>
                       <p class="mb-0">
                         {{$forum->desc}}
@@ -48,21 +49,21 @@
                     @if(auth()->id() == $forum->user_id || auth()->id('is_admin') == 1)
                       <a href="{{route('forum.edit', $forum->id)}}" class="btn btn-primary">Edit</a>
                         @else
-                        <div>Can't update</div>
+                        <div>Cannot Update</div>
                         @endif
                     </td>
                     <td>
                       @if(auth()->id() == $forum->user_id || auth()->id('is_admin') == 1)
                         <a href="{{route('forum.destroy', $forum->id)}}" class="btn btn-danger"> Delete</a>
                         @else
-                        <div>Can't delete</div>
+                        <div>Cannot Delete</div>
                         @endif
                     </td>
                   </tr>
                   </tbody>
                   @endforeach
                 @else
-                  <h4>No Forums in this category yet</h4>
+                  <h4>No Topics in this category yet</h4>
                 @endif
                 </table>
             </div>
@@ -72,7 +73,7 @@
           <div></div>
           <h5>You haven't Login yet </h5>
       @else
-      <a href="{{route('forum.new', $category->id)}}" class="btn btn-lg btn-primary mb-2">New Forum</a>
+      <a href="{{route('forum.new', $category->id)}}" class="btn btn-lg btn-primary mb-2">New Topics</a>
       @endif
         </div>
         

@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\category;
 use App\Models\forum;
+use App\Models\discussion;
 
 class FrontEndController extends Controller
 {
@@ -23,4 +23,9 @@ class FrontEndController extends Controller
 
         return view('client.forum-overview', \compact('forum'));
     }
-}
+    public function discussionOverview($id){
+        $discussion = discussion::find($id);
+        
+        return view('client.discussion', \compact('discussion'));
+    }
+}    

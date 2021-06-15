@@ -396,8 +396,8 @@ route::get('dashboard/forums/delete/{id}', 'ForumController@destroy')->name('for
 
 // Discussion Client
 route::get('client/discussion/new/{id}', 'DiscussionController@create')->name('discussion.new');
-route::post('client/discussion/new', 'DiscussionController@store')->name('discussion.store');
-route::get('client/discussion/{id}', 'DiscussionController@show')->name('discussion');
+route::post('client/discussion/new/{id}', 'DiscussionController@store')->name('discussion.store');
+route::get('client/discussion/{id}', 'FrontEndController@discussionOverview')->name('discussion');
 route::post('client/discussion/reply/{id}', 'DiscussionController@reply')->name('discussion.reply');
 route::get('client/discussion/reply/delete/{id}', 'DiscussionController@destroy')->name('reply.delete');
 

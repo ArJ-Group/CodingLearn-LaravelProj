@@ -15,12 +15,10 @@ class CreateDiscussionsTable extends Migration
     {
         Schema::create('discussions', function (Blueprint $table) {
             $table->id();
-            $table->String('title');
             $table->text('desc');
             
             $table->unsignedBigInteger('forum_id');
             $table->foreign('forum_id')->references('id')->on('forums')->onDelete('cascade');
-            $table->integer('views')->default(0);
             $table->integer('notify')->default(0);
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

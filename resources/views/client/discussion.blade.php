@@ -3,6 +3,8 @@
 <div class="container">
       <nav class="breadcrumb">
       <a href="{{route('forum_main')}}" class="breadcrumb-item active"> Home</a>
+      <a href="{{route('category.overview', $discussion->forum->category->id)}}" class="breadcrumb-item active"> {{$discussion->forum->category->title}}</a>
+      <a href="{{route('forum.overview', $discussion->forum->id)}}" class="breadcrumb-item active"> {{$discussion->forum->title}}</a>
       </nav>
     <div class="row">
         <div class="col-lg-12">
@@ -43,7 +45,6 @@
                   </tr>
                 </tbody>
               </table>
-
               @if(count($discussion->reply))
                 @foreach($discussion->reply as $reply)
                   <table
@@ -82,7 +83,7 @@
                   </table>
                 @endforeach
               @else
-                <h4>No replies to the discussion yet</h4>
+                <h4>No replies to this answer yet</h4>
               @endif
               </div>
           </div>
@@ -98,7 +99,7 @@
       <form action="{{route('discussion.reply', $discussion->id)}}" method = "post" class="mb-3">
         @csrf
         <div class="form-group">
-          <label for="comment">Reply to this post</label>
+          <label for="comment">Reply to this answer</label>
           <textarea
             class="form-control"
             name="desc"

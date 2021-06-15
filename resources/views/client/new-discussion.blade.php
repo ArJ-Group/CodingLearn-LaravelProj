@@ -21,12 +21,9 @@
 
       <form action="{{route('discussion.store')}}" class="mb-3" method="POST">
       @csrf
-        <div class="form-group">
-          <label for="title">Discussion Topic Title</label>
-          <input type="text" name="title" class="form-control" />
-        </div>
         <input type="number" value="{{$forum->id}}" name="forum_id" hidden>
-
+        <div><label></label></div>
+        <label><h4>Your answer here</h4></label>
         <div class="form-group">
           <textarea
             class="form-control"

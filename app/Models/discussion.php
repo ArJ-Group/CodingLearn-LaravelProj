@@ -13,6 +13,10 @@ class discussion extends Model
         return $this->belongsTo('App\Models\forum', 'forum_id');
     }
 
+    public function forum(){
+        return $this->belongsTo('App\Models\forum');
+    }
+
     public function user(){
         return $this->belongsTo('App\Models\User');
     }
