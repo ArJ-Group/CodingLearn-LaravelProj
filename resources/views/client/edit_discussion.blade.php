@@ -19,10 +19,6 @@
 
       <form action="{{route('discussion.update', $discussion->id)}}" class="mb-3" method="POST">
       @csrf
-        <div class="form-group">
-          <label for="title">Discussion Topic Title</label>
-          <input type="text" name="title" class="form-control" value="{{$discussion->title}}"/>
-        </div>
         <input type="number" value="{{$discussion->forum_id}}" name="forum_id" hidden>
         <div class="form-group">
           <textarea

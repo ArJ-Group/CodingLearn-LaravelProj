@@ -20,6 +20,12 @@
 
       <form action="{{route('forum.update', $forum->id)}}" class="mb-3" method="POST">
       @csrf
+      <div class="form-group">
+          <label class="col-lg-2 control-label">Forum Title</label>
+          <div class="col-lg-10">
+          <input name="title" class="form-control" value="{{$forum->title}}"/>
+          </div>
+        </div>
         <input type="number" value="{{$forum->category_id}}" name="category_id" hidden>
         <div class="form-group">
           <label class="col-lg-2 control-label">Forum description</label>
